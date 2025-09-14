@@ -1,0 +1,4962 @@
+{
+  "doc-bd863e015224eae171a6b42acaf650d7": {
+    "relation_pairs": [
+      [
+        "Bridgewater Macro",
+        "Deborah Lynch"
+      ],
+      [
+        "Linda Wolfe",
+        "SPY"
+      ],
+      [
+        "IGLS.L",
+        "Jeremy Roberts"
+      ],
+      [
+        "C0030",
+        "Frank Gray"
+      ],
+      [
+        "David Walker",
+        "NVDA"
+      ],
+      [
+        "C0058",
+        "Rita Harrell"
+      ],
+      [
+        "Daniel Graham",
+        "SPY"
+      ],
+      [
+        "GBP",
+        "VUKE.L"
+      ],
+      [
+        "Blackstone RE",
+        "Collin Jordan"
+      ],
+      [
+        "Michelle Wright",
+        "segment"
+      ],
+      [
+        "AAPL",
+        "Shawn Mckay"
+      ],
+      [
+        "Andrea Williams",
+        "Home Purchase"
+      ],
+      [
+        "Singapore",
+        "Yvette Huff"
+      ],
+      [
+        "Client C0024",
+        "Craig Ramirez"
+      ],
+      [
+        "Affluent Client Segment",
+        "John Caldwell"
+      ],
+      [
+        "Affluent Segment",
+        "HNW Segment"
+      ],
+      [
+        "Rodney Lewis",
+        "UBS Alt"
+      ],
+      [
+        "IGLS.L",
+        "Nancy Edwards"
+      ],
+      [
+        "Inheritance",
+        "Matthew Moore"
+      ],
+      [
+        "Angela Cohen",
+        "IAU"
+      ],
+      [
+        "Australia",
+        "France"
+      ],
+      [
+        "Michelle Wright",
+        "portfolio_total_value"
+      ],
+      [
+        "AGG",
+        "Collin Jordan"
+      ],
+      [
+        "IAU",
+        "Kenneth Fowler"
+      ],
+      [
+        "Kenneth Fowler",
+        "Real Estate"
+      ],
+      [
+        "Affluent",
+        "Veronica Bowman"
+      ],
+      [
+        "Liquidity Event Planning",
+        "Patricia Miller"
+      ],
+      [
+        "Leslie Adams",
+        "Portfolio 2"
+      ],
+      [
+        "Affluent Client",
+        "Yvette Huff"
+      ],
+      [
+        "Cynthia Diaz",
+        "Switzerland"
+      ],
+      [
+        "France",
+        "Jeremy Johnson"
+      ],
+      [
+        "France",
+        "Vincent White"
+      ],
+      [
+        "Craig Ramirez",
+        "Singapore"
+      ],
+      [
+        "GLD",
+        "Michele Jones"
+      ],
+      [
+        "GLD",
+        "portfolio"
+      ],
+      [
+        "James West",
+        "segment"
+      ],
+      [
+        "INFY.NS",
+        "Portfolio"
+      ],
+      [
+        "Affluent",
+        "Kenneth Fowler"
+      ],
+      [
+        "C0006",
+        "Jeffery Wagner"
+      ],
+      [
+        "Conservative Profile",
+        "Yvette Huff"
+      ],
+      [
+        "Christopher Davis",
+        "Real Estate"
+      ],
+      [
+        "Alexander Le",
+        "Australia"
+      ],
+      [
+        "Chelsea Hernandez",
+        "Real Estate"
+      ],
+      [
+        "Germany",
+        "Nancy Baker"
+      ],
+      [
+        "Christopher Tucker",
+        "Private RE"
+      ],
+      [
+        "C0059",
+        "Kenneth Fowler"
+      ],
+      [
+        "Andrew Hickman",
+        "Inheritance"
+      ],
+      [
+        "AUD",
+        "Samuel Holmes"
+      ],
+      [
+        "Blackstone RE",
+        "Mitchell Clark"
+      ],
+      [
+        "David Walker",
+        "Matthew Chapman"
+      ],
+      [
+        "Philanthropy",
+        "Scott Callahan"
+      ],
+      [
+        "Rodney Lewis Holdings",
+        "UBS Alt"
+      ],
+      [
+        "AAPL",
+        "Daniel Burton"
+      ],
+      [
+        "Bridgewater Macro",
+        "Shawn Mckay's Portfolio"
+      ],
+      [
+        "Liquidity Event Planning",
+        "Rita Harrell"
+      ],
+      [
+        "France",
+        "Michele Jones"
+      ],
+      [
+        "Business Sale",
+        "Robin Ellis"
+      ],
+      [
+        "Bridgewater Macro",
+        "Jason Hahn"
+      ],
+      [
+        "EEM",
+        "James West"
+      ],
+      [
+        "Nicholas Arnold",
+        "Philanthropy"
+      ],
+      [
+        "Blackstone RE",
+        "GBP"
+      ],
+      [
+        "C0075",
+        "James Collins"
+      ],
+      [
+        "EEM",
+        "Rodney Owens"
+      ],
+      [
+        "Blackstone RE",
+        "James West"
+      ],
+      [
+        "Natasha Decker",
+        "TSLA"
+      ],
+      [
+        "India",
+        "Wendy Rice"
+      ],
+      [
+        "AGG",
+        "Jeremy Whitehead"
+      ],
+      [
+        "Michelle Wright",
+        "kyc_source_of_wealth"
+      ],
+      [
+        "Jason Anderson",
+        "UAE"
+      ],
+      [
+        "Investment Income",
+        "Wanda Santos"
+      ],
+      [
+        "Bryan James",
+        "TSLA"
+      ],
+      [
+        "Matthew Chapman",
+        "UHNW"
+      ],
+      [
+        "Andrea Williams",
+        "GLD"
+      ],
+      [
+        "Professional Services",
+        "Susan Rogers"
+      ],
+      [
+        "Jill Rhodes",
+        "Switzerland"
+      ],
+      [
+        "IGLS.L",
+        "Jason Hahn"
+      ],
+      [
+        "EEM Holdings",
+        "Rodney Lewis Holdings"
+      ],
+      [
+        "Angela Cohen",
+        "TM"
+      ],
+      [
+        "GBP",
+        "IGLS.L"
+      ],
+      [
+        "Rodney Lewis Holdings",
+        "TSLA Holdings"
+      ],
+      [
+        "CHF",
+        "US10Y"
+      ],
+      [
+        "James West",
+        "kyc_source_of_wealth"
+      ],
+      [
+        "HNW",
+        "Kathryn Ryan"
+      ],
+      [
+        "AAPL",
+        "Tasha Valencia"
+      ],
+      [
+        "High Net Worth (HNW)",
+        "Matthew Moore"
+      ],
+      [
+        "Alexander Le",
+        "SIE.DE"
+      ],
+      [
+        "Entrepreneurship",
+        "Leslie Adams"
+      ],
+      [
+        "MSFT",
+        "Portfolio"
+      ],
+      [
+        "Aaron Nguyen",
+        "Blackstone RE"
+      ],
+      [
+        "France",
+        "Leslie Adams"
+      ],
+      [
+        "Canada",
+        "Wendy Rice"
+      ],
+      [
+        "Deborah Lynch",
+        "France"
+      ],
+      [
+        "C0096",
+        "Robert Ramirez"
+      ],
+      [
+        "Michelle Wright",
+        "portfolio_esg_flag"
+      ],
+      [
+        "Portfolio ESG Flag",
+        "Samuel Holmes"
+      ],
+      [
+        "Germany",
+        "Michelle Ray"
+      ],
+      [
+        "Lisa Smith",
+        "Philanthropy Goals"
+      ],
+      [
+        "HNW",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Chad Hodges",
+        "Equity"
+      ],
+      [
+        "Laura Henderson",
+        "NESN.SW"
+      ],
+      [
+        "Joseph Zuniga",
+        "Singapore"
+      ],
+      [
+        "EEM",
+        "Natasha Decker"
+      ],
+      [
+        "Craig Ramirez",
+        "TM"
+      ],
+      [
+        "BND",
+        "Jeremy Whitehead"
+      ],
+      [
+        "Erin Herrera",
+        "Executive Compensation"
+      ],
+      [
+        "Blackstone RE",
+        "Cynthia Diaz"
+      ],
+      [
+        "Deborah Lynch",
+        "EEM"
+      ],
+      [
+        "AAPL",
+        "Christopher Hall"
+      ],
+      [
+        "Bridgewater Macro",
+        "James West"
+      ],
+      [
+        "Inheritance",
+        "Kimberly Moreno"
+      ],
+      [
+        "John Leblanc",
+        "inheritance"
+      ],
+      [
+        "IGLS.L",
+        "VUKE.L"
+      ],
+      [
+        "NVDA",
+        "Portfolio"
+      ],
+      [
+        "Bridgewater Macro",
+        "Matthew Moore"
+      ],
+      [
+        "James West",
+        "NESN.SW"
+      ],
+      [
+        "Joseph Brennan",
+        "Portfolio Value"
+      ],
+      [
+        "Blackstone RE",
+        "Rodney Lewis"
+      ],
+      [
+        "James West",
+        "portfolio_esg_flag"
+      ],
+      [
+        "Germany",
+        "Vincent White"
+      ],
+      [
+        "Joseph Davidson",
+        "NESN.SW"
+      ],
+      [
+        "Jill Rhodes",
+        "UK"
+      ],
+      [
+        "Kathie Anderson",
+        "Portfolio"
+      ],
+      [
+        "Blackstone RE",
+        "Lindsay Blair"
+      ],
+      [
+        "C0047",
+        "Laura Henderson"
+      ],
+      [
+        "Bond ETF",
+        "Christopher Tucker"
+      ],
+      [
+        "Blackstone RE",
+        "Deborah Lynch"
+      ],
+      [
+        "Entrepreneurship",
+        "Megan Parsons"
+      ],
+      [
+        "Maria Montgomery",
+        "NVDA"
+      ],
+      [
+        "Angela Cohen",
+        "EEM"
+      ],
+      [
+        "Canada",
+        "Chelsea Hernandez"
+      ],
+      [
+        "Thomas Mueller",
+        "US10Y"
+      ],
+      [
+        "India",
+        "UAE"
+      ],
+      [
+        "Amber Blair",
+        "UBS Alt"
+      ],
+      [
+        "Jeremy Whitehead",
+        "MSFT"
+      ],
+      [
+        "John Leblanc",
+        "Robert Ramirez"
+      ],
+      [
+        "IAU",
+        "Portfolio"
+      ],
+      [
+        "Conservative Profile",
+        "Diana Foster"
+      ],
+      [
+        "C0031",
+        "Veronica Bowman"
+      ],
+      [
+        "C0052",
+        "Erin Herrera"
+      ],
+      [
+        "GLD",
+        "Natasha Decker"
+      ],
+      [
+        "James West",
+        "Michelle Wright"
+      ],
+      [
+        "Daniel Graham",
+        "VUKE.L"
+      ],
+      [
+        "Shawn Mckay",
+        "Shawn Mckay's Portfolio"
+      ],
+      [
+        "AGG",
+        "Andrew Hickman"
+      ],
+      [
+        "Blackstone RE",
+        "Thomas Mueller"
+      ],
+      [
+        "GBP",
+        "TSLA"
+      ],
+      [
+        "Susan Rogers",
+        "UBS Alt"
+      ],
+      [
+        "Matthew Moore",
+        "NVDA"
+      ],
+      [
+        "James West",
+        "MSFT"
+      ],
+      [
+        "Joseph Zuniga",
+        "Professional Services"
+      ],
+      [
+        "Blackstone RE",
+        "Reginald Robinson"
+      ],
+      [
+        "Kenneth Fowler",
+        "Retirement Planning"
+      ],
+      [
+        "C0076",
+        "Wanda Santos"
+      ],
+      [
+        "Andrew Hickman",
+        "NESN.SW"
+      ],
+      [
+        "Michelle Wright",
+        "nationality"
+      ],
+      [
+        "AGG",
+        "Maria Montgomery"
+      ],
+      [
+        "VUKE.L",
+        "Wendy Rice"
+      ],
+      [
+        "France",
+        "Lindsey Lee"
+      ],
+      [
+        "Cynthia Diaz",
+        "TSLA"
+      ],
+      [
+        "Amanda Dudley",
+        "Client C0017"
+      ],
+      [
+        "Aaron Nguyen",
+        "Liquidity Event Planning"
+      ],
+      [
+        "Diana Foster",
+        "Inheritance"
+      ],
+      [
+        "Affluent",
+        "Frank Gray"
+      ],
+      [
+        "Jeremy Whitehead",
+        "NVDA"
+      ],
+      [
+        "SIE.DE",
+        "Thomas Mueller"
+      ],
+      [
+        "Collin Jordan",
+        "NESN.SW"
+      ],
+      [
+        "High Net Worth (HNW)",
+        "Susan Rogers"
+      ],
+      [
+        "Deborah Lynch",
+        "GLD"
+      ],
+      [
+        "NVDA",
+        "Robert Johnson"
+      ],
+      [
+        "Angela Cohen",
+        "NVDA"
+      ],
+      [
+        "TSLA",
+        "Whitney Hicks"
+      ],
+      [
+        "Maria Montgomery",
+        "Philanthropy"
+      ],
+      [
+        "Craig Ramirez",
+        "EEM"
+      ],
+      [
+        "Canada",
+        "Joseph Zuniga"
+      ],
+      [
+        "Collin Jordan",
+        "France"
+      ],
+      [
+        "Germany",
+        "Kyle Brown"
+      ],
+      [
+        "Affluent Client Record 11",
+        "Linda Wolfe"
+      ],
+      [
+        "IGLS.L",
+        "James Collins"
+      ],
+      [
+        "C0002",
+        "Joshua Walker"
+      ],
+      [
+        "Bryan James",
+        "UK"
+      ],
+      [
+        "James Collins",
+        "NVDA"
+      ],
+      [
+        "VUKE.L",
+        "Whitney Hicks"
+      ],
+      [
+        "Affluent Segment",
+        "Natalie Arroyo"
+      ],
+      [
+        "France",
+        "Lindsay Blair"
+      ],
+      [
+        "UBS Alt",
+        "Veronica Bowman"
+      ],
+      [
+        "Daniel Burton",
+        "VUKE.L"
+      ],
+      [
+        "Bridgewater Macro",
+        "Shawn Mckay"
+      ],
+      [
+        "Christopher Tucker",
+        "SGD"
+      ],
+      [
+        "EEM",
+        "Matthew Chapman"
+      ],
+      [
+        "TM",
+        "portfolio"
+      ],
+      [
+        "Cynthia Diaz",
+        "Singapore"
+      ],
+      [
+        "AAPL",
+        "Nancy Baker"
+      ],
+      [
+        "Anna Baker",
+        "portfolio_total_value"
+      ],
+      [
+        "Germany",
+        "Leslie Adams"
+      ],
+      [
+        "Blackstone RE",
+        "Joseph Brennan"
+      ],
+      [
+        "CHF",
+        "Chad Hodges"
+      ],
+      [
+        "Canada",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Client C0043",
+        "Reginald Robinson"
+      ],
+      [
+        "UAE",
+        "Veronica Bowman"
+      ],
+      [
+        "HNW",
+        "Rita Harrell"
+      ],
+      [
+        "Bridgewater Macro",
+        "Susan Rogers"
+      ],
+      [
+        "Joseph Zuniga",
+        "UK"
+      ],
+      [
+        "Angela Cohen",
+        "GLD"
+      ],
+      [
+        "Shawn Mckay",
+        "VUKE.L"
+      ],
+      [
+        "EEM",
+        "Tasha Valencia"
+      ],
+      [
+        "NESN.SW",
+        "VUKE.L"
+      ],
+      [
+        "India",
+        "Nicholas Arnold"
+      ],
+      [
+        "Nancy Edwards",
+        "Switzerland"
+      ],
+      [
+        "AGG",
+        "Scott Callahan"
+      ],
+      [
+        "Leslie Adams",
+        "TM"
+      ],
+      [
+        "Frank Gray",
+        "Germany"
+      ],
+      [
+        "Angela Cohen",
+        "Germany"
+      ],
+      [
+        "Affluent Segment",
+        "Patricia Miller"
+      ],
+      [
+        "AGG",
+        "Whitney Hicks"
+      ],
+      [
+        "Portfolio",
+        "VUKE.L"
+      ],
+      [
+        "Bridgewater Macro",
+        "Thomas Mueller"
+      ],
+      [
+        "Diana Foster",
+        "Retirement"
+      ],
+      [
+        "Andrew Hickman",
+        "C0064"
+      ],
+      [
+        "Blackstone RE",
+        "Wanda Santos"
+      ],
+      [
+        "MSFT",
+        "Scott Callahan"
+      ],
+      [
+        "C0077",
+        "Samuel Holmes"
+      ],
+      [
+        "Amber Blair",
+        "TSLA"
+      ],
+      [
+        "Amber Blair",
+        "C0074"
+      ],
+      [
+        "Education",
+        "Lindsay Blair"
+      ],
+      [
+        "Bridgewater Macro",
+        "Daniel Burton"
+      ],
+      [
+        "Christopher Tucker",
+        "Real Estate"
+      ],
+      [
+        "INFY.NS",
+        "Jerry Robinson"
+      ],
+      [
+        "Laura Henderson",
+        "UK Nationality"
+      ],
+      [
+        "GLD",
+        "Joseph Brennan"
+      ],
+      [
+        "Christopher Davis",
+        "NVDA"
+      ],
+      [
+        "Lindsay Blair",
+        "UBS Alt"
+      ],
+      [
+        "Risk Profile",
+        "Yvette Huff"
+      ],
+      [
+        "Education Goals",
+        "John Caldwell"
+      ],
+      [
+        "HNW",
+        "Katie Anderson"
+      ],
+      [
+        "Alexander Le",
+        "Singapore"
+      ],
+      [
+        "NESN.SW",
+        "Rodney Owens"
+      ],
+      [
+        "Client Portfolio 1",
+        "Joseph Wright"
+      ],
+      [
+        "Debra Gardner",
+        "NVDA"
+      ],
+      [
+        "Jeremy Johnson",
+        "Real Estate"
+      ],
+      [
+        "India",
+        "Veronica Bowman"
+      ],
+      [
+        "Christopher Hall",
+        "France"
+      ],
+      [
+        "India",
+        "Joshua Walker"
+      ],
+      [
+        "Equity Portfolio",
+        "Kyle Brown"
+      ],
+      [
+        "Lisa Smith",
+        "TSLA"
+      ],
+      [
+        "Patricia Miller",
+        "UBS Alt"
+      ],
+      [
+        "C0006",
+        "C0007"
+      ],
+      [
+        "IAU",
+        "Lisa Smith"
+      ],
+      [
+        "Affluent",
+        "Maria Montgomery"
+      ],
+      [
+        "C0065",
+        "Natasha Decker"
+      ],
+      [
+        "James West",
+        "portfolio_total_value"
+      ],
+      [
+        "Natalie Arroyo",
+        "UK"
+      ],
+      [
+        "Cynthia Diaz",
+        "SIE.DE"
+      ],
+      [
+        "Matthew Moore",
+        "US10Y"
+      ],
+      [
+        "Angela Cohen",
+        "VUKE.L"
+      ],
+      [
+        "Jason Hahn",
+        "UAE"
+      ],
+      [
+        "Bryan James",
+        "MSFT"
+      ],
+      [
+        "Alexander Le",
+        "IAU"
+      ],
+      [
+        "EEM",
+        "Matthew Moore"
+      ],
+      [
+        "Christopher Davis",
+        "GLD"
+      ],
+      [
+        "Christopher Hall",
+        "EEM"
+      ],
+      [
+        "Bryan James",
+        "INFY.NS"
+      ],
+      [
+        "Michelle Wright",
+        "TM"
+      ],
+      [
+        "Rodney Lewis",
+        "Rodney Lewis Holdings"
+      ],
+      [
+        "Daniel Graham",
+        "Daniel Graham's Portfolio"
+      ],
+      [
+        "C0057",
+        "Vincent White"
+      ],
+      [
+        "Bond ETF",
+        "Chad Hodges"
+      ],
+      [
+        "Deborah Lynch",
+        "UAE"
+      ],
+      [
+        "Michele Jones",
+        "investment income"
+      ],
+      [
+        "AAPL",
+        "Michelle Ray"
+      ],
+      [
+        "Bridgewater Macro",
+        "Jessica Nunez"
+      ],
+      [
+        "AGG",
+        "Erin Herrera"
+      ],
+      [
+        "Germany",
+        "Jeremy Roberts"
+      ],
+      [
+        "AAPL",
+        "Lisa Smith"
+      ],
+      [
+        "Joseph Brennan",
+        "US10Y"
+      ],
+      [
+        "Alternative",
+        "Chad Hodges"
+      ],
+      [
+        "Inheritance",
+        "Janet Williams"
+      ],
+      [
+        "Matthew Chapman",
+        "TSLA"
+      ],
+      [
+        "Jessica Nunez",
+        "VUKE.L"
+      ],
+      [
+        "Debra Gardner",
+        "Germany"
+      ],
+      [
+        "Jeffery Wagner",
+        "Portfolio Holdings of Jeffery Wagner"
+      ],
+      [
+        "Nancy Edwards",
+        "SPY"
+      ],
+      [
+        "Jerry Robinson",
+        "VUKE.L"
+      ],
+      [
+        "Chad Welch",
+        "Switzerland"
+      ],
+      [
+        "Canada",
+        "Joshua Walker"
+      ],
+      [
+        "AAPL",
+        "George Daniel"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Philanthropy"
+      ],
+      [
+        "Craig Ramirez",
+        "VUKE.L"
+      ],
+      [
+        "AAPL",
+        "Vincent White"
+      ],
+      [
+        "India",
+        "Jeremy Johnson"
+      ],
+      [
+        "MSFT",
+        "Rodney Owens"
+      ],
+      [
+        "Andrea Williams",
+        "Inheritance"
+      ],
+      [
+        "Angela Cohen",
+        "UAE"
+      ],
+      [
+        "Moderate Risk Capacity",
+        "Yvette Huff"
+      ],
+      [
+        "Conservative Risk Profile",
+        "Debra Gardner"
+      ],
+      [
+        "Affluent Client Segment",
+        "Linda Wolfe"
+      ],
+      [
+        "Michelle Wright",
+        "kyc_aml_risk_score"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Moderate Risk Profile"
+      ],
+      [
+        "Cynthia Diaz",
+        "SPY"
+      ],
+      [
+        "Business Sale",
+        "Michelle Ray"
+      ],
+      [
+        "Germany",
+        "Maria Montgomery"
+      ],
+      [
+        "Anna Baker",
+        "portfolio_equity_pct"
+      ],
+      [
+        "Home Purchase",
+        "Yvette Huff"
+      ],
+      [
+        "EUR",
+        "Lindsey Lee"
+      ],
+      [
+        "Debra Gardner",
+        "HNW"
+      ],
+      [
+        "Amanda Dudley",
+        "Canada"
+      ],
+      [
+        "Michele Jones",
+        "NVDA"
+      ],
+      [
+        "Jason Hahn",
+        "Wealth Preservation"
+      ],
+      [
+        "Investment Income",
+        "Kyle Brown"
+      ],
+      [
+        "India",
+        "Michele Jones"
+      ],
+      [
+        "Selena Duncan",
+        "portfolio equity percentage"
+      ],
+      [
+        "Christopher Tucker",
+        "Hedge Fund"
+      ],
+      [
+        "Lindsey Lee",
+        "USD"
+      ],
+      [
+        "Inheritance",
+        "Robert Johnson"
+      ],
+      [
+        "Blackstone RE",
+        "David Walker"
+      ],
+      [
+        "HNW Client Record 10",
+        "Lisa Smith"
+      ],
+      [
+        "Professional Services",
+        "Samuel Holmes"
+      ],
+      [
+        "Chad Hodges",
+        "Liquidity Event Planning"
+      ],
+      [
+        "Patricia Miller",
+        "TSLA"
+      ],
+      [
+        "BND",
+        "Erin Herrera"
+      ],
+      [
+        "James West",
+        "kyc_aml_risk_score"
+      ],
+      [
+        "Chad Welch",
+        "Jerry Robinson"
+      ],
+      [
+        "Angela Cohen",
+        "IGLS.L"
+      ],
+      [
+        "Affluent",
+        "Chelsea Hernandez"
+      ],
+      [
+        "AAPL",
+        "Bridgewater Macro"
+      ],
+      [
+        "Blackstone RE",
+        "Natalie Arroyo"
+      ],
+      [
+        "IAU",
+        "Leslie Adams"
+      ],
+      [
+        "C0053",
+        "Joseph Davidson"
+      ],
+      [
+        "Lindsay Blair",
+        "Singapore"
+      ],
+      [
+        "Aaron Nguyen",
+        "Kimberly Moreno"
+      ],
+      [
+        "Chad Welch",
+        "UK"
+      ],
+      [
+        "C0001",
+        "Danielle Johnson"
+      ],
+      [
+        "Joseph Wright",
+        "portfolio_total_value"
+      ],
+      [
+        "Robert Johnson",
+        "SPY"
+      ],
+      [
+        "Matthew Chapman",
+        "US10Y"
+      ],
+      [
+        "George Daniel",
+        "IAU"
+      ],
+      [
+        "C0009",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Andrea Williams",
+        "Bridgewater Macro"
+      ],
+      [
+        "Jason Anderson",
+        "Wealth Preservation Goals"
+      ],
+      [
+        "Germany",
+        "Jason Hahn"
+      ],
+      [
+        "Germany",
+        "Jason Anderson"
+      ],
+      [
+        "Brenda Hurst",
+        "Client C0042"
+      ],
+      [
+        "Daniel Graham's Portfolio",
+        "US10Y"
+      ],
+      [
+        "Chad Welch",
+        "SPY"
+      ],
+      [
+        "Samuel Holmes",
+        "Wealth Preservation"
+      ],
+      [
+        "Michelle Wright",
+        "residency_country"
+      ],
+      [
+        "Rita Harrell",
+        "TSLA"
+      ],
+      [
+        "Michelle Wright",
+        "NVDA"
+      ],
+      [
+        "Christopher Tucker",
+        "High Net Worth (HNW)"
+      ],
+      [
+        "Bridgewater Macro",
+        "Portfolio"
+      ],
+      [
+        "EEM",
+        "Veronica Bowman"
+      ],
+      [
+        "HNW",
+        "Nicholas Arnold"
+      ],
+      [
+        "Erin Herrera",
+        "Joseph Davidson"
+      ],
+      [
+        "Melanie Munoz",
+        "SPY"
+      ],
+      [
+        "Blackstone RE",
+        "Kimberly Moreno"
+      ],
+      [
+        "IGLS.L",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Client Interview Log",
+        "Yvette Huff"
+      ],
+      [
+        "Laura Henderson",
+        "NVDA"
+      ],
+      [
+        "Daniel Graham",
+        "US10Y"
+      ],
+      [
+        "Linda Wolfe",
+        "Philanthropy Goals"
+      ],
+      [
+        "Business Sale",
+        "Laura Henderson"
+      ],
+      [
+        "Aaron Nguyen",
+        "Inheritance"
+      ],
+      [
+        "Amanda Dudley",
+        "Bridgewater Macro"
+      ],
+      [
+        "Amanda Dudley",
+        "Retirement"
+      ],
+      [
+        "James West",
+        "residency_country"
+      ],
+      [
+        "Portfolio ESG Flag",
+        "Wanda Santos"
+      ],
+      [
+        "Bridgewater Macro",
+        "Nancy Baker"
+      ],
+      [
+        "Rodney Owens",
+        "Switzerland"
+      ],
+      [
+        "Anna Baker",
+        "goals_primary"
+      ],
+      [
+        "NVDA",
+        "Rodney Lewis"
+      ],
+      [
+        "Amber Blair",
+        "France"
+      ],
+      [
+        "EEM",
+        "Selena Duncan"
+      ],
+      [
+        "Rodney Owens",
+        "US10Y"
+      ],
+      [
+        "AAPL",
+        "Frank Gray"
+      ],
+      [
+        "NVDA",
+        "Nancy Edwards"
+      ],
+      [
+        "Philanthropy",
+        "Robin Ellis"
+      ],
+      [
+        "Affluent Client",
+        "Deborah Lynch"
+      ],
+      [
+        "Debra Gardner",
+        "IGLS.L"
+      ],
+      [
+        "EEM",
+        "Lisa Smith"
+      ],
+      [
+        "Blackstone RE",
+        "Michelle Ray"
+      ],
+      [
+        "HNW",
+        "Kimberly Moreno"
+      ],
+      [
+        "GLD",
+        "Patricia Miller"
+      ],
+      [
+        "AGG",
+        "Christopher Davis"
+      ],
+      [
+        "Bridgewater Macro",
+        "Nicholas Arnold"
+      ],
+      [
+        "Balanced Profile",
+        "Diana Foster"
+      ],
+      [
+        "C0056",
+        "Nancy Baker"
+      ],
+      [
+        "Andrew Hickman",
+        "Blackstone RE"
+      ],
+      [
+        "Affluent",
+        "James Collins"
+      ],
+      [
+        "Germany",
+        "Jeremy Whitehead"
+      ],
+      [
+        "James West",
+        "nationality"
+      ],
+      [
+        "Michele Jones",
+        "US10Y"
+      ],
+      [
+        "Maria Montgomery",
+        "Singapore"
+      ],
+      [
+        "Kimberly Moreno",
+        "VUKE.L"
+      ],
+      [
+        "George Daniel",
+        "TM"
+      ],
+      [
+        "Portfolio",
+        "Yvette Huff"
+      ],
+      [
+        "Christopher Hall",
+        "UAE"
+      ],
+      [
+        "Richard Morgan",
+        "portfolio"
+      ],
+      [
+        "Chad Welch",
+        "INFY.NS"
+      ],
+      [
+        "Chad Hodges",
+        "High Net Worth (HNW)"
+      ],
+      [
+        "John Leblanc",
+        "Retirement"
+      ],
+      [
+        "MSFT",
+        "Wendy Rice"
+      ],
+      [
+        "AGG",
+        "Lisa Smith"
+      ],
+      [
+        "Blackstone RE",
+        "Vincent White"
+      ],
+      [
+        "Germany",
+        "Kathryn Ryan"
+      ],
+      [
+        "Amber Blair",
+        "INFY.NS"
+      ],
+      [
+        "Michele Jones",
+        "SIE.DE"
+      ],
+      [
+        "Lindsey Lee",
+        "Switzerland"
+      ],
+      [
+        "Collin Jordan",
+        "USD"
+      ],
+      [
+        "GLD",
+        "Wendy Rice"
+      ],
+      [
+        "David Walker",
+        "MSFT"
+      ],
+      [
+        "Alexander Le",
+        "NVDA"
+      ],
+      [
+        "Affluent Client",
+        "George Daniel"
+      ],
+      [
+        "GLD",
+        "Joseph Davidson"
+      ],
+      [
+        "Nancy Baker",
+        "UAE"
+      ],
+      [
+        "Richard Morgan",
+        "Switzerland"
+      ],
+      [
+        "Alexander Le",
+        "C0051"
+      ],
+      [
+        "Bryan James",
+        "France"
+      ],
+      [
+        "John Caldwell",
+        "UAE"
+      ],
+      [
+        "Jeremy Johnson",
+        "Portfolio 1"
+      ],
+      [
+        "AAPL",
+        "Jeremy Roberts"
+      ],
+      [
+        "Andrew Hickman",
+        "NVDA"
+      ],
+      [
+        "Brenda Hurst",
+        "EEM ETF"
+      ],
+      [
+        "GLD",
+        "Lisa Smith"
+      ],
+      [
+        "Christopher Williams",
+        "IAU"
+      ],
+      [
+        "Daniel Burton",
+        "Entrepreneurship"
+      ],
+      [
+        "Entrepreneurship",
+        "Joseph Davidson"
+      ],
+      [
+        "India",
+        "Tracey Garcia"
+      ],
+      [
+        "George Daniel",
+        "NESN.SW"
+      ],
+      [
+        "Christopher Hall",
+        "IGLS.L"
+      ],
+      [
+        "Deborah Lynch",
+        "US10Y"
+      ],
+      [
+        "AAPL",
+        "Nancy Edwards"
+      ],
+      [
+        "Chelsea Hernandez",
+        "India"
+      ],
+      [
+        "High-net-worth Client Segment",
+        "Lisa Smith"
+      ],
+      [
+        "Michelle Ray",
+        "UAE"
+      ],
+      [
+        "AAPL",
+        "Michelle Wright"
+      ],
+      [
+        "Joseph Wright",
+        "portfolio_equity_pct"
+      ],
+      [
+        "Rodney Owens",
+        "UBS Alt"
+      ],
+      [
+        "Philanthropy",
+        "Robert Ramirez"
+      ],
+      [
+        "Australia",
+        "Nicholas Arnold"
+      ],
+      [
+        "Janet Williams",
+        "Singapore"
+      ],
+      [
+        "Canada",
+        "Megan Parsons"
+      ],
+      [
+        "Bridgewater Macro",
+        "Selena Duncan"
+      ],
+      [
+        "Anna Baker",
+        "Client Portfolio 2"
+      ],
+      [
+        "Bond ETF BND",
+        "Brenda Hurst"
+      ],
+      [
+        "Portfolio of Reginald Robinson",
+        "Reginald Robinson"
+      ],
+      [
+        "Robert Ramirez",
+        "inheritance"
+      ],
+      [
+        "US10Y",
+        "Veronica Bowman"
+      ],
+      [
+        "Blackstone RE",
+        "Bridgewater Macro"
+      ],
+      [
+        "Client C0025",
+        "Cynthia Diaz"
+      ],
+      [
+        "Real Estate Wealth Source",
+        "Reginald Robinson"
+      ],
+      [
+        "NVDA Holdings",
+        "Rodney Lewis Holdings"
+      ],
+      [
+        "Daniel Burton",
+        "Swiss Nationality"
+      ],
+      [
+        "Moderate Constraints",
+        "Robin Ellis"
+      ],
+      [
+        "France",
+        "Jessica Nunez"
+      ],
+      [
+        "Blackstone RE",
+        "Laura Henderson"
+      ],
+      [
+        "Brenda Hurst",
+        "European ETF VUKE.L"
+      ],
+      [
+        "AGG",
+        "Aaron Nguyen"
+      ],
+      [
+        "Joseph Davidson",
+        "VUKE.L"
+      ],
+      [
+        "Blackstone RE",
+        "Kyle Brown"
+      ],
+      [
+        "UK",
+        "Yvette Huff"
+      ],
+      [
+        "Michelle Wright",
+        "age"
+      ],
+      [
+        "NVDA",
+        "Tasha Valencia"
+      ],
+      [
+        "Jeremy Roberts",
+        "NESN.SW"
+      ],
+      [
+        "Canada",
+        "Jeremy Roberts"
+      ],
+      [
+        "Angela Cohen",
+        "US10Y"
+      ],
+      [
+        "Executive Compensation",
+        "Natasha Decker"
+      ],
+      [
+        "Rita Harrell",
+        "UK"
+      ],
+      [
+        "Bridgewater Macro",
+        "Jeremy Johnson"
+      ],
+      [
+        "James Collins",
+        "US10Y"
+      ],
+      [
+        "Blackstone RE",
+        "Leslie Adams"
+      ],
+      [
+        "Germany",
+        "Tracey Garcia"
+      ],
+      [
+        "George Daniel",
+        "INFY.NS"
+      ],
+      [
+        "Angela Cohen",
+        "Home Purchase Goal"
+      ],
+      [
+        "IAU",
+        "Scott Callahan"
+      ],
+      [
+        "C0085",
+        "Jason Anderson"
+      ],
+      [
+        "Business Sale",
+        "Lindsay Blair"
+      ],
+      [
+        "Angela Cohen",
+        "Professional Services"
+      ],
+      [
+        "Kathryn Ryan",
+        "Professional Services"
+      ],
+      [
+        "Portfolio",
+        "Thomas Pierce"
+      ],
+      [
+        "C0003",
+        "Jill Rhodes"
+      ],
+      [
+        "Brenda Hurst",
+        "Portfolio of Brenda Hurst"
+      ],
+      [
+        "Bridgewater Macro",
+        "portfolio"
+      ],
+      [
+        "Erin Herrera",
+        "SPY"
+      ],
+      [
+        "C0061",
+        "Kathryn Ryan"
+      ],
+      [
+        "Anna Baker",
+        "Home Purchase"
+      ],
+      [
+        "James West",
+        "age"
+      ],
+      [
+        "Collin Jordan",
+        "EUR"
+      ],
+      [
+        "Lindsay Blair",
+        "MSFT"
+      ],
+      [
+        "Amanda Dudley",
+        "Investment Income"
+      ],
+      [
+        "Amanda Dudley",
+        "MSFT"
+      ],
+      [
+        "Matthew Moore",
+        "TM"
+      ],
+      [
+        "C0046",
+        "Daniel Burton"
+      ],
+      [
+        "AAPL",
+        "Shawn Mckay's Portfolio"
+      ],
+      [
+        "Amber Blair",
+        "HNW"
+      ],
+      [
+        "Blackstone RE",
+        "Portfolio"
+      ],
+      [
+        "Andrea Williams",
+        "Singapore"
+      ],
+      [
+        "AAPL",
+        "Jason Hahn"
+      ],
+      [
+        "Canada",
+        "Richard Morgan"
+      ],
+      [
+        "Lindsey Lee",
+        "NESN.SW"
+      ],
+      [
+        "Portfolio",
+        "SPY"
+      ],
+      [
+        "Deborah Lynch",
+        "UBS Alt"
+      ],
+      [
+        "Client C0016",
+        "Lindsay Blair"
+      ],
+      [
+        "Jeremy Roberts",
+        "MSFT"
+      ],
+      [
+        "Education",
+        "Yvette Huff"
+      ],
+      [
+        "Frank Gray",
+        "TM"
+      ],
+      [
+        "Christopher Tucker",
+        "Switzerland"
+      ],
+      [
+        "AUD",
+        "Wanda Santos"
+      ],
+      [
+        "EEM",
+        "Janet Williams"
+      ],
+      [
+        "Jeremy Whitehead",
+        "UK"
+      ],
+      [
+        "AAPL",
+        "Craig Ramirez"
+      ],
+      [
+        "IGLS.L",
+        "Michele Jones"
+      ],
+      [
+        "AAPL",
+        "Collin Jordan"
+      ],
+      [
+        "Jessica Nunez",
+        "UAE"
+      ],
+      [
+        "Inheritance",
+        "Natalie Arroyo"
+      ],
+      [
+        "Andrea Williams",
+        "IAU"
+      ],
+      [
+        "US10Y",
+        "portfolio"
+      ],
+      [
+        "Collin Jordan",
+        "Switzerland"
+      ],
+      [
+        "Joseph Wright",
+        "goals_primary"
+      ],
+      [
+        "Rodney Lewis",
+        "TSLA"
+      ],
+      [
+        "HNW Segment",
+        "Robert Johnson"
+      ],
+      [
+        "Affluent Segment",
+        "Kyle Brown"
+      ],
+      [
+        "Canada",
+        "George Daniel"
+      ],
+      [
+        "Reginald Robinson",
+        "TM Equity"
+      ],
+      [
+        "Liquidity Event Planning",
+        "Wanda Santos"
+      ],
+      [
+        "James Collins",
+        "UK"
+      ],
+      [
+        "Angela Cohen",
+        "UBS Alt"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Portfolio Holdings of Anthony Gonzalez"
+      ],
+      [
+        "Scott Callahan",
+        "Switzerland"
+      ],
+      [
+        "Michele Jones",
+        "TSLA"
+      ],
+      [
+        "Angela Cohen",
+        "SPY"
+      ],
+      [
+        "C0008",
+        "Debra Gardner"
+      ],
+      [
+        "George Daniel",
+        "Germany"
+      ],
+      [
+        "Bridgewater Macro",
+        "Leslie Adams"
+      ],
+      [
+        "Blackstone RE",
+        "Bryan James"
+      ],
+      [
+        "James Collins",
+        "UBS Alt"
+      ],
+      [
+        "Melanie Munoz",
+        "TM"
+      ],
+      [
+        "Christopher Davis",
+        "SIE.DE"
+      ],
+      [
+        "Daniel Burton",
+        "TSLA"
+      ],
+      [
+        "Bridgewater Macro",
+        "GBP"
+      ],
+      [
+        "Debra Gardner",
+        "SIE.DE"
+      ],
+      [
+        "Anthony Gonzalez",
+        "C0007"
+      ],
+      [
+        "Michelle Wright",
+        "portfolio_cash_pct"
+      ],
+      [
+        "Blackstone RE",
+        "Lindsey Lee"
+      ],
+      [
+        "Janet Williams",
+        "SPY"
+      ],
+      [
+        "Real Estate",
+        "Rita Harrell"
+      ],
+      [
+        "Amanda Dudley",
+        "Germany"
+      ],
+      [
+        "Daniel Graham",
+        "IAU"
+      ],
+      [
+        "Michelle Ray",
+        "TSLA"
+      ],
+      [
+        "SPY",
+        "Shawn Mckay"
+      ],
+      [
+        "Jeremy Whitehead",
+        "business sale"
+      ],
+      [
+        "Selena Duncan",
+        "portfolio cash percentage"
+      ],
+      [
+        "Andrew Hickman",
+        "High Net Worth (HNW)"
+      ],
+      [
+        "Tasha Valencia",
+        "UK"
+      ],
+      [
+        "James Collins",
+        "NESN.SW"
+      ],
+      [
+        "India",
+        "US"
+      ],
+      [
+        "Joseph Wright",
+        "Philanthropy Goals"
+      ],
+      [
+        "Germany",
+        "Tasha Valencia"
+      ],
+      [
+        "Daniel Graham's Portfolio",
+        "VUKE.L"
+      ],
+      [
+        "Chad Hodges",
+        "Switzerland"
+      ],
+      [
+        "GLD",
+        "Melanie Munoz"
+      ],
+      [
+        "Maria Montgomery",
+        "Toyota Motor Corporation (TM)"
+      ],
+      [
+        "Kenneth Fowler",
+        "UK"
+      ],
+      [
+        "Daniel Burton",
+        "UAE Residency"
+      ],
+      [
+        "AGG",
+        "Lindsey Lee"
+      ],
+      [
+        "Janet Williams",
+        "NESN.SW"
+      ],
+      [
+        "Brenda Hurst",
+        "SPY ETF"
+      ],
+      [
+        "Affluent Client",
+        "Anna Baker"
+      ],
+      [
+        "India",
+        "Rodney Owens"
+      ],
+      [
+        "Selena Duncan",
+        "UBS Alt"
+      ],
+      [
+        "George Daniel",
+        "VUKE.L"
+      ],
+      [
+        "Jason Hahn",
+        "NVDA"
+      ],
+      [
+        "AGG",
+        "Robert Johnson"
+      ],
+      [
+        "James West",
+        "portfolio_cash_pct"
+      ],
+      [
+        "Entrepreneurship",
+        "Melanie Munoz"
+      ],
+      [
+        "Maria Montgomery",
+        "NVIDIA (NVDA)"
+      ],
+      [
+        "TM",
+        "Wendy Rice"
+      ],
+      [
+        "Christopher Hall",
+        "Switzerland"
+      ],
+      [
+        "C0050",
+        "Tasha Valencia"
+      ],
+      [
+        "HNW Client Segment",
+        "Jason Anderson"
+      ],
+      [
+        "Education Goal",
+        "Megan Parsons"
+      ],
+      [
+        "Amber Blair",
+        "IGLS.L"
+      ],
+      [
+        "High Net Worth (HNW)",
+        "Natasha Decker"
+      ],
+      [
+        "AGG",
+        "Michelle Wright"
+      ],
+      [
+        "Blackstone RE",
+        "Samuel Holmes"
+      ],
+      [
+        "C0060",
+        "Chelsea Hernandez"
+      ],
+      [
+        "Australia",
+        "Mitchell Clark"
+      ],
+      [
+        "IAU",
+        "James Collins"
+      ],
+      [
+        "C0078",
+        "David Walker"
+      ],
+      [
+        "Blackstone RE",
+        "Selena Duncan"
+      ],
+      [
+        "Linda Wolfe",
+        "SIE.DE"
+      ],
+      [
+        "Jeremy Johnson",
+        "UBS Alt"
+      ],
+      [
+        "Scott Callahan",
+        "UK"
+      ],
+      [
+        "Bryan James",
+        "UAE"
+      ],
+      [
+        "BND",
+        "Nancy Baker"
+      ],
+      [
+        "Nancy Edwards",
+        "Philanthropy"
+      ],
+      [
+        "AAPL",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "TM",
+        "Whitney Hicks"
+      ],
+      [
+        "Affluent",
+        "Thomas Pierce"
+      ],
+      [
+        "NVDA",
+        "Susan Rogers"
+      ],
+      [
+        "Thomas Mueller",
+        "portfolio fixed income percentage"
+      ],
+      [
+        "Canada Residency",
+        "Laura Henderson"
+      ],
+      [
+        "Bridgewater Macro",
+        "Christopher Williams"
+      ],
+      [
+        "GLD",
+        "Michelle Wright"
+      ],
+      [
+        "Megan Parsons",
+        "Switzerland"
+      ],
+      [
+        "John Caldwell",
+        "Switzerland"
+      ],
+      [
+        "C0097",
+        "John Leblanc"
+      ],
+      [
+        "BND",
+        "Melanie Munoz"
+      ],
+      [
+        "C0079",
+        "Matthew Chapman"
+      ],
+      [
+        "BND",
+        "Nicholas Arnold"
+      ],
+      [
+        "Debra Gardner",
+        "Wealth Preservation"
+      ],
+      [
+        "Singapore",
+        "Wendy Rice"
+      ],
+      [
+        "Amanda Dudley",
+        "US"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "SPY"
+      ],
+      [
+        "Australia",
+        "Jerry Robinson"
+      ],
+      [
+        "Affluent",
+        "David Walker"
+      ],
+      [
+        "Bond ETF Portfolio",
+        "Natalie Arroyo"
+      ],
+      [
+        "Liquidity Needs",
+        "Yvette Huff"
+      ],
+      [
+        "VUKE.L",
+        "portfolio"
+      ],
+      [
+        "MSFT",
+        "Michelle Ray"
+      ],
+      [
+        "Danielle Johnson",
+        "Singapore"
+      ],
+      [
+        "Craig Ramirez",
+        "India"
+      ],
+      [
+        "Shawn Mckay",
+        "US10Y"
+      ],
+      [
+        "Australia",
+        "Frank Gray"
+      ],
+      [
+        "Tracey Garcia",
+        "portfolio"
+      ],
+      [
+        "C0084",
+        "John Caldwell"
+      ],
+      [
+        "Blackstone RE",
+        "Jason Hahn"
+      ],
+      [
+        "Aaron Nguyen",
+        "Affluent"
+      ],
+      [
+        "BND",
+        "Robert Johnson"
+      ],
+      [
+        "IAU",
+        "Susan Rogers"
+      ],
+      [
+        "Kathryn Ryan",
+        "Singapore"
+      ],
+      [
+        "Linda Wolfe",
+        "UBS Alt"
+      ],
+      [
+        "Bridgewater Macro",
+        "Lindsay Blair"
+      ],
+      [
+        "Natalie Arroyo",
+        "US"
+      ],
+      [
+        "Kyle Brown",
+        "US"
+      ],
+      [
+        "Investment Income",
+        "Patricia Miller"
+      ],
+      [
+        "HNW Client",
+        "Joseph Wright"
+      ]
+    ],
+    "count": 635,
+    "create_time": 1757758414,
+    "update_time": 1757758414,
+    "_id": "doc-bd863e015224eae171a6b42acaf650d7"
+  },
+  "doc-18f5a91f7423417786a783364ad23668": {
+    "relation_pairs": [
+      [
+        "Alexander Le",
+        "Entrepreneurship"
+      ],
+      [
+        "IGLS.L",
+        "Leslie Adams"
+      ],
+      [
+        "Blackstone RE",
+        "Reginald Robinson"
+      ],
+      [
+        "12-Year Horizon",
+        "Natasha Decker"
+      ],
+      [
+        "Retirement Goals",
+        "Susan Rogers"
+      ],
+      [
+        "Real Estate",
+        "Reginald Robinson"
+      ],
+      [
+        "David Walker",
+        "NVDA"
+      ],
+      [
+        "AGG",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "AGG",
+        "Richard Morgan"
+      ],
+      [
+        "Amber Blair",
+        "European Holdings"
+      ],
+      [
+        "Angela Cohen",
+        "IAU"
+      ],
+      [
+        "TM",
+        "Whitney Hicks"
+      ],
+      [
+        "Australia",
+        "Shawn Mckay"
+      ],
+      [
+        "SIE.DE",
+        "Thomas Mueller"
+      ],
+      [
+        "EEM",
+        "Jason Anderson"
+      ],
+      [
+        "Robert Ramirez",
+        "USD"
+      ],
+      [
+        "Bridgewater Macro",
+        "Robin Ellis"
+      ],
+      [
+        "Blackstone RE",
+        "Rodney Lewis"
+      ],
+      [
+        "Rodney Owens",
+        "UBS Alt"
+      ],
+      [
+        "India",
+        "Jeremy Johnson"
+      ],
+      [
+        "C0010",
+        "Lisa Smith"
+      ],
+      [
+        "GLD",
+        "Tracey Garcia"
+      ],
+      [
+        "Germany",
+        "Tasha Valencia"
+      ],
+      [
+        "UBS Alt",
+        "Veronica Bowman"
+      ],
+      [
+        "Business Sale",
+        "Cynthia Diaz"
+      ],
+      [
+        "Blackstone RE",
+        "Natalie Arroyo"
+      ],
+      [
+        "C0021",
+        "Janet Williams"
+      ],
+      [
+        "AGG",
+        "Aaron Nguyen"
+      ],
+      [
+        "Blackstone Real Estate (Blackstone RE)",
+        "Mitchell Clark"
+      ],
+      [
+        "Collin Jordan",
+        "US10Y"
+      ],
+      [
+        "BND",
+        "Melanie Munoz"
+      ],
+      [
+        "Mitchell Clark",
+        "Tesla (TSLA)"
+      ],
+      [
+        "Chelsea Hernandez",
+        "Record 60"
+      ],
+      [
+        "Jeffery Wagner",
+        "Switzerland"
+      ],
+      [
+        "AAPL",
+        "Debra Gardner"
+      ],
+      [
+        "HNW",
+        "Wendy Rice"
+      ],
+      [
+        "Collin Jordan",
+        "HNW"
+      ],
+      [
+        "Daniel Graham",
+        "investment income"
+      ],
+      [
+        "Natasha Decker",
+        "Risk Profile - Growth"
+      ],
+      [
+        "C0053",
+        "Joseph Davidson"
+      ],
+      [
+        "Bridgewater Macro",
+        "Nicholas Arnold"
+      ],
+      [
+        "James West",
+        "US10Y"
+      ],
+      [
+        "IGLS.L",
+        "Jeffery Wagner"
+      ],
+      [
+        "Anthony Gonzalez",
+        "SIE.DE"
+      ],
+      [
+        "C0019",
+        "Maria Montgomery"
+      ],
+      [
+        "BND",
+        "Jeremy Whitehead"
+      ],
+      [
+        "Daniel Graham",
+        "Record 54"
+      ],
+      [
+        "AAPL",
+        "Nancy Baker"
+      ],
+      [
+        "Joseph Davidson",
+        "Record 53"
+      ],
+      [
+        "HNW",
+        "Katie Anderson"
+      ],
+      [
+        "John Caldwell",
+        "NVDA"
+      ],
+      [
+        "Client Onboarding Process",
+        "Kimberly Moreno"
+      ],
+      [
+        "Anna Baker",
+        "TM"
+      ],
+      [
+        "Jerry Robinson",
+        "Retirement Goals"
+      ],
+      [
+        "EUR",
+        "Michelle Wright"
+      ],
+      [
+        "9-Year Horizon",
+        "Andrea Williams"
+      ],
+      [
+        "MSFT",
+        "Wendy Rice"
+      ],
+      [
+        "AGG",
+        "Whitney Hicks"
+      ],
+      [
+        "Andrew Hickman",
+        "Global"
+      ],
+      [
+        "Alexander Le",
+        "Australia"
+      ],
+      [
+        "Amanda Dudley",
+        "TM"
+      ],
+      [
+        "Kenneth Fowler",
+        "NVDA"
+      ],
+      [
+        "Business Sale",
+        "Wendy Rice"
+      ],
+      [
+        "Client",
+        "Non-US Person"
+      ],
+      [
+        "Blackstone RE",
+        "Laura Henderson"
+      ],
+      [
+        "INFY.NS",
+        "John Caldwell"
+      ],
+      [
+        "SPY",
+        "Tracey Garcia"
+      ],
+      [
+        "Entrepreneurship",
+        "Thomas Pierce"
+      ],
+      [
+        "C0028",
+        "Deborah Lynch"
+      ],
+      [
+        "Blackstone RE",
+        "Joseph Brennan"
+      ],
+      [
+        "Blackstone RE",
+        "Samuel Holmes"
+      ],
+      [
+        "Canada",
+        "John Leblanc"
+      ],
+      [
+        "Jerry Robinson",
+        "Singapore"
+      ],
+      [
+        "Germany",
+        "Jason Hahn"
+      ],
+      [
+        "Bridgewater Macro",
+        "Melanie Munoz"
+      ],
+      [
+        "AED",
+        "Amber Blair"
+      ],
+      [
+        "Chad Welch",
+        "UK"
+      ],
+      [
+        "Lindsey Lee",
+        "SPY"
+      ],
+      [
+        "Joseph Brennan",
+        "TSLA"
+      ],
+      [
+        "AGG",
+        "Chapman"
+      ],
+      [
+        "Blackstone RE",
+        "Jeremy Roberts"
+      ],
+      [
+        "Aaron Nguyen",
+        "Client Onboarding Process"
+      ],
+      [
+        "Debra Gardner",
+        "SIE.DE"
+      ],
+      [
+        "Reginald Robinson",
+        "TM"
+      ],
+      [
+        "Aaron Nguyen",
+        "NVDA"
+      ],
+      [
+        "Collin Jordan",
+        "EUR"
+      ],
+      [
+        "Amber Blair",
+        "IGLS.L"
+      ],
+      [
+        "Andrew Hickman",
+        "Risk Profile - Balanced"
+      ],
+      [
+        "Nancy Baker",
+        "US10Y"
+      ],
+      [
+        "Daniel Burton",
+        "NESN.SW"
+      ],
+      [
+        "Kenneth Fowler",
+        "SGD"
+      ],
+      [
+        "C0079",
+        "Matthew Chapman"
+      ],
+      [
+        "Brian James",
+        "VUKE.L"
+      ],
+      [
+        "Anna Baker",
+        "Bridgewater Macro"
+      ],
+      [
+        "Australia",
+        "Linda Wolfe"
+      ],
+      [
+        "John Caldwell",
+        "Market Value"
+      ],
+      [
+        "Deborah Lynch",
+        "GLD"
+      ],
+      [
+        "C0018",
+        "Nicholas Arnold"
+      ],
+      [
+        "MSFT",
+        "Tracey Garcia"
+      ],
+      [
+        "EEM",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "C0077",
+        "Samuel Holmes"
+      ],
+      [
+        "IGLS.L",
+        "Jason Hahn"
+      ],
+      [
+        "NVDA",
+        "Samuel Holmes"
+      ],
+      [
+        "John Caldwell",
+        "SIE.DE"
+      ],
+      [
+        "Robert Johnson",
+        "UBS Alt"
+      ],
+      [
+        "Entrepreneurship",
+        "Melanie Munoz"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "UAE"
+      ],
+      [
+        "13-Year Horizon",
+        "Andrew Hickman"
+      ],
+      [
+        "Christopher Davis",
+        "US"
+      ],
+      [
+        "Client",
+        "NVDA"
+      ],
+      [
+        "James Collins",
+        "UK"
+      ],
+      [
+        "Janet Williams",
+        "SPY"
+      ],
+      [
+        "High Net Worth Client",
+        "Thomas Pierce"
+      ],
+      [
+        "EEM",
+        "Michelle Wright"
+      ],
+      [
+        "NVDA",
+        "Susan Rogers"
+      ],
+      [
+        "Christopher Tucker",
+        "Real Estate"
+      ],
+      [
+        "Danielle Johnson",
+        "US Person"
+      ],
+      [
+        "C0047",
+        "Laura Henderson"
+      ],
+      [
+        "Blackstone RE",
+        "James West"
+      ],
+      [
+        "EEM",
+        "Veronica Bowman"
+      ],
+      [
+        "AAPL",
+        "Vincent White"
+      ],
+      [
+        "Daniel Burton",
+        "VUKE.L"
+      ],
+      [
+        "AGG",
+        "Michele Jones"
+      ],
+      [
+        "Chapman",
+        "Germany"
+      ],
+      [
+        "Bridgewater Macro",
+        "Joseph Wright"
+      ],
+      [
+        "INFY.NS",
+        "Jeremy Whitehead"
+      ],
+      [
+        "France",
+        "Lindsey Lee"
+      ],
+      [
+        "Janet Williams",
+        "MSFT"
+      ],
+      [
+        "James West",
+        "TSLA"
+      ],
+      [
+        "India",
+        "Shawn Mckay"
+      ],
+      [
+        "Jeffery Wagner",
+        "UBS Alt"
+      ],
+      [
+        "HNW",
+        "Robert Johnson"
+      ],
+      [
+        "TM",
+        "Wanda Santos"
+      ],
+      [
+        "Cynthia Diaz",
+        "Singapore"
+      ],
+      [
+        "Australia",
+        "Katie Anderson"
+      ],
+      [
+        "GLD",
+        "Richard Morgan"
+      ],
+      [
+        "Jeremy Roberts",
+        "US10Y"
+      ],
+      [
+        "Christopher Davis",
+        "UK"
+      ],
+      [
+        "Frank Gray",
+        "TM"
+      ],
+      [
+        "EEM",
+        "Nicholas Arnold"
+      ],
+      [
+        "Joseph Wright",
+        "UAE"
+      ],
+      [
+        "Jill Rhodes",
+        "US Person"
+      ],
+      [
+        "Kenneth Fowler",
+        "Record 59"
+      ],
+      [
+        "Blackstone RE",
+        "Daniel Burton"
+      ],
+      [
+        "EEM",
+        "Thomas Pierce"
+      ],
+      [
+        "Blackstone RE",
+        "Jeremy Johnson"
+      ],
+      [
+        "AAPL",
+        "Cynthia Diaz"
+      ],
+      [
+        "Bridgewater Macro",
+        "Thomas Mueller"
+      ],
+      [
+        "Business Sale",
+        "Thomas Mueller"
+      ],
+      [
+        "Inheritance",
+        "Lisa Smith"
+      ],
+      [
+        "INFY.NS",
+        "Tracey Garcia"
+      ],
+      [
+        "Rita Harrell",
+        "UK"
+      ],
+      [
+        "Erin Herrera",
+        "Executive Compensation"
+      ],
+      [
+        "EEM",
+        "Janet Williams"
+      ],
+      [
+        "Patricia Miller",
+        "SPY"
+      ],
+      [
+        "Joseph Zuniga",
+        "Microsoft (MSFT)"
+      ],
+      [
+        "Jeffery Wagner",
+        "TM"
+      ],
+      [
+        "NESN.SW",
+        "Samuel Holmes"
+      ],
+      [
+        "MSFT",
+        "Robert Johnson"
+      ],
+      [
+        "Diana Foster",
+        "IAU"
+      ],
+      [
+        "Jessica Nunez",
+        "US10Y"
+      ],
+      [
+        "C0029",
+        "George Daniel"
+      ],
+      [
+        "David Walker",
+        "MSFT"
+      ],
+      [
+        "Debra Gardner",
+        "SPY"
+      ],
+      [
+        "France",
+        "Vincent White"
+      ],
+      [
+        "Christopher Hall",
+        "UHNW Segment"
+      ],
+      [
+        "Inheritance",
+        "Robert Ramirez"
+      ],
+      [
+        "Chelsea Hernandez",
+        "Kathryn Ryan"
+      ],
+      [
+        "Chapman",
+        "IGLS.L"
+      ],
+      [
+        "Daniel Burton",
+        "HNW Segment"
+      ],
+      [
+        "Rodney Owens",
+        "Wealth Preservation"
+      ],
+      [
+        "Investment Portfolio",
+        "Susan Rogers"
+      ],
+      [
+        "IGLS Bond ETF",
+        "Joseph Zuniga"
+      ],
+      [
+        "Christopher Williams",
+        "TM"
+      ],
+      [
+        "Daniel Burton",
+        "UAE"
+      ],
+      [
+        "Michele Jones",
+        "SIE.DE"
+      ],
+      [
+        "Jeffery Wagner",
+        "MSFT"
+      ],
+      [
+        "Business Succession",
+        "Joseph Zuniga"
+      ],
+      [
+        "Chelsea Hernandez",
+        "India"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Australia"
+      ],
+      [
+        "Kimberly Moreno",
+        "VUKE.L"
+      ],
+      [
+        "C0067",
+        "Natalie Arroyo"
+      ],
+      [
+        "Daniel Burton",
+        "Switzerland"
+      ],
+      [
+        "Anna Baker",
+        "Home Purchase"
+      ],
+      [
+        "Daniel Graham",
+        "UAE"
+      ],
+      [
+        "Bridgewater Macro",
+        "Nancy Baker"
+      ],
+      [
+        "Affluent",
+        "Jill Rhodes"
+      ],
+      [
+        "Reginald Robinson",
+        "Switzerland"
+      ],
+      [
+        "IAU",
+        "Nancy Edwards"
+      ],
+      [
+        "Client C0026",
+        "SGD"
+      ],
+      [
+        "Rodney Owens",
+        "US10Y"
+      ],
+      [
+        "C0004",
+        "Patricia Miller"
+      ],
+      [
+        "Joseph Zuniga",
+        "Professional Services"
+      ],
+      [
+        "VUKE.L",
+        "Whitney Hicks"
+      ],
+      [
+        "Danielle Johnson",
+        "Inheritance"
+      ],
+      [
+        "Chelsea Hernandez",
+        "VUKE.L"
+      ],
+      [
+        "Chad Hodges",
+        "HNW"
+      ],
+      [
+        "France",
+        "Leslie Adams"
+      ],
+      [
+        "Christopher Hall",
+        "US"
+      ],
+      [
+        "NESN.SW",
+        "Nancy Edwards"
+      ],
+      [
+        "Client C0027",
+        "Joseph Zuniga"
+      ],
+      [
+        "France",
+        "Linda Wolfe"
+      ],
+      [
+        "Apple (AAPL)",
+        "Joseph Zuniga"
+      ],
+      [
+        "Erin Herrera",
+        "Record 52"
+      ],
+      [
+        "Jerry Robinson",
+        "NESN.SW"
+      ],
+      [
+        "Conservative Risk Profile",
+        "Yvette Huff"
+      ],
+      [
+        "C0005",
+        "Robert Johnson"
+      ],
+      [
+        "Kenneth Fowler",
+        "MSFT"
+      ],
+      [
+        "Aaron Nguyen",
+        "NESN.SW"
+      ],
+      [
+        "Affluent Segment",
+        "Jeremy Roberts"
+      ],
+      [
+        "TM",
+        "Vincent White"
+      ],
+      [
+        "Blackstone RE",
+        "Deborah Lynch"
+      ],
+      [
+        "John Leblanc",
+        "Retirement"
+      ],
+      [
+        "MSFT",
+        "Michelle Wright"
+      ],
+      [
+        "Leslie Adams",
+        "NVDA"
+      ],
+      [
+        "Rita Harrell",
+        "TSLA"
+      ],
+      [
+        "Collin Jordan",
+        "Singapore"
+      ],
+      [
+        "GLD",
+        "Kathryn Ryan"
+      ],
+      [
+        "Bridgewater Macro",
+        "Yvette Huff"
+      ],
+      [
+        "Brenda Hurst",
+        "Liquidity Event Planning"
+      ],
+      [
+        "SPY",
+        "Whitney Hicks"
+      ],
+      [
+        "France",
+        "Jeffery Wagner"
+      ],
+      [
+        "Retirement Goals",
+        "Robin Ellis"
+      ],
+      [
+        "Cynthia Diaz",
+        "INFY.NS"
+      ],
+      [
+        "Jerry Robinson",
+        "VUKE.L"
+      ],
+      [
+        "Richard Morgan",
+        "TM"
+      ],
+      [
+        "Client",
+        "SPY"
+      ],
+      [
+        "Craig Ramirez",
+        "Inheritance"
+      ],
+      [
+        "GLD",
+        "Michele Jones"
+      ],
+      [
+        "Amber Blair",
+        "US Holdings"
+      ],
+      [
+        "Deborah Lynch",
+        "EEM"
+      ],
+      [
+        "James Collins",
+        "VUKE.L"
+      ],
+      [
+        "Shawn Mckay",
+        "investment income"
+      ],
+      [
+        "Jeremy Roberts",
+        "NESN.SW"
+      ],
+      [
+        "Affluent",
+        "Patricia Miller"
+      ],
+      [
+        "Susan Rogers",
+        "UAE"
+      ],
+      [
+        "Andrea Williams",
+        "Singapore"
+      ],
+      [
+        "Blackstone RE",
+        "Lindsay Blair"
+      ],
+      [
+        "C0020",
+        "Michelle Ray"
+      ],
+      [
+        "Client C0002",
+        "Joshua Walker"
+      ],
+      [
+        "Canada",
+        "Natasha Decker"
+      ],
+      [
+        "Blackstone RE",
+        "Lindsey Lee"
+      ],
+      [
+        "Philanthropy",
+        "Robert Ramirez"
+      ],
+      [
+        "Affluent client segment",
+        "John Leblanc"
+      ],
+      [
+        "C0065",
+        "Natasha Decker"
+      ],
+      [
+        "Brenda Hurst",
+        "EEM"
+      ],
+      [
+        "Germany",
+        "Kathryn Ryan"
+      ],
+      [
+        "John Caldwell",
+        "UAE"
+      ],
+      [
+        "Canada",
+        "Erin Herrera"
+      ],
+      [
+        "Australia",
+        "Matthew Moore"
+      ],
+      [
+        "Chapman",
+        "US"
+      ],
+      [
+        "IGLS.L",
+        "Kimberly Moreno"
+      ],
+      [
+        "Brenda Hurst",
+        "Bridgewater Macro"
+      ],
+      [
+        "Australia",
+        "John Leblanc"
+      ],
+      [
+        "BND",
+        "Frank Gray"
+      ],
+      [
+        "Bryan James",
+        "UBS Alt"
+      ],
+      [
+        "AAPL",
+        "Collin Jordan"
+      ],
+      [
+        "Inheritance",
+        "Linda Wolfe"
+      ],
+      [
+        "Client C0026",
+        "Mitchell Clark"
+      ],
+      [
+        "Inheritance",
+        "Nancy Edwards"
+      ],
+      [
+        "Christopher Davis",
+        "Risk Profile"
+      ],
+      [
+        "Mitchell Clark",
+        "Real Estate"
+      ],
+      [
+        "Affluent Segment",
+        "Christopher Williams"
+      ],
+      [
+        "Canada",
+        "Matthew Moore"
+      ],
+      [
+        "Chapman",
+        "US10Y"
+      ],
+      [
+        "Jeremy Whitehead",
+        "NVDA"
+      ],
+      [
+        "Germany",
+        "Joseph Wright"
+      ],
+      [
+        "Amber Blair",
+        "INFY.NS"
+      ],
+      [
+        "C0078",
+        "David Walker"
+      ],
+      [
+        "Cynthia Diaz",
+        "VUKE.L"
+      ],
+      [
+        "C0012",
+        "Matthew Moore"
+      ],
+      [
+        "UK",
+        "Whitney Hicks"
+      ],
+      [
+        "Mitchell Clark",
+        "SPDR S&P 500 ETF (SPY)"
+      ],
+      [
+        "Canada",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "India",
+        "Lisa Smith"
+      ],
+      [
+        "Affluent",
+        "Tasha Valencia"
+      ],
+      [
+        "Bridgewater Macro",
+        "James West"
+      ],
+      [
+        "Jeremy Roberts",
+        "Professional Services"
+      ],
+      [
+        "INFY.NS",
+        "Whitney Hicks"
+      ],
+      [
+        "Brenda Hurst",
+        "Medium Risk Tolerance"
+      ],
+      [
+        "Kyle Brown",
+        "TSLA"
+      ],
+      [
+        "Natalie Arroyo",
+        "TSLA"
+      ],
+      [
+        "Blackstone RE",
+        "Cynthia Diaz"
+      ],
+      [
+        "John Caldwell",
+        "US10Y"
+      ],
+      [
+        "Bridgewater Macro",
+        "Kathryn Ryan"
+      ],
+      [
+        "AGG",
+        "Client"
+      ],
+      [
+        "Australia",
+        "Janet Williams"
+      ],
+      [
+        "Bridgewater Macro",
+        "Jeremy Johnson"
+      ],
+      [
+        "France",
+        "Joseph Davidson"
+      ],
+      [
+        "Blackstone RE",
+        "Leslie Adams"
+      ],
+      [
+        "Philanthropy Goals",
+        "Robin Ellis"
+      ],
+      [
+        "Bridgewater Macro",
+        "Christopher Williams"
+      ],
+      [
+        "Christopher Davis",
+        "Home Purchase Goals"
+      ],
+      [
+        "Andrew Hickman",
+        "C0064"
+      ],
+      [
+        "Canada",
+        "Jeremy Roberts"
+      ],
+      [
+        "Affluent Client",
+        "Lindsay Blair"
+      ],
+      [
+        "Mitchell Clark",
+        "Philanthropy"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Jeffery Wagner"
+      ],
+      [
+        "Business Sale",
+        "Joseph Wright"
+      ],
+      [
+        "Canada",
+        "Whitney Hicks"
+      ],
+      [
+        "Education Goal",
+        "Megan Parsons"
+      ],
+      [
+        "Germany",
+        "Nancy Baker"
+      ],
+      [
+        "SPY",
+        "Wanda Santos"
+      ],
+      [
+        "Blackstone RE",
+        "Client"
+      ],
+      [
+        "Real Estate",
+        "Rita Harrell"
+      ],
+      [
+        "Angela Cohen",
+        "UAE"
+      ],
+      [
+        "Debra Gardner",
+        "Germany"
+      ],
+      [
+        "Joseph Wright",
+        "Philanthropy Goals"
+      ],
+      [
+        "EEM",
+        "Joseph Brennan"
+      ],
+      [
+        "Katie Anderson",
+        "UAE"
+      ],
+      [
+        "Anthony Gonzalez",
+        "IGLS.L"
+      ],
+      [
+        "Susan Rogers",
+        "UBS Alt"
+      ],
+      [
+        "Client B",
+        "Yvette Huff"
+      ],
+      [
+        "Infosys (INFY.NS)",
+        "Joseph Zuniga"
+      ],
+      [
+        "IGLS.L",
+        "Wanda Santos"
+      ],
+      [
+        "Melanie Munoz",
+        "Microsoft (MSFT)"
+      ],
+      [
+        "Education Funding",
+        "Lindsay Blair"
+      ],
+      [
+        "Blackstone RE",
+        "Jeffery Wagner"
+      ],
+      [
+        "BND",
+        "Reginald Robinson"
+      ],
+      [
+        "Chapman",
+        "INFY.NS"
+      ],
+      [
+        "Frank Gray",
+        "IAU"
+      ],
+      [
+        "Real Estate",
+        "Tasha Valencia"
+      ],
+      [
+        "Angela Cohen",
+        "C0032"
+      ],
+      [
+        "C0049",
+        "Wendy Rice"
+      ],
+      [
+        "AAPL",
+        "Leslie Adams"
+      ],
+      [
+        "C0056",
+        "Nancy Baker"
+      ],
+      [
+        "NESN.SW",
+        "Rodney Owens"
+      ],
+      [
+        "Diana Foster",
+        "TSLA"
+      ],
+      [
+        "Client Portfolio 2",
+        "Michele Jones"
+      ],
+      [
+        "Kimberly Moreno",
+        "SPY"
+      ],
+      [
+        "Investment Income",
+        "Selena Duncan"
+      ],
+      [
+        "IAU",
+        "Veronica Bowman"
+      ],
+      [
+        "Executive Compensation",
+        "Natasha Decker"
+      ],
+      [
+        "AAPL",
+        "Thomas Pierce"
+      ],
+      [
+        "Germany",
+        "Shawn Mckay"
+      ],
+      [
+        "Canada",
+        "Chelsea Hernandez"
+      ],
+      [
+        "C0032",
+        "Client Profile: C0032"
+      ],
+      [
+        "Thomas Mueller",
+        "US10Y"
+      ],
+      [
+        "Client Portfolio 1",
+        "Jeremy Whitehead"
+      ],
+      [
+        "Affluent Client",
+        "Rodney Owens"
+      ],
+      [
+        "Jeremy Whitehead",
+        "UBS Alt"
+      ],
+      [
+        "GLD",
+        "Joseph Brennan"
+      ],
+      [
+        "AAPL",
+        "Janet Williams"
+      ],
+      [
+        "Diana Foster",
+        "Inheritance"
+      ],
+      [
+        "HNW Client",
+        "Jeremy Johnson"
+      ],
+      [
+        "Kimberly Moreno",
+        "MSFT"
+      ],
+      [
+        "AAPL",
+        "Rita Harrell"
+      ],
+      [
+        "Christopher Tucker",
+        "Switzerland"
+      ],
+      [
+        "Joshua Walker",
+        "Professional Services"
+      ],
+      [
+        "Inheritance",
+        "Robert Johnson"
+      ],
+      [
+        "Debra Gardner",
+        "IGLS.L"
+      ],
+      [
+        "Blackstone RE",
+        "David Walker"
+      ],
+      [
+        "GLD",
+        "Susan Rogers"
+      ],
+      [
+        "C0011",
+        "Linda Wolfe"
+      ],
+      [
+        "C0057",
+        "Vincent White"
+      ],
+      [
+        "Lindsay Blair",
+        "Melanie Munoz"
+      ],
+      [
+        "Bridgewater Macro",
+        "Deborah Lynch"
+      ],
+      [
+        "Jason Anderson",
+        "UAE"
+      ],
+      [
+        "Deborah Lynch",
+        "UBS Alt"
+      ],
+      [
+        "Christopher Williams",
+        "IAU"
+      ],
+      [
+        "AGG",
+        "Selena Duncan"
+      ],
+      [
+        "Lisa Smith",
+        "US"
+      ],
+      [
+        "UK",
+        "Wanda Santos"
+      ],
+      [
+        "AGG",
+        "Collin Jordan"
+      ],
+      [
+        "Matthew Moore",
+        "Retirement Goals"
+      ],
+      [
+        "Brenda Hurst",
+        "UBS Alt"
+      ],
+      [
+        "Andrea Williams",
+        "Bridgewater Macro"
+      ],
+      [
+        "Global",
+        "Natasha Decker"
+      ],
+      [
+        "C0009",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Jerry Robinson",
+        "SPY"
+      ],
+      [
+        "Blackstone RE",
+        "Jason Anderson"
+      ],
+      [
+        "Anthony Gonzalez",
+        "France"
+      ],
+      [
+        "Germany",
+        "Jeremy Roberts"
+      ],
+      [
+        "Client",
+        "Germany"
+      ],
+      [
+        "Business Succession Goals",
+        "Thomas Pierce"
+      ],
+      [
+        "Jeremy Whitehead",
+        "MSFT"
+      ],
+      [
+        "Blackstone RE",
+        "Thomas Mueller"
+      ],
+      [
+        "Singapore",
+        "Wendy Rice"
+      ],
+      [
+        "Blackstone RE",
+        "Selena Duncan"
+      ],
+      [
+        "Jeremy Roberts",
+        "UBS Alt"
+      ],
+      [
+        "Daniel Graham",
+        "Singapore"
+      ],
+      [
+        "Lindsay Blair",
+        "Microsoft (MSFT)"
+      ],
+      [
+        "MSFT",
+        "Yvette Huff"
+      ],
+      [
+        "Australia",
+        "Debra Gardner"
+      ],
+      [
+        "Robert Ramirez",
+        "US"
+      ],
+      [
+        "George Daniel",
+        "US10Y"
+      ],
+      [
+        "Inheritance",
+        "Matthew Moore"
+      ],
+      [
+        "Jason Anderson",
+        "USD"
+      ],
+      [
+        "Record 55",
+        "Shawn Mckay"
+      ],
+      [
+        "Joseph Brennan",
+        "Singapore"
+      ],
+      [
+        "Joseph Zuniga",
+        "US 10-Year Government Bond (US10Y)"
+      ],
+      [
+        "Inheritance",
+        "John Leblanc"
+      ],
+      [
+        "Janet Williams",
+        "Singapore"
+      ],
+      [
+        "Andrea Williams",
+        "Conservative Risk Profile"
+      ],
+      [
+        "Brenda Hurst",
+        "SPY"
+      ],
+      [
+        "GLD",
+        "Wendy Rice"
+      ],
+      [
+        "Blackstone RE",
+        "Robert Johnson"
+      ],
+      [
+        "India",
+        "Kenneth Fowler"
+      ],
+      [
+        "Affluent Client",
+        "Melanie Munoz"
+      ],
+      [
+        "Collin Jordan",
+        "Switzerland"
+      ],
+      [
+        "Chapman",
+        "France"
+      ],
+      [
+        "Bridgewater Macro",
+        "GLD"
+      ],
+      [
+        "IGLS.L",
+        "Jeremy Roberts"
+      ],
+      [
+        "James Collins",
+        "MSFT"
+      ],
+      [
+        "Jason Anderson",
+        "Market Value"
+      ],
+      [
+        "Bridgewater Macro",
+        "Megan Parsons"
+      ],
+      [
+        "James West",
+        "UAE"
+      ],
+      [
+        "AED",
+        "Client C0027"
+      ],
+      [
+        "Germany",
+        "James West"
+      ],
+      [
+        "Joseph Brennan",
+        "US10Y"
+      ],
+      [
+        "Rodney Lewis",
+        "US Holdings"
+      ],
+      [
+        "GBP",
+        "James West"
+      ],
+      [
+        "Entrepreneurship",
+        "Jill Rhodes"
+      ],
+      [
+        "Joshua Walker",
+        "US Person"
+      ],
+      [
+        "Inheritance",
+        "Robin Ellis"
+      ],
+      [
+        "Robert Ramirez",
+        "UK"
+      ],
+      [
+        "Bridgewater Macro",
+        "Vincent White"
+      ],
+      [
+        "Cynthia Diaz",
+        "TM"
+      ],
+      [
+        "UK",
+        "Yvette Huff"
+      ],
+      [
+        "Affluent Client",
+        "Christopher Davis"
+      ],
+      [
+        "NESN.SW",
+        "Tracey Garcia"
+      ],
+      [
+        "TM",
+        "Thomas Pierce"
+      ],
+      [
+        "Investment Income",
+        "Patricia Miller"
+      ],
+      [
+        "Andrew Hickman",
+        "France"
+      ],
+      [
+        "Bridgewater Macro",
+        "Susan Rogers"
+      ],
+      [
+        "C0033",
+        "Megan Parsons"
+      ],
+      [
+        "Anna Baker",
+        "Low Risk Profile"
+      ],
+      [
+        "Jeremy Roberts",
+        "MSFT"
+      ],
+      [
+        "Business Sale",
+        "Whitney Hicks"
+      ],
+      [
+        "Kathryn Ryan",
+        "Singapore"
+      ],
+      [
+        "Craig Ramirez",
+        "IGLS.L"
+      ],
+      [
+        "Chapman",
+        "Home Purchase Goals"
+      ],
+      [
+        "Melanie Munoz",
+        "SIE.DE"
+      ],
+      [
+        "CHF",
+        "John Caldwell"
+      ],
+      [
+        "Diana Foster",
+        "Switzerland"
+      ],
+      [
+        "Education",
+        "John Caldwell"
+      ],
+      [
+        "Megan Parsons",
+        "Switzerland"
+      ],
+      [
+        "Laura Henderson",
+        "MSFT"
+      ],
+      [
+        "John Leblanc",
+        "Switzerland"
+      ],
+      [
+        "Inheritance",
+        "Janet Williams"
+      ],
+      [
+        "Bridgewater Macro",
+        "Leslie Adams"
+      ],
+      [
+        "Australia",
+        "Robin Ellis"
+      ],
+      [
+        "C0035",
+        "Leslie Adams"
+      ],
+      [
+        "6-Year Horizon",
+        "Andrea Williams"
+      ],
+      [
+        "C0034",
+        "Jeremy Johnson"
+      ],
+      [
+        "Aaron Nguyen",
+        "Blackstone RE"
+      ],
+      [
+        "Amber Blair",
+        "TSLA"
+      ],
+      [
+        "Amber Blair",
+        "UBS Alt"
+      ],
+      [
+        "Debra Gardner",
+        "GLD"
+      ],
+      [
+        "Jessica Nunez",
+        "VUKE.L"
+      ],
+      [
+        "IGLS.L",
+        "Jeremy Johnson"
+      ],
+      [
+        "CHF",
+        "Rita Harrell"
+      ],
+      [
+        "Kathryn Ryan",
+        "Record 61"
+      ],
+      [
+        "18-Year Horizon",
+        "Yvette Huff"
+      ],
+      [
+        "GLD",
+        "Jason Anderson"
+      ],
+      [
+        "IGLS.L",
+        "Michele Jones"
+      ],
+      [
+        "Christopher Williams",
+        "US"
+      ],
+      [
+        "AGG",
+        "Thomas Pierce"
+      ],
+      [
+        "Blackstone RE",
+        "Michelle Wright"
+      ],
+      [
+        "George Daniel",
+        "INFY.NS"
+      ],
+      [
+        "Business Succession Goals",
+        "Chad Welch"
+      ],
+      [
+        "Christopher Williams",
+        "Singapore"
+      ],
+      [
+        "Susan Rogers",
+        "US10Y"
+      ],
+      [
+        "Business Succession",
+        "Jeffery Wagner"
+      ],
+      [
+        "France",
+        "James Collins"
+      ],
+      [
+        "HNW (High Net Worth) client segment",
+        "Robert Ramirez"
+      ],
+      [
+        "Kenneth Fowler",
+        "Singapore"
+      ],
+      [
+        "GLD",
+        "Selena Duncan"
+      ],
+      [
+        "Blackstone RE",
+        "Kyle Brown"
+      ],
+      [
+        "Chad Hodges",
+        "India"
+      ],
+      [
+        "Anthony Gonzalez",
+        "BND"
+      ],
+      [
+        "Christopher Hall",
+        "Inheritance"
+      ],
+      [
+        "Lindsey Lee",
+        "UHNW"
+      ],
+      [
+        "C0069",
+        "Chad Hodges"
+      ],
+      [
+        "NVDA",
+        "Richard Morgan"
+      ],
+      [
+        "Jason Hahn",
+        "UAE"
+      ],
+      [
+        "High Net Worth Client",
+        "Joseph Brennan"
+      ],
+      [
+        "Client",
+        "France"
+      ],
+      [
+        "Tracey Garcia",
+        "VUKE.L"
+      ],
+      [
+        "Business Succession",
+        "Jessica Nunez"
+      ],
+      [
+        "HNW Client",
+        "Susan Rogers"
+      ],
+      [
+        "Blackstone RE",
+        "Michelle Ray"
+      ],
+      [
+        "C0070",
+        "Katie Anderson"
+      ],
+      [
+        "Kenneth Fowler",
+        "UK"
+      ],
+      [
+        "Joseph Wright",
+        "Real Estate"
+      ],
+      [
+        "AAPL",
+        "Craig Ramirez"
+      ],
+      [
+        "Bridgewater Macro",
+        "IGLS.L"
+      ],
+      [
+        "AAPL",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Client C0003",
+        "Jill Rhodes"
+      ],
+      [
+        "Nancy Edwards",
+        "Switzerland"
+      ],
+      [
+        "AAPL",
+        "Richard Morgan"
+      ],
+      [
+        "France",
+        "Natasha Decker"
+      ],
+      [
+        "Rita Harrell",
+        "UAE"
+      ],
+      [
+        "Canada",
+        "Susan Rogers"
+      ],
+      [
+        "Bryan James",
+        "C0048"
+      ],
+      [
+        "C0033",
+        "Client Profile: C0033"
+      ],
+      [
+        "Michelle Ray",
+        "TSLA"
+      ],
+      [
+        "Robin Ellis",
+        "UK"
+      ],
+      [
+        "Scott Callahan",
+        "Switzerland"
+      ],
+      [
+        "AGG",
+        "Maria Montgomery"
+      ],
+      [
+        "C0052",
+        "Erin Herrera"
+      ],
+      [
+        "AGG",
+        "Chelsea Hernandez"
+      ],
+      [
+        "Bridgewater Macro",
+        "Jessica Nunez"
+      ],
+      [
+        "Germany",
+        "Robert Ramirez"
+      ],
+      [
+        "US10Y",
+        "Veronica Bowman"
+      ],
+      [
+        "Lindsay Blair",
+        "SIE.DE"
+      ],
+      [
+        "HNW Client",
+        "Leslie Adams"
+      ],
+      [
+        "Chad Hodges",
+        "Professional Services"
+      ],
+      [
+        "AGG",
+        "Jeremy Whitehead"
+      ],
+      [
+        "Kenneth Fowler",
+        "Retirement Planning"
+      ],
+      [
+        "IAU",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "James Collins",
+        "US10Y"
+      ],
+      [
+        "Amanda Dudley",
+        "Bridgewater Macro"
+      ],
+      [
+        "Germany",
+        "Joseph Davidson"
+      ],
+      [
+        "Blackstone RE",
+        "Kimberly Moreno"
+      ],
+      [
+        "Entrepreneurship",
+        "Katie Anderson"
+      ],
+      [
+        "Janet Williams",
+        "NESN.SW"
+      ],
+      [
+        "George Daniel",
+        "VUKE.L"
+      ],
+      [
+        "Chapman",
+        "TSLA"
+      ],
+      [
+        "Craig Ramirez",
+        "Singapore"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Liquidity Event Planning"
+      ],
+      [
+        "Michelle Ray",
+        "SPY"
+      ],
+      [
+        "GLD",
+        "Megan Parsons"
+      ],
+      [
+        "Blackstone RE",
+        "Chelsea Hernandez"
+      ],
+      [
+        "Client",
+        "US10Y"
+      ],
+      [
+        "Reginald Robinson",
+        "VUKE.L"
+      ],
+      [
+        "Selena Duncan",
+        "UBS Alt"
+      ],
+      [
+        "Affluent",
+        "Alexander Le"
+      ],
+      [
+        "Global Holdings",
+        "Rodney Lewis"
+      ],
+      [
+        "Amanda Dudley",
+        "C0017"
+      ],
+      [
+        "Affluent",
+        "Daniel Graham"
+      ],
+      [
+        "Joseph Brennan",
+        "VUKE.L"
+      ],
+      [
+        "Maria Montgomery",
+        "SPY"
+      ],
+      [
+        "David Walker",
+        "NESN.SW"
+      ],
+      [
+        "Joseph Brennan",
+        "Real Estate"
+      ],
+      [
+        "Kathryn Ryan",
+        "TM"
+      ],
+      [
+        "France",
+        "Michelle Wright"
+      ],
+      [
+        "Erin Herrera",
+        "UAE"
+      ],
+      [
+        "Lindsay Blair",
+        "UBS Alt"
+      ],
+      [
+        "Affluent client segment",
+        "Scott Callahan"
+      ],
+      [
+        "Frank Gray",
+        "NESN.SW"
+      ],
+      [
+        "Bridgewater Macro",
+        "Selena Duncan"
+      ],
+      [
+        "Angela Cohen",
+        "GLD"
+      ],
+      [
+        "John Caldwell",
+        "TSLA"
+      ],
+      [
+        "Chelsea Hernandez",
+        "IGLS.L"
+      ],
+      [
+        "HNW",
+        "Shawn Mckay"
+      ],
+      [
+        "Angela Cohen",
+        "Home Purchase Goal"
+      ],
+      [
+        "GLD",
+        "Veronica Bowman"
+      ],
+      [
+        "Affluent",
+        "Danielle Johnson"
+      ],
+      [
+        "Andrea Williams",
+        "MSFT"
+      ],
+      [
+        "Anna Baker",
+        "NVDA"
+      ],
+      [
+        "AGG",
+        "Thomas Mueller"
+      ],
+      [
+        "C0066",
+        "Kyle Brown"
+      ],
+      [
+        "Andrew Hickman",
+        "Inheritance"
+      ],
+      [
+        "Singapore",
+        "Thomas Pierce"
+      ],
+      [
+        "Linda Wolfe",
+        "Philanthropy Goals"
+      ],
+      [
+        "HNW Client",
+        "Jessica Nunez"
+      ],
+      [
+        "Entrepreneurship",
+        "Jason Hahn"
+      ],
+      [
+        "GLD",
+        "Patricia Miller"
+      ],
+      [
+        "Amanda Dudley",
+        "NVDA"
+      ],
+      [
+        "Australia",
+        "Jerry Robinson"
+      ],
+      [
+        "David Walker",
+        "EEM"
+      ],
+      [
+        "EEM",
+        "Jeffery Wagner"
+      ],
+      [
+        "Christopher Hall",
+        "Switzerland"
+      ],
+      [
+        "Joseph Brennan",
+        "Retirement Goals"
+      ],
+      [
+        "IAU",
+        "Kimberly Moreno"
+      ],
+      [
+        "AAPL",
+        "Frank Gray"
+      ],
+      [
+        "Anna Baker",
+        "High Risk Capacity"
+      ],
+      [
+        "HNW",
+        "Joshua Walker"
+      ],
+      [
+        "Bridgewater Macro",
+        "Lindsay Blair"
+      ],
+      [
+        "Jason Anderson",
+        "Wealth Preservation"
+      ],
+      [
+        "Daniel Burton",
+        "NVDA"
+      ],
+      [
+        "Australia",
+        "Daniel Graham"
+      ],
+      [
+        "Australia",
+        "Wanda Santos"
+      ],
+      [
+        "Client",
+        "UK Financial Regulations"
+      ],
+      [
+        "Andrea Williams",
+        "Client A"
+      ],
+      [
+        "Entrepreneurship",
+        "Joseph Davidson"
+      ],
+      [
+        "Client C0001",
+        "Danielle Johnson"
+      ],
+      [
+        "Christopher Tucker",
+        "HNW"
+      ],
+      [
+        "Rodney Lewis",
+        "SGD"
+      ],
+      [
+        "Germany",
+        "Leslie Adams"
+      ],
+      [
+        "GLD",
+        "IAU"
+      ],
+      [
+        "Risk Profile",
+        "Susan Rogers"
+      ],
+      [
+        "C0068",
+        "Christopher Tucker"
+      ],
+      [
+        "Blackstone RE",
+        "Wanda Santos"
+      ],
+      [
+        "Lindsey Lee",
+        "USD"
+      ],
+      [
+        "Liquid Assets Planning",
+        "Rita Harrell"
+      ],
+      [
+        "Record 58",
+        "Rita Harrell"
+      ],
+      [
+        "Client",
+        "IAU"
+      ],
+      [
+        "BND",
+        "Patricia Miller"
+      ],
+      [
+        "Mitchell Clark",
+        "Siemens (SIE.DE)"
+      ],
+      [
+        "Philanthropy",
+        "Scott Callahan"
+      ],
+      [
+        "Australia",
+        "Reginald Robinson"
+      ],
+      [
+        "Tasha Valencia",
+        "UK"
+      ],
+      [
+        "Anthony Gonzalez",
+        "NVDA"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "TSLA"
+      ],
+      [
+        "Entrepreneurship",
+        "Lindsay Blair"
+      ],
+      [
+        "BND",
+        "Nicholas Arnold"
+      ],
+      [
+        "Christopher Williams",
+        "VUKE.L"
+      ],
+      [
+        "Affluent Segment",
+        "Janet Williams"
+      ],
+      [
+        "Kenneth Fowler",
+        "Real Estate"
+      ]
+    ],
+    "count": 601,
+    "create_time": 1757790753,
+    "update_time": 1757790753,
+    "_id": "doc-18f5a91f7423417786a783364ad23668"
+  }
+}
