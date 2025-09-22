@@ -1,0 +1,27 @@
+[2025-09-22 20:36:28] email_logs
+[]
+
+[2025-09-22 20:38:58] email_logs
+[]
+
+[2025-09-22 20:40:03] email_logs
+[]
+
+[2025-09-22 20:42:06] email_logs
+[]
+
+[2025-09-22 20:47:13] email_logs
+[]
+
+[2025-09-22 20:57:01] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Kumnegermarkos", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Ken", "status": "sent"}, {"to": "kumneger496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Kumneger", "status": "sent"}]
+
+[2025-09-22 21:06:32] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Markos Kumnegerm", "status": "sent"}]
+
+[2025-09-22 21:12:41] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Markos Kumneg", "status": "sent"}]
+
+[2025-09-22 21:24:51] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+

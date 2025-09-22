@@ -50,7 +50,7 @@
 #         print(f"{it['date']} | {it['source']} | {it['title']} | {it['url']}")
  
 
-from email_test import get_ticker_news, get_news_for_symbols
+from news_agent.email_test import get_ticker_news, get_news_for_symbols
 batch = get_news_for_symbols(["INFY.NS","TM","SPY","AAPL","TSLA", "BND", "AGG", "GLD", "EEM", "IAU", "SIE.DE", "IGLS.L", "MSFT"], limit=1)
 print(batch)  
  

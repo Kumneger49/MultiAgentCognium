@@ -1,10 +1,11 @@
-## Cognium RAG Agents (RAG UI + News Agent + Orchestrator)
+## Cognium RAG Agents (CLI-only: News → Scoring → RAG → Email)
 
-Simple end-to-end demo showing:
+End-to-end command-line workflow:
 
-- RAG UI to upload PDFs and ask questions (Streamlit)
-- A news agent that fetches recent news for tickers/companies (LangChain + Tavily)
-- An orchestrator that combines the two: pulls news, asks the RAG over your client data, and writes a final summary
+- Fetch recent news per ticker/index (Yahoo Finance RSS, no API key)
+- Score each news item (relevance and sentiment) with OpenAI via LangChain
+- Run a RAG pipeline against a client-portfolio PDF to produce per-client notes grouped by ticker
+- Email managers consolidated updates (one per manager) via Gmail API
 
 ### Repo layout
 
@@ -24,7 +25,7 @@ Simple end-to-end demo showing:
 
 - Python 3.11.9 or newer
 - An OpenAI API key (`OPENAI_API_KEY`)
-- A Tavily API key (`TAVILY_API_KEY`) for web search in `news_agent`
+- For email sending: Google API OAuth credentials (`email_sending_agent/credentials.json`)
 
 ---
 
@@ -39,109 +40,83 @@ python -V   # should be 3.11.9 or newer
 python -m pip install --upgrade pip setuptools wheel
 python -m pip install -r cognium_codebase/requirements.txt
 
-# News agent + LangChain deps
-python -m pip install "langchain>=0.2" "langchain-openai>=0.1" "langchain-community>=0.2" tavily-python python-dotenv
+# Scoring + email deps
+python -m pip install "langchain-openai>=0.1"
+python -m pip install google-auth google-auth-oauthlib google-api-python-client
 ```
 
 Create a `.env` file at the repo root (and/or export in your shell):
 
 ```bash
 OPENAI_API_KEY=your_openai_key
-TAVILY_API_KEY=your_tavily_key
 ```
 
 These env vars are read by the components via `python-dotenv`.
 
 ---
 
-### Option A: Run the Streamlit RAG UI
+### Component overview
 
+- `cognium_codebase/` — RAGAnything demo (async backend)
+  - `main.py` — async ingest/query function used by the orchestrator
+  - `requirements.txt` — dependencies for parsing and RAG
+  - `data/` — sample PDFs (e.g., `private_bank_clients_100.pdf`)
+  - `rag_storage/` — working store (chunks/entities/relations/cache)
+  - `output/` — per-document parsed outputs
+- `news_agent/` — Yahoo Finance RSS fetcher
+  - `main.py` — returns a dict: `{symbol: [ {date, publisher, title, link, summary}, ... ] }`
+  - Symbols list is inside `main.py`
+- `orchestrator/` — CLI pipeline
+  - `main.py` — loads previously scored news if present, else fetches+scores; then calls RAG and logs; finally sends consolidated manager emails
+  - `prety_news.txt` — append-only log; contains `scored_news` JSON blocks
+  - `output.txt` — append-only log; contains RAG summaries
+  - `email_output.txt` — append-only log; contains email dispatch logs
+- `email_sending_agent/` — Gmail sender and agent wrapper
+  - `main.py` — low-level Gmail send (`gmail_send_message(to, subject, body)`)
+  - `agent.py` — creates ONE polished, consolidated email per manager from RAG text and sends it
+  - `credentials.json` — place your Google OAuth client file here (not in repo)
+  - `token.json` — created on first OAuth run
+
+### Typical workflows (CLI)
+
+1) First end-to-end run (fetch → score → RAG)
 ```bash
-cd cognium_codebase
-python -m streamlit run streamlit_app.py
+export OPENAI_API_KEY=your_openai_key
+python -m orchestrator.main | cat
 ```
+- If `orchestrator/prety_news.txt` has no `scored_news` yet, the pipeline:
+  - fetches news (Yahoo RSS) for the symbols in `news_agent/main.py`
+  - scores each item with relevance (0..1) and sentiment (−1..1)
+  - appends a `scored_news` JSON block to `orchestrator/prety_news.txt`
+  - builds a precise prompt and calls the RAG backend over your PDF
+  - appends the RAG summary to `orchestrator/output.txt`
+  - generates ONE consolidated email per manager and sends via Gmail API
+  - appends email logs to `orchestrator/email_output.txt` and `orchestrator/output.txt`
 
-Then open the URL shown in terminal. In the sidebar you can:
+2) Re-run only the RAG step with cached news (no refetch, no rescore)
+```bash
+python -m orchestrator.main | cat
+```
+- The orchestrator will auto-load the latest `scored_news` block from `orchestrator/prety_news.txt` and skip the news fetch/score phase.
 
-- Upload a PDF (or use the sample files in `cognium_codebase/data/`)
-- Ingest and build the local knowledge store
-- Ask questions; answers are generated with hybrid retrieval
+3) Refresh news symbols or volume
+- Edit the symbols list in `news_agent/main.py`
+- Optionally change the `limit` passed to `get_news_for_symbols`
+- Re-run step (1)
 
-Notes:
-
-- Defaults: text model `gpt-4o-mini`, VLM `gpt-4o-mini`, embeddings `text-embedding-3-large`
-- Stores output under `cognium_codebase/output/` and working data under `cognium_codebase/rag_storage/`
+4) Configure Gmail sending (first time only)
+- Create a Google Cloud OAuth client (Desktop App) and download `credentials.json`
+- Place `credentials.json` in `email_sending_agent/`
+- On first end-to-end run, a browser will open to consent; this creates `email_sending_agent/token.json`
+- The sender must match the authorized account inside `email_sending_agent/main.py` (`message["From"]`)
 
 ---
 
-### Option B: Call the RAG backend programmatically
+### Outputs
 
-Example (from repo root):
-
-```bash
-python - <<'PY'
-import asyncio
-from cognium_codebase.main import main as rag_main
-
-query = "Summarize the document"
-file_path = "cognium_codebase/data/private_bank_clients_100.pdf"
-
-print(asyncio.run(rag_main(query=query, file_path=file_path)))
-PY
-```
-
----
-
-### Run the News Agent
-
-The news agent reads `cognium_codebase/client_summary.txt`, identifies relevant tickers/companies, and fetches recent news using Tavily.
-
-```bash
-cd news_agent
-python main.py | cat
-```
-
-Output is a structured JSON-like string printed to stdout.
-
----
-
-### Run the Orchestrator (News → RAG → Final Summary)
-
-Open `orchestrator/main.py` and update the hard-coded PDF path to a path that exists on your machine. Change this line to a relative path pointing to the bundled sample file:
-
-```python
-rag_final_answer = asyncio.run(
-    ragmain(rag_prompt_template,
-            file_path = "./cognium_codebase/data/private_bank_clients_100.pdf")
-)
-```
-
-Then run:
-
-```bash
-cd orchestrator
-python main.py | cat
-```
-
-This will:
-
-- Run the news agent to get recent events
-- Ask the RAG over your client PDF data to produce an investor-friendly summary
-- Append the final summary to `orchestrator/output.txt` and print it to the console
-
----
-
-### Orchestrator Frontend (Streamlit)
-
-Run a minimal UI at the repo root to fetch news and generate the RAG summary in one click:
-
-```bash
-python -m streamlit run orchestrator_app.py
-```
-
-In the sidebar you can set the PDF path (defaults to `./cognium_codebase/data/private_bank_clients_100.pdf`) and whether to append results to `orchestrator/output.txt`. Click "Get News + Generate Summary" to see step-by-step progress, the raw news payload, and the final summary.
-
----
+- `orchestrator/prety_news.txt` — contains timestamped `scored_news` JSON blocks
+- `orchestrator/output.txt` — contains timestamped RAG summaries
+- `orchestrator/email_output.txt` — contains timestamped email dispatch logs
 
 ### Data, storage, and outputs
 
@@ -164,9 +139,17 @@ In the sidebar you can set the PDF path (defaults to `./cognium_codebase/data/pr
   python -m pip install --upgrade pip setuptools wheel
   python -m pip install --upgrade --force-reinstall numpy pandas
   ```
-- If parsing fails for a PDF in the UI, try a different parse method in the sidebar (e.g., `ocr` or `auto`) and ensure `cognium_codebase/data`, `cognium_codebase/rag_storage`, and `cognium_codebase/output` are writable.
-- News agent requires `TAVILY_API_KEY`. If missing, search will fail.
-- Orchestrator uses a file path for the RAG input PDF; update it as shown above.
+- If parsing fails on a PDF, set a different parser via env:
+  ```bash
+  export RAG_PARSER=mineru   # default auto-detects docling else falls back to mineru
+  ```
+- Ensure `cognium_codebase/data`, `cognium_codebase/rag_storage`, and `cognium_codebase/output` are writable.
+- If you see only raw news printed and no scores, verify `OPENAI_API_KEY` and `langchain-openai` are installed.
+- Yahoo RSS is public but can rate-limit; re-run later or reduce symbol count if needed.
+- Gmail sending:
+  - Ensure `email_sending_agent/credentials.json` exists; delete `token.json` to re-consent if needed
+  - Subjects are auto-branded with `[Cognium]` and bodies are formatted with client bullets
+  - The agent consolidates to one email per manager; if you see duplicates, clear logs and re-run
 
 ---
 

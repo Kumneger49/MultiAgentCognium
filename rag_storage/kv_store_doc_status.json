@@ -121,7 +121,7 @@
     "content_summary": "Record 1\n\nclient_id: C0001 first_name: Danielle last_name: Johnson dob: 12/28/1959 age: 65 nationality: US residency_country: Singapore segment: Affluent kyc_source_of_wealth: Inheritance kyc_pep: False kyc_aml_risk_score: 42 fatca_status: US Person ...",
     "content_length": 163741,
     "created_at": "2025-09-13T19:04:37.412889+00:00",
-    "updated_at": "2025-09-22T15:00:11+00:00",
+    "updated_at": "2025-09-22T21:23:50+00:00",
     "file_path": "private_bank_clients_100.pdf",
     "track_id": "insert_20250913_230437_4daf880a",
     "metadata": {

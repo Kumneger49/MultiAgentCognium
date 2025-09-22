@@ -64,7 +64,7 @@ def get_news_for_symbols(symbols: list, limit: int = 5) -> dict:
 
  # Example (manual print run):
 def main():
-    batch = get_news_for_symbols(["INFY.NS","TM","SPY","AAPL","TSLA","BND","AGG","GLD","EEM","IAU","SIE.DE","IGLS.L","MSFT"], limit=2)
+    batch = get_news_for_symbols(["INFY.NS","TM","SPY","AAPL","TSLA","BND","AGG","GLD","EEM","IAU","SIE.DE","IGLS.L","MSFT"], limit=3)
     return batch
 
 if __name__ == "__main__":

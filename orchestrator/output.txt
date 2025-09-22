@@ -2341,3 +2341,1072 @@ Best,
 [Your Name]  
 
 
+[2025-09-22 20:36:28] rag_summary
+### Step 1: Filter News
+Based on the relevance score and sentiment score, the relevant news items are:
+
+- **Ticker: INFY.NS**
+    - **Title:** Indian Tech Stocks Decline on US Changes to H-1B Visa Program
+    - **Summary:** Indian tech stocks declined on Monday as US President Donald Trump’s hefty fee for new H-1B visas may lead to operational difficulties for outsourcing giants.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** -0.7 (Adverse)
+    
+- **Ticker: TSLA**
+    - **Title:** Tesla Stock Rises. Why Record Highs Are In Sight.
+    - **Summary:** Coming into Monday trading, Tesla shares were up 23% over the past nine trading sessions.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** 0.8 (Favorable)
+
+- **Ticker: IAU**
+    - **Title:** Why Gold ETFs Should Be in Every Portfolio
+    - **Summary:** Fed cuts rates, dollar weakens, and geopolitical risks rise, driving record gold gains and fueling demand for ETFs like GLD and IAU.
+    - **Relevance Score:** 0.8
+    - **Sentiment Score:** 0.6 (Favorable)
+
+### Step 2: Ticker-Level Summary
+- **INFY.NS:** The recent changes to the H-1B visa program introduced by President Trump have resulted in a decline in Indian tech stocks, significantly impacting Infosys negatively. The adverse sentiment indicates potential operational difficulties for the company in the near future.
+
+- **TSLA:** Tesla's stock has experienced a significant rise, up 23% over the last nine trading sessions, reflecting strong market confidence and positive growth expectations. This favorable sentiment suggests continued bullish momentum for Tesla.
+
+- **IAU:** With the anticipated rate cuts from the Federal Reserve and rising geopolitical risks, gold ETFs like IAU are seeing increased demand, highlighting favorable market conditions for gold investments.
+
+### Step 3: Client-Level Notes
+#### Affected Clients for INFY.NS
+1. **Client ID:** 2 - Joshua Walker
+    - **Date:** 2025-09-22
+    - **Impact:** The decline in Indian tech stocks due to the new H-1B visa fees may negatively impact your holding in Infosys. This operational issue could affect future returns.
+    - **Profile:** Your balanced risk capacity and low risk tolerance align with moderate liquidity needs; you aim for liquidity event planning in four years.
+    - **Suggested Action:** SELL or REDUCE; the adverse sentiment suggests reevaluation of your position amidst the ongoing challenges.
+
+#### Affected Clients for TSLA
+1. **Client ID:** 30 - Jeremy Roberts
+    - **Date:** 2025-09-22
+    - **Impact:** Tesla's stock performance indicates strong market confidence, suggesting potential for further capital appreciation, which aligns with your growth-oriented strategy.
+    - **Profile:** Your high-risk capacity complements your medium risk tolerance, with your primary goal centered on growth.
+    - **Suggested Action:** BUY; the favorable sentiment indicates an opportunity to increase your holdings in a strong growth stock.
+
+#### Affected Clients for IAU
+1. **Client ID:** 41 - Christopher Hall
+    - **Date:** 2025-09-22
+    - **Impact:** The favorable market conditions for gold, driven by anticipated Fed rate cuts, present a promising opportunity for your investments in gold ETFs.
+    - **Profile:** As a high-risk capacity investor aiming for wealth preservation, your strategy can benefit from heightened demand for safe-haven assets like gold.
+    - **Suggested Action:** BUY; the favorable sentiment around gold investment aligns well with your long-term strategies.
+
+### Step 4: Manager Grouping
+- **Manager 1 (Email: kumnegermarkos49@gmail.com):**
+    - Clients: Joshua Walker (ID: 2)
+    
+- **Manager 2 (Email: ken496235@gmail.com):**
+    - Clients: Jeremy Roberts (ID: 30)
+    
+- **Manager 3 (Email: kumneger496235@gmail.com):**
+    - Clients: Christopher Hall (ID: 41)
+
+### Step 5: Manager Email Drafts
+
+#### Manager 1: kumnegermarkos49@gmail.com
+**Subject:** Client Update on Infosys Holdings: Joshua Walker
+
+Dear Kumnegermarkos,
+
+Here are the updates for your affected client, Joshua Walker, regarding the recent market news impacting Infosys.
+
+- **Client Name:** Joshua Walker (ID: 2)
+- **Impact of News:** The decline in Indian tech stocks due to new H-1B visa fees may negatively impact your holding in Infosys, creating potential operational difficulties for the company.
+- **Next Steps:** Given the adverse sentiment, I recommend selling or reducing your position in Infosys to mitigate potential losses.
+
+Please let me know if you need further insights or follow-up discussions.
+
+Best regards.
+
+#### Manager 2: ken496235@gmail.com
+**Subject:** Update on Recent Stock Performance: Jeremy Roberts
+
+Dear Ken,
+
+I’m providing an update regarding Jeremy Roberts and his exposure to Tesla amidst recent market developments.
+
+- **Client Name:** Jeremy Roberts (ID: 30)
+- **Impact of News:** Tesla's stock has risen significantly, reflecting strong market confidence. This indicates continued growth potential which aligns with your investment strategy.
+- **Next Steps:** Given the favorable sentiment, I suggest buying additional shares to leverage Tesla’s bullish momentum.
+
+If you would like to discuss this in more detail, please feel free to reach out.
+
+Best regards.
+
+#### Manager 3: kumneger496235@gmail.com
+**Subject:** Gold Market Update: Christopher Hall
+
+Dear Kumneger,
+
+Here’s the update for Christopher Hall regarding market conditions for gold.
+
+- **Client Name:** Christopher Hall (ID: 41)
+- **Impact of News:** Increasing demand for gold and potential Fed rate cuts present favorable conditions that could positively impact your investments in gold ETFs.
+- **Next Steps:** Given the favorable sentiment surrounding gold investments, I recommend a buy strategy to increase holdings in this asset class.
+
+Please let me know if you would like to discuss further.
+
+Best regards.
+
+[2025-09-22 20:36:28] email_logs
+[]
+
+[2025-09-22 20:38:58] rag_summary
+### Step 1: Filter News
+Based on the relevance score and sentiment score, the relevant news items are:
+
+- **Ticker: INFY.NS**
+    - **Title:** Indian Tech Stocks Decline on US Changes to H-1B Visa Program
+    - **Summary:** Indian tech stocks declined on Monday as US President Donald Trump’s hefty fee for new H-1B visas may lead to operational difficulties for outsourcing giants.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** -0.7 (Adverse)
+    
+- **Ticker: TSLA**
+    - **Title:** Tesla Stock Rises. Why Record Highs Are In Sight.
+    - **Summary:** Coming into Monday trading, Tesla shares were up 23% over the past nine trading sessions.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** 0.8 (Favorable)
+
+- **Ticker: IAU**
+    - **Title:** Why Gold ETFs Should Be in Every Portfolio
+    - **Summary:** Fed cuts rates, dollar weakens, and geopolitical risks rise, driving record gold gains and fueling demand for ETFs like GLD and IAU.
+    - **Relevance Score:** 0.8
+    - **Sentiment Score:** 0.6 (Favorable)
+
+### Step 2: Ticker-Level Summary
+- **INFY.NS:** The recent changes to the H-1B visa program introduced by President Trump have resulted in a decline in Indian tech stocks, significantly impacting Infosys negatively. The adverse sentiment indicates potential operational difficulties for the company in the near future.
+
+- **TSLA:** Tesla's stock has experienced a significant rise, up 23% over the last nine trading sessions, reflecting strong market confidence and positive growth expectations. This favorable sentiment suggests continued bullish momentum for Tesla.
+
+- **IAU:** With the anticipated rate cuts from the Federal Reserve and rising geopolitical risks, gold ETFs like IAU are seeing increased demand, highlighting favorable market conditions for gold investments.
+
+### Step 3: Client-Level Notes
+#### Affected Clients for INFY.NS
+1. **Client ID:** 2 - Joshua Walker
+    - **Date:** 2025-09-22
+    - **Impact:** The decline in Indian tech stocks due to the new H-1B visa fees may negatively impact your holding in Infosys. This operational issue could affect future returns.
+    - **Profile:** Your balanced risk capacity and low risk tolerance align with moderate liquidity needs; you aim for liquidity event planning in four years.
+    - **Suggested Action:** SELL or REDUCE; the adverse sentiment suggests reevaluation of your position amidst the ongoing challenges.
+
+#### Affected Clients for TSLA
+1. **Client ID:** 30 - Jeremy Roberts
+    - **Date:** 2025-09-22
+    - **Impact:** Tesla's stock performance indicates strong market confidence, suggesting potential for further capital appreciation, which aligns with your growth-oriented strategy.
+    - **Profile:** Your high-risk capacity complements your medium risk tolerance, with your primary goal centered on growth.
+    - **Suggested Action:** BUY; the favorable sentiment indicates an opportunity to increase your holdings in a strong growth stock.
+
+#### Affected Clients for IAU
+1. **Client ID:** 41 - Christopher Hall
+    - **Date:** 2025-09-22
+    - **Impact:** The favorable market conditions for gold, driven by anticipated Fed rate cuts, present a promising opportunity for your investments in gold ETFs.
+    - **Profile:** As a high-risk capacity investor aiming for wealth preservation, your strategy can benefit from heightened demand for safe-haven assets like gold.
+    - **Suggested Action:** BUY; the favorable sentiment around gold investment aligns well with your long-term strategies.
+
+### Step 4: Manager Grouping
+- **Manager 1 (Email: kumnegermarkos49@gmail.com):**
+    - Clients: Joshua Walker (ID: 2)
+    
+- **Manager 2 (Email: ken496235@gmail.com):**
+    - Clients: Jeremy Roberts (ID: 30)
+    
+- **Manager 3 (Email: kumneger496235@gmail.com):**
+    - Clients: Christopher Hall (ID: 41)
+
+### Step 5: Manager Email Drafts
+
+#### Manager 1: kumnegermarkos49@gmail.com
+**Subject:** Client Update on Infosys Holdings: Joshua Walker
+
+Dear Kumnegermarkos,
+
+Here are the updates for your affected client, Joshua Walker, regarding the recent market news impacting Infosys.
+
+- **Client Name:** Joshua Walker (ID: 2)
+- **Impact of News:** The decline in Indian tech stocks due to new H-1B visa fees may negatively impact your holding in Infosys, creating potential operational difficulties for the company.
+- **Next Steps:** Given the adverse sentiment, I recommend selling or reducing your position in Infosys to mitigate potential losses.
+
+Please let me know if you need further insights or follow-up discussions.
+
+Best regards.
+
+#### Manager 2: ken496235@gmail.com
+**Subject:** Update on Recent Stock Performance: Jeremy Roberts
+
+Dear Ken,
+
+I’m providing an update regarding Jeremy Roberts and his exposure to Tesla amidst recent market developments.
+
+- **Client Name:** Jeremy Roberts (ID: 30)
+- **Impact of News:** Tesla's stock has risen significantly, reflecting strong market confidence. This indicates continued growth potential which aligns with your investment strategy.
+- **Next Steps:** Given the favorable sentiment, I suggest buying additional shares to leverage Tesla’s bullish momentum.
+
+If you would like to discuss this in more detail, please feel free to reach out.
+
+Best regards.
+
+#### Manager 3: kumneger496235@gmail.com
+**Subject:** Gold Market Update: Christopher Hall
+
+Dear Kumneger,
+
+Here’s the update for Christopher Hall regarding market conditions for gold.
+
+- **Client Name:** Christopher Hall (ID: 41)
+- **Impact of News:** Increasing demand for gold and potential Fed rate cuts present favorable conditions that could positively impact your investments in gold ETFs.
+- **Next Steps:** Given the favorable sentiment surrounding gold investments, I recommend a buy strategy to increase holdings in this asset class.
+
+Please let me know if you would like to discuss further.
+
+Best regards.
+
+[2025-09-22 20:38:58] email_logs
+[]
+
+[2025-09-22 20:40:03] rag_summary
+### Step 1: Filter News
+Based on the relevance score and sentiment score, the relevant news items are:
+
+- **Ticker: INFY.NS**
+    - **Title:** Indian Tech Stocks Decline on US Changes to H-1B Visa Program
+    - **Summary:** Indian tech stocks declined on Monday as US President Donald Trump’s hefty fee for new H-1B visas may lead to operational difficulties for outsourcing giants.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** -0.7 (Adverse)
+    
+- **Ticker: TSLA**
+    - **Title:** Tesla Stock Rises. Why Record Highs Are In Sight.
+    - **Summary:** Coming into Monday trading, Tesla shares were up 23% over the past nine trading sessions.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** 0.8 (Favorable)
+
+- **Ticker: IAU**
+    - **Title:** Why Gold ETFs Should Be in Every Portfolio
+    - **Summary:** Fed cuts rates, dollar weakens, and geopolitical risks rise, driving record gold gains and fueling demand for ETFs like GLD and IAU.
+    - **Relevance Score:** 0.8
+    - **Sentiment Score:** 0.6 (Favorable)
+
+### Step 2: Ticker-Level Summary
+- **INFY.NS:** The recent changes to the H-1B visa program introduced by President Trump have resulted in a decline in Indian tech stocks, significantly impacting Infosys negatively. The adverse sentiment indicates potential operational difficulties for the company in the near future.
+
+- **TSLA:** Tesla's stock has experienced a significant rise, up 23% over the last nine trading sessions, reflecting strong market confidence and positive growth expectations. This favorable sentiment suggests continued bullish momentum for Tesla.
+
+- **IAU:** With the anticipated rate cuts from the Federal Reserve and rising geopolitical risks, gold ETFs like IAU are seeing increased demand, highlighting favorable market conditions for gold investments.
+
+### Step 3: Client-Level Notes
+#### Affected Clients for INFY.NS
+1. **Client ID:** 2 - Joshua Walker
+    - **Date:** 2025-09-22
+    - **Impact:** The decline in Indian tech stocks due to the new H-1B visa fees may negatively impact your holding in Infosys. This operational issue could affect future returns.
+    - **Profile:** Your balanced risk capacity and low risk tolerance align with moderate liquidity needs; you aim for liquidity event planning in four years.
+    - **Suggested Action:** SELL or REDUCE; the adverse sentiment suggests reevaluation of your position amidst the ongoing challenges.
+
+#### Affected Clients for TSLA
+1. **Client ID:** 30 - Jeremy Roberts
+    - **Date:** 2025-09-22
+    - **Impact:** Tesla's stock performance indicates strong market confidence, suggesting potential for further capital appreciation, which aligns with your growth-oriented strategy.
+    - **Profile:** Your high-risk capacity complements your medium risk tolerance, with your primary goal centered on growth.
+    - **Suggested Action:** BUY; the favorable sentiment indicates an opportunity to increase your holdings in a strong growth stock.
+
+#### Affected Clients for IAU
+1. **Client ID:** 41 - Christopher Hall
+    - **Date:** 2025-09-22
+    - **Impact:** The favorable market conditions for gold, driven by anticipated Fed rate cuts, present a promising opportunity for your investments in gold ETFs.
+    - **Profile:** As a high-risk capacity investor aiming for wealth preservation, your strategy can benefit from heightened demand for safe-haven assets like gold.
+    - **Suggested Action:** BUY; the favorable sentiment around gold investment aligns well with your long-term strategies.
+
+### Step 4: Manager Grouping
+- **Manager 1 (Email: kumnegermarkos49@gmail.com):**
+    - Clients: Joshua Walker (ID: 2)
+    
+- **Manager 2 (Email: ken496235@gmail.com):**
+    - Clients: Jeremy Roberts (ID: 30)
+    
+- **Manager 3 (Email: kumneger496235@gmail.com):**
+    - Clients: Christopher Hall (ID: 41)
+
+### Step 5: Manager Email Drafts
+
+#### Manager 1: kumnegermarkos49@gmail.com
+**Subject:** Client Update on Infosys Holdings: Joshua Walker
+
+Dear Kumnegermarkos,
+
+Here are the updates for your affected client, Joshua Walker, regarding the recent market news impacting Infosys.
+
+- **Client Name:** Joshua Walker (ID: 2)
+- **Impact of News:** The decline in Indian tech stocks due to new H-1B visa fees may negatively impact your holding in Infosys, creating potential operational difficulties for the company.
+- **Next Steps:** Given the adverse sentiment, I recommend selling or reducing your position in Infosys to mitigate potential losses.
+
+Please let me know if you need further insights or follow-up discussions.
+
+Best regards.
+
+#### Manager 2: ken496235@gmail.com
+**Subject:** Update on Recent Stock Performance: Jeremy Roberts
+
+Dear Ken,
+
+I’m providing an update regarding Jeremy Roberts and his exposure to Tesla amidst recent market developments.
+
+- **Client Name:** Jeremy Roberts (ID: 30)
+- **Impact of News:** Tesla's stock has risen significantly, reflecting strong market confidence. This indicates continued growth potential which aligns with your investment strategy.
+- **Next Steps:** Given the favorable sentiment, I suggest buying additional shares to leverage Tesla’s bullish momentum.
+
+If you would like to discuss this in more detail, please feel free to reach out.
+
+Best regards.
+
+#### Manager 3: kumneger496235@gmail.com
+**Subject:** Gold Market Update: Christopher Hall
+
+Dear Kumneger,
+
+Here’s the update for Christopher Hall regarding market conditions for gold.
+
+- **Client Name:** Christopher Hall (ID: 41)
+- **Impact of News:** Increasing demand for gold and potential Fed rate cuts present favorable conditions that could positively impact your investments in gold ETFs.
+- **Next Steps:** Given the favorable sentiment surrounding gold investments, I recommend a buy strategy to increase holdings in this asset class.
+
+Please let me know if you would like to discuss further.
+
+Best regards.
+
+[2025-09-22 20:40:03] email_logs
+[]
+
+[2025-09-22 20:42:06] rag_summary
+### Step 1: Filter News
+Based on the relevance score and sentiment score, the relevant news items are:
+
+- **Ticker: INFY.NS**
+    - **Title:** Indian Tech Stocks Decline on US Changes to H-1B Visa Program
+    - **Summary:** Indian tech stocks declined on Monday as US President Donald Trump’s hefty fee for new H-1B visas may lead to operational difficulties for outsourcing giants.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** -0.7 (Adverse)
+    
+- **Ticker: TSLA**
+    - **Title:** Tesla Stock Rises. Why Record Highs Are In Sight.
+    - **Summary:** Coming into Monday trading, Tesla shares were up 23% over the past nine trading sessions.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** 0.8 (Favorable)
+
+- **Ticker: IAU**
+    - **Title:** Why Gold ETFs Should Be in Every Portfolio
+    - **Summary:** Fed cuts rates, dollar weakens, and geopolitical risks rise, driving record gold gains and fueling demand for ETFs like GLD and IAU.
+    - **Relevance Score:** 0.8
+    - **Sentiment Score:** 0.6 (Favorable)
+
+### Step 2: Ticker-Level Summary
+- **INFY.NS:** The recent changes to the H-1B visa program introduced by President Trump have resulted in a decline in Indian tech stocks, significantly impacting Infosys negatively. The adverse sentiment indicates potential operational difficulties for the company in the near future.
+
+- **TSLA:** Tesla's stock has experienced a significant rise, up 23% over the last nine trading sessions, reflecting strong market confidence and positive growth expectations. This favorable sentiment suggests continued bullish momentum for Tesla.
+
+- **IAU:** With the anticipated rate cuts from the Federal Reserve and rising geopolitical risks, gold ETFs like IAU are seeing increased demand, highlighting favorable market conditions for gold investments.
+
+### Step 3: Client-Level Notes
+#### Affected Clients for INFY.NS
+1. **Client ID:** 2 - Joshua Walker
+    - **Date:** 2025-09-22
+    - **Impact:** The decline in Indian tech stocks due to the new H-1B visa fees may negatively impact your holding in Infosys. This operational issue could affect future returns.
+    - **Profile:** Your balanced risk capacity and low risk tolerance align with moderate liquidity needs; you aim for liquidity event planning in four years.
+    - **Suggested Action:** SELL or REDUCE; the adverse sentiment suggests reevaluation of your position amidst the ongoing challenges.
+
+#### Affected Clients for TSLA
+1. **Client ID:** 30 - Jeremy Roberts
+    - **Date:** 2025-09-22
+    - **Impact:** Tesla's stock performance indicates strong market confidence, suggesting potential for further capital appreciation, which aligns with your growth-oriented strategy.
+    - **Profile:** Your high-risk capacity complements your medium risk tolerance, with your primary goal centered on growth.
+    - **Suggested Action:** BUY; the favorable sentiment indicates an opportunity to increase your holdings in a strong growth stock.
+
+#### Affected Clients for IAU
+1. **Client ID:** 41 - Christopher Hall
+    - **Date:** 2025-09-22
+    - **Impact:** The favorable market conditions for gold, driven by anticipated Fed rate cuts, present a promising opportunity for your investments in gold ETFs.
+    - **Profile:** As a high-risk capacity investor aiming for wealth preservation, your strategy can benefit from heightened demand for safe-haven assets like gold.
+    - **Suggested Action:** BUY; the favorable sentiment around gold investment aligns well with your long-term strategies.
+
+### Step 4: Manager Grouping
+- **Manager 1 (Email: kumnegermarkos49@gmail.com):**
+    - Clients: Joshua Walker (ID: 2)
+    
+- **Manager 2 (Email: ken496235@gmail.com):**
+    - Clients: Jeremy Roberts (ID: 30)
+    
+- **Manager 3 (Email: kumneger496235@gmail.com):**
+    - Clients: Christopher Hall (ID: 41)
+
+### Step 5: Manager Email Drafts
+
+#### Manager 1: kumnegermarkos49@gmail.com
+**Subject:** Client Update on Infosys Holdings: Joshua Walker
+
+Dear Kumnegermarkos,
+
+Here are the updates for your affected client, Joshua Walker, regarding the recent market news impacting Infosys.
+
+- **Client Name:** Joshua Walker (ID: 2)
+- **Impact of News:** The decline in Indian tech stocks due to new H-1B visa fees may negatively impact your holding in Infosys, creating potential operational difficulties for the company.
+- **Next Steps:** Given the adverse sentiment, I recommend selling or reducing your position in Infosys to mitigate potential losses.
+
+Please let me know if you need further insights or follow-up discussions.
+
+Best regards.
+
+#### Manager 2: ken496235@gmail.com
+**Subject:** Update on Recent Stock Performance: Jeremy Roberts
+
+Dear Ken,
+
+I’m providing an update regarding Jeremy Roberts and his exposure to Tesla amidst recent market developments.
+
+- **Client Name:** Jeremy Roberts (ID: 30)
+- **Impact of News:** Tesla's stock has risen significantly, reflecting strong market confidence. This indicates continued growth potential which aligns with your investment strategy.
+- **Next Steps:** Given the favorable sentiment, I suggest buying additional shares to leverage Tesla’s bullish momentum.
+
+If you would like to discuss this in more detail, please feel free to reach out.
+
+Best regards.
+
+#### Manager 3: kumneger496235@gmail.com
+**Subject:** Gold Market Update: Christopher Hall
+
+Dear Kumneger,
+
+Here’s the update for Christopher Hall regarding market conditions for gold.
+
+- **Client Name:** Christopher Hall (ID: 41)
+- **Impact of News:** Increasing demand for gold and potential Fed rate cuts present favorable conditions that could positively impact your investments in gold ETFs.
+- **Next Steps:** Given the favorable sentiment surrounding gold investments, I recommend a buy strategy to increase holdings in this asset class.
+
+Please let me know if you would like to discuss further.
+
+Best regards.
+
+[2025-09-22 20:42:06] email_logs
+[]
+
+[2025-09-22 20:47:13] rag_summary
+### Step 1: Filter News
+Based on the relevance score and sentiment score, the relevant news items are:
+
+- **Ticker: INFY.NS**
+    - **Title:** Indian Tech Stocks Decline on US Changes to H-1B Visa Program
+    - **Summary:** Indian tech stocks declined on Monday as US President Donald Trump’s hefty fee for new H-1B visas may lead to operational difficulties for outsourcing giants.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** -0.7 (Adverse)
+    
+- **Ticker: TSLA**
+    - **Title:** Tesla Stock Rises. Why Record Highs Are In Sight.
+    - **Summary:** Coming into Monday trading, Tesla shares were up 23% over the past nine trading sessions.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** 0.8 (Favorable)
+
+- **Ticker: IAU**
+    - **Title:** Why Gold ETFs Should Be in Every Portfolio
+    - **Summary:** Fed cuts rates, dollar weakens, and geopolitical risks rise, driving record gold gains and fueling demand for ETFs like GLD and IAU.
+    - **Relevance Score:** 0.8
+    - **Sentiment Score:** 0.6 (Favorable)
+
+### Step 2: Ticker-Level Summary
+- **INFY.NS:** The recent changes to the H-1B visa program introduced by President Trump have resulted in a decline in Indian tech stocks, significantly impacting Infosys negatively. The adverse sentiment indicates potential operational difficulties for the company in the near future.
+
+- **TSLA:** Tesla's stock has experienced a significant rise, up 23% over the last nine trading sessions, reflecting strong market confidence and positive growth expectations. This favorable sentiment suggests continued bullish momentum for Tesla.
+
+- **IAU:** With the anticipated rate cuts from the Federal Reserve and rising geopolitical risks, gold ETFs like IAU are seeing increased demand, highlighting favorable market conditions for gold investments.
+
+### Step 3: Client-Level Notes
+#### Affected Clients for INFY.NS
+1. **Client ID:** 2 - Joshua Walker
+    - **Date:** 2025-09-22
+    - **Impact:** The decline in Indian tech stocks due to the new H-1B visa fees may negatively impact your holding in Infosys. This operational issue could affect future returns.
+    - **Profile:** Your balanced risk capacity and low risk tolerance align with moderate liquidity needs; you aim for liquidity event planning in four years.
+    - **Suggested Action:** SELL or REDUCE; the adverse sentiment suggests reevaluation of your position amidst the ongoing challenges.
+
+#### Affected Clients for TSLA
+1. **Client ID:** 30 - Jeremy Roberts
+    - **Date:** 2025-09-22
+    - **Impact:** Tesla's stock performance indicates strong market confidence, suggesting potential for further capital appreciation, which aligns with your growth-oriented strategy.
+    - **Profile:** Your high-risk capacity complements your medium risk tolerance, with your primary goal centered on growth.
+    - **Suggested Action:** BUY; the favorable sentiment indicates an opportunity to increase your holdings in a strong growth stock.
+
+#### Affected Clients for IAU
+1. **Client ID:** 41 - Christopher Hall
+    - **Date:** 2025-09-22
+    - **Impact:** The favorable market conditions for gold, driven by anticipated Fed rate cuts, present a promising opportunity for your investments in gold ETFs.
+    - **Profile:** As a high-risk capacity investor aiming for wealth preservation, your strategy can benefit from heightened demand for safe-haven assets like gold.
+    - **Suggested Action:** BUY; the favorable sentiment around gold investment aligns well with your long-term strategies.
+
+### Step 4: Manager Grouping
+- **Manager 1 (Email: kumnegermarkos49@gmail.com):**
+    - Clients: Joshua Walker (ID: 2)
+    
+- **Manager 2 (Email: ken496235@gmail.com):**
+    - Clients: Jeremy Roberts (ID: 30)
+    
+- **Manager 3 (Email: kumneger496235@gmail.com):**
+    - Clients: Christopher Hall (ID: 41)
+
+### Step 5: Manager Email Drafts
+
+#### Manager 1: kumnegermarkos49@gmail.com
+**Subject:** Client Update on Infosys Holdings: Joshua Walker
+
+Dear Kumnegermarkos,
+
+Here are the updates for your affected client, Joshua Walker, regarding the recent market news impacting Infosys.
+
+- **Client Name:** Joshua Walker (ID: 2)
+- **Impact of News:** The decline in Indian tech stocks due to new H-1B visa fees may negatively impact your holding in Infosys, creating potential operational difficulties for the company.
+- **Next Steps:** Given the adverse sentiment, I recommend selling or reducing your position in Infosys to mitigate potential losses.
+
+Please let me know if you need further insights or follow-up discussions.
+
+Best regards.
+
+#### Manager 2: ken496235@gmail.com
+**Subject:** Update on Recent Stock Performance: Jeremy Roberts
+
+Dear Ken,
+
+I’m providing an update regarding Jeremy Roberts and his exposure to Tesla amidst recent market developments.
+
+- **Client Name:** Jeremy Roberts (ID: 30)
+- **Impact of News:** Tesla's stock has risen significantly, reflecting strong market confidence. This indicates continued growth potential which aligns with your investment strategy.
+- **Next Steps:** Given the favorable sentiment, I suggest buying additional shares to leverage Tesla’s bullish momentum.
+
+If you would like to discuss this in more detail, please feel free to reach out.
+
+Best regards.
+
+#### Manager 3: kumneger496235@gmail.com
+**Subject:** Gold Market Update: Christopher Hall
+
+Dear Kumneger,
+
+Here’s the update for Christopher Hall regarding market conditions for gold.
+
+- **Client Name:** Christopher Hall (ID: 41)
+- **Impact of News:** Increasing demand for gold and potential Fed rate cuts present favorable conditions that could positively impact your investments in gold ETFs.
+- **Next Steps:** Given the favorable sentiment surrounding gold investments, I recommend a buy strategy to increase holdings in this asset class.
+
+Please let me know if you would like to discuss further.
+
+Best regards.
+
+[2025-09-22 20:47:13] email_logs
+[]
+
+[2025-09-22 20:57:01] rag_summary
+### Step 1: Filter News
+Based on the relevance score and sentiment score, the relevant news items are:
+
+- **Ticker: INFY.NS**
+    - **Title:** Indian Tech Stocks Decline on US Changes to H-1B Visa Program
+    - **Summary:** Indian tech stocks declined on Monday as US President Donald Trump’s hefty fee for new H-1B visas may lead to operational difficulties for outsourcing giants.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** -0.7 (Adverse)
+    
+- **Ticker: TSLA**
+    - **Title:** Tesla Stock Rises. Why Record Highs Are In Sight.
+    - **Summary:** Coming into Monday trading, Tesla shares were up 23% over the past nine trading sessions.
+    - **Relevance Score:** 0.9
+    - **Sentiment Score:** 0.8 (Favorable)
+
+- **Ticker: IAU**
+    - **Title:** Why Gold ETFs Should Be in Every Portfolio
+    - **Summary:** Fed cuts rates, dollar weakens, and geopolitical risks rise, driving record gold gains and fueling demand for ETFs like GLD and IAU.
+    - **Relevance Score:** 0.8
+    - **Sentiment Score:** 0.6 (Favorable)
+
+### Step 2: Ticker-Level Summary
+- **INFY.NS:** The recent changes to the H-1B visa program introduced by President Trump have resulted in a decline in Indian tech stocks, significantly impacting Infosys negatively. The adverse sentiment indicates potential operational difficulties for the company in the near future.
+
+- **TSLA:** Tesla's stock has experienced a significant rise, up 23% over the last nine trading sessions, reflecting strong market confidence and positive growth expectations. This favorable sentiment suggests continued bullish momentum for Tesla.
+
+- **IAU:** With the anticipated rate cuts from the Federal Reserve and rising geopolitical risks, gold ETFs like IAU are seeing increased demand, highlighting favorable market conditions for gold investments.
+
+### Step 3: Client-Level Notes
+#### Affected Clients for INFY.NS
+1. **Client ID:** 2 - Joshua Walker
+    - **Date:** 2025-09-22
+    - **Impact:** The decline in Indian tech stocks due to the new H-1B visa fees may negatively impact your holding in Infosys. This operational issue could affect future returns.
+    - **Profile:** Your balanced risk capacity and low risk tolerance align with moderate liquidity needs; you aim for liquidity event planning in four years.
+    - **Suggested Action:** SELL or REDUCE; the adverse sentiment suggests reevaluation of your position amidst the ongoing challenges.
+
+#### Affected Clients for TSLA
+1. **Client ID:** 30 - Jeremy Roberts
+    - **Date:** 2025-09-22
+    - **Impact:** Tesla's stock performance indicates strong market confidence, suggesting potential for further capital appreciation, which aligns with your growth-oriented strategy.
+    - **Profile:** Your high-risk capacity complements your medium risk tolerance, with your primary goal centered on growth.
+    - **Suggested Action:** BUY; the favorable sentiment indicates an opportunity to increase your holdings in a strong growth stock.
+
+#### Affected Clients for IAU
+1. **Client ID:** 41 - Christopher Hall
+    - **Date:** 2025-09-22
+    - **Impact:** The favorable market conditions for gold, driven by anticipated Fed rate cuts, present a promising opportunity for your investments in gold ETFs.
+    - **Profile:** As a high-risk capacity investor aiming for wealth preservation, your strategy can benefit from heightened demand for safe-haven assets like gold.
+    - **Suggested Action:** BUY; the favorable sentiment around gold investment aligns well with your long-term strategies.
+
+### Step 4: Manager Grouping
+- **Manager 1 (Email: kumnegermarkos49@gmail.com):**
+    - Clients: Joshua Walker (ID: 2)
+    
+- **Manager 2 (Email: ken496235@gmail.com):**
+    - Clients: Jeremy Roberts (ID: 30)
+    
+- **Manager 3 (Email: kumneger496235@gmail.com):**
+    - Clients: Christopher Hall (ID: 41)
+
+### Step 5: Manager Email Drafts
+
+#### Manager 1: kumnegermarkos49@gmail.com
+**Subject:** Client Update on Infosys Holdings: Joshua Walker
+
+Dear Kumnegermarkos,
+
+Here are the updates for your affected client, Joshua Walker, regarding the recent market news impacting Infosys.
+
+- **Client Name:** Joshua Walker (ID: 2)
+- **Impact of News:** The decline in Indian tech stocks due to new H-1B visa fees may negatively impact your holding in Infosys, creating potential operational difficulties for the company.
+- **Next Steps:** Given the adverse sentiment, I recommend selling or reducing your position in Infosys to mitigate potential losses.
+
+Please let me know if you need further insights or follow-up discussions.
+
+Best regards.
+
+#### Manager 2: ken496235@gmail.com
+**Subject:** Update on Recent Stock Performance: Jeremy Roberts
+
+Dear Ken,
+
+I’m providing an update regarding Jeremy Roberts and his exposure to Tesla amidst recent market developments.
+
+- **Client Name:** Jeremy Roberts (ID: 30)
+- **Impact of News:** Tesla's stock has risen significantly, reflecting strong market confidence. This indicates continued growth potential which aligns with your investment strategy.
+- **Next Steps:** Given the favorable sentiment, I suggest buying additional shares to leverage Tesla’s bullish momentum.
+
+If you would like to discuss this in more detail, please feel free to reach out.
+
+Best regards.
+
+#### Manager 3: kumneger496235@gmail.com
+**Subject:** Gold Market Update: Christopher Hall
+
+Dear Kumneger,
+
+Here’s the update for Christopher Hall regarding market conditions for gold.
+
+- **Client Name:** Christopher Hall (ID: 41)
+- **Impact of News:** Increasing demand for gold and potential Fed rate cuts present favorable conditions that could positively impact your investments in gold ETFs.
+- **Next Steps:** Given the favorable sentiment surrounding gold investments, I recommend a buy strategy to increase holdings in this asset class.
+
+Please let me know if you would like to discuss further.
+
+Best regards.
+
+[2025-09-22 20:57:01] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Kumnegermarkos", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Ken", "status": "sent"}, {"to": "kumneger496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Kumneger", "status": "sent"}]
+
+[2025-09-22 21:06:32] rag_summary
+### Affected Tickers and Clients
+
+Based on the news items provided, the following tickers are affected: **INFY.NS**, **TM**, **SPY**, **AAPL**, **TSLA**, **BND**, **AGG**, **GLD**, **EEM**, **IAU**, **SIE.DE**, **MSFT**.
+
+### Client Holdings and Analysis
+
+#### **Client Holding INFY.NS:**
+1. **Client ID: C002 (Joshua Walker)**
+   - **Date:** 2025-09-22
+   - **Impact:** The news regarding new H-1B visa fees has a negative impact as it raises operational costs for outsourcing firms like Infosys (INFY). This could affect profitability and stock prices in the technology sector.
+   - **Profile:** Joshua has a balanced risk capacity, medium risk tolerance, and is focused on liquidity event planning. "Comfort with drawdowns consistent with balanced profile."
+   - **Suggested Action:** HOLD or WATCH CLOSELY due to the operational challenges outlined, assessing if savings can be made elsewhere.
+
+#### **Client Holding TM:**
+1. **Client ID: C001 (Danielle Johnson)**
+   - **Date:** 2025-09-22
+   - **Impact:** News regarding technological collaborations shows a potential growth opportunity for Toyota through partnerships, which may enhance its performance in the long term.
+   - **Profile:** Danielle has a growth risk profile with medium capacity, aiming for a home purchase. 
+   - **Suggested Action:** BUY, as the news portrays positive growth perspectives for Toyota.
+
+#### **Client Holding SPY:**
+1. **Client ID: C002 (Joshua Walker)**
+   - **Date:** 2025-09-19
+   - **Impact:** The broader market rally suggests favorable conditions for SPY, likely leading to an uptick in value amid renewed investor confidence.
+   - **Profile:** Joshua's balanced profile aids in navigating this rally effectively.
+   - **Suggested Action:** BUY, as the market rally presents a strong upside potential.
+
+#### **Client Holding AAPL:**
+1. **Client ID: C003 (Jill Rhodes)**
+   - **Date:** 2025-09-22
+   - **Impact:** Regulatory concerns highlighted may adversely affect Apple's market position amidst tightening regulations, although some indirect benefits exist from improved tech initiatives.
+   - **Profile:** Jill has a balanced risk profile aiming for liquidity event planning.
+   - **Suggested Action:** HOLD or WATCH CLOSELY. The potential for regulatory challenges might warrant a cautious approach.
+
+#### **Client Holding TSLA:**
+1. **Client ID: C022 (Joseph Wright)**
+   - **Date:** 2025-09-22
+   - **Impact:** The rise of Tesla’s stock suggests strong market sentiment, indicating potential growth and profitability that could positively impact holdings.
+   - **Profile:** Joseph indicates a high-risk tolerance due to his focus on growth investments.
+   - **Suggested Action:** BUY, given the bullish sentiment and stock performance trajectory.
+
+### Manager Email Drafts
+
+#### **Manager 1: kumnegermarkos49@gmail.com**
+
+**Subject:** Weekly Client Updates and Market News Analysis
+
+Dear Team,
+
+Please find below detailed updates for clients affected by recent market news pertinent to their holdings.
+
+---
+
+**Client Name and ID:** Joshua Walker (C0002)  
+**Subject:** Update on INFY.NS Impact  
+**Intro:** Recent changes in H-1B visa fees pose new operational challenges for Infosys, impacting the tech industry.  
+**Body:** The increase in visa costs will raise operational expenses for outsourcing giants like Infosys (INFY), potentially affecting profitability. Joshua has a balanced risk capacity and aims for liquidity event planning. "Comfort with drawdowns consistent with balanced profile."  
+**Closing:** Suggested action is to HOLD or WATCH CLOSELY, assessing the implications as they unfold.  
+
+---
+
+**Client Name and ID:** Danielle Johnson (C0001)  
+**Subject:** Positive Developments for TM Holdings  
+**Intro:** Collaboration news involving Toyota indicates a positive future outlook.  
+**Body:** The partnership for technological advancements is likely to position Toyota for growth, positively influencing stock performance.  Danielle, with a growth risk profile, is on track for her home purchase goal.  
+**Closing:** Suggested action is to BUY, given the promising news context.
+
+---
+
+**Client Name and ID:** Joshua Walker (C0002)  
+**Subject:** SPY Market Rally Analysis  
+**Intro:** The recent market rally signifies strong investor sentiment, which could positively influence SPY.  
+**Body:** This rally is conducive for SPY, suggesting favorable conditions that enhance its value. Joshua’s balanced profile allows him to capitalize on such market movements.  
+**Closing:** Recommended action is to BUY, leveraging the positive momentum.
+
+---
+
+**Client Name and ID:** Jill Rhodes (C0003)  
+**Subject:** Regulatory Concerns Affecting AAPL  
+**Intro:** Recent regulatory discussions pose potential challenges for Apple.  
+**Body:** Regulatory overreach could inhibit Apple’s operations, although some indirect benefits from tech improvements are noted. Jill, with a balanced risk profile, aims for liquidity event planning.  
+**Closing:** I suggest we HOLD or WATCH CLOSELY, given the regulatory implications.
+
+---
+
+**Client Name and ID:** Joseph Wright (C0009)  
+**Subject:** Strong Market Sentiment for TSLA  
+**Intro:** Tesla's stock shows significant gains, reflecting strong market confidence.  
+**Body:** The rise in shares may indicate a bullish outlook for Tesla’s future, aligning with Joseph’s growth-focused investments. He has a high-risk tolerance.  
+**Closing:** Recommended action is to BUY, as the bullish sentiment aligns well with his investment strategy.
+
+---
+
+Please feel free to reach out if you have questions or if further discussions are needed regarding these updates.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+
+--- 
+
+### References
+- [KG] INFY.NS - Joshua Walker
+- [KG] TM - Danielle Johnson 
+- [KG] SPY - Joshua Walker
+- [KG] AAPL - Jill Rhodes
+- [KG] TSLA - Joseph Wright
+
+[2025-09-22 21:06:32] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Markos Kumnegerm", "status": "sent"}]
+
+[2025-09-22 21:12:41] rag_summary
+### Affected Tickers and Clients
+
+Based on the news items provided, the following tickers are affected: **INFY.NS**, **TM**, **SPY**, **AAPL**, **TSLA**, **BND**, **AGG**, **GLD**, **EEM**, **IAU**, **SIE.DE**, **MSFT**.
+
+### Client Holdings and Analysis
+
+#### **Client Holding INFY.NS:**
+1. **Client ID: C002 (Joshua Walker)**
+   - **Date:** 2025-09-22
+   - **Impact:** The news regarding new H-1B visa fees has a negative impact as it raises operational costs for outsourcing firms like Infosys (INFY). This could affect profitability and stock prices in the technology sector.
+   - **Profile:** Joshua has a balanced risk capacity, medium risk tolerance, and is focused on liquidity event planning. "Comfort with drawdowns consistent with balanced profile."
+   - **Suggested Action:** HOLD or WATCH CLOSELY due to the operational challenges outlined, assessing if savings can be made elsewhere.
+
+#### **Client Holding TM:**
+1. **Client ID: C001 (Danielle Johnson)**
+   - **Date:** 2025-09-22
+   - **Impact:** News regarding technological collaborations shows a potential growth opportunity for Toyota through partnerships, which may enhance its performance in the long term.
+   - **Profile:** Danielle has a growth risk profile with medium capacity, aiming for a home purchase. 
+   - **Suggested Action:** BUY, as the news portrays positive growth perspectives for Toyota.
+
+#### **Client Holding SPY:**
+1. **Client ID: C002 (Joshua Walker)**
+   - **Date:** 2025-09-19
+   - **Impact:** The broader market rally suggests favorable conditions for SPY, likely leading to an uptick in value amid renewed investor confidence.
+   - **Profile:** Joshua's balanced profile aids in navigating this rally effectively.
+   - **Suggested Action:** BUY, as the market rally presents a strong upside potential.
+
+#### **Client Holding AAPL:**
+1. **Client ID: C003 (Jill Rhodes)**
+   - **Date:** 2025-09-22
+   - **Impact:** Regulatory concerns highlighted may adversely affect Apple's market position amidst tightening regulations, although some indirect benefits exist from improved tech initiatives.
+   - **Profile:** Jill has a balanced risk profile aiming for liquidity event planning.
+   - **Suggested Action:** HOLD or WATCH CLOSELY. The potential for regulatory challenges might warrant a cautious approach.
+
+#### **Client Holding TSLA:**
+1. **Client ID: C022 (Joseph Wright)**
+   - **Date:** 2025-09-22
+   - **Impact:** The rise of Tesla’s stock suggests strong market sentiment, indicating potential growth and profitability that could positively impact holdings.
+   - **Profile:** Joseph indicates a high-risk tolerance due to his focus on growth investments.
+   - **Suggested Action:** BUY, given the bullish sentiment and stock performance trajectory.
+
+### Manager Email Drafts
+
+#### **Manager 1: kumnegermarkos49@gmail.com**
+
+**Subject:** Weekly Client Updates and Market News Analysis
+
+Dear Team,
+
+Please find below detailed updates for clients affected by recent market news pertinent to their holdings.
+
+---
+
+**Client Name and ID:** Joshua Walker (C0002)  
+**Subject:** Update on INFY.NS Impact  
+**Intro:** Recent changes in H-1B visa fees pose new operational challenges for Infosys, impacting the tech industry.  
+**Body:** The increase in visa costs will raise operational expenses for outsourcing giants like Infosys (INFY), potentially affecting profitability. Joshua has a balanced risk capacity and aims for liquidity event planning. "Comfort with drawdowns consistent with balanced profile."  
+**Closing:** Suggested action is to HOLD or WATCH CLOSELY, assessing the implications as they unfold.  
+
+---
+
+**Client Name and ID:** Danielle Johnson (C0001)  
+**Subject:** Positive Developments for TM Holdings  
+**Intro:** Collaboration news involving Toyota indicates a positive future outlook.  
+**Body:** The partnership for technological advancements is likely to position Toyota for growth, positively influencing stock performance.  Danielle, with a growth risk profile, is on track for her home purchase goal.  
+**Closing:** Suggested action is to BUY, given the promising news context.
+
+---
+
+**Client Name and ID:** Joshua Walker (C0002)  
+**Subject:** SPY Market Rally Analysis  
+**Intro:** The recent market rally signifies strong investor sentiment, which could positively influence SPY.  
+**Body:** This rally is conducive for SPY, suggesting favorable conditions that enhance its value. Joshua’s balanced profile allows him to capitalize on such market movements.  
+**Closing:** Recommended action is to BUY, leveraging the positive momentum.
+
+---
+
+**Client Name and ID:** Jill Rhodes (C0003)  
+**Subject:** Regulatory Concerns Affecting AAPL  
+**Intro:** Recent regulatory discussions pose potential challenges for Apple.  
+**Body:** Regulatory overreach could inhibit Apple’s operations, although some indirect benefits from tech improvements are noted. Jill, with a balanced risk profile, aims for liquidity event planning.  
+**Closing:** I suggest we HOLD or WATCH CLOSELY, given the regulatory implications.
+
+---
+
+**Client Name and ID:** Joseph Wright (C0009)  
+**Subject:** Strong Market Sentiment for TSLA  
+**Intro:** Tesla's stock shows significant gains, reflecting strong market confidence.  
+**Body:** The rise in shares may indicate a bullish outlook for Tesla’s future, aligning with Joseph’s growth-focused investments. He has a high-risk tolerance.  
+**Closing:** Recommended action is to BUY, as the bullish sentiment aligns well with his investment strategy.
+
+---
+
+Please feel free to reach out if you have questions or if further discussions are needed regarding these updates.
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+
+--- 
+
+### References
+- [KG] INFY.NS - Joshua Walker
+- [KG] TM - Danielle Johnson 
+- [KG] SPY - Joshua Walker
+- [KG] AAPL - Jill Rhodes
+- [KG] TSLA - Joseph Wright
+
+[2025-09-22 21:12:41] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Markos Kumneg", "status": "sent"}]
+
+[2025-09-22 21:24:51] rag_summary
+### Step 1: Filter News
+
+Filtered news items based on the relevance score of ≥ 0.2:
+
+1. **Ticker:** INFY.NS
+   - **Date:** 2025-09-22
+   - **Title:** These Tech Stocks Are Already Falling Amid H-1B Immigration Visa Chaos. Why It Matters.
+   - **Summary:** Indian outsourcers’ business models are set to be disrupted following news over the weekend from the White House that skilled workers applying to the scheme face a $100,000 fee.
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** -0.7
+
+2. **Ticker:** INFY.NS
+   - **Date:** 2025-09-22
+   - **Title:** Infosys, Other Indian Tech Stocks Drop After Trump Hikes H-1B Visa Fee
+   - **Summary:** Indian technology stocks fell after new U.S. visa rules raised concerns about rising costs.
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** -0.8
+
+3. **Ticker:** TM
+   - **Date:** 2025-09-22
+   - **Title:** Is Toyota Motor (TM) a Buy as Wall Street Analysts Look Optimistic?
+   - **Summary:** The average brokerage recommendation for Toyota Motor (TM) is equivalent to a Buy.
+   - **Relevance Score:** 0.8
+   - **Sentiment Score:** 0.5
+
+4. **Ticker:** TM
+   - **Date:** 2025-09-22
+   - **Title:** Yokogawa Signs Agreements with Toyota for the R&D of the Control Platform for a Manned Pressurized Rover
+   - **Summary:** Yokogawa has signed agreements with Toyota for R&D activities related to the "Lunar Cruiser."
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** 0.6
+
+5. **Ticker:** SPY
+   - **Date:** 2025-09-22
+   - **Title:** Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Proposed Immigration Policy
+   - **Summary:** The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) is down 0.3%.
+   - **Relevance Score:** 0.6
+   - **Sentiment Score:** -0.4
+
+6. **Ticker:** GLD
+   - **Date:** 2025-09-22
+   - **Title:** Gold Trading at a Fresh Record High on Expectations for Additional Interest-Rate Cuts
+   - **Summary:** Gold traded at a record high early on Monday due to expectations of further rate cuts.
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** 0.7
+
+### Step 2: Ticker-Level Summary
+
+**INFY.NS:** Indian technology stocks, including Infosys, have dropped significantly due to new U.S. visa rules that impose a hefty fee on skilled workers, which could increase operational costs and disrupt business models. This presents an adverse environment for investors in these stocks.
+
+**TM:** Recent news highlights a positive outlook for Toyota Motor, with analyst recommendations reflecting optimism. Additionally, a strategic R&D partnership related to an advanced project could enhance Toyota's innovative capabilities and growth potential.
+
+**SPY:** The SPDR S&P 500 ETF Trust (SPY) is experiencing market pressure amid concerns over proposed immigration policies, leading to a slight decline in its performance.
+
+**GLD:** Gold is thriving in the market, trading at record highs as investors anticipate further interest rate cuts, indicating a strong demand for safe-haven assets.
+
+### Step 3: Client-Level Notes
+
+**For INFY.NS:**
+- **Date:** 2025-09-22
+- **Impact:** The recent rise in operational costs due to the new fees for H-1B visas negatively affects the value of Indian tech stocks, including Infosys. This could lead to a significant drop in the value of holdings for clients invested in these stocks.
+- **Profile:** Clients holding Infosys are typically classified with moderate risk capacity and low tolerance, aiming for steady growth in their portfolios. As indicated in their interview logs, they may prefer less volatility.
+- **Suggested Action:** SELL or REDUCE holdings due to adverse sentiment.
+
+**For TM:**
+- **Date:** 2025-09-22
+- **Impact:** Positive analyst sentiment and recent R&D collaborations could enhance investor confidence in Toyota and support the appreciation of the stock price, benefiting the client’s portfolio.
+- **Profile:** Clients invested in Toyota often have medium to high-risk tolerances and focus on long-term growth, as reflected in their interview logs.
+- **Suggested Action:** HOLD or BUY more shares considering the favorable sentiment.
+
+**For SPY:**
+- **Date:** 2025-09-22
+- **Impact:** The decline in SPY due to immigration policy concerns suggests a difficult market environment and potential future decreases in value.
+- **Profile:** Clients invested in SPY typically have a medium tolerance for risk and are looking for manageable growth, as indicated in their financial profiles.
+- **Suggested Action:** WATCH CLOSELY due to the neutral sentiment.
+
+**For GLD:**
+- **Date:** 2025-09-22
+- **Impact:** The surge in gold prices benefits clients with GLD holdings, marking a positive trend that aligns well with their investment goals for preserving wealth in volatile conditions.
+- **Profile:** Clients holding GLD often display higher risk tolerance, as they focus on long-term stability and protection against inflation, highlighted in their interviews.
+- **Suggested Action:** BUY more shares to leverage the favorable market conditions.
+
+### Step 4: Manager Grouping
+
+**Manager 1 (kumnegermarkos49@gmail.com):**
+- Clients with holdings in INFY.NS: 
+  - **1. Yvette Huff**
+  - **2. Joshua Walker**
+
+- Clients with holdings in TM:
+  - **1. Andrew Hickman**
+  - **2. Richard Morgan**
+
+- Clients with holdings in SPY:
+  - **1. Linda Wolfe**
+  - **2. Thomas Pierce**
+
+- Clients with holdings in GLD:
+  - **1. Sean McKay**
+  
+### Step 5: Manager Email Drafts
+
+#### Email for Manager 1
+
+**Subject:** Important Updates on Recent Market News Affecting Your Clients
+
+Dear Manager,
+
+I hope this message finds you well. Below, you will find detailed updates for each affected client regarding recent market news that may impact their holdings.
+
+---
+
+**Client Name: Yvette Huff (ID: C0001)**  
+**Subject:** Adverse News Impacting Infosys Holdings  
+**Intro:** Recent news indicates that Indian tech stocks, including Infosys, have experienced a significant drop due to rising H-1B visa fees.  
+**Body:** The imposition of a $100,000 fee for skilled workers applying for H-1B visas is expected to increase operational costs for Infosys, adversely affecting its stock price. Given your moderate risk capacity and low tolerance, it may be advisable to SELL your current holdings in Infosys.  
+**Closing:** Please let me know if you would like to discuss this further.
+
+---
+
+**Client Name: Joshua Walker (ID: C0002)**  
+**Subject:** Holding Recommendations Following Recent Infosys News  
+**Intro:** There has been a notable decline in Indian technology stocks due to recent changes in U.S. immigration policy.  
+**Body:** The announcement of a cost increase for H-1B visas could severely impact Infosys, representing a risk to your investment. As your risk capacity is moderate and you seek stable returns, I recommend SELLING your shares in Infosys to mitigate potential losses.  
+**Closing:** I am here for further discussion if needed.
+
+---
+
+**Client Name: Andrew Hickman (ID: C0003)**  
+**Subject:** Positive Developments for Toyota Holdings  
+**Intro:** Recent optimistic analyst sentiments have emerged regarding Toyota's future growth prospects.  
+**Body:** Analyst recommendations for Toyota are favorable, suggesting a potential rise in share value. With your medium risk capacity and long-term growth goals, I recommend HOLDING your shares while considering additional purchases to capitalize on this positive trend.  
+**Closing:** Let me know if you have any questions or would like to discuss further.
+
+---
+
+**Client Name: Richard Morgan (ID: C0004)**  
+**Subject:** R&D Collaboration with Toyota Enhances Investment Outlook  
+**Intro:** The recent R&D agreements between Toyota and Yokogawa reflect a promising direction for the company.  
+**Body:** This collaboration enhances Toyota’s innovative capabilities, potentially leading to future growth and increased share value. As an investor with a focus on long-term growth and a medium risk tolerance, I advise you to HOLD your current holdings in Toyota.  
+**Closing:** Please feel free to reach out for any further insights.
+
+---
+
+**Client Name: Linda Wolfe (ID: C0005)**  
+**Subject:** Market Sentiment Affecting SPY Holdings  
+**Intro:** News regarding immigration policy is impacting the SPDR S&P 500 ETF (SPY), reflecting a slight decline in performance.  
+**Body:** As your investments in SPY face potential headwinds due to market concerns, it's prudent to WATCH CLOSELY and remain vigilant on market movements, given your moderate risk tolerance.  
+**Closing:** I'm available to discuss any specific concerns about your portfolio.
+
+---
+
+**Client Name: Thomas Pierce (ID: C0006)**  
+**Subject:** SPY Market Dynamics Overview  
+**Intro:** The broad market ETF (SPY) is facing some negative sentiment due to immigration policy changes.  
+**Body:** A recent decrease in SPY values suggests a cautious outlook; with your moderate risk capacity, I recommend WATCHING CLOSELY your investments in SPY as the market dynamics evolve.  
+**Closing:** I'm here to help you navigate any decisions moving forward.
+
+---
+
+**Client Name: Sean McKay (ID: C0007)**  
+**Subject:** Positive Trends for Gold Investments  
+**Intro:** Gold prices are hitting new records amid expectations for further rate cuts, benefiting GLD holdings significantly.  
+**Body:** This trend presents a prime opportunity, and given your higher risk tolerance and goal for wealth preservation, I suggest a BUY for more shares in GLD to leverage this favorable market condition.  
+**Closing:** Please feel free to reach me to discuss your strategy further.
+
+---
+
+Thank you, and let me know if there is anything else I can assist you with!
+
+Best Regards,  
+[Your Name]  
+[Your Position]  
+
+
+[2025-09-22 21:24:51] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+

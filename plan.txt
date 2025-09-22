@@ -1,4 +1,24 @@
 
 
 
-wrap up the rag pipeline to make it an agent
+
+for each client holding assets, based on the new news, we should recommend the client if there is a news that favors the asset they a
+that aligns with their interest or it is better than sth they hold today. 
+
+from microsoft, is there an email api we can use to send our clients. look into 365 or exchange
+
+
+* notify RM when there is a news "big enough" that affect their client
+* provide a continuous update for the PM about their clients and the assets they hold
+
+
+TASK FOR TUESDAY
+    * biweakly summary report: an email or notification that rms can use to interact with their client. gives 
+    what growth 
+    summary of the news since last time we spoke 
+    made this decisions: market went up or declined(couple of things got attention, we are observing)
+    provide an snipet email for the rm for each client they have
+
+
+
+https://bonditglobal.com/products/scorable/

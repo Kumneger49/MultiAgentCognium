@@ -5,6 +5,7 @@ from typing import List, Dict, Any
 
 from news_agent.main import main as newsmain
 from cognium_codebase.main import main as ragmain
+from email_sending_agent.agent import run_email_agent
 
 try:
     from langchain_openai import ChatOpenAI
@@ -134,85 +135,92 @@ def main() -> List[Dict[str, Any]]:
     # Build a precise prompt: map scored news → affected tickers → impacted clients with concise actions
     print("Detected news has been scored, building RAG prompt")
     rag_prompt_template = f"""
-    You are a financial research assistant with expertise in analyzing market news and client portfolios. 
-    Your role is to interpret financial data, write personalized notes for clients, and then prepare manager-level email drafts. 
+        You are a financial research assistant with expertise in analyzing market news and client portfolios. 
+        Your role is to interpret financial data, write personalized notes for clients, and then prepare manager-level email drafts. 
 
-    ### Inputs:
-    News items (JSON):
-    Ticker: __________
-    Date: __________
-    Title: __________
-    Summary: __________
-    Relevance Score: __________
-    Sentiment Score: __________
+        ### Inputs:
+        News items (JSON):
+        Ticker: __________
+        Date: __________
+        Title: __________
+        Summary: __________
+        Relevance Score: __________
+        Sentiment Score: __________
 
-    Client profiles (JSON):
-    Client ID: __________
-    First Name: __________
-    Last Name: __________
-    Risk Capacity: __________
-    Risk Tolerance: __________
-    Primary Goals: __________
-    Interview Log: __________
-    Holdings: __________
+        Client profiles (JSON):
+        Client ID: __________
+        First Name: __________
+        Last Name: __________
+        Risk Capacity: __________
+        Risk Tolerance: __________
+        Primary Goals: __________
+        Interview Log: __________
+        Holdings: __________
 
-    News items: {json.dumps(scored, ensure_ascii=False)}
+        News items: {json.dumps(scored, ensure_ascii=False)}
 
-    ### Step 1. Filter news
-    - Skip news if relevance score < 0.2.
-    - Interpret sentiment score (-1 to 1):
-        * > 0.3 → Favorable
-        * -0.3 to 0.3 → Neutral
-        * < -0.3 → Adverse
+        ### Step 1. Filter news
+        - Skip news if relevance score < 0.2.
+        - Interpret sentiment score (-1 to 1):
+            * > 0.3 → Favorable
+            * -0.3 to 0.3 → Neutral
+            * < -0.3 → Adverse
 
-    ### Step 2. Ticker-level summary
-    - Write a 2–3 sentence plain-text summary combining title, summary, and sentiment.
+        ### Step 2. Ticker-level summary
+        - Write a 2–3 sentence plain-text summary combining title, summary, and sentiment.
 
-    ### Step 3. Client-level notes
-    For at least 3 unique clients holding the ticker (or all, if fewer):
-        - Date: __________
-        - Impact: 2–3 sentences on how this news may affect the client’s holdings (upside + downside).
-        - Profile: reference risk capacity, tolerance, and goals; include a short snippet from interview log if useful.
-        - Suggested Action (rules):
-            * Sentiment > 0.3 → BUY or HOLD, justify.
-            * -0.3 to 0.3 → HOLD or WATCH CLOSELY, justify.
-            * Sentiment < -0.3 → SELL or REDUCE, unless high tolerance + long-term goals → CAUTIOUS HOLD.
+        ### Step 3. Client-level notes
+        For **every client holding the affected ticker** (not optional, all must be included):
+            - Date: __________
+            - Impact: 2–3 sentences on how this news may affect the client’s holdings (upside + downside).
+            - Profile: reference risk capacity, tolerance, and goals; include a short snippet from interview log if useful.
+            - Suggested Action (rules):
+                * Sentiment > 0.3 → BUY or HOLD, justify.
+                * -0.3 to 0.3 → HOLD or WATCH CLOSELY, justify.
+                * Sentiment < -0.3 → SELL or REDUCE, unless high tolerance + long-term goals → CAUTIOUS HOLD.
 
-    Keep each client note under 6 lines. Skip tickers not in client holdings.
+        Keep each client note under 6 lines. **Do not skip any client that holds the ticker.**
 
-    ### Step 4. Manager grouping
-    Clients are assigned to managers as follows:
-        - Manager 1: IDs 1–20
-        - Manager 2: IDs 21–40
-        - Manager 3: IDs 41–60
-        - Manager 4: IDs 61–80
-        - Manager 5: IDs 81–100
-        (If more clients exist, continue assigning in blocks of 20.)
+        ### Step 4. Manager grouping
+        Clients are assigned to managers as follows:
+            - Manager 1(email: kumnegermarkos49@gmail.com): IDs 1–20
+            - Manager 2(email: ken496235@gmail.com): IDs 21–40
+            - Manager 3(email: kumneger496235@gmail.com): IDs 41–60
+            - Manager 4(email: kumnegermarkos49@gmail.com): IDs 61–80
+            - Manager 5(email: kumneger496235@gmail.com): IDs 81–100
+            (If more clients exist, continue assigning in blocks of 20.)
 
-    Group affected clients by their manager.
+        Group affected clients by their manager.
 
-   ### Step 5. Manager email drafts
-    For each manager with affected clients:
+        ### Step 5. Manager email drafts
+        For each manager with affected clients:
 
-    1. For **every client affected under this manager**, create a separate, detailed email draft. Each client email must include:
-        - **Client name and id
-        - **Subject line** – clearly reflects the news or update affecting the client’s portfolio.
-        - **Intro sentence** – briefly introduce the context of the news or market event.
-        - **Body sentence(s)** – explain what happened, why it matters, and the potential impact on the client’s holdings. Reference the client’s risk capacity, tolerance, goals, and any relevant interview log snippet.
-        - **Closing sentence** – suggest an action, next steps, or offer further discussion.
+        1. **Mandatory client coverage:**
+            - The model must identify **all tickers mentioned in the news** (no skipping).
+            - For each ticker, search all clients’ holdings and find **every client holding that ticker**.
+            - For each client found, generate a dedicated mini-email update. **No affected client may be omitted.**
 
-    2. Structure the manager’s draft as follows:
-        - Start with a **brief paragraph** explaining that you are providing detailed updates for each affected client, summarizing the impact and suggested actions.
-        - Then include **each client’s mini-email** (subject, intro, body, closing) individually. **Do not merge multiple clients into a single bullet or paragraph**—each client must be informed independently.
-        - Ensure that **no affected client is omitted**. Every client impacted by the news must have a dedicated update.
+        2. **Per-client mini-email format:**
+            Each client’s update must be a **standalone mini-email** with:
+                - **Client Name and ID**
+                - **Subject line** – reflects the news/update affecting this client.
+                - **Intro** – brief context of the news or market event.
+                - **Body** – explain what happened, why it matters, and impact on this client’s holdings. Explicitly reference their risk capacity, tolerance, goals, and interview log snippet if useful.
+                - **Closing** – suggest a clear action or next step (aligned with Step 3 rules).
 
-    3. Keep each client email **concise, professional, and actionable**, but detailed enough to fully inform the client without requiring reference to other clients’ updates.
+        3. **Manager draft structure:**
+            - Start with a short intro paragraph explaining that detailed updates are being provided for each affected client.
+            - Then include **each client’s mini-email individually** in sequence. Do **not merge multiple clients** into one bullet or paragraph.
+            - Ensure the draft is **fully exhaustive**: every client affected by any news item must be included.
 
-    4. End the manager email draft with a polite closing line offering further discussion if needed.
+        4. **Style rules:**
+            - Keep each mini-email concise, professional, and actionable.
+            - Each mini-email must be readable independently.
+            - End the manager draft with a polite closing line offering to discuss further.
 
-    **IMPORTANT:** The model must **identify all clients affected by each news item and each manger these client are under** and generate a full mini-email for each one under their respective manager.
+        **CRITICAL RULE:** The model must **systematically identify all affected tickers and all affected clients for each news item**. Completeness is required before generating the manager email drafts.
+        """
 
-    """
 
 
 
@@ -233,6 +241,30 @@ def main() -> List[Dict[str, Any]]:
 
     print("RAG agent has finished, returning the final answer")
     print(rag_final_answer)
+
+    # ============================== EMAIL SENDING AGENT ==============================
+    # Pass the RAG output to the email agent. The agent extracts manager emails and sends messages.
+    print("Dispatching emails to managers via email_sending_agent...")
+    email_logs = []
+    try:
+        email_logs = run_email_agent(rag_final_answer)
+    except Exception as exc:
+        print(f"Email agent failed: {exc}")
+
+    if email_logs:
+        print("\nEmail dispatch logs:")
+        for e in email_logs:
+            print(f"to={e.get('to','')} | subject={e.get('subject','')} | status={e.get('status','')}")
+
+    email_output_file = "./orchestrator/email_output.txt"
+    with open(email_output_file, "a", encoding="utf-8") as f:
+        f.write(f"[{now}] email_logs\n")
+        f.write(json.dumps(email_logs, ensure_ascii=False) + "\n\n")
+
+    # Append email logs to orchestrator log
+    with open(output_file, "a", encoding="utf-8") as f:
+        f.write(f"[{now}] email_logs\n")
+        f.write(json.dumps(email_logs, ensure_ascii=False) + "\n\n")
 
     return scored
 
