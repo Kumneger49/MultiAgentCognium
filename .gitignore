@@ -3,4 +3,7 @@ venv/
 .env
 __pycache__/
 # output/
-# rag_storage/
+# rag_storage/email_sending_agent/credentials.json
+email_sending_agent/token.json
+credentials.json
+token.json
