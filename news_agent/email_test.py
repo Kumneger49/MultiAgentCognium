@@ -6,7 +6,7 @@ import urllib.parse
 import re
 import html as htmllib
 
-def get_ticker_news(ticker: str, limit: int = 10) -> list:
+def get_ticker_news(ticker: str, limit: int = 10) -> None:
     qs = urllib.parse.urlencode({
         "s": ticker,
         "region": "US",
@@ -18,7 +18,6 @@ def get_ticker_news(ticker: str, limit: int = 10) -> list:
         xml_bytes = resp.read()
     root = ET.fromstring(xml_bytes)
     channel_title = root.findtext("./channel/title") or ""
-    results = []
     count = 0
     for item in root.iterfind(".//item"):
         title = (item.findtext("title") or "").strip()
@@ -30,17 +29,12 @@ def get_ticker_news(ticker: str, limit: int = 10) -> list:
             date = parsedate_to_datetime(pub).strftime("%Y-%m-%d") if pub else ""
         except Exception:
             date = pub
-        results.append({
-            "date": date,
-            "publisher": channel_title,
-            "title": title,
-            "link": link,
-            "summary": desc,
-        })
+        print(f"{date} | {channel_title} | {title} | {link}")
+        if desc:
+            print(f"    - {desc}")
         count += 1
         if count >= limit:
             break
-    return results
 
 
 def _clean_html_text(text: str) -> str:
@@ -59,16 +53,29 @@ def _clean_html_text(text: str) -> str:
 
 
 def get_news_for_symbols(symbols: list, limit: int = 5) -> dict:
-    return {symbol: get_ticker_news(symbol, limit=limit) for symbol in symbols}
+    out = {}
+    for symbol in symbols:
+        out[symbol] = get_ticker_news(symbol, limit=limit)
+    return out
 
 
- # Example (manual print run):
-def main():
-    batch = get_news_for_symbols(["INFY.NS","TM","SPY","AAPL","TSLA","BND","AGG","GLD","EEM","IAU","SIE.DE","IGLS.L","MSFT"], limit=2)
-    return batch
+def print_indexes_news():
+    indexes = ["INFY.NS","TM","SPY","AAPL","TSLA", "BND", "AGG", "GLD", "EEM", "IAU", "SIE.DE", "IGLS.L", "MSFT"]
+    names = {
+        "^GSPC": "S&P 500",
+        "^DJI": "Dow Jones",
+        "^IXIC": "Nasdaq Composite",
+    }
+    for symbol in indexes:
+        label = names.get(symbol, symbol)
+        print(f"\n=== {label} ({symbol}) ===")
+        get_ticker_news(symbol, limit=5)
+    
+    # # Also include selected tickers
+    # tickers = ["AAPL", "TSLA"]
+    # for symbol in tickers:
+    #     print(f"\n=== {symbol} ===")
+    #     get_ticker_news(symbol, limit=5)
 
-if __name__ == "__main__":
-    print(main())
-
-
- 
+# Example:
+print_indexes_news()

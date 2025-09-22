@@ -1,0 +1,24 @@
+
+summary_for_the_clients = ### Holdings Aggregation
+
+The unique set of holdings across all clients are as follows:
+
+- **Holdings:**
+  - **NVDA**: 
+    - Asset Type: Equity
+    - Region: US
+    - Currency: GBP, USD, CHF  
+  - **SPY**: 
+    - Asset Type: ETF
+    - Region: US
+    - Currency: GBP, USD, SGD    
+  - **TSLA**: 
+    - Asset Type: Equity
+    - Region: US
+    - Currency: SGD, USD  
+  - **AAPL**: 
+    - Asset Type: Equity
+    - Region: US
+    - Currency: AED, USD, GBP  
+
+ 

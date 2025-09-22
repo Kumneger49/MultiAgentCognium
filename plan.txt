@@ -1,0 +1,4 @@
+
+
+
+wrap up the rag pipeline to make it an agent
