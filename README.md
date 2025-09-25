@@ -2,7 +2,7 @@
 
 End-to-end command-line workflow:
 
-- Fetch recent news per ticker/index (Yahoo Finance RSS, no API key)
+- Fetch recent news per ticker/index (Yahoo Finance RSS; no API key)
 - Score each news item (relevance and sentiment) with OpenAI via LangChain
 - Run a RAG pipeline against a client-portfolio PDF to produce per-client notes grouped by ticker
 - Email managers consolidated updates (one per manager) via Gmail API
@@ -63,30 +63,30 @@ These env vars are read by the components via `python-dotenv`.
   - `data/` — sample PDFs (e.g., `private_bank_clients_100.pdf`)
   - `rag_storage/` — working store (chunks/entities/relations/cache)
   - `output/` — per-document parsed outputs
-- `news_agent/` — Yahoo Finance RSS fetcher
+- `news_agent/` — Yahoo Finance RSS fetcher (keyword by symbol/ticker)
   - `main.py` — returns a dict: `{symbol: [ {date, publisher, title, link, summary}, ... ] }`
   - Symbols list is inside `main.py`
 - `orchestrator/` — CLI pipeline
-  - `main.py` — loads previously scored news if present, else fetches+scores; then calls RAG and logs; finally sends consolidated manager emails
+  - `main.py` — loads previously scored news if present, else fetches+scores; then calls RAG and logs; finally sends one consolidated email per manager
   - `prety_news.txt` — append-only log; contains `scored_news` JSON blocks
   - `output.txt` — append-only log; contains RAG summaries
   - `email_output.txt` — append-only log; contains email dispatch logs
-- `email_sending_agent/` — Gmail sender and agent wrapper
+- `email_sending_agent/` — Gmail sender and agent wrapper (LangChain)
   - `main.py` — low-level Gmail send (`gmail_send_message(to, subject, body)`)
-  - `agent.py` — creates ONE polished, consolidated email per manager from RAG text and sends it
+  - `agent.py` — creates ONE polished, consolidated email per manager from RAG text and sends it; subject is branded with `[Cognium]`
   - `credentials.json` — place your Google OAuth client file here (not in repo)
   - `token.json` — created on first OAuth run
 
 ### Typical workflows (CLI)
 
-1) First end-to-end run (fetch → score → RAG)
+1) First end-to-end run (fetch → score → RAG → email)
 ```bash
 export OPENAI_API_KEY=your_openai_key
 python -m orchestrator.main | cat
 ```
 - If `orchestrator/prety_news.txt` has no `scored_news` yet, the pipeline:
   - fetches news (Yahoo RSS) for the symbols in `news_agent/main.py`
-  - scores each item with relevance (0..1) and sentiment (−1..1)
+  - scores each item with relevance (0 to 1) and sentiment (−1 to 1)
   - appends a `scored_news` JSON block to `orchestrator/prety_news.txt`
   - builds a precise prompt and calls the RAG backend over your PDF
   - appends the RAG summary to `orchestrator/output.txt`
@@ -99,6 +99,8 @@ python -m orchestrator.main | cat
 ```
 - The orchestrator will auto-load the latest `scored_news` block from `orchestrator/prety_news.txt` and skip the news fetch/score phase.
 
+To force a re-score, delete `orchestrator/prety_news.txt` (or remove its last `scored_news` block) and rerun step (1).
+
 3) Refresh news symbols or volume
 - Edit the symbols list in `news_agent/main.py`
 - Optionally change the `limit` passed to `get_news_for_symbols`
@@ -109,6 +111,8 @@ python -m orchestrator.main | cat
 - Place `credentials.json` in `email_sending_agent/`
 - On first end-to-end run, a browser will open to consent; this creates `email_sending_agent/token.json`
 - The sender must match the authorized account inside `email_sending_agent/main.py` (`message["From"]`)
+  
+Security: never commit `credentials.json` or `token.json`.
 
 ---
 
@@ -150,6 +154,12 @@ python -m orchestrator.main | cat
   - Ensure `email_sending_agent/credentials.json` exists; delete `token.json` to re-consent if needed
   - Subjects are auto-branded with `[Cognium]` and bodies are formatted with client bullets
   - The agent consolidates to one email per manager; if you see duplicates, clear logs and re-run
+
+### Configuration tips
+
+- Change symbols/universe: edit `news_agent/main.py` (the list passed to `get_news_for_symbols`) and optionally the `limit` per symbol.
+- Change the client PDF path: in `orchestrator/main.py`, update the `file_path` used when calling the RAG backend to point to your document.
+- Parser selection: set `RAG_PARSER` to `docling` or `mineru` (defaults to auto-detect → fallback: `mineru`).
 
 ---
 

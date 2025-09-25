@@ -25,3 +25,9 @@
 [2025-09-22 21:24:51] email_logs
 [{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
 
+[2025-09-23 12:10:04] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+
+[2025-09-25 12:18:13] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 1", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 2", "status": "sent"}]
+

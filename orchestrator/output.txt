@@ -3410,3 +3410,313 @@ Best Regards,
 [2025-09-22 21:24:51] email_logs
 [{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
 
+[2025-09-23 12:10:04] rag_summary
+### Step 1: Filter News
+
+Filtered news items based on the relevance score of ≥ 0.2:
+
+1. **Ticker:** INFY.NS
+   - **Date:** 2025-09-22
+   - **Title:** These Tech Stocks Are Already Falling Amid H-1B Immigration Visa Chaos. Why It Matters.
+   - **Summary:** Indian outsourcers’ business models are set to be disrupted following news over the weekend from the White House that skilled workers applying to the scheme face a $100,000 fee.
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** -0.7
+
+2. **Ticker:** INFY.NS
+   - **Date:** 2025-09-22
+   - **Title:** Infosys, Other Indian Tech Stocks Drop After Trump Hikes H-1B Visa Fee
+   - **Summary:** Indian technology stocks fell after new U.S. visa rules raised concerns about rising costs.
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** -0.8
+
+3. **Ticker:** TM
+   - **Date:** 2025-09-22
+   - **Title:** Is Toyota Motor (TM) a Buy as Wall Street Analysts Look Optimistic?
+   - **Summary:** The average brokerage recommendation for Toyota Motor (TM) is equivalent to a Buy.
+   - **Relevance Score:** 0.8
+   - **Sentiment Score:** 0.5
+
+4. **Ticker:** TM
+   - **Date:** 2025-09-22
+   - **Title:** Yokogawa Signs Agreements with Toyota for the R&D of the Control Platform for a Manned Pressurized Rover
+   - **Summary:** Yokogawa has signed agreements with Toyota for R&D activities related to the "Lunar Cruiser."
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** 0.6
+
+5. **Ticker:** SPY
+   - **Date:** 2025-09-22
+   - **Title:** Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Proposed Immigration Policy
+   - **Summary:** The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) is down 0.3%.
+   - **Relevance Score:** 0.6
+   - **Sentiment Score:** -0.4
+
+6. **Ticker:** GLD
+   - **Date:** 2025-09-22
+   - **Title:** Gold Trading at a Fresh Record High on Expectations for Additional Interest-Rate Cuts
+   - **Summary:** Gold traded at a record high early on Monday due to expectations of further rate cuts.
+   - **Relevance Score:** 0.9
+   - **Sentiment Score:** 0.7
+
+### Step 2: Ticker-Level Summary
+
+**INFY.NS:** Indian technology stocks, including Infosys, have dropped significantly due to new U.S. visa rules that impose a hefty fee on skilled workers, which could increase operational costs and disrupt business models. This presents an adverse environment for investors in these stocks.
+
+**TM:** Recent news highlights a positive outlook for Toyota Motor, with analyst recommendations reflecting optimism. Additionally, a strategic R&D partnership related to an advanced project could enhance Toyota's innovative capabilities and growth potential.
+
+**SPY:** The SPDR S&P 500 ETF Trust (SPY) is experiencing market pressure amid concerns over proposed immigration policies, leading to a slight decline in its performance.
+
+**GLD:** Gold is thriving in the market, trading at record highs as investors anticipate further interest rate cuts, indicating a strong demand for safe-haven assets.
+
+### Step 3: Client-Level Notes
+
+**For INFY.NS:**
+- **Date:** 2025-09-22
+- **Impact:** The recent rise in operational costs due to the new fees for H-1B visas negatively affects the value of Indian tech stocks, including Infosys. This could lead to a significant drop in the value of holdings for clients invested in these stocks.
+- **Profile:** Clients holding Infosys are typically classified with moderate risk capacity and low tolerance, aiming for steady growth in their portfolios. As indicated in their interview logs, they may prefer less volatility.
+- **Suggested Action:** SELL or REDUCE holdings due to adverse sentiment.
+
+**For TM:**
+- **Date:** 2025-09-22
+- **Impact:** Positive analyst sentiment and recent R&D collaborations could enhance investor confidence in Toyota and support the appreciation of the stock price, benefiting the client’s portfolio.
+- **Profile:** Clients invested in Toyota often have medium to high-risk tolerances and focus on long-term growth, as reflected in their interview logs.
+- **Suggested Action:** HOLD or BUY more shares considering the favorable sentiment.
+
+**For SPY:**
+- **Date:** 2025-09-22
+- **Impact:** The decline in SPY due to immigration policy concerns suggests a difficult market environment and potential future decreases in value.
+- **Profile:** Clients invested in SPY typically have a medium tolerance for risk and are looking for manageable growth, as indicated in their financial profiles.
+- **Suggested Action:** WATCH CLOSELY due to the neutral sentiment.
+
+**For GLD:**
+- **Date:** 2025-09-22
+- **Impact:** The surge in gold prices benefits clients with GLD holdings, marking a positive trend that aligns well with their investment goals for preserving wealth in volatile conditions.
+- **Profile:** Clients holding GLD often display higher risk tolerance, as they focus on long-term stability and protection against inflation, highlighted in their interviews.
+- **Suggested Action:** BUY more shares to leverage the favorable market conditions.
+
+### Step 4: Manager Grouping
+
+**Manager 1 (kumnegermarkos49@gmail.com):**
+- Clients with holdings in INFY.NS: 
+  - **1. Yvette Huff**
+  - **2. Joshua Walker**
+
+- Clients with holdings in TM:
+  - **1. Andrew Hickman**
+  - **2. Richard Morgan**
+
+- Clients with holdings in SPY:
+  - **1. Linda Wolfe**
+  - **2. Thomas Pierce**
+
+- Clients with holdings in GLD:
+  - **1. Sean McKay**
+  
+### Step 5: Manager Email Drafts
+
+#### Email for Manager 1
+
+**Subject:** Important Updates on Recent Market News Affecting Your Clients
+
+Dear Manager,
+
+I hope this message finds you well. Below, you will find detailed updates for each affected client regarding recent market news that may impact their holdings.
+
+---
+
+**Client Name: Yvette Huff (ID: C0001)**  
+**Subject:** Adverse News Impacting Infosys Holdings  
+**Intro:** Recent news indicates that Indian tech stocks, including Infosys, have experienced a significant drop due to rising H-1B visa fees.  
+**Body:** The imposition of a $100,000 fee for skilled workers applying for H-1B visas is expected to increase operational costs for Infosys, adversely affecting its stock price. Given your moderate risk capacity and low tolerance, it may be advisable to SELL your current holdings in Infosys.  
+**Closing:** Please let me know if you would like to discuss this further.
+
+---
+
+**Client Name: Joshua Walker (ID: C0002)**  
+**Subject:** Holding Recommendations Following Recent Infosys News  
+**Intro:** There has been a notable decline in Indian technology stocks due to recent changes in U.S. immigration policy.  
+**Body:** The announcement of a cost increase for H-1B visas could severely impact Infosys, representing a risk to your investment. As your risk capacity is moderate and you seek stable returns, I recommend SELLING your shares in Infosys to mitigate potential losses.  
+**Closing:** I am here for further discussion if needed.
+
+---
+
+**Client Name: Andrew Hickman (ID: C0003)**  
+**Subject:** Positive Developments for Toyota Holdings  
+**Intro:** Recent optimistic analyst sentiments have emerged regarding Toyota's future growth prospects.  
+**Body:** Analyst recommendations for Toyota are favorable, suggesting a potential rise in share value. With your medium risk capacity and long-term growth goals, I recommend HOLDING your shares while considering additional purchases to capitalize on this positive trend.  
+**Closing:** Let me know if you have any questions or would like to discuss further.
+
+---
+
+**Client Name: Richard Morgan (ID: C0004)**  
+**Subject:** R&D Collaboration with Toyota Enhances Investment Outlook  
+**Intro:** The recent R&D agreements between Toyota and Yokogawa reflect a promising direction for the company.  
+**Body:** This collaboration enhances Toyota’s innovative capabilities, potentially leading to future growth and increased share value. As an investor with a focus on long-term growth and a medium risk tolerance, I advise you to HOLD your current holdings in Toyota.  
+**Closing:** Please feel free to reach out for any further insights.
+
+---
+
+**Client Name: Linda Wolfe (ID: C0005)**  
+**Subject:** Market Sentiment Affecting SPY Holdings  
+**Intro:** News regarding immigration policy is impacting the SPDR S&P 500 ETF (SPY), reflecting a slight decline in performance.  
+**Body:** As your investments in SPY face potential headwinds due to market concerns, it's prudent to WATCH CLOSELY and remain vigilant on market movements, given your moderate risk tolerance.  
+**Closing:** I'm available to discuss any specific concerns about your portfolio.
+
+---
+
+**Client Name: Thomas Pierce (ID: C0006)**  
+**Subject:** SPY Market Dynamics Overview  
+**Intro:** The broad market ETF (SPY) is facing some negative sentiment due to immigration policy changes.  
+**Body:** A recent decrease in SPY values suggests a cautious outlook; with your moderate risk capacity, I recommend WATCHING CLOSELY your investments in SPY as the market dynamics evolve.  
+**Closing:** I'm here to help you navigate any decisions moving forward.
+
+---
+
+**Client Name: Sean McKay (ID: C0007)**  
+**Subject:** Positive Trends for Gold Investments  
+**Intro:** Gold prices are hitting new records amid expectations for further rate cuts, benefiting GLD holdings significantly.  
+**Body:** This trend presents a prime opportunity, and given your higher risk tolerance and goal for wealth preservation, I suggest a BUY for more shares in GLD to leverage this favorable market condition.  
+**Closing:** Please feel free to reach me to discuss your strategy further.
+
+---
+
+Thank you, and let me know if there is anything else I can assist you with!
+
+Best Regards,  
+[Your Name]  
+[Your Position]  
+
+
+[2025-09-23 12:10:04] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+
+[2025-09-25 12:18:13] rag_summary
+### Step 1. Filter News
+Based on the relevance and sentiment scores, here’s the filtered list of news items:
+
+1. **Ticker:** INFY.NS
+   - **Date:** 2025-09-23
+   - **Title:** Infosys Extends Strategic Collaboration with Sunrise to Accelerate IT Transformation and Power AI Future
+   - **Summary:** Infosys announced the expansion of its strategic long-term collaboration with Sunrise to accelerate its IT transformation.
+   - **Relevance Score:** 1.0
+   - **Sentiment Score:** 0.8
+   - **Reason:** Directly related to Infosys' business strategy and expected to have a positive impact.
+
+2. **Ticker:** SPY
+   - **Date:** 2025-09-24
+   - **Title:** Charting What’s Next as SPY Tests Our Top Technical Analyst’s V-Shaped Recovery Target
+   - **Summary:** The SPY is lingering near a price target after forming a V-bottom, indicating positive sentiment.
+   - **Relevance Score:** 1.0
+   - **Sentiment Score:** 0.6
+   - **Reason:** Directly related to SPY's performance and technical analysis, indicating positive sentiment.
+
+3. **Ticker:** SPY
+   - **Date:** 2025-09-24
+   - **Title:** Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Fed's Mixed Messaging, AI Hype
+   - **Summary:** The broad market ETF SPY was up 0.2% indicating a positive trend amidst broader market interactions.
+   - **Relevance Score:** 1.0
+   - **Sentiment Score:** 0.4
+   - **Reason:** Relevant to SPY's market performance, indicating a positive trend.
+
+4. **Ticker:** GLD
+   - **Date:** 2025-09-24
+   - **Title:** Update: Gold Falls Off a Record on Profit Taking and Stronger Dollar
+   - **Summary:** Gold fell off a record high as investors took profits, negatively impacting GLD.
+   - **Relevance Score:** 0.8
+   - **Sentiment Score:** -0.4
+   - **Reason:** Directly impacts gold prices, indicating negative sentiment for GLD.
+
+5. **Ticker:** GLD
+   - **Date:** 2025-09-24
+   - **Title:** Gold Falls Off a Record on Profit Taking and Stronger Dollar
+   - **Summary:** Gold fell off a record high after investors took profits, indicating a negative sentiment for GLD.
+   - **Relevance Score:** 0.8
+   - **Sentiment Score:** -0.4
+   - **Reason:** Similar sentiment impact as the previous item.
+
+### Step 2. Ticker-level Summary
+
+1. **INFY.NS:** Infosys has expanded its collaboration with Sunrise to transform IT systems, which bodes well for its strategic positioning and enhances growth prospects, indicated by favorable sentiment.
+
+2. **SPY:** The SPY shows positive signs as it hovers near a target price indicating a V-shaped recovery, along with solid performance noted by recent market trends, suggesting an optimistic outlook for investors.
+
+3. **GLD:** Gold has experienced a pullback from record highs due to profit-taking amid a stronger dollar, adversely impacting the sentiment surrounding GLD.
+
+### Step 3. Client-level Notes
+
+For **INFY.NS** clients:
+
+- **Client ID:** C0001
+- **Name:** Danielle Johnson
+  - **Date:** September 23, 2025
+  - **Impact:** The extension of Infosys' collaboration with Sunrise is likely to enhance company performance, which should positively influence your holdings in INFY. 
+  - **Profile:** Risk Capacity: Medium, Risk Tolerance: Low, Goals: Home purchase. *"Comfort with drawdowns consistent with growth profile."*
+  - **Suggested Action:** BUY, based on positive sentiment and strategic growth.
+
+For **SPY** clients:
+
+- **Client ID:** C0020
+- **Name:** Reginald Robinson
+  - **Date:** September 24, 2025
+  - **Impact:** The favorable sentiment and technical indicators for SPY suggest an upward trend that could enhance your overall portfolio value.
+  - **Profile:** Risk Capacity: Medium, Risk Tolerance: Low, Goals: Wealth preservation. 
+  - **Suggested Action:** BUY, due to strong positive sentiment and technical recovery indicators.
+
+For **GLD** clients:
+
+- **Client ID:** C0042
+- **Name:** Brenda Hurst
+  - **Date:** September 24, 2025
+  - **Impact:** Gold's recent price drop could signify a decrease in GLD valuations, impacting your investment. This downturn is adverse given the profit-taking sentiment.
+  - **Profile:** Risk Capacity: Low, Risk Tolerance: Medium, Goals: Wealth accumulation.
+  - **Suggested Action:** SELL or REDUCE, as the negative sentiment indicates potential further declines.
+
+### Step 4. Manager Grouping
+**Manager 1 (Email: kumnegermarkos49@gmail.com)**:
+- Affected Clients: Danielle Johnson (C0001), Reginald Robinson (C0020)
+
+**Manager 2 (Email: ken496235@gmail.com)**:
+- Affected Clients: Brenda Hurst (C0042)
+
+### Step 5. Manager Email Drafts
+
+#### Draft for Manager 1
+
+Subject: Client Updates on Recent Market News
+
+Dear Team,
+
+Please find attached the detailed updates for each client affected by recent market news regarding INFY.NS and SPY.
+
+**Client: Danielle Johnson (C0001)**
+Subject: Positive Update on Infosys Collaboration
+Dear Danielle,
+The recent news about Infosys expanding its collaboration with Sunrise is a promising development. This strategic move is expected to enhance Infosys’ market position, likely leading to an uplift in your holdings of INFY. Given your medium risk capacity and growth-oriented profile, I suggest a BUY to capitalize on this positive momentum.
+Best regards,
+
+**Client: Reginald Robinson (C0020)**
+Subject: Encouraging Signs for SPY Holding
+Dear Reginald,
+SPY is currently showing positive indicators with a recent V-shaped recovery and solid market performance. Given your medium risk capacity and goal of wealth preservation, I recommend a BUY on SPY to make the most of this favorable market sentiment.
+Best regards,
+
+#### Draft for Manager 2
+
+Subject: Client Update on Gold ETF Performance
+
+Dear Team,
+
+Here's the update for our client affected by the recent market developments regarding GLD.
+
+**Client: Brenda Hurst (C0042)**
+Subject: Update on Gold Market Sentiment
+Dear Brenda,
+The recent drop in gold prices due to profit-taking indicates a negative trend for GLD. Considering your low risk capacity and medium tolerance, I recommend considering a SEL or REDUCE to mitigate losses in this challenging environment. Please let us know how you would like to proceed.
+Best regards,
+
+---
+
+These updates are tailored to provide clients with the latest relevant information, respecting their unique portfolios and financial profiles while ensuring proper actionable suggestions based on market trends.
+
+[2025-09-25 12:18:13] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 1", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 2", "status": "sent"}]
+
