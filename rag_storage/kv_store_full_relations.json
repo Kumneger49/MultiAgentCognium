@@ -4958,5 +4958,533 @@
     "create_time": 1757790753,
     "update_time": 1757790753,
     "_id": "doc-18f5a91f7423417786a783364ad23668"
+  },
+  "doc-3ab3248bb649f58a5832c47d50e68b54": {
+    "relation_pairs": [
+      [
+        "Matthew Moore",
+        "UBS Alt"
+      ],
+      [
+        "Matthew Moore",
+        "Singapore MBFC"
+      ],
+      [
+        "BND",
+        "Christopher Davis"
+      ],
+      [
+        "AAPL",
+        "Danielle Johnson"
+      ],
+      [
+        "AML Score 24",
+        "Robert Johnson"
+      ],
+      [
+        "M00014",
+        "Robert Johnson"
+      ],
+      [
+        "London Mayfair",
+        "Susan Rogers"
+      ],
+      [
+        "M00011",
+        "Patricia Miller"
+      ],
+      [
+        "Market Update",
+        "New York Midtown"
+      ],
+      [
+        "Robert Johnson",
+        "Time Horizon 13 yrs."
+      ],
+      [
+        "Danielle Johnson",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Estate Planning",
+        "Linda Wolfe"
+      ],
+      [
+        "Patricia Miller",
+        "Robert Johnson"
+      ],
+      [
+        "INFY.NS",
+        "Robert Johnson"
+      ],
+      [
+        "Credit / Lending",
+        "Matthew Moore"
+      ],
+      [
+        "Debra Gardner",
+        "Remote"
+      ],
+      [
+        "M00029",
+        "Onboarding & KYC"
+      ],
+      [
+        "BND",
+        "Robert Johnson"
+      ],
+      [
+        "M00025",
+        "Market Update"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Time Horizon 1 yrs."
+      ],
+      [
+        "AML Score 26",
+        "Anthony Gonzalez"
+      ],
+      [
+        "Linda Wolfe",
+        "NVDA"
+      ],
+      [
+        "Matthew Moore",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "GLD",
+        "Susan Rogers"
+      ],
+      [
+        "DIFC",
+        "Jeffery Wagner"
+      ],
+      [
+        "Growth risk",
+        "Matthew Moore"
+      ],
+      [
+        "Affluent",
+        "Christopher Davis"
+      ],
+      [
+        "Danielle Johnson",
+        "NVDA"
+      ],
+      [
+        "Blackstone RE",
+        "Christopher Davis"
+      ],
+      [
+        "Joshua Walker",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "MBFC",
+        "Robert Johnson"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Liquidity Event Planning"
+      ],
+      [
+        "C0005",
+        "Robert Johnson"
+      ],
+      [
+        "C0011",
+        "Linda Wolfe"
+      ],
+      [
+        "Joshua Walker",
+        "Wealth Preservation"
+      ],
+      [
+        "Affluent",
+        "Jill Rhodes"
+      ],
+      [
+        "Christopher Davis",
+        "London Mayfair"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Compliance Status No PEP"
+      ],
+      [
+        "Affluent",
+        "Onboarding & KYC"
+      ],
+      [
+        "Jeffery Wagner",
+        "Time Horizon 18 yrs."
+      ],
+      [
+        "Affluent",
+        "Danielle Johnson"
+      ],
+      [
+        "M00034",
+        "Matthew Moore"
+      ],
+      [
+        "Joshua Walker",
+        "NVDA"
+      ],
+      [
+        "Anthony Gonzalez",
+        "C0007"
+      ],
+      [
+        "BND",
+        "Market Update"
+      ],
+      [
+        "M00012",
+        "Patricia Miller"
+      ],
+      [
+        "Blackstone RE",
+        "Jeffery Wagner"
+      ],
+      [
+        "C0006",
+        "Jeffery Wagner"
+      ],
+      [
+        "ESG Preferences",
+        "Lisa Smith"
+      ],
+      [
+        "Jill Rhodes",
+        "MSFT"
+      ],
+      [
+        "Debra Gardner",
+        "Meeting M00022"
+      ],
+      [
+        "Singapore MBFC",
+        "Susan Rogers"
+      ],
+      [
+        "Estate Planning",
+        "Robert Johnson"
+      ],
+      [
+        "Joshua Walker",
+        "TSLA"
+      ],
+      [
+        "Inflow Outflow Note",
+        "Meeting M00020"
+      ],
+      [
+        "Alternatives Review",
+        "Jill Rhodes"
+      ],
+      [
+        "Lisa Smith",
+        "VUKE.L"
+      ],
+      [
+        "M00036",
+        "Matthew Moore"
+      ],
+      [
+        "Alternatives Review",
+        "Joshua Walker"
+      ],
+      [
+        "Liquidity Event Planning",
+        "Robert Johnson"
+      ],
+      [
+        "Jill Rhodes",
+        "Liquidity Event Planning"
+      ],
+      [
+        "Jill Rhodes",
+        "Phone"
+      ],
+      [
+        "Credit / Lending",
+        "Danielle Johnson"
+      ],
+      [
+        "Debra Gardner",
+        "Dubai DIFC"
+      ],
+      [
+        "INFY.NS",
+        "Patricia Miller"
+      ],
+      [
+        "Lisa Smith",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Linda Wolfe",
+        "TM"
+      ],
+      [
+        "Alternatives Review",
+        "Danielle Johnson"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Dubai DIFC"
+      ],
+      [
+        "Danielle Johnson",
+        "Home Purchase"
+      ],
+      [
+        "Danielle Johnson",
+        "TM"
+      ],
+      [
+        "Credit / Lending",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "AGG",
+        "Matthew Moore"
+      ],
+      [
+        "Danielle Johnson",
+        "Liquidity Event Planning"
+      ],
+      [
+        "SIE.DE",
+        "Susan Rogers"
+      ],
+      [
+        "Liquidity Event Planning",
+        "TM"
+      ],
+      [
+        "Market Update Meeting",
+        "Video"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "London Mayfair"
+      ],
+      [
+        "Jeffery Wagner",
+        "Risk & IPS Review"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Market Update"
+      ],
+      [
+        "C0010",
+        "Lisa Smith"
+      ],
+      [
+        "High-Net-Worth (HNW)",
+        "Susan Rogers"
+      ],
+      [
+        "M00037",
+        "Susan Rogers"
+      ],
+      [
+        "Linda Wolfe",
+        "Risk & IPS Review"
+      ],
+      [
+        "Liquidity Event Planning",
+        "M00026"
+      ],
+      [
+        "Good",
+        "Joshua Walker"
+      ],
+      [
+        "Linda Wolfe",
+        "Singapore MBFC"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Client Focus Home Purchase"
+      ],
+      [
+        "Follow Up Date 2024-11-29",
+        "Meeting ID M00020"
+      ],
+      [
+        "Dubai DIFC",
+        "Linda Wolfe"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Portfolio Review"
+      ],
+      [
+        "BND",
+        "Debra Gardner"
+      ],
+      [
+        "M00027",
+        "Onboarding & KYC"
+      ],
+      [
+        "Affluent",
+        "Patricia Miller"
+      ],
+      [
+        "Linda Wolfe",
+        "Portfolio Review"
+      ],
+      [
+        "AAPL",
+        "Anthony Gonzalez"
+      ],
+      [
+        "Danielle Johnson",
+        "Excellent"
+      ],
+      [
+        "C0010",
+        "C0011"
+      ],
+      [
+        "High-Net-Worth (HNW)",
+        "Liquidity Event Planning"
+      ],
+      [
+        "Susan Rogers",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "NVDA",
+        "Patricia Miller"
+      ],
+      [
+        "M00015",
+        "Robert Johnson"
+      ],
+      [
+        "Danielle Johnson",
+        "Positive"
+      ],
+      [
+        "Credit / Lending",
+        "Lisa Smith"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Email Recap",
+        "Jill Rhodes"
+      ],
+      [
+        "M00035",
+        "Matthew Moore"
+      ],
+      [
+        "C0001",
+        "Danielle Johnson"
+      ],
+      [
+        "Debra Gardner",
+        "Meeting M00024"
+      ],
+      [
+        "AML Score 40",
+        "Patricia Miller"
+      ],
+      [
+        "Dubai DIFC",
+        "Lisa Smith"
+      ],
+      [
+        "C0002",
+        "Joshua Walker"
+      ],
+      [
+        "Jill Rhodes",
+        "Risk & IPS Review"
+      ],
+      [
+        "ESG Preferences",
+        "M00028"
+      ],
+      [
+        "Joshua Walker",
+        "Positive"
+      ],
+      [
+        "C0009",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Lisa Smith",
+        "Onboarding & KYC"
+      ],
+      [
+        "Moderate risk",
+        "Susan Rogers"
+      ],
+      [
+        "HNW",
+        "Matthew Moore"
+      ],
+      [
+        "M00038",
+        "Susan Rogers"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Meeting M00020"
+      ],
+      [
+        "Danielle Johnson",
+        "Singapore MBFC"
+      ],
+      [
+        "HNW",
+        "Joshua Walker"
+      ],
+      [
+        "M00013",
+        "Robert Johnson"
+      ],
+      [
+        "Joshua Walker",
+        "Market Update Meeting"
+      ],
+      [
+        "GLD",
+        "Lisa Smith"
+      ],
+      [
+        "HNW",
+        "Susan Rogers"
+      ],
+      [
+        "EEM",
+        "Robert Johnson"
+      ],
+      [
+        "Business Succession Planning",
+        "Jeffery Wagner"
+      ]
+    ],
+    "count": 130,
+    "create_time": 1759171585,
+    "update_time": 1759171585,
+    "_id": "doc-3ab3248bb649f58a5832c47d50e68b54"
   }
 }

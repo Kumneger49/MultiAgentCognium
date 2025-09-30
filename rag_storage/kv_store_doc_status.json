@@ -129,5 +129,31 @@
       "processing_end_time": 1757790753
     },
     "multimodal_processed": true
+  },
+  "doc-3ab3248bb649f58a5832c47d50e68b54": {
+    "status": "processed",
+    "chunks_count": 9,
+    "chunks_list": [
+      "chunk-2559e52c940ebabaa131608b6ab96f9f",
+      "chunk-4ff4e2e2f9f943dc14b223fb81b49ef2",
+      "chunk-7f1bd90d918c75204b2aefee71b3c67c",
+      "chunk-e973740e44f9410022580b7f014abdbf",
+      "chunk-9a1464090647e6a5f304cc8d87d9f25c",
+      "chunk-46abe8ce009d4707423d5d62be5436e9",
+      "chunk-d12d35fb5ab426ba70018e17e8995b0f",
+      "chunk-3e658fdd82c60278d3cd247bbc57a843",
+      "chunk-87a081b9716e6c53a07a39c361fd2bf4"
+    ],
+    "content_summary": "meeting_id : M00001 client_id : C0001 client_name : Danielle Johnson segment : Affluent risk_profile : Growth primary_goal : Home purchase meeting_datetime : 2024-10-27T22:00 channel : Email recap location : Singapore MBFC meeting_type : Credit / Len...",
+    "content_length": 41459,
+    "created_at": "2025-09-29T18:44:23.557368+00:00",
+    "updated_at": "2025-09-30T01:23:48+00:00",
+    "file_path": "output.pdf",
+    "track_id": "insert_20250929_224423_d5dc9997",
+    "metadata": {
+      "processing_start_time": 1759171463,
+      "processing_end_time": 1759171585
+    },
+    "multimodal_processed": true
   }
 }
