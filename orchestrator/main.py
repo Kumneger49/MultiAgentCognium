@@ -83,12 +83,13 @@ def score_news_with_llm(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         "relevance_score": "0 to 1 (how directly related to the ticker/company)",
         "sentiment_score": "-1 to 1 (negative to positive expected impact)",
         "reason": "one sentence",
+        "tag": "a word for catagory"
     }
     prompt = (
         "You are a financial assistant. For EACH news item below, add two scores and return JSON only.\n"
         "- relevance_score (0 to 1): how directly related this news is to the ticker/company.\n"
         "- sentiment_score (-1 to 1): negative to positive expected impact for the ticker in the near term.\n"
-        "Include original fields (ticker, date, title, summary, link) plus a one-line reason.\n"
+        "Include original fields (ticker, date, title, summary, link, tag for which catagory the news belongs to like Tech, Stocks, Bonds, or other(mention in this case)) plus a one-line reason.\n"
         "Return ONLY a JSON array (no prose) with objects matching:"
         f"\n{json.dumps(schema_hint)}\n"
         "Consider publisher quality and recency if helpful. Keep reasons concise."

@@ -26,5 +26,25 @@ regarding the client portifolio and also linking to the client goals
 action summary 
 
 
+client side:
+    getting past purchasing history to get the idea of what assets the client is interested in 
+    liquidity needs(whether the client wants to own less or more liquid assets)
+    the goal of the client
+pipeline side potential data sources:      
+    social media apis
+pipeline usecases:
+    your goal is and you're on the right track or you need to take actions
+
+potential user experience for managers:
+    Client Portfolio Dashboard – see performance, diversification, risk exposure across all clients.
+    Priority Alerts – “3 of your clients hold heavy positions in companies facing regulatory risks.”
+    Client Engagement Insights – track what recommendations clients act on, what they ignore.
+    Cross-client Trends – e.g., “40% of your clients want ESG-friendly investments.”
+    Portfolio Comparison – compare a client’s holdings to benchmarks, peers, or recommended models.
+
+
+
+feedback finetunning
+
 
 https://bonditglobal.com/products/scorable/

@@ -36,7 +36,7 @@ prompt = f"""You are an AI financial recommendation assistant. Your task is to a
 
 This is the recent financial news: {news}
 
-Follow these steps carefully:
+Foll``ow these steps carefully:
 
 1. **Task:**
    - For each client, analyze their holdings, interests, and the summary notes/interviews already processed by the system.
@@ -46,7 +46,7 @@ Follow these steps carefully:
    - **Explicitly reference the client’s summary notes/interview** in your reasoning for each recommendation.
    - Include a brief reasoning for each recommendation, linking it to both the news and the client’s notes.
 
-
+`
 **Important Notes:**
 - Do NOT recommend assets the client already owns.
 - Always justify recommendations using **both the news and the client’s summary notes**.

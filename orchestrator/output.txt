@@ -3720,3 +3720,165 @@ These updates are tailored to provide clients with the latest relevant informati
 [2025-09-25 12:18:13] email_logs
 [{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 1", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 2", "status": "sent"}]
 
+[2025-10-05 15:23:59] rag_summary
+### Step 1: Filter News
+Below are the filtered news items based on relevance and sentiment scores:
+
+1. **INFY.NS**
+   - **Date**: 2025-10-04
+   - **Title**: How Recent Developments Are Shaping the Evolving Infosys Investment Story
+   - **Summary**: Infosys has seen a modest adjustment in its fair value estimate, moving down from ₹1,748.14 to ₹1,720.41 per share. This change comes as analysts weigh the company’s solid operational performance while also considering fresh macroeconomic uncertainties.
+   - **Relevance Score**: 0.8
+   - **Sentiment Score**: -0.2 (Neutral).
+
+2. **INFY.NS**
+   - **Date**: 2025-10-03
+   - **Title**: Telenor Taps Infosys For HR Makeover On Oracle Cloud
+   - **Summary**: Infosys announced a partnership with Telenor Shared Services to deploy Oracle Cloud HR management, aiming to simplify operations and boost productivity.
+   - **Relevance Score**: 0.9
+   - **Sentiment Score**: 0.3 (Neutral).
+
+3. **TM**
+   - **Date**: 2025-10-04
+   - **Title**: Toyota (TSE:7203) Valuation in Focus After Strong Q3 Sales Growth and Surge in U.S. Electrified Models
+   - **Summary**: Toyota Motor posted a nearly 16% jump in North American vehicle sales for Q3, with electrified models making up almost half of U.S. sales in September, indicating strong consumer demand.
+   - **Relevance Score**: 0.85
+   - **Sentiment Score**: 0.5 (Favorable).
+
+4. **SPY**
+   - **Date**: 2025-10-03
+   - **Title**: Exchange-Traded Funds, Equity Futures Higher Pre-Bell as Investors Eye Another Interest Rate Cut for 2025
+   - **Summary**: The broad market exchange-traded fund SPDR S&P 500 ETF Trust was up 0.1% as investors anticipate interest rate cuts, potentially enhancing its attractiveness.
+   - **Relevance Score**: 0.6
+   - **Sentiment Score**: 0.3 (Neutral).
+
+5. **GLD**
+   - **Date**: 2025-10-03
+   - **Title**: Update: Gold Trading at a Record High as the Dollar Moves Down Amid the U.S. Government Shutdown
+   - **Summary**: Gold traded at record highs amid economic uncertainty, positively impacting GLD's performance.
+   - **Relevance Score**: 0.9
+   - **Sentiment Score**: 0.5 (Favorable).
+
+### Step 2: Ticker-level Summary
+
+- **INFY.NS Summary**: Infosys' fair value estimate has decreased from ₹1,748.14 to ₹1,720.41 per share as macroeconomic uncertainties emerge, indicating potential challenges for investors. However, the partnership with Telenor boosts its service offerings, providing a balanced outlook for investors.
+
+- **TM Summary**: Following a nearly 16% increase in Q3 vehicle sales, Toyota shows a robust market position, highlighting increased consumer interest in electrified vehicles, a favorable signal for stakeholders.
+
+- **SPY Summary**: Anticipation of further interest rate cuts has led to an uptick in SPY, aligning with broader market trends that could support investor sentiment.
+
+- **GLD Summary**: The spike in gold prices amid the U.S. government shutdown positively impacts GLD, reinforcing its appeal as a hedge against market volatility.
+
+### Step 3: Client-level Notes
+
+- **Clients Holding INFY.NS**:
+    - **Client ID: C0004 - Patricia Miller**
+        - **Date**: 2025-10-04
+        - **Impact**: The recent valuation decrease may put downward pressure on your shared holdings in Infosys (INFY.NS). However, the new partnership with Telenor is likely to enhance business prospects, providing some upside potential.
+        - **Profile**: You are classified as an affluent client with a balanced risk profile, aiming for wealth preservation, evident from your recent discussions.
+        - **Suggested Action**: Hold, as the new partnership may offset some valuation concerns.
+
+    - **Client ID: C0027 - Joseph Zuniga**
+        - **Date**: 2025-10-04
+        - **Impact**: The adjusted fair value may raise concerns about potential short-term volatility in your Infosys holdings. Nevertheless, the Telenor collaboration presents growth opportunities, balancing the overall outlook.
+        - **Profile**: Your risk capacity is high and your primary goal is wealth preservation consistent with our latest discussions.
+        - **Suggested Action**: Hold closely, watch how the positive news develops against valuation changes.
+
+- **Clients Holding TM**: 
+    - **Client ID: C0002 - Joshua Walker**
+        - **Date**: 2025-10-04
+        - **Impact**: Toyota's strong Q3 sales growth suggests a robust performance which may positively influence your TM holdings, providing potential for further appreciation in stock value.
+        - **Profile**: As a balanced risk client aiming for preservation, this constructive news aligns well with your investment outlook.
+        - **Suggested Action**: Buy or hold based on current positive sentiment regarding performance.
+
+- **Clients Holding SPY**:
+    - **Client ID: C0004 - Patricia Miller**
+        - **Date**: 2025-10-03
+        - **Impact**: Increased investor interest tied to anticipated interest rate cuts may provide a favorable backdrop for your SPY investments, enhancing overall portfolio value.
+        - **Profile**: Your balanced risk profile aligns with the current market conditions enhancing liquidity planning.
+        - **Suggested Action**: Hold, monitoring for shifts in sentiment ahead of rates.
+
+- **Clients Holding GLD**:
+    - **Client ID: C0001 - Danielle Johnson**
+        - **Date**: 2025-10-03
+        - **Impact**: The rise of gold prices offers strong upside for your GLD holdings, suggesting your strategy in commodities remains advantageous during economic uncertainty.
+        - **Profile**: You are focused on home purchase and have moderate liquidity needs, making this a favorable asset class for stability.
+        - **Suggested Action**: Buy to further capitalize on upward price trends.
+
+### Step 4: Manager Grouping
+
+**Manager 1 - kumnegermarkos49@gmail.com**
+- Clients Holding: C0004, C0027
+
+**Manager 2 - ken496235@gmail.com**
+- Clients Holding: C0002, C0001
+
+### Step 5: Manager Email Drafts
+
+#### Manager 1: kumnegermarkos49@gmail.com
+**Subject**: Client Updates on Recent Market Developments Regarding INFY.NS.
+
+Hello Team,
+
+Below are detailed updates for each affected client following the recent developments impacting Infosys.
+
+**Client Name: Patricia Miller (C0004)**  
+**Subject**: Recent Insights on Infosys Valuation  
+**Intro**: A recent adjustment in Infosys' fair value and a new partnership with Telenor have implications for your holdings.  
+**Body**: The fair value estimate has decreased to ₹1,720.41 due to macroeconomic concerns, raising potential short-term volatility risks. Nevertheless, the partnership may improve operational efficiencies and future opportunities. Your balanced risk profile indicates a cautious approach is warranted.  
+**Closing**: It is recommended to hold your position while monitoring developments closely.
+
+---
+
+**Client Name: Joseph Zuniga (C0027)**  
+**Subject**: Insights on Infosys Investments  
+**Intro**: The valuation adjustment of Infosys alongside the new Telenor partnership requires a careful review of your holdings.  
+**Body**: While the new fair value is lower, the business partnership should create growth opportunities. Considering your high risk capacity and wealth preservation goals, it is prudent to remain watchful of these developments.  
+**Closing**: Holding your position may be best as the positive news develops.
+
+---
+
+Thank you, and please let me know if any further assistance or discussions are needed.
+
+---
+
+#### Manager 2: ken496235@gmail.com  
+**Subject**: Client Updates on Recent Market Developments Regarding TM and SPY.
+
+Hello Team,
+
+Here are the updates concerning our clients holding TM and SPY in light of recent market news.
+
+**Client Name: Joshua Walker (C0002)**  
+**Subject**: Positive Developments for Toyota Holdings  
+**Intro**: Toyota has reported robust sales growth, which signals a favorable outlook for your investments.  
+**Body**: The recent data indicates a 16% increase in North American sales, suggesting continued demand for their electrified models. Given your balanced risk profile, this development supports a buy recommendation for your TM holdings.  
+**Closing**: Please consider increasing your position as sentiment remains favorable.
+
+---
+
+**Client Name: Patricia Miller (C0004)**  
+**Subject**: Updates on SPY Holdings  
+**Intro**: Anticipations around interest rate cuts are creating a positive market sentiment for SPY.  
+**Body**: As highlight, investor confidence is rising, and this aligns with your profile’s focus on liquidity and preservation. Therefore, it’s advisable to hold your SPY while keeping an eye on rate changes.  
+**Closing**: Let’s continue monitoring this trend.
+
+---
+
+**Client Name: Danielle Johnson (C0001)**  
+**Subject**: Positive Movements in Gold Trading  
+**Intro**: Recent spikes in gold prices may significantly enhance your holdings in GLD.  
+**Body**: With gold reaching record highs due to economic pressures, your focus on asset stability aligns perfectly with continuing investment in GLD. I recommend buying on the upward trend.  
+**Closing**: Let’s discuss your position in further detail as it evolves.
+
+---
+
+Thank you for your attention. I am here to discuss these updates or any other matters further.
+
+---
+
+This concludes the email drafts for the respective managers and clients based on the provided input.
+
+[2025-10-05 15:23:59] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Client Updates on Recent Market Developments Regarding INFY.NS.", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Client Updates on Recent Market Developments Regarding TM and SPY.", "status": "sent"}]
+

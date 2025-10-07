@@ -31,3 +31,6 @@
 [2025-09-25 12:18:13] email_logs
 [{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 1", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 2", "status": "sent"}]
 
+[2025-10-05 15:23:59] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Client Updates on Recent Market Developments Regarding INFY.NS.", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Client Updates on Recent Market Developments Regarding TM and SPY.", "status": "sent"}]
+
