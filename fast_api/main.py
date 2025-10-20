@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 
-file_path = "../orchestrator/prety_news.txt"
+file_path = "./prety_news.txt"
 
 with open(file_path, "r") as f:
     # text = f.read()

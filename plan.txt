@@ -43,6 +43,10 @@ potential user experience for managers:
     Portfolio Comparison – compare a client’s holdings to benchmarks, peers, or recommended models.
 
 
+we need to put a recommendation button in the frontend 
+create a file to store for each news, we need to store a comprehensive recommendation text for each user affected by that news regarding the three important factors 
+
+
 
 feedback finetunning
 
