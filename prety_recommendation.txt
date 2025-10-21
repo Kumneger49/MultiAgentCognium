@@ -1,187 +1,84 @@
-recommendations = [
+```python
+[
     {
-        "news": "Asian Equities Traded in the US as American Depositary Receipts Rise Sharply in Wednesday Trading",
-        "client_name": "Cynthia Diaz",
-        "recommendation": "Given the recent positive movement in Asian equities, consider increasing your allocation in INFY.NS to capitalize on potential growth, while also diversifying to mitigate risk. This move could enhance returns through potential equity appreciation and increase bank commissions through trading activity.",
-        "rate_of_return": "Increasing exposure to INFY.NS can improve potential returns as it aligns with a rising Asian market sentiment.",
-        "portfolio_risk": "Broader diversification from Asian equities into other markets may reduce concentration risk in your portfolio.",
-        "bank_commissions": "Adjusting your INFY.NS holdings will generate commissions for the bank through these trades."
-    },
-    {
-        "news": "Asian Equities Traded in the US as American Depositary Receipts Surge in Tuesday Trading",
-        "client_name": "Cynthia Diaz",
-        "recommendation": "With the surge in American Depositary Receipts including INFY.NS, now would be an opportune moment to increase your position, enhancing your returns in line with this upward trend. This action also allows you to diversify risk across more aggressive equities.",
-        "rate_of_return": "A timely investment in INFY.NS can significantly boost potential returns given the current market enthusiasm.",
-        "portfolio_risk": "This strategy would mitigate risks linked to any single investment by leveraging positive market trends.",
-        "bank_commissions": "Increased trading activity from this recommendation will allow the bank to earn commission from your investments."
+        "news": "Infosys Extends Strategic Collaboration with Sunrise to Accelerate IT Transformation and Power AI Future",
+        "client_name": "Joseph Wright",
+        "recommendation": "Given the expansion of Infosys' collaboration with Sunrise, Joseph should consider increasing his exposure to INFY.NS in his portfolio to capitalize on potential growth from this partnership. This move could maximize his return while aligning with his long-term investment goals.",
+        "rate_of_return": "Expected return may increase by 5–7% due to Infosys's strengthened market position.",
+        "portfolio_risk": "Volatility risk may decline by around 10% as the collaboration enhances Infosys's stability.",
+        "bank_commissions": "Estimated commission growth of 2% from increased trading related to Infosys shares."
     },
     {
         "news": "Infosys Extends Strategic Collaboration with Sunrise to Accelerate IT Transformation and Power AI Future",
-        "client_name": "Cynthia Diaz",
-        "recommendation": "The news regarding Infosys' collaboration underscores strong growth potential, recommending an increase in your INFY.NS holding to capitalize on expected future returns. This investment strengthens portfolio value while managing risk through a productive industry partnership.",
-        "rate_of_return": "This collaboration is likely to enhance returns on your INFY.NS investments as Infosys increases its market footprint.",
-        "portfolio_risk": "Your investment in a leading company with such strategic initiatives will reduce overall volatility and improve risk-adjusted returns.",
-        "bank_commissions": "Increasing your stake in INFY.NS not only optimizes your investment but will also produce trading commissions for the bank."
+        "client_name": "Whitney Hicks",
+        "recommendation": "Whitney should diversify her portfolio by adding INFY.NS following this strategic move, forecasting higher returns from an expanding tech landscape. This tactic will help mitigate potential risks linked to her current tech-heavy investments.",
+        "rate_of_return": "Expected return may rise by around 4–6% reflecting the solid partnership development.",
+        "portfolio_risk": "Volatility risk could decrease by approximately 8% as Infosys strengthens its market foothold through collaboration.",
+        "bank_commissions": "Estimated commission growth of 1.5% from additional advisory fees related to INFY.NS investments."
     },
     {
         "news": "Toyota Motor Corporation (TM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-        "client_name": "Angela Cohen",
-        "recommendation": "Given the significant dip in Toyota’s stock, now may be a strategic time to reassess your TM holdings and potentially liquidate part of this investment to limit losses. This approach will minimize exposure to further declines while creating room for reallocating assets into more stable investments.",
-        "rate_of_return": "Reducing exposure in TM can preserve your capital, allowing you to reinvest it in higher-return opportunities.",
-        "portfolio_risk": "By diversifying away from TM, you lower the risk associated with a single stock underperforming.",
-        "bank_commissions": "Liquidating portions of your TM equity creates opportunities for the bank to earn commissions through trading or advisory services."
+        "client_name": "Bryan",
+        "recommendation": "Bryan should consider reallocating some positions away from TM in light of this news to reduce exposure to potential losses while optimizing for better-performing assets. This strategy not only minimizes risk but may also safeguard returns as TM faces short-term challenges.",
+        "rate_of_return": "Expected returns may stabilize, with a reduction of potential decline by 3–4% as alternative investments outperform Toyota.",
+        "portfolio_risk": "Overall portfolio risk could reduce by up to 7% by limiting high-exposure stocks during a downturn.",
+        "bank_commissions": "A possible increase in commission of about 1% could come from trade adjustments and reallocation actions."
     },
     {
-        "news": "Brand Loyalty Faces Headwinds as Tariffs Reshape New-Vehicle Shopper Behavior, J.D. Power Finds",
-        "client_name": "Angela Cohen",
-        "recommendation": "The insight regarding tariffs suggests a possible long-term impact on TM’s sales; consider reducing your holdings in TM to safeguard against potential further declines. This proactive strategy aims to maintain your portfolio’s stability while freeing up capital for alternative investments.",
-        "rate_of_return": "Reducing TM holdings now may prevent future losses as market adjustments for tariffs unfurl.",
-        "portfolio_risk": "This adjustment will minimize concentration risk stemming from potential declines in brand loyalty affecting TM.",
-        "bank_commissions": "Selling TM holdings could generate commissions for the bank, aiding in asset reallocation to more profitable avenues."
-    },
-    {
-        "news": "Toyota Names Ryder Supplier-of-the-Year",
-        "client_name": "Angela Cohen",
-        "recommendation": "The recognition of Ryder as Supplier-of-the-Year could reflect well on Toyota’s operational status, suggesting a hold strategy for TM until market reactions stabilize. This may allow for potential upside while taking a cautious approach to risk.",
-        "rate_of_return": "Maintaining your TM holdings may allow you to benefit from a potential rebound in Toyota’s stock following this positive recognition.",
-        "portfolio_risk": "Holding through this period may help maintain your risk profile as the market reacts positively to this supplier award.",
-        "bank_commissions": "Keeping TM positions may result in less immediate trading but aids in long-term strategic holding, benefiting ongoing advisory services."
+        "news": "Toyota Motor Corporation (TM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+        "client_name": "Lisa Smith",
+        "recommendation": "Lisa might need to reassess her stake in TM based on this recent dip while seeking positions in more resilient sectors or emerging markets. This proactive approach aligns with her objective to maintain steady returns while minimizing exposure to riskier equities.",
+        "rate_of_return": "Potential returns may drop by about 3% if selling TM now but could rebalance gains in more stable sectors.",
+        "portfolio_risk": "Risk exposure should decrease by around 5% as she reduces a significantly underperforming holding.",
+        "bank_commissions": "Estimated commission from adjusting her portfolio may yield around 2% due to higher trade frequency."
     },
     {
         "news": "Mutuum Finance (MUTM) Approaches Next Phase With 14.3% Price Increase After Raising $16 Million",
-        "client_name": "Robert Johnson",
-        "recommendation": "Despite limited relevance to your current portfolio, leveraging this news might encourage investment in similar innovative financial instruments that provide growth potential. Strategically aligning some investments can enhance your portfolio and potentially yield commissions.",
-        "rate_of_return": "This growth in an associated financial entity implies an opportunity to seek similar investments for enhanced profit generation.",
-        "portfolio_risk": "Diversifying into newer financial products can spread risk away from traditional equities.",
-        "bank_commissions": "Engaging in these new investments can lead to significant advisory commissions for the bank."
+        "client_name": "Jill Rhodes",
+        "recommendation": "Although this news primarily impacts a different sector, Jill should monitor similar investment vehicles as they may influence overall market dynamics tied to her strategies. Maintaining diversification across sectors can provide enhanced returns amidst shifting trends.",
+        "rate_of_return": "Overall returns from alternative investment strategies may rise by around 2–3% as market segments react positively.",
+        "portfolio_risk": "Risk can remain stable as Jill balances her investments across various asset classes.",
+        "bank_commissions": "Commission potential remains stable at approximately 0% due to minimal direct actions required."
     },
     {
         "news": "Charting What’s Next as SPY Tests Our Top Technical Analyst’s V-Shaped Recovery Target",
-        "client_name": "Patricia Miller",
-        "recommendation": "Given the positive technical analysis for SPY, this is an excellent opportunity to increase your investment in SPY, as a recovery would greatly enhance your overall return. This tactical approach not only captures potential gains but also diversifies risk across different sectors.",
-        "rate_of_return": "Investing more in SPY can significantly boost your returns if the market rebounds as anticipated.",
-        "portfolio_risk": "The broad market exposure helps minimize volatility risks linked to concentrated investments in specific stocks.",
-        "bank_commissions": "Increasing your SPY positions will generate trading commissions, benefiting the bank's revenue."
-    },
-    {
-        "news": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Fed's Mixed Messaging, AI Hype",
-        "client_name": "Patricia Miller",
-        "recommendation": "The positive movement in SPY indicates it may be advantageous to add to your holdings to capitalize on this upward trend. This recommendation aligns potential returns while enhancing portfolio diversification to reduce risk exposure.",
-        "rate_of_return": "Addition to SPY positions is likely to yield higher returns in light of the market's trending upward.",
-        "portfolio_risk": "Investing in broad-based ETFs effectively minimizes risks associated with specific stock fluctuations.",
-        "bank_commissions": "Increased transactions from adding to your SPY investment can generate further commissions for the bank."
-    },
-    {
-        "news": "FTSE 100 LIVE: Stocks slip as UK vehicle production falls to lowest since 1956",
-        "client_name": "Richard Morgan",
-        "recommendation": "Although focused on UK productions, this news suggests a cautious approach towards automotive investments; consider reallocating portions of your TM holdings away into more stable sectors. This ensures you avoid losses associated with the declining vehicle sector while optimizing growth potential.",
-        "rate_of_return": "Reallocation could protect against losses in TM and open opportunities in more resilient stocks.",
-        "portfolio_risk": "This strategy reduces exposure to a potentially declining market segment, enhancing overall stability.",
-        "bank_commissions": "Reallocating your investments can foster transaction commissions for the bank, supporting ongoing management services."
-    },
-    {
-        "news": "The No. 1 Holding on Robinhood Is Expected to Be at the Center of a $5 Trillion Addressable Opportunity by 2050",
-        "client_name": "Jeffery Lawrence",
-        "recommendation": "While this news highlights growth potential elsewhere, it’s essential to maintain focus on your current AAPL investments while exploring incremental growth strategies here. This approach aims to ensure sustained returns in your portfolio while managing any emerging risks.",
-        "rate_of_return": "Sustaining your AAPL investment will ensure continued exposure to technology growth opportunities.",
-        "portfolio_risk": "Maintaining diversified positions helps reduce risk from sector-specific downturns while continuing to seize growth opportunities.",
-        "bank_commissions": "Encouraging periodic reviews of your AAPL holdings can lead to retained advisory commissions for the bank."
-    },
-    {
-        "news": "Intel seeks investment from Apple: report",
-        "client_name": "Jeffery Lawrence",
-        "recommendation": "The news of potential investment discussions between Apple and Intel indicates a robust future for AAPL, suggesting a hold strategy on your current AAPL investments. This strategy aims to leverage potential future growth while balancing risks associated with market fluctuations.",
-        "rate_of_return": "Maintaining AAPL holdings is beneficial given the anticipated collaboration, leading to stronger returns.",
-        "portfolio_risk": "Holding on to proven blue-chip stocks like AAPL reduces volatility risk in your portfolio.",
-        "bank_commissions": "Maintaining an active portfolio review on AAPL can create ongoing advisory opportunities for the bank."
-    },
-    {
-        "news": "China’s BYD Logged Sales Surge in Europe Last Month",
-        "client_name": "Amber Blair",
-        "recommendation": "Considering BYD's rising sales, it suggests increased competition for TSLA; you may want to explore diversifying investments into other tech or cleaner energy companies. This diversification can help mitigate risks associated with Tesla's competitive position while seeking new growth opportunities.",
-        "rate_of_return": "Diversifying away from TSLA could optimize returns by investing in emerging competitors and new technology.",
-        "portfolio_risk": "Reducing reliance on a single company like TSLA helps diminish the portfolio's exposure to competitive pressures.",
-        "bank_commissions": "Engaging in new investments will generate commissions for the bank through increased trading activity."
-    },
-    {
-        "news": "BYD outsells Tesla in EU for second month, Stellantis returns to sales growth",
-        "client_name": "Amber Blair",
-        "recommendation": "The news of BYD outperforming Tesla in sales signals a need to reassess your TSLA holdings; it might be prudent to reduce exposure to protect against further declines. Shifting some investments could enhance your returns while managing portfolio risk.",
-        "rate_of_return": "Shifting investments can prevent losses linked to declining Tesla performance in the EU market.",
-        "portfolio_risk": "This strategic reduction manages concentration risk associated with a single stock underperforming.",
-        "bank_commissions": "Liquidations resulting from this assessment will yield trading commissions for the bank."
-    },
-    {
-        "news": "$1B Crypto Plan Announced as Jiuzi Shares Spike to 55.5%",
-        "client_name": "Richard Morgan",
-        "recommendation": "The volatile crypto market may attract speculative investments; consider evaluating any crypto or tech-related opportunities that align with your investment goals. While crypto presents high returns, ensure your primary assets maintain stability to safeguard against volatility.",
-        "rate_of_return": "Stepping into the crypto market can optimize returns through high-growth potential segments.",
-        "portfolio_risk": "Investing part of your holdings in alternative assets will enhance diversification and mitigate risks.",
-        "bank_commissions": "Engaging in new crypto opportunities could also generate commissions for the bank through trades."
-    },
-    {
-        "news": "Move Over, Treasuries. These Are the New Safe Assets.",
-        "client_name": "Shawn Mckay",
-        "recommendation": "The emergence of new safe assets suggests reevaluating your fixed-income holdings; shifting a portion of your portfolio towards these emerging assets may enhance growth potential. This strategy allows for maximizing returns while diversifying away from traditional Treasuries.",
-        "rate_of_return": "Allocating funds into newly identified safety assets can yield enhanced returns amidst changing market dynamics.",
-        "portfolio_risk": "Investing in different types of safe assets will reduce exposure to volatility in traditional fixed-income stocks.",
-        "bank_commissions": "Shifting your investment strategy can generate commissions for the bank, leading to ongoing advisory opportunities."
-    },
-    {
-        "news": "Best Moves For Income Investors As Rate Cuts Loom",
-        "client_name": "Michele Jones",
-        "recommendation": "As interest rate cuts are anticipated, consider adjusting your portfolio to include more fixed-income securities to secure stable returns. This strategy will not only enhance yields in your income-producing investments but also reduce risk through diversified exposure to low-volatility assets.",
-        "rate_of_return": "Incorporating more fixed-income securities will enhance returns by taking advantage of lower interest rate conditions.",
-        "portfolio_risk": "This transition mitigates risk by securing stable income with diversified assets, balancing your risk profile.",
-        "bank_commissions": "Adjusting to new fixed-income investments will create commission-generating opportunities for the bank through these transactions."
+        "client_name": "Jeffrey Lawrence",
+        "recommendation": "With SPY expected to recover, Jeffrey should reinforce his holdings in SPY for maximizing returns aligned with technical indicators reflecting market recovery. This enhances his likelihood of achieving quicker returns while diversifying his portfolio risk.",
+        "rate_of_return": "Potential return could increase by about 4–6% reflecting optimistic market sentiment.",
+        "portfolio_risk": "Risk levels may diminish by 3% if reinforced portfolio strategies include hedging alternatives.",
+        "bank_commissions": "Commission potential might rise by 2% as more trades are executed in line with anticipated market movements."
     },
     {
         "news": "Gold Falls Off a Record on Profit Taking and Stronger Dollar",
         "client_name": "Angela Cohen",
-        "recommendation": "The recent decline in gold prices signals a potential opportunity to gradually acquire GLD holdings at a lower price point; this could meet your long-term investment goals. This strategic entry can protect attributable losses while enhancing potential gains when gold prices rebound.",
-        "rate_of_return": "Investing in GLD during price retracement could optimize your entry point for future profit as prices recover.",
-        "portfolio_risk": "Purchasing at reduced prices minimizes risk related to overextending on gold during high-selling periods.",
-        "bank_commissions": "Your continued investment in GLD could lead to commissions for the bank through each transaction."
+        "recommendation": "Angela should consider strategically selling part of her GLD holdings to realize profits before a potential further decline, protecting her portfolio’s overall value while seeking alternative assets to invest in. This decision balances her returns while directly addressing the risk from the fluctuating gold market.",
+        "rate_of_return": "Realized returns from gold sales may increase short-term returns by 1-2% as she adjusts her strategy accordingly.",
+        "portfolio_risk": "Overall risk exposure could decrease by about 5% as assets are balanced with more stable investments.",
+        "bank_commissions": "Anticipated commissions may grow by 3% based on engagement in adjusting gold allocations."
     },
     {
-        "news": "Update: Gold Falls Off a Record on Profit Taking and Stronger Dollar",
-        "client_name": "Angela Cohen",
-        "recommendation": "This ongoing decline in gold prices indicates a further opportunity for buy-low strategies; consider progressively increasing your GLD holdings. This action serves to stabilize your investment in a historically volatile asset class while seizing future value.",
-        "rate_of_return": "Acquiring more GLD could maximize returns when market corrections occur after the current profit-taking event.",
-        "portfolio_risk": "Gradually increasing your investment in gold balances out current volatility by averaging your purchase prices.",
-        "bank_commissions": "Increasing your GLD positions can enable additional revenue generation through trades facilitated by the bank."
+        "news": "Gold Falls Off a Record on Profit Taking and Stronger Dollar",
+        "client_name": "Michelle Wright",
+        "recommendation": "With the recent decline in gold prices, Michelle should reassess her exposure to GLD and potentially reallocate into more promising securities to reduce losses while maintaining portfolio value. This move could help stabilize her returns amidst gold volatility.",
+        "rate_of_return": "Expected return on her remaining investments might stabilize, increasing by about 1-2% as she diversifies.",
+        "portfolio_risk": "Her volatility risk may decline by 6% as she reallocates from higher-risk gold exposure.",
+        "bank_commissions": "Estimated commission growth could hit about 1% from portfolio rebalancing actions."
     },
     {
-        "news": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Fed's Mixed Messaging, AI Hype",
-        "client_name": "Robert Johnson",
-        "recommendation": "The upward trend for ETFs indicates an opportune moment to bolster your investment in diversified ETFs like AGG, which can yield solid returns amidst market fluctuations. By diversifying your holdings, you mitigate risk while promoting additional trading commissions for the bank.",
-        "rate_of_return": "Boosting your ETF holdings can lead to improved returns as markets react favorably to mixed messaging from the Fed.",
-        "portfolio_risk": "Diversity in your portfolio through ETFs minimizes exposure to sector-specific downturns, enhancing stabilization.",
-        "bank_commissions": "Increasing your ETF allocation will generate trading commissions, supporting the bank's service revenue."
+        "news": "Siemens' AI and Robotics Push Could Be a Game Changer for Siemens (XTRA:SIE)",
+        "client_name": "Joseph Wright",
+        "recommendation": "Joseph should consider increasing his exposure to Siemens as this innovation positions the company for future profitability, presenting an excellent opportunity to maximize returns. This strategic adjustment offers a clear alignment with both growth prospects and reduced instability.",
+        "rate_of_return": "Expected returns could increase by about 3-5% as technological advancements improve Siemens' market performance.",
+        "portfolio_risk": "Portfolio risk may decrease by approximately 4% as advancements in technology bolster long-term value.",
+        "bank_commissions": "Expected commission growth should reach about 2% driven by increased trading volume in Siemens shares."
     },
     {
-        "news": "Best Moves For Income Investors As Rate Cuts Loom",
-        "client_name": "Robert Johnson",
-        "recommendation": "The insights regarding impending rate cuts suggest that now might be a strategic time to adjust your bond allocations in AGG for better yield stability. Enhancing holdings in fixed-income securities can optimize returns while effectively managing risk in your income generation strategy.",
-        "rate_of_return": "Pursuing improved bonds in light of expected interest rates cuts could enhance your income returns.",
-        "portfolio_risk": "This move will help protect against market dips by securing your income investments.",
-        "bank_commissions": "Revisiting your fixed-income strategy can ultimately yield transaction fees for the bank."
-    },
-    {
-        "news": "Gold ETFs to Watch as the Metal Hits Fresh Highs",
-        "client_name": "Angela Cohen",
-        "recommendation": "As the gold market continues to perform positively, it might be prudent to increase your holdings in gold ETFs like GLD and IAU to take advantage of potential growth. This dual strategy will preserve capital through safe-haven investing while maximizing returns on appreciating asset classes.",
-        "rate_of_return": "Increased investments in gold ETFs are likely to yield higher returns as the value of gold rises in response to economic factors.",
-        "portfolio_risk": "Balancing your portfolio with gold investments reduces overall exposure to market volatility.",
-        "bank_commissions": "Enhancing your gold holdings will produce commissions for the bank through your increased investment activity."
-    },
-    {
-        "news": "The Zacks Analyst Blog Highlights GLD, IAU, GLDM, SGOL and IAUM",
-        "client_name": "Angela Cohen",
-        "recommendation": "Given the analyst highlights, reinforcing your positions in GLD and IAU seems a beneficial move to capitalize on expected positive market trends for gold. This direction not only supports maximizing returns across commodity holdings but also manages risk through established secure assets.",
-        "rate_of_return": "Reinforcing GLD and IAU positions can significantly benefit from anticipated increases in gold prices.",
-        "portfolio_risk": "Firm holdings in gold ETFs will buffer against market volatility and economic uncertainty.",
-        "bank_commissions": "Reinforcing these positions will yield banks commissions as assets shift and trading occurs."
-    },
+        "news": "Siemens' AI and Robotics Push Could Be a Game Changer for Siemens (XTRA:SIE)",
+        "client_name": "Jill Rhodes",
+        "recommendation": "Jill should capitalize on Siemens' push into AI and robotics by diversifying into SIE, which presents growth opportunities likely to enhance her portfolio’s ROI. By investing in innovators, she reduces risk through strategic allocation across industries.",
+        "rate_of_return": "Her expected returns from this sector could improve by around 3-5% with the expected growth trajectory of Siemens.",
+        "portfolio_risk": "Volatility risk may decline by about 2% as she mitigates single-industry reliance.",
+        "bank_commissions": "This investment movement might yield approximately 1.5% in commission growth for the bank."
+    }
 ]
 ```

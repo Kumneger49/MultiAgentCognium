@@ -16,32 +16,47 @@ You must base each recommendation explicitly on **all three key factors**:
 3. Generating commissions for the bank
 
 Instructions:
-- For each news item, analyze the impact on every relevant client based on their portfolio and interests.
+- For each news item, analyze the impact on **at least two different clients** whose portfolios are affected or potentially influenced by the news.  
+  - Select clients whose holdings, interests, or industry exposures make them relevant to the news.  
+  - If more than two clients are relevant, include all significant ones.  
+  - **Do not skip or omit any news item**, and ensure at least two clients are analyzed for each.
+
 - Return a **Python list of dictionaries**, where each dictionary has these keys:
-    - "news": the full text of the news item
-    - "client_name": the client affected
-    - "recommendation": a concise 2-sentence explanation of how this news impacts the client and their portfolio, **explicitly stating how each of the three factors influenced your recommendation**
-        Each recommendation must explicitly evaluate and balance **three key factors**:
-        1. **Rate of Return:** How the recommendation can improve or sustain the client’s financial gains.
-        2. **Portfolio Risk:** How it helps manage or reduce exposure to volatility or concentration risk.
-        3. **Bank Commissions:** How it can reasonably generate revenue for the bank through trades, advisory products, or managed assets.
-    - ### Output Format
-        Return a **Python list of dictionaries**, where each dictionary has the following keys:
+    - "news": the full text of the news item  
+    - "client_name": the name of the client affected  
+    - "recommendation": a concise two-sentence explanation of how this news impacts the client and their portfolio, clearly connecting all three factors in natural language  
+    - "rate_of_return": one sentence describing how this news affects the client’s potential returns, including a **quantitative estimate** (e.g., "expected return may increase by 3–5%")  
+    - "portfolio_risk": one sentence describing how the recommendation reduces or manages the client’s risk exposure, with a **numerical estimate** (e.g., "volatility risk may decline by around 8%")  
+    - "bank_commissions": one sentence describing how this action could generate commissions or benefit the bank, with a **quantitative prediction** (e.g., "estimated commission growth of 2–3% from related trades or advisory fees")  
 
-        - "news": the full text of the news item  
-        - "client_name": the name of the client affected  
-        - "recommendation": a concise two-sentence explanation of how the news impacts the client and their portfolio, clearly connecting all three factors in natural language  
-        - "rate_of_return": one sentence describing how this news affects the client’s potential returns  
-        - "portfolio_risk": one sentence describing how the recommendation reduces or manages the client’s risk exposure  
-        - "bank_commissions": one sentence describing how this action could generate commissions or benefit the bank  
+Additional requirements:
+- Every recommendation must explicitly evaluate and balance **all three key factors**.  
+  - If a factor does not apply, explicitly mention why and assign an estimated 0% change.  
+- Use precise, data-driven language that reflects professional financial reasoning.  
+- Ensure that **each news item generates recommendations for at least two distinct clients**.  
+- Ensure all numerical predictions are realistic (e.g., within ±15% range unless the news is exceptionally significant).
 
-- **Do not skip any news item** in the input list. Even if the impact is small, include it.
-- Be precise, actionable, and always link the recommendation to both the news and the client’s holdings.
-- **Strict requirement:** Every recommendation must consider **all three factors**; if a factor does not apply, explicitly mention why.
+### Output Format:
+Return a **Python list of dictionaries**, with one dictionary per (news item, client) pair. Example structure:
+
+[
+    {{
+        "news": "...",
+        "client_name": "...",
+        "recommendation": "...",
+        "rate_of_return": "...",
+        "portfolio_risk": "...",
+        "bank_commissions": "..."
+    }},
+    ...
+]
 
 Here is the list of news to analyze:
 {new}
 """
+
+
+
 
 with open(file_path, "r") as f:
     news = str(f.read())
