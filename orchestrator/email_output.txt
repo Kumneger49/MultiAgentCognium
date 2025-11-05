@@ -34,3 +34,33 @@
 [2025-10-05 15:23:59] email_logs
 [{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Client Updates on Recent Market Developments Regarding INFY.NS.", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Client Updates on Recent Market Developments Regarding TM and SPY.", "status": "sent"}]
 
+[2025-11-03 21:28:11] email_logs
+[{"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Ken", "status": "sent"}]
+
+[2025-11-03 21:35:02] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+
+[2025-11-03 22:21:12] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 1", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 2", "status": "sent"}, {"to": "kumneger496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 3", "status": "sent"}]
+
+[2025-11-03 23:12:08] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 1", "status": "sent"}]
+
+[2025-11-03 23:25:17] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+
+[2025-11-03 23:44:47] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+
+[2025-11-04 00:20:10] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+
+[2025-11-04 00:42:17] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 1", "status": "sent"}, {"to": "kumneger496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager 5", "status": "sent"}]
+
+[2025-11-04 00:52:50] email_logs
+[]
+
+[2025-11-04 01:03:33] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+

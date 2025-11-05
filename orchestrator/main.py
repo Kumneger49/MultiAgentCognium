@@ -3,7 +3,8 @@ from datetime import datetime
 import asyncio
 from typing import List, Dict, Any
 
-from news_agent.main import main as newsmain
+# from news_agent.main import main as newsmain
+from news_agent.MultipleNewsSources import main as newsmain
 from cognium_codebase.main import main as ragmain
 from email_sending_agent.agent import run_email_agent
 
@@ -13,6 +14,7 @@ except Exception:
     ChatOpenAI = None  # will error later if not installed
 
 
+
 def _flatten_news(batch: Dict[str, List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
     print("-------------------------------------------Flattening the news-------------------------------------------")
     items: List[Dict[str, Any]] = []
@@ -20,13 +22,14 @@ def _flatten_news(batch: Dict[str, List[Dict[str, Any]]]) -> List[Dict[str, Any]
         for e in entries or []:
             items.append({
                 "ticker": ticker,
-                "date": e.get("date", ""),
-                "publisher": e.get("publisher", ""),
+                "date": e.get("published", "")[:10],  # YYYY-MM-DD
                 "title": e.get("title", ""),
-                "link": e.get("link", ""),
                 "summary": e.get("summary", ""),
+                "link": e.get("url", ""),           # Copy 'url' from input
+                "source": e.get("source", ""),      # Copy 'source' from input
             })
     return items
+
 
 
 def _extract_json_array(text: str) -> List[Dict[str, Any]]:
@@ -79,21 +82,31 @@ def score_news_with_llm(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         "date": "YYYY-MM-DD",
         "title": "string",
         "summary": "string",
-        "link": "string",
+        "link": "string (must be copied exactly from the input 'url' field)",
         "relevance_score": "0 to 1 (how directly related to the ticker/company)",
         "sentiment_score": "-1 to 1 (negative to positive expected impact)",
         "reason": "one sentence",
-        "tag": "a word for catagory"
+        "tag": "a word for category",
+        "source": "must be copied exactly from the input 'source' field, do NOT hallucinate"
     }
+
     prompt = (
-        "You are a financial assistant. For EACH news item below, add two scores and return JSON only.\n"
-        "- relevance_score (0 to 1): how directly related this news is to the ticker/company.\n"
-        "- sentiment_score (-1 to 1): negative to positive expected impact for the ticker in the near term.\n"
-        "Include original fields (ticker, date, title, summary, link, tag for which catagory the news belongs to like Tech, Stocks, Bonds, or other(mention in this case)) plus a one-line reason.\n"
-        "Return ONLY a JSON array (no prose) with objects matching:"
-        f"\n{json.dumps(schema_hint)}\n"
-        "Consider publisher quality and recency if helpful. Keep reasons concise."
+        "You are a financial assistant. For EACH news item in the input list, do the following:\n"
+        "1. Copy the 'title' and 'summary' exactly.\n"
+        "2. Copy 'url' from input as 'link'.\n"
+        "3. Copy 'source' from input as 'source'. Do NOT make up sources.\n"
+        "4. Extract the date from the 'published' field and format as YYYY-MM-DD.\n"
+        "5. Add 'ticker' and assign the correct ticker.\n"
+        "6. Assign 'tag' as one word: Tech, Stocks, Bonds, or Other.\n"
+        "7. Assign 'relevance_score' (0 to 1) based on how directly the news affects the ticker.\n"
+        "8. Assign 'sentiment_score' (-1 to 1) for expected impact on the ticker.\n"
+        "9. Add a one-sentence 'reason' explaining your scores.\n\n"
+        "Return ONLY a JSON array (no prose) matching the schema below exactly. "
+        "Do not leave 'source' or 'link' empty and do not invent them.\n"
+        f"{json.dumps(schema_hint)}\n"
     )
+
+
 
     messages = [
         ("system", "You return only JSON arrays, no extra text."),
@@ -109,7 +122,7 @@ def score_news_with_llm(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 def main() -> List[Dict[str, Any]]:
     # Load previously scored news to avoid re-fetching every run
-    scored = _load_scored_news_from_file("./orchestrator/prety_news.txt")
+    scored = _load_scored_news_from_file("./orchestrator/prety_news.json")
     if not scored:
         # Fallback: fetch and score now
         print("News has not been scored yet, scoring now")
@@ -126,11 +139,11 @@ def main() -> List[Dict[str, Any]]:
             print("\nRanking step returned no items (check OPENAI_API_KEY and langchain-openai installation).")
 
         # Append to orchestrator log
-        output_file = "./orchestrator/prety_news.txt"
+        output_file = "./orchestrator/prety_news.json"
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open(output_file, "a", encoding="utf-8") as f:
-            f.write(f"[{now}] scored_news\n")
-            f.write(json.dumps(scored, ensure_ascii=False) + "\n\n")
+            # json.dump(f"[{now}] scored_news\n", f)
+            json.dump(scored, f)
 
     # ============================== RAG INTEGRATION ==============================
     # Build a precise prompt: map scored news → affected tickers → impacted clients with concise actions

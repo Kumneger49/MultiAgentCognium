@@ -6,6 +6,8 @@ import urllib.parse
 import re
 import html as htmllib
 
+import json
+
 def get_ticker_news(ticker: str, limit: int = 10) -> list:
     qs = urllib.parse.urlencode({
         "s": ticker,
@@ -64,11 +66,13 @@ def get_news_for_symbols(symbols: list, limit: int = 5) -> dict:
 
  # Example (manual print run):
 def main():
-    batch = get_news_for_symbols(["INFY.NS","TM","SPY","AAPL","TSLA","BND","AGG","GLD","EEM","IAU","SIE.DE","IGLS.L","MSFT"], limit=3)
+    tickers = ["INFY.NS","TM","SPY","AAPL","TSLA","BND","AGG","GLD","EEM","IAU","SIE.DE","IGLS.L","MSFT"]
+    tickers = ["AAPL"]
+    batch = get_news_for_symbols(tickers, limit=3)
     return batch
 
 if __name__ == "__main__":
-    print(main())
+    print(json.dumps(main(), indent=4))
 
 
  

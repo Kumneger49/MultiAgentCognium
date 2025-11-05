@@ -1,4 +1,4 @@
-
+import json
 
 
 """
@@ -26,11 +26,11 @@ and make a recommendation pipeline based on this news identifacation and clients
 """
 
 
-file_path_to_prety_news = "./client_based_recommendation/prety_news.txt"
+file_path_to_prety_news = "./client_based_recommendation/prety_news.json"
 news = ""
 
 with open(file_path_to_prety_news, 'r') as f:
-    news = f.read()
+    json.load(f)
 
 prompt = f"""You are an AI financial recommendation assistant. Your task is to analyze recent financial news, clients’ current holdings, and their processed interview summaries/notes, and then recommend which assets each client might consider buying. 
 

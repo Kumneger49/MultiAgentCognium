@@ -121,7 +121,7 @@
     "content_summary": "Record 1\n\nclient_id: C0001 first_name: Danielle last_name: Johnson dob: 12/28/1959 age: 65 nationality: US residency_country: Singapore segment: Affluent kyc_source_of_wealth: Inheritance kyc_pep: False kyc_aml_risk_score: 42 fatca_status: US Person ...",
     "content_length": 163741,
     "created_at": "2025-09-13T19:04:37.412889+00:00",
-    "updated_at": "2025-10-05T15:23:04+00:00",
+    "updated_at": "2025-11-04T01:02:44+00:00",
     "file_path": "private_bank_clients_100.pdf",
     "track_id": "insert_20250913_230437_4daf880a",
     "metadata": {
@@ -147,7 +147,7 @@
     "content_summary": "meeting_id : M00001 client_id : C0001 client_name : Danielle Johnson segment : Affluent risk_profile : Growth primary_goal : Home purchase meeting_datetime : 2024-10-27T22:00 channel : Email recap location : Singapore MBFC meeting_type : Credit / Len...",
     "content_length": 41459,
     "created_at": "2025-09-29T18:44:23.557368+00:00",
-    "updated_at": "2025-10-20T12:25:45+00:00",
+    "updated_at": "2025-11-05T18:37:50+00:00",
     "file_path": "output.pdf",
     "track_id": "insert_20250929_224423_d5dc9997",
     "metadata": {
