@@ -1,6 +1,4 @@
 
-
-
 from cognium_codebase.main import main as ragmain
 import asyncio
 import json
@@ -39,13 +37,15 @@ Requirements:
 - For high-relevance news, analyze multiple angles: direct holdings, sector exposure, supply chain, competitive landscape
 
 Output: Python list of dicts with keys:
-- "news": "Topic: [topic]\\nSummary: [sum]" (from data)
+- "ticker": use the ticker from the data
+- "news": "Topic: [topic] + [sum]" (from data)
 - "sources": use exact "src" array from data
 - "client_name": "..."
 - "recommendation": "2 sentences connecting all 3 factors"
 - "rate_of_return": "estimate with % (e.g., 3-5% increase)"
 - "portfolio_risk": "estimate with % (e.g., 8% decline)"
 - "bank_commissions": "estimate with % (e.g., 2-3% growth)"
+- "tag": "tag for the type of the data like Tech, Stocks, Bonds, Finance or other"
 
 CRITICAL: Process ALL {batch_count} news items below. Do not stop after a few items.
 
