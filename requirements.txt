@@ -1,0 +1,30 @@
+# Core RAG System (from cognium_codebase)
+streamlit>=1.37.0
+python-dotenv>=1.0.1
+raganything==1.2.7
+ollama>=0.5.3
+mineru==2.1.11   # NO [all] to avoid sglang/flashinfer-python
+openai>=1.37.0
+pyvis>=0.3.2
+pypdf>=3.15.0
+pdfminer.six>=20221105
+docling
+
+# FastAPI for API service
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# LangChain for LLM interactions (orchestrator, email_agent, client_recommendations)
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.0.20
+
+# Pydantic for data validation (email_sending_agent)
+pydantic>=2.0.0
+
+# News Agent dependencies
+perigon>=1.0.0
+
+# Additional utilities
+requests>=2.31.0
+
