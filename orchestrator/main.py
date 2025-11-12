@@ -6,7 +6,14 @@ from typing import List, Dict, Any
 # from news_agent.main import main as newsmain
 from news_agent.MultipleNewsSources import main as newsmain
 from cognium_codebase.main import main as ragmain
-from email_sending_agent.agent import run_email_agent
+
+# Email agent import (optional - may fail due to langchain version compatibility)
+try:
+    from email_sending_agent.agent import run_email_agent
+except ImportError as e:
+    print(f"Warning: Could not import email_sending_agent: {e}")
+    print("Email functionality will be disabled. Fix langchain compatibility to enable.")
+    run_email_agent = None
 
 try:
     from langchain_openai import ChatOpenAI
@@ -239,10 +246,13 @@ def main() -> List[Dict[str, Any]]:
 
 
     print("----------------------------calling the rag agent-------------------------------")
+    # Use absolute path to ensure cache consistency (RAGAnything uses full path in cache key)
+    import os
+    file_path = os.path.abspath("./cognium_codebase/data/private_bank_clients_100.pdf")
     rag_final_answer = asyncio.run(
         ragmain(
             rag_prompt_template,
-            file_path="/Users/kumnegermatewos/Desktop/Cognium/Codebase/RagAgent/working/cognium_codebase/data/private_bank_clients_100.pdf",
+            file_path=file_path,
         )
     )
 
@@ -258,12 +268,15 @@ def main() -> List[Dict[str, Any]]:
 
     # ============================== EMAIL SENDING AGENT ==============================
     # Pass the RAG output to the email agent. The agent extracts manager emails and sends messages.
-    print("Dispatching emails to managers via email_sending_agent...")
     email_logs = []
-    try:
-        email_logs = run_email_agent(rag_final_answer)
-    except Exception as exc:
-        print(f"Email agent failed: {exc}")
+    if run_email_agent is None:
+        print("Skipping email dispatch: email_sending_agent not available (langchain compatibility issue)")
+    else:
+        print("Dispatching emails to managers via email_sending_agent...")
+        try:
+            email_logs = run_email_agent(rag_final_answer)
+        except Exception as exc:
+            print(f"Email agent failed: {exc}")
 
     if email_logs:
         print("\nEmail dispatch logs:")

@@ -7,3 +7,17 @@ __pycache__/
 email_sending_agent/token.json
 credentials.json
 token.json
+
+
+
+# Runtime caches & outputs
+rag_storage/
+cognium_codebase/rag_storage/
+output/
+cognium_codebase/output/
+client_based_recommendation/output.pdf
+rag_storage_cache.tar.gz
+rag-agent-deploy.tar.gz
+
+# Deployment bundles / tarballs
+*.tar.gz

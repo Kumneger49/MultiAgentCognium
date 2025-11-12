@@ -64,3 +64,15 @@
 [2025-11-04 01:03:33] email_logs
 [{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}, {"to": "ken496235@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
 
+[2025-11-09 17:12:09] email_logs
+[]
+
+[2025-11-09 17:33:24] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "error:[Errno 2] No such file or directory: 'credentials.json'"}]
+
+[2025-11-09 17:35:53] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "error:[Errno 2] No such file or directory: 'credentials.json'"}]
+
+[2025-11-09 17:37:44] email_logs
+[{"to": "kumnegermarkos49@gmail.com", "subject": "[Cognium] Portfolio Updates for Manager", "status": "sent"}]
+

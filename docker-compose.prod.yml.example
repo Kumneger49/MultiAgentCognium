@@ -1,0 +1,46 @@
+# Production docker-compose configuration example
+# Copy this file to docker-compose.prod.yml and update with your values
+# Usage: docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+
+services:
+  rag-agent:
+    environment:
+      # Required: API keys for external services
+      - OPENAI_API_KEY=${OPENAI_API_KEY}  # Must be set
+      - PERIGON_API_KEY=${PERIGON_API_KEY}  # Must be set
+      
+      # Security: Restrict CORS to your frontend domain(s)
+      # Example: ALLOWED_ORIGINS="https://app.yourdomain.com,https://yourdomain.com"
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-https://app.yourdomain.com}
+      
+      # Security: Set API key to protect POST endpoint
+      # Generate a strong random key: openssl rand -hex 32
+      - API_KEY=${API_KEY}  # Must be set in production
+      
+      # Optional: RAG parser configuration
+      - RAG_PARSER=${RAG_PARSER:-docling}
+    
+    # In production, you might want to:
+    # 1. Remove volume mounts for code (api.py, etc.) - use built image only
+    # 2. Use named volumes instead of bind mounts for data persistence
+    # 3. Add resource limits (memory, CPU)
+    # 4. Configure logging driver
+    # 5. Set up healthcheck with proper intervals
+    
+    # Example resource limits (uncomment and adjust):
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '2.0'
+    #       memory: 8G
+    #     reservations:
+    #       cpus: '1.0'
+    #       memory: 4G
+    
+    # Example logging configuration (uncomment):
+    # logging:
+    #   driver: "json-file"
+    #   options:
+    #     max-size: "10m"
+    #     max-file: "3"
+

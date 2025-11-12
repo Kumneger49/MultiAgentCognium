@@ -1,0 +1,35 @@
+services:
+  rag-agent:
+    image: rag-agent-processor:latest
+    container_name: rag-agent
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount directories for reading/writing data
+      - ./client_based_recommendation:/app/client_based_recommendation
+      - ./orchestrator:/app/orchestrator
+      - ./news_agent:/app/news_agent
+      - ./email_sending_agent:/app/email_sending_agent
+      - ./cognium_codebase:/app/cognium_codebase
+      - ./prety_recommendation.json:/app/prety_recommendation.json
+      # Mount rag_storage (persistent knowledge graph and caches)
+      - ./rag_storage:/app/rag_storage
+      # Mount api.py for development (code changes reflected)
+      - ./api.py:/app/api.py
+    environment:
+      - PYTHONPATH=/app
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - PERIGON_API_KEY=${PERIGON_API_KEY:-}
+      - RAG_PARSER=${RAG_PARSER:-docling}
+      # CORS configuration (optional - defaults to "*" for development)
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-*}
+      # API Key for POST endpoint (optional - if not set, no authentication required)
+      - API_KEY=${API_KEY:-}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+

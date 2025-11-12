@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+README.md
+docs/
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Data directories (will be mounted as volumes)
+rag_storage/
+cognium_codebase/output/
+cognium_codebase/rag_storage/
+cognium_codebase/data/
+client_based_recommendation/*.json
+orchestrator/*.json
+orchestrator/*.txt
+email_sending_agent/credentials.json
+email_sending_agent/token.json
+
+# Test files
+test/
+tests/
+*_test.py
+test_*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Other
+*.pdf
+plan.txt
+output.txt
+# Note: prety_recommendation.json is excluded from build but will be mounted as volume for API access
+prety_recommendation.json
+

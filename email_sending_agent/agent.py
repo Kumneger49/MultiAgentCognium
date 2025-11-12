@@ -3,7 +3,7 @@ import re
 import json
 
 from pydantic import BaseModel, Field
-from langchain.agents import initialize_agent, tool
+from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 
 from email_sending_agent.main import gmail_send_message

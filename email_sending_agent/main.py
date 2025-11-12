@@ -56,6 +56,7 @@
 
 import os.path
 import base64
+from pathlib import Path
 from email.message import EmailMessage
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -65,22 +66,34 @@ from googleapiclient.discovery import build
 # Use gmail.send so you can send messages
 SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
 
+# Get the directory where this script is located
+EMAIL_AGENT_DIR = Path(__file__).resolve().parent
+
 def gmail_send_message(emailto, subject, body):
+    # Use absolute paths based on script location
+    token_path = EMAIL_AGENT_DIR / "token.json"
+    credentials_path = EMAIL_AGENT_DIR / "credentials.json"
+    
     creds = None
     # Load saved credentials if they exist
-    if os.path.exists("token.json"):
-        creds = Credentials.from_authorized_user_file("token.json", SCOPES)
+    if token_path.exists():
+        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
     # If there are no valid credentials, let the user log in
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
+            if not credentials_path.exists():
+                raise FileNotFoundError(
+                    f"credentials.json not found at {credentials_path}. "
+                    "Please ensure the Google OAuth credentials file is in the email_sending_agent directory."
+                )
             flow = InstalledAppFlow.from_client_secrets_file(
-                "credentials.json", SCOPES
+                str(credentials_path), SCOPES
             )
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
-        with open("token.json", "w") as token:
+        with open(token_path, "w") as token:
             token.write(creds.to_json())
 
     # Build the Gmail API service

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Agent - Recommendations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            box-shadow: 0 4px 15px rgba(108, 117, 125, 0.4);
+        }
+
+        .status {
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status.loading {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 5px;
+        }
+
+        .recommendations {
+            display: grid;
+            gap: 20px;
+        }
+
+        .recommendation-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .recommendation-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .ticker {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .tag {
+            background: #e9ecef;
+            color: #495057;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .client-name {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin: 15px 0;
+        }
+
+        .news-section {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #667eea;
+        }
+
+        .news-topic {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .news-summary {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .sources {
+            margin-top: 10px;
+        }
+
+        .source-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            font-size: 12px;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+
+        .source-link:hover {
+            text-decoration: underline;
+        }
+
+        .recommendation-text {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 2px solid #e9ecef;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .metric {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .metric-label {
+            font-size: 11px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+
+        .metric-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .metric-value.positive {
+            color: #28a745;
+        }
+
+        .metric-value.negative {
+            color: #dc3545;
+        }
+
+        .empty-state {
+            background: white;
+            border-radius: 12px;
+            padding: 60px 30px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .empty-state-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .empty-state h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .empty-state p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .api-config {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .api-config input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .api-config label {
+            font-size: 12px;
+            color: #666;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 RAG Agent Recommendations</h1>
+            <p class="subtitle">AI-powered financial recommendations based on news and client portfolios</p>
+            
+            <div class="controls">
+                <button class="btn" id="regenerateBtn" onclick="regenerateRecommendations()">
+                    🔄 Regenerate Recommendations
+                </button>
+                <button class="btn btn-secondary" onclick="loadRecommendations()">
+                    🔃 Refresh
+                </button>
+                <div id="status" class="status" style="display: none;"></div>
+            </div>
+
+            <div class="stats" id="stats" style="display: none;">
+                <div class="stat-card">
+                    <div class="stat-label">Total Recommendations</div>
+                    <div class="stat-value" id="totalCount">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Last Updated</div>
+                    <div class="stat-value" id="lastUpdated" style="font-size: 14px;">Never</div>
+                </div>
+            </div>
+
+            <div class="api-config">
+                <label>API Endpoint (change if needed):</label>
+                <input type="text" id="apiEndpoint" value="http://165.232.190.9:8000" 
+                       placeholder="http://your-api-url:8000">
+            </div>
+        </div>
+
+        <div id="recommendations" class="recommendations">
+            <div class="empty-state">
+                <div class="empty-state-icon">📋</div>
+                <h2>No Recommendations Yet</h2>
+                <p>Click "Regenerate Recommendations" to generate AI-powered financial recommendations</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = () => document.getElementById('apiEndpoint').value;
+
+        async function loadRecommendations() {
+            try {
+                const response = await fetch(`${API_BASE()}/api/recommendations`);
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    displayRecommendations(data.data);
+                    updateStats(data.count);
+                } else {
+                    showError('Failed to load recommendations: ' + (data.detail || 'Unknown error'));
+                }
+            } catch (error) {
+                showError('Error loading recommendations: ' + error.message);
+            }
+        }
+
+        async function regenerateRecommendations() {
+            const btn = document.getElementById('regenerateBtn');
+            const statusDiv = document.getElementById('status');
+            
+            // Disable button and show loading
+            btn.disabled = true;
+            showStatus('loading', '🔄 Generating recommendations... This may take 2-3 minutes.');
+
+            try {
+                // Trigger regeneration
+                const response = await fetch(`${API_BASE()}/api/regenerate-recommendations`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+
+                if (data.status === 'success') {
+                    showStatus('success', '✅ Regeneration started! Polling for results...');
+                    
+                    // Poll for results
+                    pollForResults();
+                } else {
+                    showError('Failed to start regeneration: ' + (data.message || data.detail || 'Unknown error'));
+                    btn.disabled = false;
+                }
+            } catch (error) {
+                showError('Error triggering regeneration: ' + error.message);
+                btn.disabled = false;
+            }
+        }
+
+        async function pollForResults() {
+            const maxAttempts = 40; // 40 attempts * 15 seconds = 10 minutes max
+            let attempts = 0;
+            let previousCount = 0;
+
+            const pollInterval = setInterval(async () => {
+                attempts++;
+                
+                try {
+                    const response = await fetch(`${API_BASE()}/api/recommendations`);
+                    const data = await response.json();
+                    
+                    if (data.status === 'success') {
+                        const currentCount = data.count || 0;
+                        
+                        // If count changed or we have recommendations, we're done
+                        if (currentCount > 0 && (currentCount !== previousCount || attempts === 1)) {
+                            clearInterval(pollInterval);
+                            showStatus('success', `✅ Recommendations generated! Found ${currentCount} recommendations.`);
+                            displayRecommendations(data.data);
+                            updateStats(currentCount);
+                            document.getElementById('regenerateBtn').disabled = false;
+                            return;
+                        }
+                        
+                        previousCount = currentCount;
+                        
+                        // Update status
+                        showStatus('loading', `🔄 Generating... (${attempts * 15}s elapsed)`);
+                    }
+                    
+                    // Timeout after max attempts
+                    if (attempts >= maxAttempts) {
+                        clearInterval(pollInterval);
+                        showError('Timeout: Regeneration is taking longer than expected. Please check manually.');
+                        document.getElementById('regenerateBtn').disabled = false;
+                    }
+                } catch (error) {
+                    clearInterval(pollInterval);
+                    showError('Error polling for results: ' + error.message);
+                    document.getElementById('regenerateBtn').disabled = false;
+                }
+            }, 15000); // Poll every 15 seconds
+        }
+
+        function displayRecommendations(recommendations) {
+            const container = document.getElementById('recommendations');
+            
+            if (!recommendations || recommendations.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📋</div>
+                        <h2>No Recommendations Available</h2>
+                        <p>No recommendations were generated. Try regenerating.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = recommendations.map(rec => `
+                <div class="recommendation-card">
+                    <div class="card-header">
+                        <div class="ticker">${rec.ticker || 'N/A'}</div>
+                        <div class="tag">${rec.tag || 'General'}</div>
+                    </div>
+                    
+                    <div class="client-name">👤 ${rec.client_name || 'Unknown Client'}</div>
+                    
+                    <div class="news-section">
+                        <div class="news-topic">📰 ${rec.news ? rec.news.split('\\n')[0].replace('Topic: ', '') : 'No topic'}</div>
+                        <div class="news-summary">${rec.news ? rec.news.split('\\n').slice(1).join(' ').replace('Summary: ', '') : 'No summary'}</div>
+                        ${rec.sources && rec.sources.length > 0 ? `
+                            <div class="sources">
+                                ${rec.sources.map(source => `
+                                    <a href="${source.link || '#'}" target="_blank" class="source-link">
+                                        🔗 ${source.name || 'Source'}
+                                    </a>
+                                `).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div class="recommendation-text">
+                        <strong>💡 Recommendation:</strong><br>
+                        ${rec.recommendation || 'No recommendation provided'}
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric">
+                            <div class="metric-label">Rate of Return</div>
+                            <div class="metric-value ${getMetricClass(rec.rate_of_return)}">
+                                ${rec.rate_of_return || 'N/A'}
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Portfolio Risk</div>
+                            <div class="metric-value ${getMetricClass(rec.portfolio_risk)}">
+                                ${rec.portfolio_risk || 'N/A'}
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Bank Commissions</div>
+                            <div class="metric-value ${getMetricClass(rec.bank_commissions)}">
+                                ${rec.bank_commissions || 'N/A'}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function getMetricClass(value) {
+            if (!value) return '';
+            const lower = value.toLowerCase();
+            if (lower.includes('increase') || lower.includes('growth') || lower.includes('+')) {
+                return 'positive';
+            } else if (lower.includes('decline') || lower.includes('decrease') || lower.includes('-')) {
+                return 'negative';
+            }
+            return '';
+        }
+
+        function updateStats(count) {
+            document.getElementById('stats').style.display = 'flex';
+            document.getElementById('totalCount').textContent = count;
+            document.getElementById('lastUpdated').textContent = new Date().toLocaleTimeString();
+        }
+
+        function showStatus(type, message) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.className = `status ${type}`;
+            statusDiv.style.display = 'flex';
+            
+            if (type === 'loading') {
+                statusDiv.innerHTML = `<div class="spinner"></div><span>${message}</span>`;
+            } else {
+                statusDiv.innerHTML = `<span>${message}</span>`;
+            }
+        }
+
+        function showError(message) {
+            showStatus('error', message);
+            document.getElementById('regenerateBtn').disabled = false;
+        }
+
+        // Load recommendations on page load
+        window.addEventListener('load', () => {
+            loadRecommendations();
+        });
+    </script>
+</body>
+</html>
+
