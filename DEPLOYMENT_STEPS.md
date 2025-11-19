@@ -75,12 +75,30 @@ Alternatively use DigitalOcean’s web console if SCP is unavailable.
 
 ---
 
-## 5. Build & Run Container
+## 5. Configure HTTPS with Caddy
+1. **Create DNS record** for your domain pointing to the droplet IP (e.g., `api.example.com → 165.232.190.9`).
+2. **Open ports 80/443** in any firewalls (`ufw allow 80/tcp 443/tcp`).
+3. **Edit `Caddyfile`** to use your domain and contact email:
+   ```
+   {
+       email admin@example.com
+   }
+
+   api.example.com {
+       encode gzip zstd
+       reverse_proxy rag-agent:8000
+   }
+   ```
+   Caddy will request/renew TLS certificates automatically.
+
+---
+
+## 6. Build & Run Containers
 1. **Build the unified image**
    ```bash
    docker build -t rag-agent-processor:latest -f processor/Dockerfile .
    ```
-2. **Start services**
+2. **Start services (FastAPI + Caddy)**
    ```bash
    docker compose up -d
    ```
@@ -97,7 +115,7 @@ Alternatively use DigitalOcean’s web console if SCP is unavailable.
 
 ---
 
-## 6. Post-Deployment Fixes
+## 7. Post-Deployment Fixes
 - The 2 GB droplet could not reparse PDFs (Docling/MinerU OOM). To work around this:
   1. Packaged local cache: `tar -czf rag_storage_cache.tar.gz rag_storage/`
   2. Uploaded to droplet and extracted into `/root/rag_storage/`
@@ -108,15 +126,15 @@ Alternatively use DigitalOcean’s web console if SCP is unavailable.
 
 ---
 
-## 7. Verification Checklist
-- `GET http://165.232.190.9:8000/api/merged-news` → returns categorized news
-- `GET http://165.232.190.9:8000/api/recommendations` → returns generated recommendations
-- `POST http://165.232.190.9:8000/api/regenerate-recommendations` → triggers pipeline, completes in ~3 minutes
+## 8. Verification Checklist
+- `GET https://api.example.com/api/merged-news` → returns categorized news
+- `GET https://api.example.com/api/recommendations` → returns generated recommendations
+- `POST https://api.example.com/api/regenerate-recommendations` → triggers pipeline, completes in ~3 minutes
 - Local `frontend.html` can call the deployed API to view/trigger recommendations.
 
 ---
 
-## 8. Future Improvements
+## 9. Future Improvements
 - Add HTTPS termination (DigitalOcean Load Balancer, Caddy, etc.)
 - Enable API key auth by setting a value in `.env`
 - Move to higher-memory droplet or optimize PDF parsing if on-the-fly processing is required

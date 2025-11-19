@@ -1,0 +1,9 @@
+{
+    email kmm9570@nyu.edu
+}
+
+api.cognium.xyz {
+    encode gzip zstd
+    reverse_proxy rag-agent:8000
+}
+

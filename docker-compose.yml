@@ -2,8 +2,6 @@ services:
   rag-agent:
     image: rag-agent-processor:latest
     container_name: rag-agent
-    ports:
-      - "8000:8000"
     volumes:
       # Mount directories for reading/writing data
       - ./client_based_recommendation:/app/client_based_recommendation
@@ -32,4 +30,22 @@ services:
       timeout: 10s
       retries: 3
       start_period: 10s
+
+  caddy:
+    image: caddy:2
+    container_name: rag-agent-caddy
+    depends_on:
+      - rag-agent
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    restart: unless-stopped
+
+volumes:
+  caddy_data:
+  caddy_config:
 
