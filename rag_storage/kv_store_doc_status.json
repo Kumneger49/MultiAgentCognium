@@ -121,7 +121,7 @@
     "content_summary": "Record 1\n\nclient_id: C0001 first_name: Danielle last_name: Johnson dob: 12/28/1959 age: 65 nationality: US residency_country: Singapore segment: Affluent kyc_source_of_wealth: Inheritance kyc_pep: False kyc_aml_risk_score: 42 fatca_status: US Person ...",
     "content_length": 163741,
     "created_at": "2025-09-13T19:04:37.412889+00:00",
-    "updated_at": "2025-11-04T01:02:44+00:00",
+    "updated_at": "2025-11-23T09:08:08+00:00",
     "file_path": "private_bank_clients_100.pdf",
     "track_id": "insert_20250913_230437_4daf880a",
     "metadata": {
@@ -147,7 +147,7 @@
     "content_summary": "meeting_id : M00001 client_id : C0001 client_name : Danielle Johnson segment : Affluent risk_profile : Growth primary_goal : Home purchase meeting_datetime : 2024-10-27T22:00 channel : Email recap location : Singapore MBFC meeting_type : Credit / Len...",
     "content_length": 41459,
     "created_at": "2025-09-29T18:44:23.557368+00:00",
-    "updated_at": "2025-11-05T19:08:22+00:00",
+    "updated_at": "2025-11-23T11:21:38+00:00",
     "file_path": "output.pdf",
     "track_id": "insert_20250929_224423_d5dc9997",
     "metadata": {
@@ -243,6 +243,33 @@
     "metadata": {
       "processing_start_time": 1762708448,
       "processing_end_time": 1762708549
+    },
+    "multimodal_processed": true
+  },
+  "doc-82ec8fe9bca44bb8a8c971404c73eb19": {
+    "status": "processed",
+    "chunks_count": 10,
+    "chunks_list": [
+      "chunk-34857ff42d36ac6a058b8bb71692584d",
+      "chunk-128bdd09a0aaf0a6954871adee7ab49e",
+      "chunk-8ba0eec02a4ba6080df159d417bf5599",
+      "chunk-1bbd38c4b9a0f9c5a0e507908d0ccabc",
+      "chunk-445f8f2cee68267ca4170c6d633afb07",
+      "chunk-d6f5de99996b393df44c7df77dff6e2d",
+      "chunk-cc473598c504ded7dabb9b77fc9c8e19",
+      "chunk-f3397702e1d55e6ccb57df95173b47cb",
+      "chunk-3a2e7aa26a17fa333bf1685f1af51d15",
+      "chunk-0b3218f9bde022916b56bd90f08fe6eb"
+    ],
+    "content_summary": "meeting_id: M00001   \nclient_id: C0001   \nclient_name: Danielle Johnson   \nsegment: Affluent   \nrisk_profile: Growth   \nprimary_goal: Home purchase   \nmeeting_datetime: 2024-10-27T22:00   \nchannel: Email recap   \nlocation: Singapore MBFC   \nmeeting_t...",
+    "content_length": 43167,
+    "created_at": "2025-11-23T07:31:38.906220+00:00",
+    "updated_at": "2025-11-23T15:04:29+00:00",
+    "file_path": "output.pdf",
+    "track_id": "insert_20251123_113138_39e90fee",
+    "metadata": {
+      "processing_start_time": 1763883098,
+      "processing_end_time": 1763883209
     },
     "multimodal_processed": true
   }

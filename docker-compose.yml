@@ -14,6 +14,7 @@ services:
       - ./rag_storage:/app/rag_storage
       # Mount api.py for development (code changes reflected)
       - ./api.py:/app/api.py
+      - ./rotation_manager.py:/app/rotation_manager.py
     environment:
       - PYTHONPATH=/app
       - OPENAI_API_KEY=${OPENAI_API_KEY:-}

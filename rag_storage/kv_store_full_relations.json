@@ -8130,5 +8130,497 @@
     "create_time": 1762708549,
     "update_time": 1762708549,
     "_id": "doc-7532c785be16bd62314b49cb9849385e"
+  },
+  "doc-82ec8fe9bca44bb8a8c971404c73eb19": {
+    "relation_pairs": [
+      [
+        "Alternatives Review",
+        "Jill Rhodes"
+      ],
+      [
+        "Liquidity Event Planning",
+        "Matthew Moore"
+      ],
+      [
+        "BND",
+        "Debra Gardner"
+      ],
+      [
+        "C0005",
+        "M00013"
+      ],
+      [
+        "C0005",
+        "Robert Johnson"
+      ],
+      [
+        "AML Score 50",
+        "Joshua Walker"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Portfolio Review"
+      ],
+      [
+        "Debra Gardner",
+        "Liquidity Event Planning"
+      ],
+      [
+        "Debra Gardner",
+        "M00022"
+      ],
+      [
+        "Lisa Smith",
+        "Onboarding & KYC"
+      ],
+      [
+        "Joshua Walker",
+        "NVDA"
+      ],
+      [
+        "Balanced Risk",
+        "Jill Rhodes"
+      ],
+      [
+        "INFY.NS",
+        "Robert Johnson"
+      ],
+      [
+        "Linda Wolfe",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "C0004",
+        "M00012"
+      ],
+      [
+        "Linda Wolfe",
+        "M00034"
+      ],
+      [
+        "Danielle Johnson",
+        "NVDA"
+      ],
+      [
+        "Alternatives Review",
+        "Joshua Walker"
+      ],
+      [
+        "Lisa Smith",
+        "M00029"
+      ],
+      [
+        "AAPL",
+        "Joshua Walker"
+      ],
+      [
+        "Linda Wolfe",
+        "M00031"
+      ],
+      [
+        "Blackstone RE",
+        "Portfolio Review"
+      ],
+      [
+        "Lisa Smith",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Matthew Moore",
+        "Singapore MBFC"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "M00025"
+      ],
+      [
+        "Jeffery Wagner",
+        "M00016"
+      ],
+      [
+        "Jill Rhodes",
+        "Liquidity Event Planning"
+      ],
+      [
+        "AGG",
+        "Matthew Moore"
+      ],
+      [
+        "Jill Rhodes",
+        "Patricia Miller"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "C0012",
+        "Matthew Moore"
+      ],
+      [
+        "C0011",
+        "Linda Wolfe"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "M00027"
+      ],
+      [
+        "GLD",
+        "Susan Rogers"
+      ],
+      [
+        "Jill Rhodes",
+        "Singapore MBFC"
+      ],
+      [
+        "Jill Rhodes",
+        "MSFT"
+      ],
+      [
+        "Balanced Risk",
+        "Joshua Walker"
+      ],
+      [
+        "Debra Gardner",
+        "M00024"
+      ],
+      [
+        "Singapore MBFC",
+        "Susan Rogers"
+      ],
+      [
+        "Joshua Walker",
+        "New York Midtown"
+      ],
+      [
+        "Dubai DIFC",
+        "Jeffery Wagner"
+      ],
+      [
+        "Joshua Walker",
+        "USD MM Sweep"
+      ],
+      [
+        "C0014",
+        "Christopher Davis"
+      ],
+      [
+        "Dubai DIFC",
+        "Lisa Smith"
+      ],
+      [
+        "Education",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "Christopher Davis",
+        "Singapore MBFC"
+      ],
+      [
+        "SIE.DE",
+        "Susan Rogers"
+      ],
+      [
+        "BND",
+        "Christopher Davis"
+      ],
+      [
+        "Linda Wolfe",
+        "M00033"
+      ],
+      [
+        "Joshua Walker",
+        "TSLA"
+      ],
+      [
+        "M00015",
+        "Robert Johnson"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "M00028"
+      ],
+      [
+        "Danielle Johnson",
+        "Singapore MBFC"
+      ],
+      [
+        "Joshua Walker",
+        "Portfolio Review"
+      ],
+      [
+        "AAPL",
+        "Danielle Johnson"
+      ],
+      [
+        "Blackstone RE",
+        "Jeffery Wagner"
+      ],
+      [
+        "Joshua Walker",
+        "London Mayfair"
+      ],
+      [
+        "C0004",
+        "Patricia Miller"
+      ],
+      [
+        "Robert Johnson",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "MSFT",
+        "Patricia Miller"
+      ],
+      [
+        "C0004",
+        "M00010"
+      ],
+      [
+        "ESG Preferences",
+        "Lisa Smith"
+      ],
+      [
+        "Dubai DIFC",
+        "Linda Wolfe"
+      ],
+      [
+        "High-Net-Worth (HNW)",
+        "Joshua Walker"
+      ],
+      [
+        "BND",
+        "Robert Johnson"
+      ],
+      [
+        "Debra Gardner",
+        "HNW"
+      ],
+      [
+        "Credit / Lending",
+        "Danielle Johnson"
+      ],
+      [
+        "New York Midtown",
+        "Patricia Miller"
+      ],
+      [
+        "Susan Rogers",
+        "Tax Optimization"
+      ],
+      [
+        "Matthew Moore",
+        "Susan Rogers"
+      ],
+      [
+        "Danielle Johnson",
+        "TM"
+      ],
+      [
+        "Blackstone RE",
+        "Christopher Davis"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Singapore MBFC"
+      ],
+      [
+        "Jeffery Wagner",
+        "Risk & IPS Review"
+      ],
+      [
+        "C0004",
+        "M00011"
+      ],
+      [
+        "AAPL",
+        "Anthony Gonzalez"
+      ],
+      [
+        "8-Year Horizon",
+        "Jill Rhodes"
+      ],
+      [
+        "Jeffery Wagner",
+        "M00017"
+      ],
+      [
+        "Debra Gardner",
+        "Dubai DIFC"
+      ],
+      [
+        "ESG Preferences",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "C0003",
+        "Jill Rhodes"
+      ],
+      [
+        "Lisa Smith",
+        "M00030"
+      ],
+      [
+        "Credit / Lending",
+        "Matthew Moore"
+      ],
+      [
+        "Jeffery Wagner",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Linda Wolfe",
+        "M00032"
+      ],
+      [
+        "Christopher Davis",
+        "M00040"
+      ],
+      [
+        "Affluent",
+        "Jeffrey Lawrence"
+      ],
+      [
+        "C0013",
+        "Susan Rogers"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "M00026"
+      ],
+      [
+        "Debra Gardner",
+        "M00023"
+      ],
+      [
+        "Christopher Davis",
+        "Liquidity Event Planning"
+      ],
+      [
+        "M00014",
+        "Robert Johnson"
+      ],
+      [
+        "Linda Wolfe",
+        "Singapore MBFC"
+      ],
+      [
+        "Matthew Moore",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "portfolio tickers: TM"
+      ],
+      [
+        "Jill Rhodes",
+        "Risk & IPS Review"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Dubai DIFC"
+      ],
+      [
+        "M00039",
+        "Susan Rogers"
+      ],
+      [
+        "Susan Rogers",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Jeffery Wagner",
+        "NVDA"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "TM"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Risk & IPS Review"
+      ],
+      [
+        "Jeffery Wagner",
+        "Portfolio Review"
+      ],
+      [
+        "AAPL",
+        "Portfolio Review"
+      ],
+      [
+        "C0002",
+        "Joshua Walker"
+      ],
+      [
+        "Joshua Walker",
+        "TM"
+      ],
+      [
+        "Jeffrey Lawrence",
+        "Onboarding & KYC"
+      ],
+      [
+        "4-Year Horizon",
+        "Joshua Walker"
+      ],
+      [
+        "Anthony Gonzalez",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Jill Rhodes",
+        "New York Midtown"
+      ],
+      [
+        "Debra Gardner",
+        "London Mayfair"
+      ],
+      [
+        "Jill Rhodes",
+        "USD MM Sweep"
+      ],
+      [
+        "NVDA",
+        "Patricia Miller"
+      ],
+      [
+        "Joshua Walker",
+        "Market Update"
+      ],
+      [
+        "Lisa Smith",
+        "portfolio tickers: VUKE.L, GLD"
+      ],
+      [
+        "INFY.NS",
+        "Patricia Miller"
+      ],
+      [
+        "Joshua Walker",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "AML Score 25",
+        "Jill Rhodes"
+      ],
+      [
+        "Affluent",
+        "Jill Rhodes"
+      ],
+      [
+        "Danielle Johnson",
+        "Zurich Paradeplatz"
+      ],
+      [
+        "Liquidity Event Planning",
+        "Susan Rogers"
+      ]
+    ],
+    "count": 121,
+    "create_time": 1763883209,
+    "update_time": 1763883209,
+    "_id": "doc-82ec8fe9bca44bb8a8c971404c73eb19"
   }
 }

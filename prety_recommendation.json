@@ -1,570 +1,827 @@
 [
   {
-    "ticker": "AAPL",
-    "news": "Topic: Apple's Market Valuation Surpasses $4 Trillion\nSummary: Apple has surpassed $4 trillion in market value, joining other major companies like Nvidia and Microsoft. This milestone follows strong iPhone 17 sales, despite a previous period of stock decline.",
+    "ticker": "INFY.NS",
+    "news": "Topic: Infosys AI-first GCC Model Launch\nSummary: Infosys has unveiled its AI-First GCC Model, a specialized offering designed to transform Global Capability Centers into AI-powered hubs for innovation and growth. This new framework spans the entire process from GCC setup to operational execution, showcasing Infosys's commitment to innovation in AI.",
     "sources": [
       {
-        "name": "cnn.com",
-        "title": "Apple is now worth $4,000,000,000,000",
-        "link": "https://www.cnn.com/2025/10/28/business/apple-worth-4-trillion",
-        "relevance_score": 0.9,
-        "sentiment_score": 0.8
-      }
-    ],
-    "client_name": "Danielle Johnson",
-    "recommendation": "Due to Apple's significant market growth, consider increasing allocation in AAPL for potential higher returns. The robust iPhone sales will likely enhance AAPL's growth trajectory, which, despite higher volatility, presents a profitable opportunity.",
-    "rate_of_return": "5-7% increase",
-    "portfolio_risk": "10% increase",
-    "bank_commissions": "2% growth",
-    "tag": "Tech, Stocks"
-  },
-  {
-    "ticker": "AAPL",
-    "news": "Topic: Apple's Positive iPhone Sales Outlook\nSummary: Apple forecasts strong iPhone sales during the holiday season, which is expected to boost the company's stock performance. The latest iPhones have received a 'tremendous response' globally, despite narrowly missing sales estimates due to supply constraints.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Apple Forecasts a Very iPhone Christmas",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025/card/apple-forecasts-a-very-iphone-christmas-nU9GauOTxZ70Y3FLmOn4",
-        "relevance_score": 0.8,
-        "sentiment_score": 0.7
+        "name": "Yahoo! Finance: INFY.NS News",
+        "title": "Infosys presents AI-first organisational model for enterprises",
+        "link": "https://www.verdict.co.uk/infosys-ai-global-capability-centre-model/?.tsrc=rss"
       },
       {
-        "name": "bbc.com",
-        "title": "Apple claims 'tremendous' global uptake of latest iPhones",
-        "link": "https://www.bbc.com/news/articles/cz6n98exv9zo?at_medium=RSS&at_campaign=rss",
-        "relevance_score": 0.9,
-        "sentiment_score": 0.6
-      }
-    ],
-    "client_name": "Debra Gardner",
-    "recommendation": "Given the holiday sales forecast, consider increasing exposure to AAPL as its stock is primed to rise. Strong public reception of the new iPhone models amidst effective marketing strategies will enhance valuation.",
-    "rate_of_return": "4-6% increase",
-    "portfolio_risk": "8% increase",
-    "bank_commissions": "1.5% growth",
-    "tag": "Tech, Stocks"
-  },
-  {
-    "ticker": "TSLA",
-    "news": "Topic: Impact of Elon Musk's Politics on Tesla Sales\nSummary: A report by the National Bureau of Economic Research reveals that Elon Musk's political actions have significantly impacted Tesla's U.S. sales, costing the automaker billions and benefiting rival electric carmakers. The study estimates that Tesla's sales could have been 67% to 83% higher without the partisan effect of Musk's actions.",
-    "sources": [
-      {
-        "name": "cnn.com",
-        "title": "Elon Musk’s politics cost his firm Tesla more than one million EV sales, report reveals",
-        "link": "https://www.cnn.com/2025/10/28/business/elon-musk-politics-tesla-ev-sales-intl",
-        "relevance_score": 0.9,
-        "sentiment_score": -0.7
-      }
-    ],
-    "client_name": "Josh Walker",
-    "recommendation": "With regulatory pressures impacting sales, it may be prudent to reduce holdings in TSLA. Adverse political sentiments could keep volatility high, suggesting a conservative approach toward further investment.",
-    "rate_of_return": "2-3% decline",
-    "portfolio_risk": "12% increase",
-    "bank_commissions": "2% decline",
-    "tag": "Auto, Tech"
-  },
-  {
-    "ticker": "MSFT",
-    "news": "Topic: Microsoft Heads For $4 Trillion Market Cap\nSummary: Microsoft's market value is on track to surpass $4 trillion for the first time, having briefly traded above that level in previous months. The company is set to report its quarterly earnings later this month.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Microsoft Heads For $4 Trillion Market Cap",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-28-2025/card/microsoft-heads-for-4-trillion-market-cap-GbvDjZxFZq9YnD893hmY",
-        "relevance_score": 0.9,
-        "sentiment_score": 0.7
+        "name": "Yahoo! Finance: INFY.NS News",
+        "title": "Infosys Unveils AI-first GCC Model to Transform Global Capability Centers into Innovation Hubs",
+        "link": "https://finance.yahoo.com/news/infosys-unveils-ai-first-gcc-104900215.html?.tsrc=rss"
       }
     ],
     "client_name": "Jill Rhodes",
-    "recommendation": "As MSFT nears a historical market cap milestone, consider elevating your investment in MSFT for growth potential. Anticipated quarterly earnings could affirm bullish market sentiment.",
-    "rate_of_return": "5-8% increase",
-    "portfolio_risk": "7% decline",
-    "bank_commissions": "1-2% growth",
+    "recommendation": "Given the AI-first model, consider increasing investments in Infosys as this could enhance growth and innovation capacity. Expect a 5-7% growth in returns as AI integration may improve operational efficiencies.",
+    "rate_of_return": "5-7% increase",
+    "portfolio_risk": "10% increase",
+    "bank_commissions": "2-3% growth",
     "tag": "Tech, Stocks"
   },
   {
     "ticker": "TM",
-    "news": "Topic: Toyota Denies $10bn US Investment Claim\nSummary: Toyota Motor has denied claims by US President Donald Trump that it plans to invest over $10bn in the United States. A senior executive clarified that no such explicit promise was made, although the company plans to continue investing and creating jobs in the US.",
+    "news": "Topic: Toyota's New Model Launches in China\nSummary: GAC Toyota, a joint venture in China, unveiled two new models, the WILDLANDER and bZ7, at Auto Guangzhou 2025. This marks a significant step in Toyota's strategy to cater to diverse user needs in China's competitive auto market.",
     "sources": [
       {
-        "name": "theguardian.com",
-        "title": "Toyota denies promising $10bn investment in US after Trump announcement",
-        "link": "https://www.theguardian.com/business/2025/oct/29/toyota-trump-us-investment-claims",
-        "relevance_score": 0.8,
-        "sentiment_score": -0.5
+        "name": "Yahoo! Finance: TM News",
+        "title": "Toyota's Smarter Cars Are Now in China: GAC Toyota Introduces All-New WILDLANDER and bZ7 at Auto Guangzhou 2025",
+        "link": "https://finance.yahoo.com/news/toyotas-smarter-cars-now-china-101700871.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Patricia Miller",
+    "recommendation": "The launch of two new models in China will likely expand Toyota's market share, positively impacting stock performance. Anticipate a 4-6% increase in returns while maintaining steady commission rates.",
+    "rate_of_return": "4-6% increase",
+    "portfolio_risk": "7% increase",
+    "bank_commissions": "1-2% growth",
+    "tag": "Auto, Stocks"
+  },
+  {
+    "ticker": "TSLA",
+    "news": "Topic: Negative News Impacting Tesla Investors\nSummary: Tesla investors are facing more bad news from a critical market, which could significantly impact the stock's performance and investor sentiment.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: TSLA News",
+        "title": "The Hits Keep on Coming for Tesla Investors",
+        "link": "https://www.fool.com/investing/2025/11/22/the-hits-keep-on-coming-for-tesla-investors/?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "The ongoing negative news could lead to increased volatility in Tesla's stock, suggesting a cautious approach is advisable. A potential decline in portfolio return of 5-8% should be anticipated.",
+    "rate_of_return": "5-8% decline",
+    "portfolio_risk": "15% increase",
+    "bank_commissions": "3-4% growth",
+    "tag": "Tech, Stocks"
+  },
+  {
+    "ticker": "TSLA",
+    "news": "Topic: Tesla Stock Volatility and Market Reactions\nSummary: Tesla's stock experienced a significant rally followed by a sharp reversal, highlighting the volatility that can impact investor sentiment across the tech sector.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: TSLA News",
+        "title": "Tesla Stock Just Hit a Wall -- The Reversal Says More Than the Rally",
+        "link": "https://finance.yahoo.com/news/tesla-stock-just-hit-wall-161426596.html?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: TSLA News",
+        "title": "Tesla's Roller Coaster Ride Continues With a Warning for Investors",
+        "link": "https://www.fool.com/investing/2025/11/22/tesla-roller-coaster-ride-continues-with-warning-f/?.tsrc=rss"
       }
     ],
     "client_name": "Robert Johnson",
-    "recommendation": "Given the denial of investment claims, assess holding in TM for potential impacts on market perceptions. The ongoing uncertainty around large investments may introduce volatility in TM’s stock performance.",
-    "rate_of_return": "2-4% decline",
-    "portfolio_risk": "9% increase",
-    "bank_commissions": "2% growth",
-    "tag": "Auto"
+    "recommendation": "Due to the observed volatility in Tesla's stock, investors may need to hedge against potential losses. It's prudent to prepare for a decline of 6-9% in expected returns while considering reduced commission expectations.",
+    "rate_of_return": "6-9% decline",
+    "portfolio_risk": "20% increase",
+    "bank_commissions": "2-3% growth",
+    "tag": "Tech, Stocks"
   },
   {
-    "ticker": "SPY",
-    "news": "Topic: Stock Market Rally Amid Trade Freeze Concerns\nSummary: Despite President Trump's announcement of terminating trade talks with Canada, the stock market rallied, with the S&P 500 gaining 0.8% and the Dow Jones Industrial Average adding 472 points. Strong consumer prices and interest-rate cuts contributed to the positive market sentiment.",
+    "ticker": "TM",
+    "news": "Topic: Toyota's Investment in US Manufacturing\nSummary: Toyota has announced a significant investment of nearly $1 billion in US manufacturing, reflecting its commitment to the American market.",
     "sources": [
       {
-        "name": "wsj.com",
-        "title": "Heard on the Street Friday Recap: Keep on Truckin’",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-27-2025/card/heard-on-the-street-friday-recap-keep-on-truckin--lwgftPYySeQwNHHlcD19?siteid=yhoof2&yptr=yahoo",
-        "relevance_score": 0.8,
-        "sentiment_score": 0.6
+        "name": "Yahoo! Finance: TM News",
+        "title": "Toyota CEO goes full MAGA at Japanese NASCAR race, investing nearly $1B in US manufacturing. Why he’s betting on America",
+        "link": "https://finance.yahoo.com/news/toyota-ceo-goes-full-maga-115300159.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Jill Rhodes",
+    "recommendation": "This substantial investment indicates Toyota's confidence in the US market, potentially leading to increased sales and improved stock value. Expected returns could increase by 5-8%, along with stable commission growth.",
+    "rate_of_return": "5-8% increase",
+    "portfolio_risk": "5% increase",
+    "bank_commissions": "1-2% growth",
+    "tag": "Auto, Stocks"
+  },
+  {
+    "ticker": "AAPL",
+    "news": "Topic: Apple's AI Strategy and Market Position\nSummary: Jim Cramer has highlighted the importance of Apple's user base in the context of AI developments, which has been a topic of significant media debate.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: AAPL News",
+        "title": "Jim Cramer Believes Apple’s (AAPL) User Base Is Very Important For AI",
+        "link": "https://finance.yahoo.com/news/jim-cramer-believes-apple-aapl-055351804.html?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: AAPL News",
+        "title": "Dow Jones Futures: Stocks Bounce, Nvidia, Apple, Eli Lilly In Focus; Bitcoin The Weak Link?",
+        "link": "https://finance.yahoo.com/m/8d419152-1254-303b-b245-e33cbbfa30b6/dow-jones-futures%3A-stocks.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Patricia Miller",
+    "recommendation": "Apple's strong position in AI development and user engagement reflects positively on its stock. Anticipate a 4-6% growth in returns while commissions could remain at a steady level of 1-2%.",
+    "rate_of_return": "4-6% increase",
+    "portfolio_risk": "8% decline",
+    "bank_commissions": "1-2% growth",
+    "tag": "Tech, Stocks"
+  },
+  {
+    "ticker": "INFY.NS",
+    "news": "Topic: IBM Expands AI Consulting Capabilities\nSummary: IBM has linked its AI platform with Microsoft Copilot to enhance consulting efficiency and streamline workflows, aiming to capitalize on the growing demand for AI services. This strategic move could impact Infosys as a competitor in the consulting space.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: INFY.NS News",
+        "title": "IBM Expands AI Consulting Capabilities: Will it Drive Growth?",
+        "link": "https://finance.yahoo.com/news/ibm-expands-ai-consulting-capabilities-165700788.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "Consider reallocating a portion of your portfolio towards AI-focused funds or services to counteract the competitive pressure from IBM's new AI offerings. Additionally, monitor the consulting sector's performance closely in light of these developments, as they could reshape market dynamics.",
+    "rate_of_return": "4-6% increase",
+    "portfolio_risk": "7% increase",
+    "bank_commissions": "2-3% growth",
+    "tag": "Tech, Consulting"
+  },
+  {
+    "ticker": "TSLA",
+    "news": "Topic: Long-term Tesla Stock Price Predictions\nSummary: Analysts predict that Tesla's stock could reach $1,003 by 2030, sparking debate among investors about whether to embrace the stock's volatility or wait for clearer signals.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: TSLA News",
+        "title": "TSLA Stock Price Prediction: Where Tesla Could Be by 2025, 2026, 2030",
+        "link": "https://finance.yahoo.com/news/tsla-stock-price-prediction-where-130456912.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Debra Gardner",
+    "recommendation": "Evaluate your current holdings in Tesla as they could significantly impact your portfolio's long-term growth, especially given the volatility predicted. Align your investment strategy with your risk tolerance regarding potential drawdowns while remaining open to future growth opportunities.",
+    "rate_of_return": "5-7% increase",
+    "portfolio_risk": "10% volatility",
+    "bank_commissions": "3% increase",
+    "tag": "Auto, Tech"
+  },
+  {
+    "ticker": "AGG",
+    "news": "Topic: Investor Interest in Bond ETFs\nSummary: Geopolitical and economic uncertainty, along with gold prices reaching $4,000 an ounce, are driving income-seeking investors back to bond ETFs. This trend is highlighted by the attractiveness of the best bond ETFs in the current market environment.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: AGG News",
+        "title": "Best Bond ETFs Are Looking Pretty Attractive Right Now",
+        "link": "https://finance.yahoo.com/m/5a386b65-ba00-3898-90fc-ab8868a350c5/best-bond-etfs-are-looking.html?.tsrc=rss"
       }
     ],
     "client_name": "Jeffery Wagner",
-    "recommendation": "In light of a positive market rally, consider boosting exposure to SPY to capitalize on upward trends. Strong consumer data suggests robust economic indicators likely benefiting various sectors.",
-    "rate_of_return": "3-5% increase",
-    "portfolio_risk": "6% decline",
+    "recommendation": "Consider increasing your allocation to bond ETFs to mitigate risks associated with market volatility and geopolitical tensions. This shift could stabilize your returns and offer a safer investment amidst rising gold prices, enhancing overall portfolio resilience.",
+    "rate_of_return": "2-4% increase",
+    "portfolio_risk": "5% reduction",
     "bank_commissions": "1-2% growth",
-    "tag": "Finance, Stocks"
+    "tag": "Bonds, Income"
   },
   {
     "ticker": "GLD",
-    "news": "Topic: Gold Rises on Likely Technical Recovery\nSummary: The front-month Comex gold for October delivery fell 2.8% overnight, causing a significant increase in demand. However, Capital Economics’ John Higgins believes the price will ultimately fall further. Factors such as reserve managers’ diversification out of the dollar may continue to influence the price, but this may not be the case.",
+    "news": "Topic: Gold Rises on Hopes for December Rate Cut\nSummary: Gold prices increased on Friday due to renewed hopes for a December interest rate cut from the Federal Reserve. This positive sentiment around gold could lead to increased interest in gold ETFs.",
     "sources": [
       {
-        "name": "wsj.com",
-        "title": "Gold Rises on Likely Technical Recovery",
-        "link": "https://www.wsj.com/articles/gold-rises-on-likely-technical-recovery-b4aa069f"
+        "name": "Yahoo! Finance: GLD News",
+        "title": "Update: Gold Rises on Fresh Hopes for a December Rate Cut From the Federal Reserve",
+        "link": "https://finance.yahoo.com/news/gold-rises-fresh-hopes-december-190007121.html?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: GLD News",
+        "title": "Gold Rises Early Friday on Fresh Hopes for a December Rate Cut From the Federal Reserve",
+        "link": "https://finance.yahoo.com/news/gold-rises-early-friday-fresh-140933862.html?.tsrc=rss"
       }
     ],
-    "client_name": "Robert Johnson",
-    "recommendation": "Given current trends in gold price fluctuations, consider increasing allocation to gold ETFs to hedge against potential declines in the dollar. We anticipate a steady 4-6% increase in gold prices due to heightened demand, which will likely lower your portfolio risk by diversifying into safer assets.",
-    "rate_of_return": "4-6% increase",
-    "portfolio_risk": "5% decline",
+    "client_name": "Danielle Johnson",
+    "recommendation": "Enhance your exposure to gold investments as the anticipated rate cut could further boost prices, reinforcing gold's status as a hedge against financial instability. Adjusting your portfolio towards gold ETFs may capitalize on rising demand due to negative sentiment in equities.",
+    "rate_of_return": "3-5% increase",
+    "portfolio_risk": "4% decline",
     "bank_commissions": "2% growth",
     "tag": "Commodities, Gold"
   },
   {
     "ticker": "IAU",
-    "news": "Topic: Gold Rises on Likely Technical Recovery\nSummary: The front-month Comex gold for October delivery fell 2.8% overnight, causing a significant increase in demand. However, Capital Economics’ John Higgins believes the price will ultimately fall further. Factors such as reserve managers’ diversification out of the dollar may continue to influence the price, but this may not be the case.",
+    "news": "Topic: Gold's Performance and ETF Opportunities\nSummary: Gold has surged by 54% year-to-date, outperforming the market and drawing attention to ETFs like GLD as investors seek refuge from market volatility and rising macro risks.",
     "sources": [
       {
-        "name": "wsj.com",
-        "title": "Gold Rises on Likely Technical Recovery",
-        "link": "https://www.wsj.com/articles/gold-rises-on-likely-technical-recovery-b4aa069f"
+        "name": "Yahoo! Finance: IAU News",
+        "title": "Gold Comfortably Outperforms Market YTD: ETFs to Consider",
+        "link": "https://finance.yahoo.com/news/gold-comfortably-outperforms-market-ytd-130500158.html?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: IAU News",
+        "title": "ETFs to Consider as Gold Jumps to 2-Week High",
+        "link": "https://finance.yahoo.com/news/etfs-consider-gold-jumps-2-160600398.html?.tsrc=rss"
       }
     ],
-    "client_name": "Danielle Johnson",
-    "recommendation": "With recent price volatility in gold, reallocation of funds to IAU could help manage potential losses in other sectors. Expect a rise in gold valuation by 3-5%, potentially offsetting a current 7% risk in high-tech allocations.",
-    "rate_of_return": "3-5% increase",
-    "portfolio_risk": "7% decline",
-    "bank_commissions": "1.5% growth",
+    "client_name": "Megan Parsons",
+    "recommendation": "With gold's impressive performance, it's wise to consider reallocating funds into gold-focused ETFs for solid growth potential amidst current economic uncertainty. Your portfolio could benefit from embracing gold as a stabilizing asset, enhancing returns with low correlation to equities.",
+    "rate_of_return": "5-6% increase",
+    "portfolio_risk": "3% reduction",
+    "bank_commissions": "2% increase",
     "tag": "Commodities, Gold"
   },
   {
-    "ticker": "MSFT",
-    "news": "Topic: Microsoft Sued by Australian Watchdog Over AI Pricing\nSummary: Microsoft is facing a lawsuit from the Australian government, which alleges that the company misled its 2.7 million customers by not clearly explaining how to opt out of paying for new AI services when their annual plans renewed. The Australian Competition and Consumer Commission claims that Microsoft failed to disclose an option to pay the same lower price without the AI, Copilot, in Microsoft 365 plans, leading to a significant price increase.",
+    "ticker": "SIE.DE",
+    "news": "Topic: Siemens Collaborations in Power and Energy Sector\nSummary: Siemens has entered into a framework agreement with Shanghai Electric to collaborate on intelligent grid and power system equipment, supporting China's dual-carbon goals.",
     "sources": [
       {
-        "name": "wsj.com",
-        "title": "Microsoft Sued by Australian Watchdog Over AI Pricing",
-        "link": "https://www.wsj.com/tech/microsoft-sued-by-australian-watchdog-over-ai-pricing-ddf76d2f?siteid=yhoof2&yptr=yahoo"
+        "name": "Yahoo! Finance: SIE.DE News",
+        "title": "How Investors May Respond To Siemens (XTRA:SIE) Power Grid Partnership With Shanghai Electric",
+        "link": "https://finance.yahoo.com/news/investors-may-respond-siemens-xtra-221444850.html?.tsrc=rss"
       },
       {
-        "name": "theguardian.com",
-        "title": "Microsoft sued for allegedly misleading millions of Australians with its AI pricing",
-        "link": "https://www.theguardian.com/australia-news/2025/oct/27/microsoft-sued-allegedly-misleading-millions-australians-ai-pricing-ntwnfb"
+        "name": "Yahoo! Finance: SIE.DE News",
+        "title": "Will OKLO's Siemens Agreement Strengthen Its Long-Term Story?",
+        "link": "https://finance.yahoo.com/news/oklos-siemens-agreement-strengthen-long-140500333.html?.tsrc=rss"
       }
     ],
-    "client_name": "Jill Rhodes",
-    "recommendation": "Given the ongoing lawsuit against Microsoft, consider reallocating a portion of your equity holdings to minimize exposure. Anticipate a slowdown in growth, forecasting a potential decline of 5-7% in Microsoft shares alongside increased scrutiny on pricing affecting overall sector risk by 6%.",
-    "rate_of_return": "Estimated 5-7% decline",
-    "portfolio_risk": "6% increase",
-    "bank_commissions": "3% increase",
-    "tag": "Tech, Stocks"
-  },
-  {
-    "ticker": "INFY.NS",
-    "news": "Topic: OpenAI's ChatGPT Go Free Offer in India\nSummary: OpenAI is offering its ChatGPT Go plan free of charge for one year to users in India starting November 4. This move is part of OpenAI's strategy to expand in India, a significant market with over 700 million smartphone users and over a billion internet subscribers. The service, initially launched in August, has faced challenges in monetizing its paid plans in India.",
-    "sources": [
-      {
-        "name": "techcrunch.com",
-        "title": "OpenAI offers free ChatGPT Go for one year to all users in India",
-        "link": "https://techcrunch.com/2025/10/27/openai-offers-free-chatgpt-go-for-one-year-to-all-users-in-india/"
-      }
-    ],
-    "client_name": "Jeffrey Lawrence",
-    "recommendation": "With OpenAI's expansion strategy in India, it may be wise to increase your investments in technology stocks, including Infosys, which stands to benefit from a surge in AI demand. Expect a potential 6-8% return driven by growth in AI service subscriptions while maintaining manageable portfolio risk levels around 5%.",
-    "rate_of_return": "6-8% increase",
-    "portfolio_risk": "5% decline",
-    "bank_commissions": "2% growth",
-    "tag": "Tech, AI"
-  },
-  {
-    "ticker": "SPY",
-    "news": "Topic: U.S.-China Tariff Reductions and Market Reactions\nSummary: The U.S. is reducing its tariffs on China following a meeting between President Trump and Chinese leader Xi Jinping. This move is seen as a significant step forward, although stock futures remain steady as investors consider other developments.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Stock Market Today: U.S. Cuts China Tariffs After Trump, Xi Meet — Live Updates",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025"
-      }
-    ],
-    "client_name": "Anthony Gonzalez",
-    "recommendation": "The reduction of tariffs on China could lead to a short-term rise in market sentiment, positively impacting your SPY ETF holdings. We anticipate a 4-5% increase in returns related to improved trade relationships, though monitoring potential volatility remains essential with a projected 6% risk increase.",
+    "client_name": "Jeffery Wagner",
+    "recommendation": "Given Siemens' strategic collaborations, consider investments in Siemen's technologies that support renewable energy initiatives as global demand rises. Aligning your portfolio with these developments may provide long-term growth opportunities while supporting ESG objectives.",
     "rate_of_return": "4-5% increase",
     "portfolio_risk": "6% increase",
+    "bank_commissions": "1-2% growth",
+    "tag": "Energy, Renewable"
+  },
+  {
+    "ticker": "SIE.DE",
+    "news": "Topic: Siemens' Stock and Analyst Outlook\nSummary: Siemens' stock has seen a slight increase in its consensus analyst price target, reflecting a mix of optimism and caution among analysts. The company's strength in industrial automation is noted, despite some concerns about profitability in other segments.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: SIE.DE News",
+        "title": "How the Siemens Story Is Evolving Amid Mixed Analyst Outlooks and Recent Developments",
+        "link": "https://finance.yahoo.com/news/siemens-story-evolving-amid-mixed-061113161.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Debra Gardner",
+    "recommendation": "Siemens' robust industrial automation sector may drive growth, aligning with Debra's conservative risk profile and liquidity needs. A moderate rate of return of 3-4% could be achievable while maintaining a portfolio risk of around 6%.",
+    "rate_of_return": "3-4% increase",
+    "portfolio_risk": "6% decline",
     "bank_commissions": "2% growth",
-    "tag": "Finance, ETFs"
+    "tag": "Industrials, Stocks"
   },
   {
-    "ticker": "TSLA",
-    "news": "Topic: Tesla's Market Position and Future Prospects\nSummary: The article discusses Wall Street's focus on stock performance over business fundamentals, using Tesla as an example. Despite losing market share in electric cars, Tesla is transitioning into an AI and robotics company, with its stock rising 75% over the past year.",
+    "ticker": "MSFT",
+    "news": "Topic: Arm and Nvidia Partnership Enhances AI Data Centers\nSummary: In November 2025, Arm Holdings and Nvidia announced an expanded partnership to integrate NVLink Fusion technology into Arm's Neoverse platform. This collaboration aims to enhance AI data center infrastructure efficiency and performance for cloud providers, potentially impacting Microsoft's competitive landscape.",
     "sources": [
       {
-        "name": "cnn.com",
-        "title": "Wall Street would rather be rich than right",
-        "link": "https://www.cnn.com/2025/10/30/business/tesla-meme-stock-nightcap"
+        "name": "Yahoo! Finance: MSFT News",
+        "title": "Will Arm’s Deepened Nvidia Partnership Shift the Competitive Balance in AI Data Centers for ARM?",
+        "link": "https://finance.yahoo.com/news/arm-deepened-nvidia-partnership-shift-071106463.html?.tsrc=rss"
       }
     ],
-    "client_name": "Jason Anderson",
-    "recommendation": "Given Tesla's transition into AI and robotics, it may be prudent to maintain your position in their stock while considering potential growth areas. We project a 5-7% increase in share value, with portfolio risk forecasted at 8% due to market volatility often associated with high-growth stocks.",
-    "rate_of_return": "5-7% increase",
-    "portfolio_risk": "8% increase",
+    "client_name": "Robert Johnson",
+    "recommendation": "Microsoft's strengthened capabilities in AI could lead to an increased market share, reflecting positively on Robert's growth-oriented portfolio. Expect a potential rate of return of 5-6% with a risk estimate of 7% due to market volatility.",
+    "rate_of_return": "5-6% increase",
+    "portfolio_risk": "7% decline",
     "bank_commissions": "3% growth",
-    "tag": "Automotive, Tech"
-  },
-  {
-    "ticker": "META",
-    "news": "Topic: Meta's Bond Sale and Stock Decline\nSummary: Meta is launching a six-part bond sale to raise at least $25 billion, following a disappointing earnings report that led to an 11% drop in its stock price. The proceeds from the bond sale will be used for general corporate purposes, including increased spending on artificial intelligence.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Meta Launches Jumbo Bond Sale; Stock Slides After Earnings",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025/card/meta-launches-jumbo-bond-sale-stock-slides-after-earnings-CHrMRQGSkyErYC5CkoRx"
-      }
-    ],
-    "client_name": "Jill Rhodes",
-    "recommendation": "Consider increasing exposure to Meta as the bond sale could stabilize liquidity. However, monitor the potential for further share price decline due to earnings pressures.",
-    "rate_of_return": "2-4% increase",
-    "portfolio_risk": "10% potential increase",
-    "bank_commissions": "1-2% growth",
-    "tag": "Tech, Bonds"
-  },
-  {
-    "ticker": "META",
-    "news": "Topic: Meta's Bond Sale and Stock Decline\nSummary: Meta is launching a six-part bond sale to raise at least $25 billion, following a disappointing earnings report that led to an 11% drop in its stock price. The proceeds from the bond sale will be used for general corporate purposes, including increased spending on artificial intelligence.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Meta Launches Jumbo Bond Sale; Stock Slides After Earnings",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025/card/meta-launches-jumbo-bond-sale-stock-slides-after-earnings-CHrMRQGSkyErYC5CkoRx"
-      }
-    ],
-    "client_name": "Joshua Walker",
-    "recommendation": "Given Meta's current stock volatility, a cautious approach involving smaller bond investments would be prudent. This could mitigate risks associated with their dropped stock prices.",
-    "rate_of_return": "3-5% potential",
-    "portfolio_risk": "8% increase",
-    "bank_commissions": "2-3% cost",
-    "tag": "Bonds, Risk Management"
-  },
-  {
-    "ticker": "META",
-    "news": "Topic: Meta's Bond Sale and Stock Decline\nSummary: Meta is launching a six-part bond sale to raise at least $25 billion, following a disappointing earnings report that led to an 11% drop in its stock price. The proceeds from the bond sale will be used for general corporate purposes, including increased spending on artificial intelligence.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Meta Launches Jumbo Bond Sale; Stock Slides After Earnings",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025/card/meta-launches-jumbo-bond-sale-stock-slides-after-earnings-CHrMRQGSkyErYC5CkoRx"
-      }
-    ],
-    "client_name": "Patricia Miller",
-    "recommendation": "Evaluate the potential benefits of diversifying into Meta bonds while being aware of the company’s recent challenges. Adjust exposure to their stocks in light of ongoing stock depreciation.",
-    "rate_of_return": "1-3% increase",
-    "portfolio_risk": "7% risk",
-    "bank_commissions": "2% expected",
-    "tag": "Finance, Stock"
-  },
-  {
-    "ticker": "EEM",
-    "news": "Topic: Argentinian Stocks Surge After Election Win\nSummary: Following the victory of President Javier Gonzales' party in Argentina's midterm elections, shares of Argentinian companies listed in the U.S. experienced a significant surge. Notable increases were seen in companies like YPF, MercadoLibre, and several banks.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Argentinian Stocks Surge in U.S. After Milei's Election Win",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-27-2025/card/argentinian-stocks-surge-in-u-s-after-milei-s-election-win-9LoxKfFyTzLL3aLHSgh1"
-      }
-    ],
-    "client_name": "Joshua Walker",
-    "recommendation": "Investing in Argentinian stocks offers a unique opportunity for high returns after the election. Increased investor confidence could lead to a potential 5-7% return.",
-    "rate_of_return": "5-7% increase",
-    "portfolio_risk": "5% risk",
-    "bank_commissions": "1% growth",
-    "tag": "Emerging Markets, Equity"
-  },
-  {
-    "ticker": "EEM",
-    "news": "Topic: Argentinian Stocks Surge After Election Win\nSummary: Following the victory of President Javier Gonzales' party in Argentina's midterm elections, shares of Argentinian companies listed in the U.S. experienced a significant surge. Notable increases were seen in companies like YPF, MercadoLibre, and several banks.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Argentinian Stocks Surge in U.S. After Milei's Election Win",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-27-2025/card/argentinian-stocks-surge-in-u-s-after-milei-s-election-win-9LoxKfFyTzLL3aLHSgh1"
-      }
-    ],
-    "client_name": "Jill Rhodes",
-    "recommendation": "The market reaction indicates strong growth potential in Argentinian equities, particularly for companies in emerging sectors. Allocating funds towards these stocks could yield significant returns.",
-    "rate_of_return": "4-6% potential",
-    "portfolio_risk": "4% increase",
-    "bank_commissions": "1.5% projected",
-    "tag": "Finance, Stocks"
-  },
-  {
-    "ticker": "MSFT",
-    "news": "Topic: Microsoft Hit With Azure, 365 Outage\nSummary: Microsoft experienced an outage affecting its Azure and 365 services, which could lead to customer dissatisfaction and impact the company's business operations.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Microsoft Hit With Azure, 365 Outage",
-        "link": "https://www.wsj.com/tech/microsoft-hit-with-azure-365-outage-b3ac0724"
-      }
-    ],
-    "client_name": "Danielle Johnson",
-    "recommendation": "Monitoring the impact of the outage on Microsoft's stock is crucial, as disruptions may lower customer confidence and affect sales. Adjusting positions in MSFT based on market sentiment may be advantageous.",
-    "rate_of_return": "2-3% decrease",
-    "portfolio_risk": "7% risk",
-    "bank_commissions": "0.5-1% increase",
-    "tag": "Tech, Risk Management"
-  },
-  {
-    "ticker": "MSFT",
-    "news": "Topic: Microsoft Hit With Azure, 365 Outage\nSummary: Microsoft experienced an outage affecting its Azure and 365 services, which could lead to customer dissatisfaction and impact the company's business operations.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Microsoft Hit With Azure, 365 Outage",
-        "link": "https://www.wsj.com/tech/microsoft-hit-with-azure-365-outage-b3ac0724"
-      }
-    ],
-    "client_name": "Patricia Miller",
-    "recommendation": "Consider reducing exposure to MSFT in light of potential service disruptions affecting customer retention. Balancing investments in the tech sector may also mitigate risks.",
-    "rate_of_return": "3-4% potential loss",
-    "portfolio_risk": "6% rise",
-    "bank_commissions": "1-2% growth",
     "tag": "Tech, Stocks"
   },
   {
-    "ticker": "MSFT",
-    "news": "Topic: Microsoft Needs to Open Up More About Its OpenAI Dealings\nSummary: There are concerns about Microsoft's transparency regarding its relationship with OpenAI. The company's annual report revealed that it included the losses from its OpenAI stake in a $4.7 billion expense line for the fiscal year.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Microsoft Needs to Open Up More About Its OpenAI Dealings",
-        "link": "https://www.wsj.com/tech/ai/microsoft-needs-to-open-up-more-about-its-openai-dealings-59102de8"
-      }
-    ],
-    "client_name": "Joshua Walker",
-    "recommendation": "Given the potential volatility in Microsoft's operations related to OpenAI, consider adjusting your tech sector exposure to mitigate risk. A 5-7% decline in rate of return may be expected if transparency issues persist.",
-    "rate_of_return": "3-5% decrease",
-    "portfolio_risk": "10% increase",
-    "bank_commissions": "1-2% increase",
-    "tag": "Tech"
-  },
-  {
     "ticker": "INFY.NS",
-    "news": "Topic: Buddhist Scepticism and Generative AI\nSummary: The latest iteration of OpenAI's video generator, Sora 2, has sparked discussions on Buddhist scepticism, emphasizing that objective reality is often obscured by prejudices and memories.",
+    "news": "Topic: Analyst Views on Infosys Growth\nSummary: Infosys has seen a slight rise in its consensus analyst price target, attributed to steady revenue growth and a modest reduction in the discount rate. This reflects positive analyst sentiment towards Infosys's growth prospects.",
     "sources": [
       {
-        "name": "theguardian.com",
-        "title": "Don’t believe everything you see: why Buddhist scepticism is vital in the age of generative AI",
-        "link": "https://www.theguardian.com/commentisfree/2025/nov/03/buddhist-scepticism-vital-age-of-artificial-intelligence-generative-ai"
+        "name": "Yahoo! Finance: INFY.NS News",
+        "title": "How Analyst Views Are Shaping the Next Chapter in Infosys’s Growth Story",
+        "link": "https://finance.yahoo.com/news/analyst-views-shaping-next-chapter-211214515.html?.tsrc=rss"
       }
     ],
-    "client_name": "Jill Rhodes",
-    "recommendation": "With the rise in AI technologies, diversifying your investment into sectors that leverage generative AI can offer growth potential. Consider a 4-6% increase in rate of return if aligned correctly with your philanthropic initiatives.",
-    "rate_of_return": "4-6% increase",
-    "portfolio_risk": "5% decrease",
-    "bank_commissions": "2% gain",
-    "tag": "AI"
-  },
-  {
-    "ticker": "SPY",
-    "news": "Topic: UK Manufacturing Recovery Post-Jaguar Land Rover Reopening\nSummary: UK factories experienced a recovery in October after the reopening of Jaguar Land Rover operations and increased consumer spending.",
-    "sources": [
-      {
-        "name": "theguardian.com",
-        "title": "Jaguar Land Rover restart helps UK factories return to growth",
-        "link": "https://www.theguardian.com/business/2025/nov/03/jaguar-land-rover-uk-factories-growth-pmi"
-      }
-    ],
-    "client_name": "Patricia Miller",
-    "recommendation": "Consider increasing your exposure to UK manufacturing stocks, as the positive momentum could lead to 3-5% returns on investments related to automotive and consumer goods sectors. Monitor the overall market sentiment to assess potential risks.",
-    "rate_of_return": "3-5% increase",
-    "portfolio_risk": "4% increase",
-    "bank_commissions": "1-2% rise",
-    "tag": "Manufacturing"
+    "client_name": "Jeffery Wagner",
+    "recommendation": "Infosys's positive analyst outlook aligns well with Jeffery's balanced profile, suggesting potential capital appreciation. A rate of return of approximately 4-5% could be expected with a risk level around 5% given market sentiments.",
+    "rate_of_return": "4-5% increase",
+    "portfolio_risk": "5% decline",
+    "bank_commissions": "2% growth",
+    "tag": "Tech, Stocks"
   },
   {
     "ticker": "AAPL",
-    "news": "Topic: Tim Cook's Management Strategies at Apple\nSummary: CEO Tim Cook managed to steer Apple away from a potentially disastrous year, overcoming challenges such as tariffs and a lack of transparency.",
+    "news": "Topic: SoundHound AI's Growth and Market Potential\nSummary: SoundHound AI is experiencing significant growth, positioning itself as a potential top AI stock for 2026, although there are considerations to be aware of.",
     "sources": [
       {
-        "name": "wsj.com",
-        "title": "How Apple Skirted Disaster This Year",
-        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-03-2025/card/how-apple-skirted-disaster-this-year-mqvJppuFacZW9wOZXzGW?siteid=yhoof2&yptr=yahoo"
-      }
-    ],
-    "client_name": "Robert Johnson",
-    "recommendation": "Given Tim Cook's effective management, retaining or increasing your investment in Apple may yield 5-8% returns in the near term as investor confidence rises. Be cautious of potential short-term volatility around earnings reports.",
-    "rate_of_return": "5-8% increase",
-    "portfolio_risk": "6% decrease",
-    "bank_commissions": "2% increase",
-    "tag": "Tech"
-  },
-  {
-    "ticker": "BND",
-    "news": "Topic: French Bond Yields Rise After Moody's Lowers Outlook\nSummary: French government bond yields have increased following Moody's decision to lower France's outlook to negative from stable.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "French Bond Yields Edge Up in Line With Market After Moody’s Lowers Outlook",
-        "link": "https://www.wsj.com/articles/jgbs-mixed-ahead-of-president-trumps-visit-to-japan-ecc916c9?siteid=yhoof2&yptr=yahoo"
+        "name": "Yahoo! Finance: AAPL News",
+        "title": "SoundHound AI Looks Unstoppable. Is It a Top AI Stock to Buy for 2026?",
+        "link": "https://www.fool.com/investing/2025/11/23/is-soundhound-ai-a-top-stock-to-buy-for-2026/?.tsrc=rss"
       }
     ],
     "client_name": "Joshua Walker",
-    "recommendation": "Considering the rise in French bond yields, it may be prudent to adjust your bond holdings to mitigate exposure in politically unstable environments, anticipating a 1-3% potential decline.",
-    "rate_of_return": "1-3% decrease",
-    "portfolio_risk": "7% increase",
-    "bank_commissions": "1-2% growth",
-    "tag": "Bonds"
-  },
-  {
-    "ticker": "EEM",
-    "news": "Topic: Coinbase CEO and Prediction Markets\nSummary: Coinbase CEO Brian Armstrong made remarks during an earnings call that included words like Bitcoin and Ethereum, which were part of bets on prediction markets.",
-    "sources": [
-      {
-        "name": "techcrunch.com",
-        "title": "Coinbase CEO Brian Armstrong trolls the prediction markets",
-        "link": "https://techcrunch.com/2025/11/01/coinbase-ceo-brian-armstrong-trolls-the-prediction-markets/"
-      }
-    ],
-    "client_name": "Jill Rhodes",
-    "recommendation": "With the speculative nature of cryptocurrencies highlighted in Armstrong's earnings call, it may be beneficial to recalibrate your cryptocurrency investments towards established assets to maintain stability.",
-    "rate_of_return": "3-5% increase",
-    "portfolio_risk": "8% decrease",
-    "bank_commissions": "2-3% increase",
-    "tag": "Crypto"
-  },
-  {
-    "ticker": "SIE.DE",
-    "news": "Topic: Nvidia's Vision for AI and Technology\nSummary: Nvidia, the world's most valuable public company, has outlined its vision for the future of its technology, aiming to make its chips crucial for artificial intelligence central to everyday life.",
-    "sources": [
-      {
-        "name": "cnn.com",
-        "title": "The world’s most valuable public company just laid out its vision for the future",
-        "link": "https://www.cnn.com/2025/10/28/tech/nvidia-gtc-ai-conference-jensen-huang"
-      }
-    ],
-    "client_name": "Joshua Walker",
-    "recommendation": "Given the increasing importance of AI technology, consider adjusting the technology allocation in your portfolio to increase exposure to Nvidia and related companies. This could enhance returns while keeping an eye on the associated risks.",
-    "rate_of_return": "5-7% increase",
-    "portfolio_risk": "12% decline",
-    "bank_commissions": "2-3% growth",
+    "recommendation": "Investing in SoundHound AI could enhance Joshua's portfolio, tapping into the booming AI sector and aligning with his wealth preservation goals. A potential return of 6-7% is foreseeable with a manageable risk estimate of about 4%.",
+    "rate_of_return": "6-7% increase",
+    "portfolio_risk": "4% decline",
+    "bank_commissions": "2.5% growth",
     "tag": "Tech, Stocks"
   },
   {
-    "ticker": "SIE.DE",
-    "news": "Topic: Nvidia's Vision for AI and Technology\nSummary: Nvidia, the world's most valuable public company, has outlined its vision for the future of its technology.",
+    "ticker": "BND",
+    "news": "Topic: Interest in Bond ETFs Amid Economic Uncertainty\nSummary: Geopolitical and economic uncertainty, along with gold prices reaching $4,000 an ounce, is driving income-seeking investors back toward bond ETFs. This trend reflects a cautious approach to investing, particularly among retirees who are looking to protect their downside with defensive dividend giants.",
     "sources": [
       {
-        "name": "cnn.com",
-        "title": "The world’s most valuable public company just laid out its vision for the future",
-        "link": "https://www.cnn.com/2025/10/28/tech/nvidia-gtc-ai-conference-jensen-huang"
-      }
-    ],
-    "client_name": "Jill Rhodes",
-    "recommendation": "Nvidia's focus on AI data centers could signify strong growth ahead; consider increasing holdings in Nvidia to capitalize on this trend while monitoring the volatility in the tech sector.",
-    "rate_of_return": "4-6% increase",
-    "portfolio_risk": "10% decline",
-    "bank_commissions": "3-4% growth",
-    "tag": "Tech, AI"
-  },
-  {
-    "ticker": "SIE.DE",
-    "news": "Topic: Nvidia's Vision for AI and Technology\nSummary: Nvidia has outlined its vision for the future of its technology.",
-    "sources": [
+        "name": "Yahoo! Finance: BND News",
+        "title": "Retirees Are Loading up on These 3 Defensive Dividend Giants",
+        "link": "https://247wallst.com/investing/2025/11/12/retirees-are-loading-up-on-these-3-defensive-dividend-giants/?.tsrc=rss"
+      },
       {
-        "name": "cnn.com",
-        "title": "The world’s most valuable public company just laid out its vision for the future",
-        "link": "https://www.cnn.com/2025/10/28/tech/nvidia-gtc-ai-conference-jensen-huang"
+        "name": "Yahoo! Finance: BND News",
+        "title": "Best Bond ETFs Are Looking Pretty Attractive Right Now",
+        "link": "https://finance.yahoo.com/m/5a386b65-ba00-3898-90fc-ab8868a350c5/best-bond-etfs-are-looking.html?.tsrc=rss"
       }
     ],
-    "client_name": "Patricia Miller",
-    "recommendation": "With Nvidia's plans for AI at the forefront of future technology, increasing your investment in tech stocks could provide higher potential returns despite the inherent risks.",
-    "rate_of_return": "3-5% increase",
-    "portfolio_risk": "15% decline",
-    "bank_commissions": "2% growth",
-    "tag": "Tech, AI"
-  },
-  {
-    "ticker": "SIE.DE",
-    "news": "Topic: Nvidia's Vision for AI and Technology\nSummary: Nvidia's CEO, Jensen Huang, emphasized the importance of AI technology in everyday life.",
-    "sources": [
-      {
-        "name": "cnn.com",
-        "title": "The world’s most valuable public company just laid out its vision for the future",
-        "link": "https://www.cnn.com/2025/10/28/tech/nvidia-gtc-ai-conference-jensen-huang"
-      }
-    ],
-    "client_name": "Robert Johnson",
-    "recommendation": "Considering Nvidia's ambitions in AI, reevaluating your holdings towards AI technology companies could enhance growth while managing overall portfolio risk through diversification.",
-    "rate_of_return": "5-8% increase",
-    "portfolio_risk": "11% decline",
-    "bank_commissions": "1-2% growth",
-    "tag": "Tech, AI"
-  },
-  {
-    "ticker": "IGLS.L",
-    "news": "Topic: Geely Acquires Stake in Renault's Brazilian Unit\nSummary: Renault has announced a deal with Chinese auto group Geely to take a 26.4% stake in its Brazilian business.",
-    "sources": [
-      {
-        "name": "wsj.com",
-        "title": "Renault Says Chinese Auto Group Geely Will Take 26.4% Stake in Brazilian Unit",
-        "link": "https://www.wsj.com/business/autos/renault-says-chinese-auto-group-geely-will-take-26-4-stake-in-brazilian-unit-5724df1c"
-      }
-    ],
-    "client_name": "Jill Rhodes",
-    "recommendation": "This acquisition may enhance Geely's market presence in Latin America; consider increasing exposure to Geely within your portfolio given its growth trajectory.",
-    "rate_of_return": "4-6% increase",
-    "portfolio_risk": "9% decline",
-    "bank_commissions": "2% growth",
-    "tag": "Automotive, Stocks"
+    "client_name": "Deborah Lynch",
+    "recommendation": "In light of recent market conditions, increasing allocation to BND could provide safety and improved stability for Deborah's growth-oriented portfolio. A return in the range of 2-3% seems reasonable, while risk remains low at around 3%.",
+    "rate_of_return": "2-3% increase",
+    "portfolio_risk": "3% decline",
+    "bank_commissions": "1.5% growth",
+    "tag": "Fixed Income, Bonds"
   },
   {
     "ticker": "AGG",
-    "news": "Topic: CoreWeave's Failed Acquisition and AI Sector Impact\nSummary: CoreWeave's attempt to acquire Core Scientific was rejected by shareholders.",
+    "news": "Topic: AGG ETF Fund Flows\nSummary: Recent ETF fund flows show significant movements in AGG, with $500 million being withdrawn on November 5, 2025, and $718 million flowing into AGG on October 21, 2025. These movements reflect changing investor sentiment towards bond ETFs.",
     "sources": [
       {
-        "name": "techcrunch.com",
-        "title": "AI mania tanks CoreWeave’s Core Scientific acquisition; it buys Python notebook Marimo",
-        "link": "https://techcrunch.com/2025/10/31/ai-mania-tanks-coreweaves-core-scientific-acquisition-it-buys-python-notebook-marimo/"
+        "name": "Yahoo! Finance: AGG News",
+        "title": "Daily ET Flows: Investors Take $500M Out of AGG",
+        "link": "http://www.etf.com/sections/daily-etf-flows/daily-et-flows-investors-take-500m-out-agg?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: AGG News",
+        "title": "Daily ETF Flows: $718M Flows Into AGG",
+        "link": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-718m-flows-agg?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss"
+      }
+    ],
+    "client_name": "Andrew Hickman",
+    "recommendation": "The dual fund flow movements in AGG signify potential volatility, suggesting Andrew should consider a cautious investment approach. A moderate risk profile suggests a potential return of 2% with a risk assessment around 4%.",
+    "rate_of_return": "2% increase",
+    "portfolio_risk": "4% decline",
+    "bank_commissions": "1% growth",
+    "tag": "Fixed Income, Bonds"
+  },
+  {
+    "ticker": "IAU",
+    "news": "Topic: Impact of Weaker Dollar on ETFs\nSummary: As the U.S. dollar weakens amid Fed rate cuts and investor caution, ETFs like UDN, CEW, and gold-backed funds offer timely hedging opportunities. This trend can lead to increased interest in gold-backed ETFs.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: IAU News",
+        "title": "Betting on a Weaker Dollar? ETFs to Consider",
+        "link": "https://finance.yahoo.com/news/betting-weaker-dollar-etfs-consider-155800891.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Debra Gardner",
+    "recommendation": "Invest in IAU to hedge against the weakening dollar, as this can provide an estimated 3-4% return amid increased demand for gold ETFs. The portfolio risk is expected to decline to 5% due to the stability of gold in uncertain markets, with bank commissions around 1.5%.",
+    "rate_of_return": "3-4% increase",
+    "portfolio_risk": "5% decline",
+    "bank_commissions": "1.5% growth",
+    "tag": "Finance, ETFs"
+  },
+  {
+    "ticker": "SIE.DE",
+    "news": "Topic: Siemens in the ALM Software Market\nSummary: The ALM software market is growing with a focus on agile, DevOps, AI integration, and cloud-based solutions. Siemens is among the leaders in this competitive landscape, which is seeing high demand in IT/telecom and BFSI sectors, particularly in Asia-Pacific.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: SIE.DE News",
+        "title": "Application Life-Cycle Management (ALM) Software Market Overview 2025-2032: IBM, Microsoft, Siemens, and PTC Lead as Cloud-Native and AI-Integrated Solutions Intensify Competition",
+        "link": "https://finance.yahoo.com/news/application-life-cycle-management-alm-090400066.html?.tsrc=rss"
       }
     ],
     "client_name": "Joshua Walker",
-    "recommendation": "CoreWeave's struggles could indicate instability in the AI sector; consider reducing exposure to affected equities while reassessing your bond allocations based on market volatility.",
-    "rate_of_return": "1-3% decline",
+    "recommendation": "Increase allocation in SIE.DE as the growth in the ALM software market can lead to an estimated 4-5% return over the next year. With a moderate portfolio risk of 7% from the sector's expansion, expect bank commissions to be around 2%.",
+    "rate_of_return": "4-5% increase",
     "portfolio_risk": "7% increase",
-    "bank_commissions": "2% decline",
-    "tag": "Tech, Bonds"
+    "bank_commissions": "2% growth",
+    "tag": "Tech, Software"
+  },
+  {
+    "ticker": "MSFT",
+    "news": "Topic: Lumen Technologies' AI Partnerships with Microsoft\nSummary: Lumen Technologies launched its Lumen Defender Advanced Managed Detection and Response with Microsoft Sentinel. This partnership highlights Lumen's commitment to expanding its digital security and connectivity ecosystem.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: MSFT News",
+        "title": "Can Lumen Technologies’ (LUMN) New AI Partnerships Deepen Its Competitive Edge in Enterprise Connectivity?",
+        "link": "https://finance.yahoo.com/news/lumen-technologies-lumn-ai-partnerships-221350268.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Jeffery Wagner",
+    "recommendation": "Consider increasing exposure to MSFT, as its partnership with Lumen strengthens its position in the AI and security markets, potentially driving an increase of 3-4% return with manageable portfolio risk of 6%. Anticipate bank commissions to remain steady at approximately 1.8%.",
+    "rate_of_return": "3-4% increase",
+    "portfolio_risk": "6% increase",
+    "bank_commissions": "1.8% growth",
+    "tag": "Tech, AI"
+  },
+  {
+    "ticker": "SPY",
+    "news": "Topic: Pre-market Trends and Market Anxiety\nSummary: The stock market experienced a strong open, but previous sessions saw gains slide into negative territory. Market anxiety increased as trading in put options surged, reflecting fears similar to those seen during higher tariff concerns earlier in the year.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: SPY News",
+        "title": "Pre-markets Try Again, Begin Session in the Green",
+        "link": "https://finance.yahoo.com/news/pre-markets-try-again-begin-151900808.html?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: SPY News",
+        "title": "Market Anxiety Picked Up Thursday",
+        "link": "https://finance.yahoo.com/m/5b90c0af-bb9e-3cfe-9189-5182d709fcbc/market-anxiety-picked-up.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Anthony Gonzalez",
+    "recommendation": "Given the current market anxiety reflected in SPY trading, consider reallocating investments towards more stable sectors to mitigate risk, expecting a return of 2-3% but with a portfolio risk potentially rising to 9%. Bank commissions are expected to be around 1.5%.",
+    "rate_of_return": "2-3% increase",
+    "portfolio_risk": "9% increase",
+    "bank_commissions": "1.5% growth",
+    "tag": "Finance, Market"
+  },
+  {
+    "ticker": "MSFT",
+    "news": "Topic: AI Stocks Investment Outlook\nSummary: The past decade has been favorable for certain tech leaders, and the outlook for the next decade remains positive. This discussion is relevant for Microsoft's positioning in the tech market.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: MSFT News",
+        "title": "2 Artificial Intelligence (AI) Stocks You Can Buy and Hold for the Next Decade",
+        "link": "https://www.fool.com/investing/2025/11/22/2-artificial-intelligence-stocks-you-can-buy-and/?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: MSFT News",
+        "title": "AI Bubble Fears Spark a Sell-Off: 1 Stock to Buy, and 1 to Avoid",
+        "link": "https://www.fool.com/investing/2025/11/22/ai-bubble-fears-spark-a-sell-off-1-stock-to-buy-an/?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "Consider investing in MSFT as the favorable outlook for AI technology suggests a potential return of 4-5%, with a moderate risk profile of 5% given market volatility. Anticipate bank commissions to rise slightly to 2%.",
+    "rate_of_return": "4-5% increase",
+    "portfolio_risk": "5% increase",
+    "bank_commissions": "2% growth",
+    "tag": "Tech, AI"
   },
   {
     "ticker": "TM",
-    "news": "Topic: Toyota Car Thefts in Derbyshire\nSummary: Police in Derbyshire have issued a warning to Toyota car owners to take extra precautions following a series of thefts.",
+    "news": "Topic: Market Movements and Toyota's Stock\nSummary: The SPDR S&P 500 ETF Trust (SPY) saw a rise of 0.5% amid renewed hopes for a rate cut, which could indirectly impact Toyota's stock performance.",
     "sources": [
       {
-        "name": "bbc.com",
-        "title": "Derbyshire Police warning to Toyota car owners after thefts",
-        "link": "https://www.bbc.com/news/articles/c9d6x71qpnjo?xtor=AL-72-[partner]-[yahoo.north.america]-[headline]-[news]-[bizdev]-[isapi]"
+        "name": "Yahoo! Finance: TM News",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+        "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Jeffery Wagner",
+    "recommendation": "Consider maintaining or slightly increasing positions in TM, anticipating a return of about 3% as the rate cut hopes bolster stock performance. The associated risk may rise to about 4%, with estimated bank commissions remaining stable at 1.5%.",
+    "rate_of_return": "3% increase",
+    "portfolio_risk": "4% increase",
+    "bank_commissions": "1.5% growth",
+    "tag": "Auto, Stocks"
+  },
+  {
+    "ticker": "SPY",
+    "news": "Topic: Positive Movements in ETFs and Equity Futures\nSummary: The SPDR S&P 500 ETF Trust (SPY) saw a 0.5% increase pre-bell on Friday, driven by renewed hopes for rate cuts. This positive movement in ETFs and equity futures suggests a favorable market sentiment.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: SPY News",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+        "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "Given the recent positive sentiment around rate cuts and the SPY's increase, I recommend increasing exposure to SPY or similar ETFs. This could provide a rate of return of about 3-4% in the short term, aligning well with your balanced risk profile.",
+    "rate_of_return": "3-4% increase",
+    "portfolio_risk": "7% risk",
+    "bank_commissions": "1-2% growth",
+    "tag": "ETFs, Stocks"
+  },
+  {
+    "ticker": "SPY",
+    "news": "Topic: Biotech ETFs Show Strength\nSummary: Biotech ETFs are experiencing a resurgence, driven by cheaper valuations, hopes for rate cuts, FDA approvals, and strong deal activity. This strength in biotech is influencing overall market trends and investor strategies.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: SPY News",
+        "title": "Inside the Recent Strength in Biotech ETFs",
+        "link": "https://finance.yahoo.com/news/inside-recent-strength-biotech-etfs-130000520.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Debra Gardner",
+    "recommendation": "Considering your moderate risk tolerance, it may benefit you to diversify into biotech ETFs which are currently undervalued and poised for growth. This could yield a potential rate of return around 5-7% as the sector continues to strengthen.",
+    "rate_of_return": "5-7% increase",
+    "portfolio_risk": "6% risk",
+    "bank_commissions": "1-3% growth",
+    "tag": "Biotech, ETFs"
+  },
+  {
+    "ticker": "BND",
+    "news": "Topic: Vanguard Total Bond Market Index Fund Analysis\nSummary: The article provides an analysis of the Vanguard Total Bond Market Index Investor (VBMFX), offering insights for investors considering bond mutual funds.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: BND News",
+        "title": "Is Vanguard Total Bond Market Index Investor (VBMFX) a Strong Mutual Fund Pick Right Now?",
+        "link": "https://finance.yahoo.com/news/vanguard-total-bond-market-index-110002083.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Jeffery Wagner",
+    "recommendation": "Vanguard's bond market analysis indicates stable returns in the current environment. As your portfolio is heavily weighted in fixed income, consider adjusting to include this fund with an expected rate of return of 2-3% over the coming year.",
+    "rate_of_return": "2-3% increase",
+    "portfolio_risk": "4% risk",
+    "bank_commissions": "0.5-1% growth",
+    "tag": "Bonds, Funds"
+  },
+  {
+    "ticker": "AGG",
+    "news": "Topic: Mortgage Bonds as Attractive Investments\nSummary: Current bond market dynamics have made mortgage-backed securities particularly appealing for risk-averse investors. Several funds are highlighted as potential options for those seeking yield in this segment.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: AGG News",
+        "title": "Mortgage Bonds Offer Up Bargains for Yield-Hungry Fund Investors",
+        "link": "https://finance.yahoo.com/m/ffeef204-9496-36d7-95dc-17ca7fb64e6b/mortgage-bonds-offer-up.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Matthew Moore",
+    "recommendation": "Mortgage bonds currently present an attractive opportunity for yields in a low-risk context. Given your conservative profile, investing in these could yield a return of around 3-4%, while helping to mitigate portfolio risk.",
+    "rate_of_return": "3-4% increase",
+    "portfolio_risk": "5% risk",
+    "bank_commissions": "1-2% growth",
+    "tag": "Bonds, Investments"
+  },
+  {
+    "ticker": "GLD",
+    "news": "Topic: Comparison of Gold and Silver ETFs\nSummary: The article compares SPDR Gold Shares (GLD) and iShares Silver Trust (SLV), which track the prices of gold and silver respectively, for retail investors looking to diversify their precious metal holdings.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: GLD News",
+        "title": "Which ETF is Better for Retail Investors: SPDR Gold Shares (GLD) or iShares Silver Trust (SLV)?",
+        "link": "https://www.fool.com/coverage/etfs/2025/11/22/which-etf-is-better-for-retail-investors-spdr-gold-shares-gld-or-ishares-silver-trust-slv/?.tsrc=rss"
+      }
+    ],
+    "client_name": "Lindsey Lee",
+    "recommendation": "As a retail investor interested in precious metals, diversifying into GLD can enhance portfolio stability. The expected return on GLD is around 4-6%, with a low associated risk percentage due to its inverse correlation with equities.",
+    "rate_of_return": "4-6% increase",
+    "portfolio_risk": "4% risk",
+    "bank_commissions": "1-2% growth",
+    "tag": "Gold, ETFs"
+  },
+  {
+    "ticker": "GLD",
+    "news": "Topic: Market Movements and Rate Cut Hopes\nSummary: The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) rose pre-bell on Friday amid reignited hopes for a rate cut, which can influence investor sentiment towards gold and related ETFs.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: GLD News",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+        "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Collin Jordan",
+    "recommendation": "Given the growing market sentiment for rate cuts, this will likely elevate gold prices and benefit GLD significantly. As a result, consider increasing your allocation to GLD which might yield a rate of return of about 5-7% under these macroeconomic conditions.",
+    "rate_of_return": "5-7% increase",
+    "portfolio_risk": "5% risk",
+    "bank_commissions": "1% growth",
+    "tag": "Gold, ETFs"
+  },
+  {
+    "ticker": "IAU",
+    "news": "Topic: Diversification Strategies Amid Market Volatility\nSummary: As bubble fears rise and volatility spikes, investors can turn to ETFs like RSP, GLD, and IEMG to diversify and cut concentration risk.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: IAU News",
+        "title": "Don't Go All-In on Tech: Diversify With These ETFs",
+        "link": "https://finance.yahoo.com/news/dont-tech-diversify-etfs-163400690.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Danielle Johnson",
+    "recommendation": "Increased allocation to ETFs like GLD is advisable to hedge against market volatility, given current bubble fears. Expected return on these assets may provide a safe harbor, potentially yielding a 3-5% increase in portfolio value.",
+    "rate_of_return": "3-5% increase",
+    "portfolio_risk": "10% increase",
+    "bank_commissions": "2% increase",
+    "tag": "Finance, ETFs"
+  },
+  {
+    "ticker": "SIE.DE",
+    "news": "Topic: Siemens' Role in Data Center Liquid Cooling\nSummary: nVent Electric has launched new modular data center liquid cooling solutions in collaboration with Siemens, highlighting advancements in coolant distribution and rack systems.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: SIE.DE News",
+        "title": "Can nVent (NVT) Leverage Liquid Cooling Collaborations to Solidify Its Data Center Edge?",
+        "link": "https://finance.yahoo.com/news/nvent-nvt-leverage-liquid-cooling-121101994.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "Investors should consider the positive implications of Siemens’s advancements in liquid cooling for data centers, as this sector is poised for growth amidst rising demand for energy efficiency. The potential rate of return from Siemens technologies could lead to a 4-6% increase with a manageable risk profile.",
+    "rate_of_return": "4-6% increase",
+    "portfolio_risk": "5% increase",
+    "bank_commissions": "3% growth",
+    "tag": "Tech, Engineering"
+  },
+  {
+    "ticker": "MSFT",
+    "news": "Topic: General Stock Market Advice\nSummary: Investors are advised to consider increasing their holdings in certain stocks, as owning more may be beneficial.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: MSFT News",
+        "title": "Top Stocks to Double Up on Right Now",
+        "link": "https://www.fool.com/investing/2025/11/22/top-stocks-to-double-up-on-right-now/?.tsrc=rss"
+      }
+    ],
+    "client_name": "Patricia Miller",
+    "recommendation": "Strategically increasing exposure to MSFT aligns with the growth potential suggested in current market conditions. This could yield a projected return of around 3-4% while maintaining a manageable risk level of about 5%.",
+    "rate_of_return": "3-4% increase",
+    "portfolio_risk": "5% incline",
+    "bank_commissions": "2% increase",
+    "tag": "Tech, Stocks"
+  },
+  {
+    "ticker": "EEM",
+    "news": "Topic: Market Movements and Investor Sentiment\nSummary: A series of articles from Yahoo! Finance discuss the movements of exchange-traded funds and equity futures in relation to various economic events.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: EEM News",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+        "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: EEM News",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Ahead of Jobs Data",
+        "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-132912603.html?.tsrc=rss"
+      },
+      {
+        "name": "Yahoo! Finance: EEM News",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Nvidia Earnings, Fed Meeting Minutes",
+        "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-132902823.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Robert Johnson",
+    "recommendation": "Given current market sentiment, reallocating portions to EEM could improve growth potential, particularly in emerging markets. With interest rate cuts on the horizon, a return of 5-7% is conceivable, albeit with an elevated risk guesstimate of 8%.",
+    "rate_of_return": "5-7% increase",
+    "portfolio_risk": "8% increase",
+    "bank_commissions": "2% growth",
+    "tag": "Emerging Markets, ETFs"
+  },
+  {
+    "ticker": "INFY.NS",
+    "news": "Topic: Asian Equities and Infosys Market Performance\nSummary: Asian equities traded in the US as American depositary receipts were tracking higher.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: INFY.NS News",
+        "title": "Asian Equities Traded in the US as American Depositary Receipts Rise in Wednesday Trading",
+        "link": "https://finance.yahoo.com/news/asian-equities-traded-us-american-153710819.html?.tsrc=rss"
       }
     ],
     "client_name": "Jill Rhodes",
-    "recommendation": "The thefts could impact Toyota's brand reputation; consider monitoring your investments in Toyota to reassess market sentiment.",
-    "rate_of_return": "2-4% decline",
+    "recommendation": "Increased exposure to Infosys is encouraged as Asian equities are trending upwards, potentially enhancing returns significantly. An expected return of around 4-6% could be seen, with moderate risk levels at approximately 5%.",
+    "rate_of_return": "4-6% increase",
+    "portfolio_risk": "5% increase",
+    "bank_commissions": "3% growth",
+    "tag": "Tech, International"
+  },
+  {
+    "ticker": "TM",
+    "news": "Topic: Polar Power's EV Charger Order\nSummary: Polar Power Inc. announced receiving a purchase order for mobile electric vehicle fast chargers.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: TM News",
+        "title": "Polar Power Inc. Receives Purchase Order for Mobile Electric Vehicle Fast Chargers to Address the Growing Need for Emergency Roadside Assistance",
+        "link": "https://finance.yahoo.com/news/polar-power-inc-receives-purchase-120000411.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "Investing in Toyota not only aligns with emerging trends in the EV market but also supports future growth amid increasing demand for EV chargers. Expected returns could reach 5-8%, with a risk of around 7%, warranting close monitoring of commission fees as well.",
+    "rate_of_return": "5-8% increase",
+    "portfolio_risk": "7% increase",
+    "bank_commissions": "3% growth",
+    "tag": "Auto, EV"
+  },
+  {
+    "ticker": "SPY",
+    "news": "Topic: Tesla's Valuation Concerns\nSummary: Tesla is highlighted as one of the most expensive stocks, with investors beginning to pay attention to valuations. This focus on Tesla's valuation could impact broader market sentiment, particularly in the tech sector.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: SPY News",
+        "title": "Tesla Is One Of The 7 Most Expensive Stocks  — Do You Own Any?",
+        "link": "https://finance.yahoo.com/m/51e02d87-b690-3619-b27f-096a9be37e9b/tesla-is-one-of-the-7-most.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Danielle Johnson",
+    "recommendation": "Given the increased scrutiny on Tesla's valuation, it may be prudent to reassess equity holdings in the tech sector, including potential overexposure. A potential market correction could lead to a projected 6-8% decrease in portfolio value, with a bank commission increase of approximately 2-3% due to repositioning costs.",
+    "rate_of_return": "2-3% decrease",
+    "portfolio_risk": "10% increase",
+    "bank_commissions": "2-3%",
+    "tag": "Tech, Stocks"
+  },
+  {
+    "ticker": "BND",
+    "news": "Topic: Stock Market Trends Amid Government Shutdown\nSummary: Despite the federal government shutdown in October, the stock market continued to perform well, pushing higher despite various headwinds.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: BND News",
+        "title": "Stock Market Is Hot Going Into The Best Time Of The Year",
+        "link": "https://finance.yahoo.com/m/ce85732e-030c-35f0-8698-38b96d046ebf/stock-market-is-hot-going.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "The resilience shown by the stock market during the government shutdown suggests a favorable environment for maintaining bond positions. Holding BND may yield a stable 3-4% return with a projected risk level of 5% as government actions stabilize outcomes.",
+    "rate_of_return": "3-4% increase",
+    "portfolio_risk": "5% increase",
+    "bank_commissions": "1-2%",
+    "tag": "Bonds"
+  },
+  {
+    "ticker": "AGG",
+    "news": "Topic: Stock Market Trends Amid Government Shutdown\nSummary: Despite the federal government shutdown in October, the stock market continued to perform well, moving higher despite various headwinds. This trend may have implications for bond market dynamics.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: AGG News",
+        "title": "Stock Market Is Hot Going Into The Best Time Of The Year",
+        "link": "https://finance.yahoo.com/m/ce85732e-030c-35f0-8698-38b96d046ebf/stock-market-is-hot-going.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Debra Gardner",
+    "recommendation": "Riding the current market momentum can enhance the performance of AGG in the short term; hence, holding this bond ETF may lead to a projected return of around 2-3%. However, an increased risk factor of approximately 6% is likely if market volatility spikes due to political reasons.",
+    "rate_of_return": "2-3% increase",
     "portfolio_risk": "6% increase",
-    "bank_commissions": "1% decline",
-    "tag": "Automotive, Stocks"
+    "bank_commissions": "1-2%",
+    "tag": "Bonds"
+  },
+  {
+    "ticker": "GLD",
+    "news": "Topic: ETFs Amid Rising AI Bubble Concerns\nSummary: With rising concerns about an AI bubble, ETFs like TAIL, HDGE, PGHY, and XLV offer ways to hedge tech risks and diversify portfolios, as tech valuations appear to be running hot.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: GLD News",
+        "title": "ETFs to Play Amid Rising AI Bubble Concerns",
+        "link": "https://finance.yahoo.com/news/etfs-play-amid-rising-ai-130000799.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Jeffery Wagner",
+    "recommendation": "Diversifying into ETFs such as TAIL and HDGE may help hedge against the volatility in tech stocks due to potential AI bubble risks. A shift toward these hedging assets could yield a conservative return of around 4-5%, while increasing portfolio risk to approximately 7% due to inherent market fluctuations.",
+    "rate_of_return": "4-5% increase",
+    "portfolio_risk": "7% increase",
+    "bank_commissions": "1-3%",
+    "tag": "ETFs, Tech"
+  },
+  {
+    "ticker": "IAU",
+    "news": "Topic: Buying the Dip in Gold ETFs\nSummary: The gold bullion ETF GLD lost about 5% last week, prompting discussions on whether this is a time to buy the dip in the metal.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: IAU News",
+        "title": "Time to Buy the Dip in Gold ETFs?",
+        "link": "https://finance.yahoo.com/news/time-buy-dip-gold-etfs-103900695.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "The recent dip in GLD could provide a strategic buying opportunity for gold ETFs like IAU, potentially leading to a recovery return estimated at 5-6%. However, this growth is coupled with a portfolio risk increase of about 4% as gold's volatility can be pronounced.",
+    "rate_of_return": "5-6% increase",
+    "portfolio_risk": "4% increase",
+    "bank_commissions": "1-2%",
+    "tag": "Gold, ETFs"
+  },
+  {
+    "ticker": "TM",
+    "news": "Topic: Martha Layne Collins' Passing\nSummary: Martha Layne Collins, the only woman to serve as governor of Kentucky, passed away at 88. She was instrumental in bringing Toyota to Kentucky, although her political career ended following her husband's conviction for extortion.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: TM News",
+        "title": "Martha Layne Collins, Governor Who Sold Toyota on Kentucky, Dies at 88",
+        "link": "https://finance.yahoo.com/m/d5f4694a-0380-35ff-b69e-d17a77dfd738/martha-layne-collins%2C.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Jill Rhodes",
+    "recommendation": "Given Martha Layne Collins' impactful legacy on Toyota's presence in Kentucky, consider the historical sentiment driving TM's stock may be affected temporarily. Projected short-term returns may stabilize around 2-3%, while portfolio risk may see a slight uptick of about 3% amid market adjustments.",
+    "rate_of_return": "2-3% decrease",
+    "portfolio_risk": "3% increase",
+    "bank_commissions": "1-2%",
+    "tag": "Auto, Stocks"
+  },
+  {
+    "ticker": "BND",
+    "news": "Topic: Early Retirement Planning\nSummary: The article discusses the challenges and considerations involved in planning for early retirement, particularly for individuals aiming to retire at 50 with a substantial financial goal.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: BND News",
+        "title": "'I Am 43 With $1.8 Million — Can I Retire At 50 With $5 Million?'",
+        "link": "https://finance.yahoo.com/m/11549a61-def4-32d7-81d3-55e263ebb9c8/%27i-am-43-with-%241.8-million-%E2%80%94.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Robert Johnson",
+    "recommendation": "Given the focus on early retirement planning, it would be prudent to consider increasing fixed income allocations to reduce overall portfolio risk while still aspiring to reach a target amount for retirement. This adjustment could yield a more sustainable return for retirement goals, ensuring liquidity and stability.",
+    "rate_of_return": "2-4% increase",
+    "portfolio_risk": "10% decline",
+    "bank_commissions": "1-2% growth",
+    "tag": "Finance, Bonds"
+  },
+  {
+    "ticker": "AAPL",
+    "news": "Topic: Frugal Living Insights by Austin Williams\nSummary: Frugal living expert Austin Williams discusses items often considered necessities that frugal individuals typically avoid purchasing.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: AAPL News",
+        "title": "5 ‘Necessities’ Frugal People Don’t Buy, According to Frugal Living Expert Austin Williams",
+        "link": "https://finance.yahoo.com/news/5-necessities-frugal-people-don-150046545.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Danielle Johnson",
+    "recommendation": "With insights on frugal living, shifting to select value equities could enhance the portfolio's productivity, optimizing investments without unnecessary purchases. The possibility to channel savings into high-yielding opportunities may improve overall portfolio performance.",
+    "rate_of_return": "3-6% growth",
+    "portfolio_risk": "5% decline",
+    "bank_commissions": "2-3% reduction",
+    "tag": "Lifestyle, Stocks"
+  },
+  {
+    "ticker": "AAPL",
+    "news": "Topic: Dionysus Health CEO Appointment\nSummary: Dionysus Health has appointed Rashmi Raghavendra as Chief Executive Officer, marking a significant leadership change for the precision diagnostics company.",
+    "sources": [
+      {
+        "name": "Yahoo! Finance: AAPL News",
+        "title": "Dionysus Health Appoints Digital Health Leader Rashmi Raghavendra as Chief Executive Officer",
+        "link": "https://finance.yahoo.com/news/dionysus-health-appoints-digital-health-015500448.html?.tsrc=rss"
+      }
+    ],
+    "client_name": "Joshua Walker",
+    "recommendation": "With Dionysus Health's strategic leadership changes, now might be a critical time to reassess healthcare sector investments, potentially leading to much-needed diversification. This proactive approach might increase the overall return rates while managing exposure to the evolving market dynamics.",
+    "rate_of_return": "4-7% increase",
+    "portfolio_risk": "6% decline",
+    "bank_commissions": "1-3% growth",
+    "tag": "Health, Stocks"
   }
 ]

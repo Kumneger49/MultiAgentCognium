@@ -1,0 +1,37 @@
+{
+  "generated_at": "2025-11-23T15:11:02.209699",
+  "total_sets": 5,
+  "successful_sets": 5,
+  "results": [
+    {
+      "set_number": 1,
+      "success": true,
+      "recommendation_count": 45,
+      "timestamp": "2025-11-23T13:58:08.081277"
+    },
+    {
+      "set_number": 2,
+      "success": true,
+      "recommendation_count": 43,
+      "timestamp": "2025-11-23T14:14:28.723343"
+    },
+    {
+      "set_number": 3,
+      "success": true,
+      "recommendation_count": 47,
+      "timestamp": "2025-11-23T14:29:34.377133"
+    },
+    {
+      "set_number": 4,
+      "success": true,
+      "recommendation_count": 48,
+      "timestamp": "2025-11-23T14:52:22.121535"
+    },
+    {
+      "set_number": 5,
+      "success": true,
+      "recommendation_count": 45,
+      "timestamp": "2025-11-23T15:11:02.209335"
+    }
+  ]
+}

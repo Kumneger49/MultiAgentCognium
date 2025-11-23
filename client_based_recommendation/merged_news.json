@@ -3,32 +3,69 @@
     "ticker": "INFY.NS",
     "categories": [
       {
-        "topic": "OpenAI's ChatGPT Go Free Offer in India",
-        "summary": "OpenAI is offering its ChatGPT Go plan free of charge for one year to users in India starting November 4. This move is part of OpenAI's strategy to expand in India, a significant market with over 700 million smartphone users and over a billion internet subscribers. The service, initially launched in August, has faced challenges in monetizing its paid plans in India.",
-        "relevance_score": 0.7,
-        "sentiment_score": 0.5,
+        "topic": "Infosys AI-first GCC Model Launch",
+        "summary": "Infosys has unveiled its AI-First GCC Model, a specialized offering designed to transform Global Capability Centers into AI-powered hubs for innovation and growth. This new framework spans the entire process from GCC setup to operational execution, showcasing Infosys's commitment to innovation in AI.",
+        "relevance_score": 0.925,
+        "sentiment_score": 0.55,
         "sources": [
           {
-            "name": "techcrunch.com",
-            "title": "OpenAI offers free ChatGPT Go for one year to all users in India",
-            "link": "https://techcrunch.com/2025/10/27/openai-offers-free-chatgpt-go-for-one-year-to-all-users-in-india/",
-            "relevance_score": 0.7,
-            "sentiment_score": 0.5
+            "name": "Yahoo! Finance: INFY.NS News",
+            "title": "Infosys presents AI-first organisational model for enterprises",
+            "link": "https://www.verdict.co.uk/infosys-ai-global-capability-centre-model/?.tsrc=rss",
+            "relevance_score": "0.9",
+            "sentiment_score": "0.5"
+          },
+          {
+            "name": "Yahoo! Finance: INFY.NS News",
+            "title": "Infosys Unveils AI-first GCC Model to Transform Global Capability Centers into Innovation Hubs",
+            "link": "https://finance.yahoo.com/news/infosys-unveils-ai-first-gcc-104900215.html?.tsrc=rss",
+            "relevance_score": "0.95",
+            "sentiment_score": "0.6"
           }
         ]
       },
       {
-        "topic": "Buddhist Scepticism and Generative AI",
-        "summary": "The latest iteration of OpenAI's video generator, Sora 2, has sparked discussions on Buddhist scepticism, emphasizing that objective reality is often obscured by prejudices and memories. The article explores how Buddhist teachings, such as the heart sutra, suggest that human experiences are empty, encouraging scepticism of reality.",
-        "relevance_score": 0.5,
+        "topic": "IBM Expands AI Consulting Capabilities",
+        "summary": "IBM has linked its AI platform with Microsoft Copilot to enhance consulting efficiency and streamline workflows, aiming to capitalize on the growing demand for AI services. This strategic move could impact Infosys as a competitor in the consulting space.",
+        "relevance_score": 0.7,
         "sentiment_score": 0.3,
         "sources": [
           {
-            "name": "theguardian.com",
-            "title": "Don\u2019t believe everything you see: why Buddhist scepticism is vital in the age of generative AI",
-            "link": "https://www.theguardian.com/commentisfree/2025/nov/03/buddhist-scepticism-vital-age-of-artificial-intelligence-generative-ai",
-            "relevance_score": 0.5,
-            "sentiment_score": 0.3
+            "name": "Yahoo! Finance: INFY.NS News",
+            "title": "IBM Expands AI Consulting Capabilities: Will it Drive Growth?",
+            "link": "https://finance.yahoo.com/news/ibm-expands-ai-consulting-capabilities-165700788.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Asian Equities and Infosys Market Performance",
+        "summary": "Asian equities traded in the US as American depositary receipts were tracking higher, which may indirectly affect Infosys's market performance.",
+        "relevance_score": 0.4,
+        "sentiment_score": 0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: INFY.NS News",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Rise in Wednesday Trading",
+            "link": "https://finance.yahoo.com/news/asian-equities-traded-us-american-153710819.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "0.2"
+          }
+        ]
+      },
+      {
+        "topic": "Analyst Views on Infosys Growth",
+        "summary": "Infosys has seen a slight rise in its consensus analyst price target, attributed to steady revenue growth and a modest reduction in the discount rate. This reflects positive analyst sentiment towards Infosys's growth prospects.",
+        "relevance_score": 0.6,
+        "sentiment_score": 0.4,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: INFY.NS News",
+            "title": "How Analyst Views Are Shaping the Next Chapter in Infosys’s Growth Story",
+            "link": "https://finance.yahoo.com/news/analyst-views-shaping-next-chapter-211214515.html?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.4"
           }
         ]
       }
@@ -38,32 +75,77 @@
     "ticker": "TM",
     "categories": [
       {
-        "topic": "Toyota Car Thefts in Derbyshire",
-        "summary": "Police in Derbyshire have issued a warning to Toyota car owners to take extra precautions following a series of thefts. The incidents involved 10 Toyota Rav 4 cars taken from addresses across the county, and the police are currently investigating.",
-        "relevance_score": 0.2,
-        "sentiment_score": -0.2,
+        "topic": "Toyota's Investment in US Manufacturing",
+        "summary": "Toyota has announced a significant investment of nearly $1 billion in US manufacturing, reflecting its commitment to the American market. This move is part of Toyota's strategy to maintain its position as the best-selling foreign automaker in the United States.",
+        "relevance_score": 0.8,
+        "sentiment_score": 0.5,
         "sources": [
           {
-            "name": "bbc.com",
-            "title": "Derbyshire Police warning to Toyota car owners after thefts",
-            "link": "https://www.bbc.com/news/articles/c9d6x71qpnjo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
-            "relevance_score": 0.2,
-            "sentiment_score": -0.2
+            "name": "Yahoo! Finance: TM News",
+            "title": "Toyota CEO goes full MAGA at Japanese NASCAR race, investing nearly $1B in US manufacturing. Why he’s betting on America",
+            "link": "https://finance.yahoo.com/news/toyota-ceo-goes-full-maga-115300159.html?.tsrc=rss",
+            "relevance_score": "0.8",
+            "sentiment_score": "0.5"
           }
         ]
       },
       {
-        "topic": "Toyota Denies $10bn US Investment Claim",
-        "summary": "Toyota Motor has denied claims by US President Donald Trump that it plans to invest over $10bn in the United States. A senior executive clarified that no such explicit promise was made, although the company plans to continue investing and creating jobs in the US.",
-        "relevance_score": 0.8,
-        "sentiment_score": -0.5,
+        "topic": "Toyota's New Model Launches in China",
+        "summary": "GAC Toyota, a joint venture in China, unveiled two new models, the WILDLANDER and bZ7, at Auto Guangzhou 2025. This marks a significant step in Toyota's strategy to cater to diverse user needs in China's competitive auto market.",
+        "relevance_score": 0.9,
+        "sentiment_score": 0.7,
         "sources": [
           {
-            "name": "theguardian.com",
-            "title": "Toyota denies promising $10bn investment in US after Trump announcement",
-            "link": "https://www.theguardian.com/business/2025/oct/29/toyota-trump-us-investment-claims",
-            "relevance_score": 0.8,
-            "sentiment_score": -0.5
+            "name": "Yahoo! Finance: TM News",
+            "title": "Toyota's Smarter Cars Are Now in China: GAC Toyota Introduces All-New WILDLANDER and bZ7 at Auto Guangzhou 2025",
+            "link": "https://finance.yahoo.com/news/toyotas-smarter-cars-now-china-101700871.html?.tsrc=rss",
+            "relevance_score": "0.9",
+            "sentiment_score": "0.7"
+          }
+        ]
+      },
+      {
+        "topic": "Market Movements and Toyota's Stock",
+        "summary": "The SPDR S&P 500 ETF Trust (SPY) saw a rise of 0.5% amid renewed hopes for a rate cut, which could indirectly impact Toyota's stock performance.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.3,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: TM News",
+            "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Martha Layne Collins' Passing",
+        "summary": "Martha Layne Collins, the only woman to serve as governor of Kentucky, passed away at 88. She was instrumental in bringing Toyota to Kentucky, although her political career ended following her husband's conviction for extortion.",
+        "relevance_score": 0.3,
+        "sentiment_score": -0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: TM News",
+            "title": "Martha Layne Collins, Governor Who Sold Toyota on Kentucky, Dies at 88",
+            "link": "https://finance.yahoo.com/m/d5f4694a-0380-35ff-b69e-d17a77dfd738/martha-layne-collins%2C.html?.tsrc=rss",
+            "relevance_score": "0.3",
+            "sentiment_score": "-0.2"
+          }
+        ]
+      },
+      {
+        "topic": "Polar Power's EV Charger Order",
+        "summary": "Polar Power Inc. announced receiving a purchase order for mobile electric vehicle fast chargers, addressing the growing need for emergency roadside assistance. This development is relevant to the EV market, which is crucial for Toyota's future strategy.",
+        "relevance_score": 0.4,
+        "sentiment_score": 0.1,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: TM News",
+            "title": "Polar Power Inc. Receives Purchase Order for Mobile Electric Vehicle Fast Chargers to Address the Growing Need for Emergency Roadside Assistance",
+            "link": "https://finance.yahoo.com/news/polar-power-inc-receives-purchase-120000411.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "0.1"
           }
         ]
       }
@@ -73,62 +155,69 @@
     "ticker": "SPY",
     "categories": [
       {
-        "topic": "Impact of U.S. Federal Reserve Rate Decisions",
-        "summary": "The Federal Reserve has reduced interest rates, with Chair Jerome Powell expressing confidence in maintaining the status quo. This decision led to mixed reactions in the markets, with the S&P 500 and the Dow Jones Industrial Average ending their four-day winning streak.",
-        "relevance_score": 0.6,
-        "sentiment_score": -0.3,
+        "topic": "Pre-market Trends and Market Anxiety",
+        "summary": "The stock market experienced a strong open, but previous sessions saw gains slide into negative territory. Market anxiety increased as trading in put options surged, reflecting fears similar to those seen during higher tariff concerns earlier in the year.",
+        "relevance_score": 0.55,
+        "sentiment_score": -0.05,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "U.S. Futures, Global Markets Mixed After Fed Chair Dampens Further Rate Cut Hopes",
-            "link": "https://www.wsj.com/finance/u-s-futures-global-markets-mixed-after-fed-chair-dampens-further-rate-cut-hopes-3cd54779",
-            "relevance_score": 0.6,
-            "sentiment_score": -0.3
+            "name": "Yahoo! Finance: SPY News",
+            "title": "Pre-markets Try Again, Begin Session in the Green",
+            "link": "https://finance.yahoo.com/news/pre-markets-try-again-begin-151900808.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.2"
+          },
+          {
+            "name": "Yahoo! Finance: SPY News",
+            "title": "Market Anxiety Picked Up Thursday",
+            "link": "https://finance.yahoo.com/m/5b90c0af-bb9e-3cfe-9189-5182d709fcbc/market-anxiety-picked-up.html?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "-0.3"
           }
         ]
       },
       {
-        "topic": "U.S.-China Tariff Reductions and Market Reactions",
-        "summary": "The U.S. is reducing its tariffs on China following a meeting between President Trump and Chinese leader Xi Jinping. This move is seen as a significant step forward, although stock futures remain steady as investors consider other developments.",
-        "relevance_score": 0.7,
-        "sentiment_score": 0.4,
-        "sources": [
-          {
-            "name": "wsj.com",
-            "title": "Stock Market Today: U.S. Cuts China Tariffs After Trump, Xi Meet \u2014 Live Updates",
-            "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025",
-            "relevance_score": 0.7,
-            "sentiment_score": 0.4
-          }
-        ]
-      },
-      {
-        "topic": "Stock Market Rally Amid Trade Freeze Concerns",
-        "summary": "Despite President Trump's announcement of terminating trade talks with Canada, the stock market rallied, with the S&P 500 gaining 0.8% and the Dow Jones Industrial Average adding 472 points. Strong consumer prices and interest-rate cuts contributed to the positive market sentiment.",
-        "relevance_score": 0.8,
-        "sentiment_score": 0.6,
-        "sources": [
-          {
-            "name": "wsj.com",
-            "title": "Heard on the Street Friday Recap: Keep on Truckin\u2019",
-            "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-27-2025/card/heard-on-the-street-friday-recap-keep-on-truckin--lwgftPYySeQwNHHlcD19?siteid=yhoof2&yptr=yahoo",
-            "relevance_score": 0.8,
-            "sentiment_score": 0.6
-          }
-        ]
-      },
-      {
-        "topic": "UK Manufacturing Recovery Post-Jaguar Land Rover Reopening",
-        "summary": "UK factories experienced a recovery in October after the reopening of Jaguar Land Rover operations and increased consumer spending. The S&P Global purchasing managers\u2019 index rose to a one-year high, although uncertainties remain about the sustainability of this rebound.",
+        "topic": "Positive Movements in ETFs and Equity Futures",
+        "summary": "The SPDR S&P 500 ETF Trust (SPY) saw a 0.5% increase pre-bell on Friday, driven by renewed hopes for rate cuts. This positive movement in ETFs and equity futures suggests a favorable market sentiment.",
         "relevance_score": 0.5,
         "sentiment_score": 0.3,
         "sources": [
           {
-            "name": "theguardian.com",
-            "title": "Jaguar Land Rover restart helps UK factories return to growth",
-            "link": "https://www.theguardian.com/business/2025/nov/03/jaguar-land-rover-uk-factories-growth-pmi",
-            "relevance_score": 0.5,
-            "sentiment_score": 0.3
+            "name": "Yahoo! Finance: SPY News",
+            "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Tesla's Valuation Concerns",
+        "summary": "Tesla is highlighted as one of the most expensive stocks, with investors beginning to pay attention to valuations. This focus on Tesla's valuation could impact broader market sentiment, particularly in the tech sector.",
+        "relevance_score": 0.4,
+        "sentiment_score": -0.1,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: SPY News",
+            "title": "Tesla Is One Of The 7 Most Expensive Stocks  — Do You Own Any?",
+            "link": "https://finance.yahoo.com/m/51e02d87-b690-3619-b27f-096a9be37e9b/tesla-is-one-of-the-7-most.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "-0.1"
+          }
+        ]
+      },
+      {
+        "topic": "Biotech ETFs Show Strength",
+        "summary": "Biotech ETFs are experiencing a resurgence, driven by cheaper valuations, hopes for rate cuts, FDA approvals, and strong deal activity. This strength in biotech is influencing overall market trends and investor strategies.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.4,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: SPY News",
+            "title": "Inside the Recent Strength in Biotech ETFs",
+            "link": "https://finance.yahoo.com/news/inside-recent-strength-biotech-etfs-130000520.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.4"
           }
         ]
       }
@@ -138,61 +227,69 @@
     "ticker": "AAPL",
     "categories": [
       {
-        "topic": "Apple's Market Valuation Surpasses $4 Trillion",
-        "summary": "Apple has surpassed $4 trillion in market value, joining other major companies like Nvidia and Microsoft. This milestone follows strong iPhone 17 sales, despite a previous period of stock decline.",
-        "relevance_score": 0.9,
-        "sentiment_score": 0.8,
+        "topic": "Apple's AI Strategy and Market Position",
+        "summary": "Jim Cramer has highlighted the importance of Apple's user base in the context of AI developments, which has been a topic of significant media debate. Additionally, Apple's inclusion in broader market discussions, alongside companies like Nvidia and Eli Lilly, reflects its influence on stock performance.",
+        "relevance_score": 0.75,
+        "sentiment_score": 0.45,
         "sources": [
           {
-            "name": "cnn.com",
-            "title": "Apple is now worth $4,000,000,000,000",
-            "link": "https://www.cnn.com/2025/10/28/business/apple-worth-4-trillion",
-            "relevance_score": 0.9,
-            "sentiment_score": 0.8
+            "name": "Yahoo! Finance: AAPL News",
+            "title": "Jim Cramer Believes Apple’s (AAPL) User Base Is Very Important For AI",
+            "link": "https://finance.yahoo.com/news/jim-cramer-believes-apple-aapl-055351804.html?.tsrc=rss",
+            "relevance_score": "0.8",
+            "sentiment_score": "0.5"
+          },
+          {
+            "name": "Yahoo! Finance: AAPL News",
+            "title": "Dow Jones Futures: Stocks Bounce, Nvidia, Apple, Eli Lilly In Focus; Bitcoin The Weak Link?",
+            "link": "https://finance.yahoo.com/m/8d419152-1254-303b-b245-e33cbbfa30b6/dow-jones-futures%3A-stocks.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.4"
           }
         ]
       },
       {
-        "topic": "Apple's Positive iPhone Sales Outlook",
-        "summary": "Apple forecasts strong iPhone sales during the holiday season, which is expected to boost the company's stock performance. The latest iPhones have received a 'tremendous response' globally, despite narrowly missing sales estimates due to supply constraints.",
-        "relevance_score": 0.85,
-        "sentiment_score": 0.65,
+        "topic": "SoundHound AI's Growth and Market Potential",
+        "summary": "SoundHound AI is experiencing significant growth, positioning itself as a potential top AI stock for 2026, although there are considerations to be aware of.",
+        "relevance_score": 0.6,
+        "sentiment_score": 0.3,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "Apple Forecasts a Very iPhone Christmas",
-            "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025/card/apple-forecasts-a-very-iphone-christmas-nU9GauOTxZ70Y3FLmOn4",
-            "relevance_score": 0.8,
-            "sentiment_score": 0.7
-          },
-          {
-            "name": "bbc.com",
-            "title": "Apple claims 'tremendous' global uptake of latest iPhones",
-            "link": "https://www.bbc.com/news/articles/cz6n98exv9zo?at_medium=RSS&at_campaign=rss",
-            "relevance_score": 0.9,
-            "sentiment_score": 0.6
+            "name": "Yahoo! Finance: AAPL News",
+            "title": "SoundHound AI Looks Unstoppable. Is It a Top AI Stock to Buy for 2026?",
+            "link": "https://www.fool.com/investing/2025/11/23/is-soundhound-ai-a-top-stock-to-buy-for-2026/?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.3"
           }
         ]
       },
       {
-        "topic": "Tim Cook's Management Strategies at Apple",
-        "summary": "CEO Tim Cook managed to steer Apple away from a potentially disastrous year, overcoming challenges such as tariffs and a lack of transparency. These management strategies may positively influence investor confidence.",
-        "relevance_score": 0.5,
-        "sentiment_score": 0.4,
+        "topic": "Dionysus Health CEO Appointment",
+        "summary": "Dionysus Health has appointed Rashmi Raghavendra as Chief Executive Officer, marking a significant leadership change for the precision diagnostics company.",
+        "relevance_score": 0.3,
+        "sentiment_score": 0.1,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "How Apple Skirted Disaster This Year",
-            "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-03-2025/card/how-apple-skirted-disaster-this-year-mqvJppuFacZW9wOZXzGW?siteid=yhoof2&yptr=yahoo",
-            "relevance_score": 0.5,
-            "sentiment_score": 0.4
-          },
+            "name": "Yahoo! Finance: AAPL News",
+            "title": "Dionysus Health Appoints Digital Health Leader Rashmi Raghavendra as Chief Executive Officer",
+            "link": "https://finance.yahoo.com/news/dionysus-health-appoints-digital-health-015500448.html?.tsrc=rss",
+            "relevance_score": "0.3",
+            "sentiment_score": "0.1"
+          }
+        ]
+      },
+      {
+        "topic": "Frugal Living Insights by Austin Williams",
+        "summary": "Frugal living expert Austin Williams discusses items often considered necessities that frugal individuals typically avoid purchasing.",
+        "relevance_score": 0.2,
+        "sentiment_score": -0.1,
+        "sources": [
           {
-            "name": "wsj.com",
-            "title": "How Tim Cook Evaded Disaster at Apple This Year",
-            "link": "https://www.wsj.com/tech/apple-2025-tim-cook-36af914a",
-            "relevance_score": 0.5,
-            "sentiment_score": 0.4
+            "name": "Yahoo! Finance: AAPL News",
+            "title": "5 ‘Necessities’ Frugal People Don’t Buy, According to Frugal Living Expert Austin Williams",
+            "link": "https://finance.yahoo.com/news/5-necessities-frugal-people-don-150046545.html?.tsrc=rss",
+            "relevance_score": "0.2",
+            "sentiment_score": "-0.1"
           }
         ]
       }
@@ -202,62 +299,69 @@
     "ticker": "TSLA",
     "categories": [
       {
-        "topic": "Impact of Elon Musk's Politics on Tesla Sales",
-        "summary": "A report by the National Bureau of Economic Research reveals that Elon Musk's political actions have significantly impacted Tesla's U.S. sales, costing the automaker billions and benefiting rival electric carmakers. The study estimates that Tesla's sales could have been 67% to 83% higher without the partisan effect of Musk's actions.",
-        "relevance_score": 0.9,
-        "sentiment_score": -0.7,
-        "sources": [
-          {
-            "name": "cnn.com",
-            "title": "Elon Musk\u2019s politics cost his firm Tesla more than one million EV sales, report reveals",
-            "link": "https://www.cnn.com/2025/10/28/business/elon-musk-politics-tesla-ev-sales-intl",
-            "relevance_score": 0.9,
-            "sentiment_score": -0.7
-          }
-        ]
-      },
-      {
-        "topic": "Elon Musk and Sam Altman's Social Media Feud",
-        "summary": "Elon Musk and Sam Altman have been feuding on social media, with Altman posting about a refund issue for his Tesla Roadster reservation. Musk responded by confirming the refund was processed quickly, amidst ongoing criticisms between the two.",
-        "relevance_score": 0.2,
-        "sentiment_score": 0.1,
-        "sources": [
-          {
-            "name": "techcrunch.com",
-            "title": "Elon Musk wants you to know that Sam Altman got a refund for his Tesla Roadster",
-            "link": "https://techcrunch.com/2025/11/01/elon-musk-wants-you-to-know-that-sam-altman-got-a-refund-for-his-tesla-roadster/",
-            "relevance_score": 0.2,
-            "sentiment_score": 0.1
-          }
-        ]
-      },
-      {
-        "topic": "Tesla's Market Position and Future Prospects",
-        "summary": "The article discusses Wall Street's focus on stock performance over business fundamentals, using Tesla as an example. Despite losing market share in electric cars, Tesla is transitioning into an AI and robotics company, with its stock rising 75% over the past year.",
-        "relevance_score": 0.7,
-        "sentiment_score": 0.5,
-        "sources": [
-          {
-            "name": "cnn.com",
-            "title": "Wall Street would rather be rich than right",
-            "link": "https://www.cnn.com/2025/10/30/business/tesla-meme-stock-nightcap",
-            "relevance_score": 0.7,
-            "sentiment_score": 0.5
-          }
-        ]
-      },
-      {
-        "topic": "Safety Concerns in Autonomous Vehicles",
-        "summary": "Waymo co-CEO Takedra Mawakana emphasized the need for autonomous vehicle companies to prove their technology's safety. She highlighted Waymo's safety record, while noting Tesla has not released safety data for its robotaxi program in Austin, Texas.",
-        "relevance_score": 0.6,
+        "topic": "Tesla Stock Volatility and Market Reactions",
+        "summary": "Tesla's stock experienced a significant rally followed by a sharp reversal, highlighting the volatility that can impact investor sentiment across the tech sector. Additionally, Tesla's stock price rebound has been pleasant for investors, but warnings about potential volatility may lead to cautious investor behavior.",
+        "relevance_score": 0.8333333333333334,
         "sentiment_score": -0.4,
         "sources": [
           {
-            "name": "techcrunch.com",
-            "title": "Robotaxi companies must do more to prove safety, Waymo co-CEO says",
-            "link": "https://techcrunch.com/2025/10/27/robotaxi-companies-must-do-more-to-prove-safety-waymo-co-ceo-says/",
-            "relevance_score": 0.6,
-            "sentiment_score": -0.4
+            "name": "Yahoo! Finance: TSLA News",
+            "title": "Tesla Stock Just Hit a Wall -- The Reversal Says More Than the Rally",
+            "link": "https://finance.yahoo.com/news/tesla-stock-just-hit-wall-161426596.html?.tsrc=rss",
+            "relevance_score": "0.8",
+            "sentiment_score": "-0.4"
+          },
+          {
+            "name": "Yahoo! Finance: TSLA News",
+            "title": "Tesla's Roller Coaster Ride Continues With a Warning for Investors",
+            "link": "https://www.fool.com/investing/2025/11/22/tesla-roller-coaster-ride-continues-with-warning-f/?.tsrc=rss",
+            "relevance_score": "0.8",
+            "sentiment_score": "-0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Long-term Tesla Stock Price Predictions",
+        "summary": "Analysts predict that Tesla's stock could reach $1,003 by 2030, sparking debate among investors about whether to embrace the stock's volatility or wait for clearer signals.",
+        "relevance_score": 0.7,
+        "sentiment_score": 0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: TSLA News",
+            "title": "TSLA Stock Price Prediction: Where Tesla Could Be by 2025, 2026, 2030",
+            "link": "https://finance.yahoo.com/news/tsla-stock-price-prediction-where-130456912.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.2"
+          }
+        ]
+      },
+      {
+        "topic": "Negative News Impacting Tesla Investors",
+        "summary": "Tesla investors are facing more bad news from a critical market, which could significantly impact the stock's performance and investor sentiment.",
+        "relevance_score": 0.9,
+        "sentiment_score": -0.5,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: TSLA News",
+            "title": "The Hits Keep on Coming for Tesla Investors",
+            "link": "https://www.fool.com/investing/2025/11/22/the-hits-keep-on-coming-for-tesla-investors/?.tsrc=rss",
+            "relevance_score": "0.9",
+            "sentiment_score": "-0.5"
+          }
+        ]
+      },
+      {
+        "topic": "UFC CEO Dana White's Business Insights",
+        "summary": "UFC CEO Dana White shared his journey to becoming a billionaire, emphasizing self-improvement and a competitive mindset as key factors in building a multibillion-dollar company.",
+        "relevance_score": 0.2,
+        "sentiment_score": 0.0,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: TSLA News",
+            "title": "UFC CEO Dana White Shares How He Became A Billionaire: 'You Have To Keep Proving Yourself Every Year'",
+            "link": "https://finance.yahoo.com/news/ufc-ceo-dana-white-shares-180056641.html?.tsrc=rss",
+            "relevance_score": "0.2",
+            "sentiment_score": "0.0"
           }
         ]
       }
@@ -267,17 +371,69 @@
     "ticker": "BND",
     "categories": [
       {
-        "topic": "French Bond Yields Rise After Moody's Lowers Outlook",
-        "summary": "French government bond yields have increased following Moody's decision to lower France's outlook to negative from stable. This change is attributed to concerns over political instability and fiscal challenges. The 10-year French OAT yield has risen slightly, while Dutch government bonds remain largely unaffected.",
-        "relevance_score": 0.5,
-        "sentiment_score": -0.3,
+        "topic": "Interest in Bond ETFs Amid Economic Uncertainty",
+        "summary": "Geopolitical and economic uncertainty, along with gold prices reaching $4,000 an ounce, is driving income-seeking investors back toward bond ETFs. This trend reflects a cautious approach to investing, particularly among retirees who are looking to protect their downside with defensive dividend giants.",
+        "relevance_score": 0.6,
+        "sentiment_score": 0.35,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "French Bond Yields Edge Up in Line With Market After Moody\u2019s Lowers Outlook",
-            "link": "https://www.wsj.com/articles/jgbs-mixed-ahead-of-president-trumps-visit-to-japan-ecc916c9?siteid=yhoof2&yptr=yahoo",
-            "relevance_score": 0.5,
-            "sentiment_score": -0.3
+            "name": "Yahoo! Finance: BND News",
+            "title": "Retirees Are Loading up on These 3 Defensive Dividend Giants",
+            "link": "https://247wallst.com/investing/2025/11/12/retirees-are-loading-up-on-these-3-defensive-dividend-giants/?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          },
+          {
+            "name": "Yahoo! Finance: BND News",
+            "title": "Best Bond ETFs Are Looking Pretty Attractive Right Now",
+            "link": "https://finance.yahoo.com/m/5a386b65-ba00-3898-90fc-ab8868a350c5/best-bond-etfs-are-looking.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.4"
+          }
+        ]
+      },
+      {
+        "topic": "Vanguard Total Bond Market Index Fund Analysis",
+        "summary": "The article provides an analysis of the Vanguard Total Bond Market Index Investor (VBMFX), offering insights for investors considering bond mutual funds.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.3,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: BND News",
+            "title": "Is Vanguard Total Bond Market Index Investor (VBMFX) a Strong Mutual Fund Pick Right Now?",
+            "link": "https://finance.yahoo.com/news/vanguard-total-bond-market-index-110002083.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Stock Market Trends Amid Government Shutdown",
+        "summary": "Despite the federal government shutdown in October, the stock market continued to perform well, pushing higher despite various headwinds.",
+        "relevance_score": 0.4,
+        "sentiment_score": 0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: BND News",
+            "title": "Stock Market Is Hot Going Into The Best Time Of The Year",
+            "link": "https://finance.yahoo.com/m/ce85732e-030c-35f0-8698-38b96d046ebf/stock-market-is-hot-going.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "0.2"
+          }
+        ]
+      },
+      {
+        "topic": "Early Retirement Planning",
+        "summary": "The article discusses the challenges and considerations involved in planning for early retirement, particularly for individuals aiming to retire at 50 with a substantial financial goal.",
+        "relevance_score": 0.3,
+        "sentiment_score": 0.1,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: BND News",
+            "title": "'I Am 43 With $1.8 Million — Can I Retire At 50 With $5 Million?'",
+            "link": "https://finance.yahoo.com/m/11549a61-def4-32d7-81d3-55e263ebb9c8/%27i-am-43-with-%241.8-million-%E2%80%94.html?.tsrc=rss",
+            "relevance_score": "0.3",
+            "sentiment_score": "0.1"
           }
         ]
       }
@@ -287,32 +443,69 @@
     "ticker": "AGG",
     "categories": [
       {
-        "topic": "Meta's Bond Sale and Stock Decline",
-        "summary": "Meta is launching a six-part bond sale to raise at least $25 billion, following a disappointing earnings report that led to an 11% drop in its stock price. The proceeds from the bond sale will be used for general corporate purposes, including increased spending on artificial intelligence.",
+        "topic": "Investor Interest in Bond ETFs",
+        "summary": "Geopolitical and economic uncertainty, along with gold prices reaching $4,000 an ounce, are driving income-seeking investors back to bond ETFs. This trend is highlighted by the attractiveness of the best bond ETFs in the current market environment.",
         "relevance_score": 0.7,
-        "sentiment_score": -0.5,
+        "sentiment_score": 0.4,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "Meta Launches Jumbo Bond Sale; Stock Slides After Earnings",
-            "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2025/card/meta-launches-jumbo-bond-sale-stock-slides-after-earnings-CHrMRQGSkyErYC5CkoRx",
-            "relevance_score": 0.7,
-            "sentiment_score": -0.5
+            "name": "Yahoo! Finance: AGG News",
+            "title": "Best Bond ETFs Are Looking Pretty Attractive Right Now",
+            "link": "https://finance.yahoo.com/m/5a386b65-ba00-3898-90fc-ab8868a350c5/best-bond-etfs-are-looking.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.4"
           }
         ]
       },
       {
-        "topic": "CoreWeave's Failed Acquisition and AI Sector Impact",
-        "summary": "CoreWeave's attempt to acquire Core Scientific was rejected by shareholders, following a recommendation from their largest shareholder. Despite the failed acquisition, CoreWeave acquired Python notebook Marimo. The situation reflects potential volatility in the AI sector, which may indirectly affect bond markets.",
-        "relevance_score": 0.4,
-        "sentiment_score": -0.2,
+        "topic": "AGG ETF Fund Flows",
+        "summary": "Recent ETF fund flows show significant movements in AGG, with $500 million being withdrawn on November 5, 2025, and $718 million flowing into AGG on October 21, 2025. These movements reflect changing investor sentiment towards bond ETFs.",
+        "relevance_score": 0.6,
+        "sentiment_score": 0.1,
         "sources": [
           {
-            "name": "techcrunch.com",
-            "title": "AI mania tanks CoreWeave\u2019s Core Scientific acquisition; it buys Python notebook Marimo",
-            "link": "https://techcrunch.com/2025/10/31/ai-mania-tanks-coreweaves-core-scientific-acquisition-it-buys-python-notebook-marimo/",
-            "relevance_score": 0.4,
-            "sentiment_score": -0.2
+            "name": "Yahoo! Finance: AGG News",
+            "title": "Daily ET Flows: Investors Take $500M Out of AGG",
+            "link": "http://www.etf.com/sections/daily-etf-flows/daily-et-flows-investors-take-500m-out-agg?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "-0.2"
+          },
+          {
+            "name": "Yahoo! Finance: AGG News",
+            "title": "Daily ETF Flows: $718M Flows Into AGG",
+            "link": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-718m-flows-agg?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.4"
+          }
+        ]
+      },
+      {
+        "topic": "Mortgage Bonds as Attractive Investments",
+        "summary": "Current bond market dynamics have made mortgage-backed securities particularly appealing for risk-averse investors. Several funds are highlighted as potential options for those seeking yield in this segment.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.3,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: AGG News",
+            "title": "Mortgage Bonds Offer Up Bargains for Yield-Hungry Fund Investors",
+            "link": "https://finance.yahoo.com/m/ffeef204-9496-36d7-95dc-17ca7fb64e6b/mortgage-bonds-offer-up.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Stock Market Trends Amid Government Shutdown",
+        "summary": "Despite the federal government shutdown in October, the stock market continued to perform well, moving higher despite various headwinds. This trend may have implications for bond market dynamics.",
+        "relevance_score": 0.4,
+        "sentiment_score": 0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: AGG News",
+            "title": "Stock Market Is Hot Going Into The Best Time Of The Year",
+            "link": "https://finance.yahoo.com/m/ce85732e-030c-35f0-8698-38b96d046ebf/stock-market-is-hot-going.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "0.2"
           }
         ]
       }
@@ -322,17 +515,69 @@
     "ticker": "GLD",
     "categories": [
       {
-        "topic": "Gold Rises on Likely Technical Recovery",
-        "summary": "The front-month Comex gold for October delivery fell 2.8% overnight, causing a significant increase in demand. However, Capital Economics\u2019 John Higgins believes the price will ultimately fall further. Factors such as reserve managers\u2019 diversification out of the dollar may continue to influence the price, but this may not be the case.",
-        "relevance_score": 0.8,
+        "topic": "Gold Rises on Hopes for December Rate Cut",
+        "summary": "Gold prices increased on Friday due to renewed hopes for a December interest rate cut from the Federal Reserve. This positive sentiment around gold could lead to increased interest in gold ETFs.",
+        "relevance_score": 0.7,
         "sentiment_score": 0.5,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "Gold Rises on Likely Technical Recovery",
-            "link": "https://www.wsj.com/articles/gold-rises-on-likely-technical-recovery-b4aa069f",
-            "relevance_score": 0.8,
-            "sentiment_score": 0.5
+            "name": "Yahoo! Finance: GLD News",
+            "title": "Update: Gold Rises on Fresh Hopes for a December Rate Cut From the Federal Reserve",
+            "link": "https://finance.yahoo.com/news/gold-rises-fresh-hopes-december-190007121.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.5"
+          },
+          {
+            "name": "Yahoo! Finance: GLD News",
+            "title": "Gold Rises Early Friday on Fresh Hopes for a December Rate Cut From the Federal Reserve",
+            "link": "https://finance.yahoo.com/news/gold-rises-early-friday-fresh-140933862.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.5"
+          }
+        ]
+      },
+      {
+        "topic": "Comparison of Gold and Silver ETFs",
+        "summary": "The article compares SPDR Gold Shares (GLD) and iShares Silver Trust (SLV), which track the prices of gold and silver respectively, for retail investors looking to diversify their precious metal holdings.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.3,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: GLD News",
+            "title": "Which ETF is Better for Retail Investors: SPDR Gold Shares (GLD) or iShares Silver Trust (SLV)?",
+            "link": "https://www.fool.com/coverage/etfs/2025/11/22/which-etf-is-better-for-retail-investors-spdr-gold-shares-gld-or-ishares-silver-trust-slv/?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Market Movements and Rate Cut Hopes",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) rose pre-bell on Friday amid reignited hopes for a rate cut, which can influence investor sentiment towards gold and related ETFs.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.3,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: GLD News",
+            "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "ETFs Amid Rising AI Bubble Concerns",
+        "summary": "With rising concerns about an AI bubble, ETFs like TAIL, HDGE, PGHY, and XLV offer ways to hedge tech risks and diversify portfolios, as tech valuations appear to be running hot.",
+        "relevance_score": 0.4,
+        "sentiment_score": 0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: GLD News",
+            "title": "ETFs to Play Amid Rising AI Bubble Concerns",
+            "link": "https://finance.yahoo.com/news/etfs-play-amid-rising-ai-130000799.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "0.2"
           }
         ]
       }
@@ -342,47 +587,45 @@
     "ticker": "EEM",
     "categories": [
       {
-        "topic": "San Francisco as a Testbed for Emerging Tech",
-        "summary": "San Francisco Mayor Daniel Lurie has expressed his belief that the city should serve as a testbed for emerging technologies, including AI and autonomous vehicles. He praised the success of Waymo in the Bay Area but emphasized that safety and state-level regulations are priorities.",
-        "relevance_score": 0.6,
-        "sentiment_score": 0.4,
+        "topic": "Market Movements and Investor Sentiment",
+        "summary": "A series of articles from Yahoo! Finance discuss the movements of exchange-traded funds and equity futures in relation to various economic events. These include hopes for interest rate cuts, upcoming jobs data, Nvidia earnings, and Federal Reserve meeting minutes. The articles highlight how these factors influence investor sentiment across different sectors, including emerging markets.",
+        "relevance_score": 0.46,
+        "sentiment_score": 0.14,
         "sources": [
           {
-            "name": "techcrunch.com",
-            "title": "San Francisco mayor: 'We should be the testbed for emerging tech'",
-            "link": "https://techcrunch.com/2025/10/29/sf-mayor-we-should-be-the-testbed-for-emerging-tech/",
-            "relevance_score": 0.6,
-            "sentiment_score": 0.4
-          }
-        ]
-      },
-      {
-        "topic": "Coinbase CEO and Prediction Markets",
-        "summary": "Coinbase CEO Brian Armstrong made remarks during an earnings call that included words like Bitcoin and Ethereum, which were part of bets on prediction markets. This incident highlighted the potential for executives to influence these markets, although Coinbase prohibits employee participation in such activities.",
-        "relevance_score": 0.5,
-        "sentiment_score": 0.2,
-        "sources": [
+            "name": "Yahoo! Finance: EEM News",
+            "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday on Reignited Rate Cut Hopes",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-135705608.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          },
           {
-            "name": "techcrunch.com",
-            "title": "Coinbase CEO Brian Armstrong trolls the prediction markets",
-            "link": "https://techcrunch.com/2025/11/01/coinbase-ceo-brian-armstrong-trolls-the-prediction-markets/",
-            "relevance_score": 0.5,
-            "sentiment_score": 0.2
-          }
-        ]
-      },
-      {
-        "topic": "Argentinian Stocks Surge After Election Win",
-        "summary": "Following the victory of President Javier Gonzales' party in Argentina's midterm elections, shares of Argentinian companies listed in the U.S. experienced a significant surge. Notable increases were seen in companies like YPF, MercadoLibre, and several banks.",
-        "relevance_score": 0.7,
-        "sentiment_score": 0.5,
-        "sources": [
+            "name": "Yahoo! Finance: EEM News",
+            "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Ahead of Jobs Data",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-132912603.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          },
           {
-            "name": "wsj.com",
-            "title": "Argentinian Stocks Surge in U.S. After Milei's Election Win",
-            "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-27-2025/card/argentinian-stocks-surge-in-u-s-after-milei-s-election-win-9LoxKfFyTzLL3aLHSgh1",
-            "relevance_score": 0.7,
-            "sentiment_score": 0.5
+            "name": "Yahoo! Finance: EEM News",
+            "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Ahead of Nvidia Earnings, Fed Meeting Minutes",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-132902823.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          },
+          {
+            "name": "Yahoo! Finance: EEM News",
+            "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Await Clues on Fed's Interest Rate Cut",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-134908256.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "-0.2"
+          },
+          {
+            "name": "Yahoo! Finance: EEM News",
+            "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Monday as Markets Await Nvidia Earnings, Data Releases",
+            "link": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-132855547.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "0.0"
           }
         ]
       }
@@ -392,17 +635,69 @@
     "ticker": "IAU",
     "categories": [
       {
-        "topic": "Gold Rises on Likely Technical Recovery",
-        "summary": "The front-month Comex gold for October delivery fell 2.8% overnight, causing a significant increase in demand. However, Capital Economics\u2019 John Higgins believes the price will ultimately fall further. Factors such as reserve managers\u2019 diversification out of the dollar may continue to influence the price, but this may not be the case.",
-        "relevance_score": 0.8,
+        "topic": "Gold's Performance and ETF Opportunities",
+        "summary": "Gold has surged by 54% year-to-date, outperforming the market and drawing attention to ETFs like GLD as investors seek refuge from market volatility and rising macro risks. A weaker dollar, rate-cut bets, and persistent uncertainty are also fueling gold's rally, lifting demand for ETFs like GLD and GDX.",
+        "relevance_score": 0.7,
         "sentiment_score": 0.5,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "Gold Rises on Likely Technical Recovery",
-            "link": "https://www.wsj.com/articles/gold-rises-on-likely-technical-recovery-b4aa069f",
-            "relevance_score": 0.8,
-            "sentiment_score": 0.5
+            "name": "Yahoo! Finance: IAU News",
+            "title": "Gold Comfortably Outperforms Market YTD: ETFs to Consider",
+            "link": "https://finance.yahoo.com/news/gold-comfortably-outperforms-market-ytd-130500158.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.5"
+          },
+          {
+            "name": "Yahoo! Finance: IAU News",
+            "title": "ETFs to Consider as Gold Jumps to 2-Week High",
+            "link": "https://finance.yahoo.com/news/etfs-consider-gold-jumps-2-160600398.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.5"
+          }
+        ]
+      },
+      {
+        "topic": "Impact of Weaker Dollar on ETFs",
+        "summary": "As the U.S. dollar weakens amid Fed rate cuts and investor caution, ETFs like UDN, CEW, and gold-backed funds offer timely hedging opportunities. This trend can lead to increased interest in gold-backed ETFs.",
+        "relevance_score": 0.6,
+        "sentiment_score": 0.4,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: IAU News",
+            "title": "Betting on a Weaker Dollar? ETFs to Consider",
+            "link": "https://finance.yahoo.com/news/betting-weaker-dollar-etfs-consider-155800891.html?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.4"
+          }
+        ]
+      },
+      {
+        "topic": "Diversification Strategies Amid Market Volatility",
+        "summary": "As bubble fears rise and volatility spikes, investors can turn to ETFs like RSP, GLD, and IEMG to diversify and cut concentration risk.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.3,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: IAU News",
+            "title": "Don't Go All-In on Tech: Diversify With These ETFs",
+            "link": "https://finance.yahoo.com/news/dont-tech-diversify-etfs-163400690.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Buying the Dip in Gold ETFs",
+        "summary": "The gold bullion ETF GLD lost about 5% last week, prompting discussions on whether this is a time to buy the dip in the metal.",
+        "relevance_score": 0.4,
+        "sentiment_score": 0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: IAU News",
+            "title": "Time to Buy the Dip in Gold ETFs?",
+            "link": "https://finance.yahoo.com/news/time-buy-dip-gold-etfs-103900695.html?.tsrc=rss",
+            "relevance_score": "0.4",
+            "sentiment_score": "0.2"
           }
         ]
       }
@@ -412,52 +707,69 @@
     "ticker": "SIE.DE",
     "categories": [
       {
-        "topic": "Nvidia's Vision for AI and Technology",
-        "summary": "Nvidia, the world's most valuable public company, has outlined its vision for the future of its technology, aiming to make its chips crucial for artificial intelligence central to everyday life. The company's CEO, Jensen Huang, emphasized the importance of AI technology in everyday life, with a focus on cell phone towers, robotic factories, and self-driving cars. Nvidia is also releasing a blueprint for building massive AI data centers and announced partnerships with telecom firms to build 'AI-native' 6G cell phone towers.",
-        "relevance_score": 0.5,
-        "sentiment_score": 0.3,
+        "topic": "Siemens Collaborations in Power and Energy Sector",
+        "summary": "Siemens has entered into a framework agreement with Shanghai Electric to collaborate on intelligent grid and power system equipment, supporting China's dual-carbon goals. Additionally, Siemens Energy's deal with OKLO advances the Aurora project, reducing supply-chain risks.",
+        "relevance_score": 0.7,
+        "sentiment_score": 0.5,
         "sources": [
           {
-            "name": "cnn.com",
-            "title": "The world\u2019s most valuable public company just laid out its vision for the future",
-            "link": "https://www.cnn.com/2025/10/28/tech/nvidia-gtc-ai-conference-jensen-huang",
-            "relevance_score": 0.5,
-            "sentiment_score": 0.3
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "ticker": "IGLS.L",
-    "categories": [
-      {
-        "topic": "Next PLC Increases Fiscal Year Outlook After Strong Q3 Sales",
-        "summary": "U.S. fashion retailer Next has increased its outlook for the fiscal year following better-than-expected sales in the third quarter, with a 10.5% rise in total full-price sales compared to the previous year. The company is considered a significant indicator of the future of the U.N.",
-        "relevance_score": 0.4,
-        "sentiment_score": 0.3,
-        "sources": [
+            "name": "Yahoo! Finance: SIE.DE News",
+            "title": "How Investors May Respond To Siemens (XTRA:SIE) Power Grid Partnership With Shanghai Electric",
+            "link": "https://finance.yahoo.com/news/investors-may-respond-siemens-xtra-221444850.html?.tsrc=rss",
+            "relevance_score": "0.8",
+            "sentiment_score": "0.6"
+          },
           {
-            "name": "wsj.com",
-            "title": "Next PLC Lifts Outlook After Quarterly Sales Beat Guidance",
-            "link": "https://www.wsj.com/business/retail/next-plc-lifts-outlook-after-quarterly-sales-beat-guidance-835016f5",
-            "relevance_score": 0.4,
-            "sentiment_score": 0.3
+            "name": "Yahoo! Finance: SIE.DE News",
+            "title": "Will OKLO's Siemens Agreement Strengthen Its Long-Term Story?",
+            "link": "https://finance.yahoo.com/news/oklos-siemens-agreement-strengthen-long-140500333.html?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.4"
           }
         ]
       },
       {
-        "topic": "Geely Acquires Stake in Renault's Brazilian Unit",
-        "summary": "Renault has announced a deal with Chinese auto group Geely to take a 26.4% stake in its Brazilian business. This agreement allows Geely to access Renault's resources and produce Geely Auto branded vehicles alongside Renault vehicles at the Ayrton Senna manufacturing plant.",
+        "topic": "Siemens in the ALM Software Market",
+        "summary": "The ALM software market is growing with a focus on agile, DevOps, AI integration, and cloud-based solutions. Siemens is among the leaders in this competitive landscape, which is seeing high demand in IT/telecom and BFSI sectors, particularly in Asia-Pacific.",
+        "relevance_score": 0.6,
+        "sentiment_score": 0.4,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: SIE.DE News",
+            "title": "Application Life-Cycle Management (ALM) Software Market Overview 2025-2032: IBM, Microsoft, Siemens, and PTC Lead as Cloud-Native and AI-Integrated Solutions Intensify Competition",
+            "link": "https://finance.yahoo.com/news/application-life-cycle-management-alm-090400066.html?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.4"
+          }
+        ]
+      },
+      {
+        "topic": "Siemens' Role in Data Center Liquid Cooling",
+        "summary": "nVent Electric has launched new modular data center liquid cooling solutions in collaboration with Siemens, highlighting advancements in coolant distribution and rack systems.",
         "relevance_score": 0.5,
         "sentiment_score": 0.3,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "Renault Says Chinese Auto Group Geely Will Take 26.4% Stake in Brazilian Unit",
-            "link": "https://www.wsj.com/business/autos/renault-says-chinese-auto-group-geely-will-take-26-4-stake-in-brazilian-unit-5724df1c",
-            "relevance_score": 0.5,
-            "sentiment_score": 0.3
+            "name": "Yahoo! Finance: SIE.DE News",
+            "title": "Can nVent (NVT) Leverage Liquid Cooling Collaborations to Solidify Its Data Center Edge?",
+            "link": "https://finance.yahoo.com/news/nvent-nvt-leverage-liquid-cooling-121101994.html?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.3"
+          }
+        ]
+      },
+      {
+        "topic": "Siemens' Stock and Analyst Outlook",
+        "summary": "Siemens' stock has seen a slight increase in its consensus analyst price target, reflecting a mix of optimism and caution among analysts. The company's strength in industrial automation is noted, despite some concerns about profitability in other segments.",
+        "relevance_score": 0.7,
+        "sentiment_score": 0.5,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: SIE.DE News",
+            "title": "How the Siemens Story Is Evolving Amid Mixed Analyst Outlooks and Recent Developments",
+            "link": "https://finance.yahoo.com/news/siemens-story-evolving-amid-mixed-061113161.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.5"
           }
         ]
       }
@@ -467,69 +779,69 @@
     "ticker": "MSFT",
     "categories": [
       {
-        "topic": "Microsoft Sued by Australian Watchdog Over AI Pricing",
-        "summary": "Microsoft is facing a lawsuit from the Australian government, which alleges that the company misled its 2.7 million customers by not clearly explaining how to opt out of paying for new AI services when their annual plans renewed. The Australian Competition and Consumer Commission claims that Microsoft failed to disclose an option to pay the same lower price without the AI, Copilot, in Microsoft 365 plans, leading to a significant price increase.",
-        "relevance_score": 0.8,
-        "sentiment_score": -0.6,
+        "topic": "Arm and Nvidia Partnership Enhances AI Data Centers",
+        "summary": "In November 2025, Arm Holdings and Nvidia announced an expanded partnership to integrate NVLink Fusion technology into Arm's Neoverse platform. This collaboration aims to enhance AI data center infrastructure efficiency and performance for cloud providers, potentially impacting Microsoft's competitive landscape.",
+        "relevance_score": 0.7,
+        "sentiment_score": 0.4,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "Microsoft Sued by Australian Watchdog Over AI Pricing",
-            "link": "https://www.wsj.com/tech/microsoft-sued-by-australian-watchdog-over-ai-pricing-ddf76d2f?siteid=yhoof2&yptr=yahoo",
-            "relevance_score": 0.8,
-            "sentiment_score": -0.6
+            "name": "Yahoo! Finance: MSFT News",
+            "title": "Will Arm’s Deepened Nvidia Partnership Shift the Competitive Balance in AI Data Centers for ARM?",
+            "link": "https://finance.yahoo.com/news/arm-deepened-nvidia-partnership-shift-071106463.html?.tsrc=rss",
+            "relevance_score": "0.7",
+            "sentiment_score": "0.4"
+          }
+        ]
+      },
+      {
+        "topic": "AI Stocks Investment Outlook",
+        "summary": "The past decade has been favorable for certain tech leaders, and the outlook for the next decade remains positive. This discussion is relevant for Microsoft's positioning in the tech market.",
+        "relevance_score": 0.55,
+        "sentiment_score": 0.1,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: MSFT News",
+            "title": "2 Artificial Intelligence (AI) Stocks You Can Buy and Hold for the Next Decade",
+            "link": "https://www.fool.com/investing/2025/11/22/2-artificial-intelligence-stocks-you-can-buy-and/?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.3"
           },
           {
-            "name": "theguardian.com",
-            "title": "Microsoft sued for allegedly misleading millions of Australians with its AI pricing",
-            "link": "https://www.theguardian.com/australia-news/2025/oct/27/microsoft-sued-allegedly-misleading-millions-australians-ai-pricing-ntwnfb",
-            "relevance_score": 0.8,
-            "sentiment_score": -0.6
+            "name": "Yahoo! Finance: MSFT News",
+            "title": "AI Bubble Fears Spark a Sell-Off: 1 Stock to Buy, and 1 to Avoid",
+            "link": "https://www.fool.com/investing/2025/11/22/ai-bubble-fears-spark-a-sell-off-1-stock-to-buy-an/?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "-0.1"
           }
         ]
       },
       {
-        "topic": "Microsoft Hit With Azure, 365 Outage",
-        "summary": "Microsoft experienced an outage affecting its Azure and 365 services, which could lead to customer dissatisfaction and impact the company's business operations.",
-        "relevance_score": 0.7,
-        "sentiment_score": -0.5,
-        "sources": [
-          {
-            "name": "wsj.com",
-            "title": "Microsoft Hit With Azure, 365 Outage",
-            "link": "https://www.wsj.com/tech/microsoft-hit-with-azure-365-outage-b3ac0724",
-            "relevance_score": 0.7,
-            "sentiment_score": -0.5
-          }
-        ]
-      },
-      {
-        "topic": "Microsoft Heads For $4 Trillion Market Cap",
-        "summary": "Microsoft's market value is on track to surpass $4 trillion for the first time, having briefly traded above that level in previous months. The company is set to report its quarterly earnings later this month.",
-        "relevance_score": 0.9,
-        "sentiment_score": 0.7,
-        "sources": [
-          {
-            "name": "wsj.com",
-            "title": "Microsoft Heads For $4 Trillion Market Cap",
-            "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-28-2025/card/microsoft-heads-for-4-trillion-market-cap-GbvDjZxFZq9YnD893hmY",
-            "relevance_score": 0.9,
-            "sentiment_score": 0.7
-          }
-        ]
-      },
-      {
-        "topic": "Microsoft Needs to Open Up More About Its OpenAI Dealings",
-        "summary": "There are concerns about Microsoft's transparency regarding its relationship with OpenAI. The company's annual report revealed that it included the losses from its OpenAI stake in a $4.7 billion expense line for the fiscal year.",
+        "topic": "Lumen Technologies' AI Partnerships with Microsoft",
+        "summary": "Lumen Technologies launched its Lumen Defender Advanced Managed Detection and Response with Microsoft Sentinel. This partnership highlights Lumen's commitment to expanding its digital security and connectivity ecosystem.",
         "relevance_score": 0.6,
-        "sentiment_score": -0.4,
+        "sentiment_score": 0.4,
         "sources": [
           {
-            "name": "wsj.com",
-            "title": "Microsoft Needs to Open Up More About Its OpenAI Dealings",
-            "link": "https://www.wsj.com/tech/ai/microsoft-needs-to-open-up-more-about-its-openai-dealings-59102de8",
-            "relevance_score": 0.6,
-            "sentiment_score": -0.4
+            "name": "Yahoo! Finance: MSFT News",
+            "title": "Can Lumen Technologies’ (LUMN) New AI Partnerships Deepen Its Competitive Edge in Enterprise Connectivity?",
+            "link": "https://finance.yahoo.com/news/lumen-technologies-lumn-ai-partnerships-221350268.html?.tsrc=rss",
+            "relevance_score": "0.6",
+            "sentiment_score": "0.4"
+          }
+        ]
+      },
+      {
+        "topic": "General Stock Market Advice",
+        "summary": "Investors are advised to consider increasing their holdings in certain stocks, as owning more may be beneficial.",
+        "relevance_score": 0.5,
+        "sentiment_score": 0.2,
+        "sources": [
+          {
+            "name": "Yahoo! Finance: MSFT News",
+            "title": "Top Stocks to Double Up on Right Now",
+            "link": "https://www.fool.com/investing/2025/11/22/top-stocks-to-double-up-on-right-now/?.tsrc=rss",
+            "relevance_score": "0.5",
+            "sentiment_score": "0.2"
           }
         ]
       }
